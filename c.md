@@ -1,0 +1,12 @@
+- [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/) **Tool**
+- [LLVM Project Blog: What Every C Programmer Should Know About Undefined Behavior #1/3](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html) **DD**
+- [Learning C with gdb](https://www.recurse.com/blog/5-learning-c-with-gdb) **SR**
+- [Understanding C by learning assembly](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly) **SR**
+- [How to C (as of 2016)](https://matt.sh/howto-c) **SR**
+- [C Pointers](https://boredzo.org/pointers/) **DD**
+- [Exceptions in C with Longjmp and Setjmp](http://groups.di.unipi.it/~nids/docs/longjump_try_trow_catch.html) **DD**
+- [The Descent to C](https://www.chiark.greenend.org.uk/~sgtatham/cdescent/) **DD**
+- [C/Debugging](<http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)Debugging.html>) **TU**
+- [GDB Tutorial](https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf) **TU**
+- [RMS's gdb Tutorial](http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html) **TU**
+- [gdb (and ddd) guide](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_gdb.php) **TU**

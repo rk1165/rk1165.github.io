@@ -1,0 +1,36 @@
+- [How does Shazam work? Music Recognition Algorithms, Fingerprinting, and Processing](https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition) **SR**
+- [C Code to implement RSA](https://www.coders-hub.com/2013/04/c-code-to-encrypt-and-decrypt-message.html) **SR**
+- [Bloom Filters by Example](https://llimllib.github.io/bloomfilter-tutorial/) **LM**
+- [Bloom Filters - Much, much more than a space efficient hashmap!](https://boyter.org/posts/bloom-filter/) **SR**
+- [TreeMap - Implementation of RB Trees](http://docs.oracle.com/javase/7/docs/api/java/util/TreeMap.html) **SR**
+- [Circle Generation Algorithm](https://www.tutorialspoint.com/computer_graphics/circle_generation_algorithm.htm) **SR**
+- [Bresenham algorithm for generating Circle](http://members.chello.at/~easyfilter/bresenham.html) **SR**
+- [Pagerank Explained Correctly with Examples](http://www.cs.princeton.edu/~chazelle/courses/BIB/pagerank.htm) **SR**
+- [Ukkonen's suffix tree algorithm](https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english/9513423#9513423) **SR**
+- [The many flavors of hashing](https://notes.volution.ro/v1/2022/07/notes/1290a79c/) **SR**
+- [Use Fast Data Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/) **SR**
+- [B-Trees: More Than I Thought I'd Want to Know](https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/) **SR**
+- [Optimizing Open Addressing](https://thenumb.at/Hashtables/) **SR**
+- [Notes on DS and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html) **BF** **C**
+- [Thrive - Competitive Programming](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming&tax=Topcoder%20Open) **DD**
+- [Epic List of Interview Questions](http://katemats.com/interview-questions/) **SR**
+- [DP Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns) **SR**
+- [DP Solving](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months) **SR**
+- [B-Trees.pdf](http://www.cs.cornell.edu/courses/cs211/2000fa/AccelStream/B-Trees.pdf) **SR**
+- [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) **DD**
+- [Programming Idioms](https://programming-idioms.org/about#about-block-all-idioms) **DD**
+- [Competitive Programming](https://cp-algorithms.com/) **LM**
+- [Interviews.School](https://interviews.school/simple) **LM**
+
+#### Practice
+
+- [Code Abbey](https://www.codeabbey.com/)
+- [Code Kata](http://codekata.com/)
+- [Coding Bat](http://codingbat.com/java)
+- [Google's Coding Competitions](https://zibada.guru/gcj/)
+- [The Cryptopals Crypto challenge](https://cryptopals.com/)
+- [Cryptohack](https://cryptohack.org/)
+- [The Python Challenge](http://www.pythonchallenge.com/)
+- [CSES Problem set](https://cses.fi/problemset/list/)
+- [AtCoder](https://atcoder.jp/home)
+- [Educational DP Contest](https://atcoder.jp/contests/dp)

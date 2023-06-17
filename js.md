@@ -1,0 +1,4 @@
+- [Chess Engines: A Zero to One](https://www.chessengines.org/) **TU**
+- [JavaScript Callbacks, Promises, and Async/Await Explained](https://www.youtube.com/watch?v=JRNToFh3hxU&ab_channel=LearnWebCode) **TU**
+- [Async Javascript Tutorial For Beginners](https://www.youtube.com/watch?v=_8gHHBlbziw&ab_channel=developedbyed) **TU**
+- [Jake Archibald on the web browser event loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0&ab_channel=JSConf) **TU**
