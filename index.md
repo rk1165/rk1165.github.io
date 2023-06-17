@@ -1,43 +1,24 @@
-### [AI/ML](aiml.md)
+### Computer Science resources
 
-### [Algorithms](algorithms.md)
-
-### [Computer Architecture](comp_arch.md)
-
-### [Compilers](compilers.md)
-
-### [Computer Networks](computer_networks.md)
-
-### [Database](database.md)
-
-### [DevOps](devops.md)
-
-### [Distributed Systems](dist_sys.md)
-
-### [Linux](linux.md)
-
-### [Operating Systems](os.md)
-
-### [Assembly](assembly.md)
-
-### [C](c.md)
-
-### [Elixir](elixir.md)
-
-### [Erlang](erlang.md)
-
-### [Go](go.md)
-
-### [Haskell](haskell.md)
-
-### [Java](java.md)
-
-### [JavaScript](js.md)
-
-### [Python](python.md)
-
-### [Computer Systems Security](security.md)
-
-### [Software Engineering](se.md)
-
-### [Technologies and Tools](tech_tools.md)
+- [AI/ML](aiml.md)
+- [Algorithms](algorithms.md)
+- [Computer Architecture](comp_arch.md)
+- [Compilers](compilers.md)
+- [Computer Networks](computer_networks.md)
+- [Database](database.md)
+- [DevOps](devops.md)
+- [Distributed Systems](dist_sys.md)
+- [Linux](linux.md)
+- [Operating Systems](os.md)
+- [Assembly](assembly.md)
+- [C](c.md)
+- [Elixir](elixir.md)
+- [Erlang](erlang.md)
+- [Go](go.md)
+- [Haskell](haskell.md)
+- [Java](java.md)
+- [JavaScript](js.md)
+- [Python](python.md)
+- [Computer Systems Security](security.md)
+- [Software Engineering](se.md)
+- [Technologies and Tools](tech_tools.md)
