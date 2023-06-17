@@ -1,22 +1,5 @@
-### AI/ML
+### [AI/ML](aiml.md)
 
-- [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/) **TU**
-- [Data Mining in Python](https://www.springboard.com/blog/data-mining-python-tutorial/) **SR**
-- [EigenFaces and A Simple Face Detector with PCA/SVD in Python](https://sandipanweb.wordpress.com/2018/01/06/eigenfaces-and-a-simple-face-detector-with-pca-svd-in-python/) **DD**
-- [fallacy - What are common statistical sins](https://stats.stackexchange.com/questions/4551/what-are-common-statistical-sins) **DD**
-- [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213#slide=id.g18ade992fa_6_757) **DD**
-- [Machine Learning is Fun!](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471) **DD**
-- [Top 10 data mining algorithms in plain English](https://hackerbits.com/data/top-10-data-mining-algorithms-in-plain-english/) **DD**
-- [When Pwned Passwords Bloom](https://scotthelme.co.uk/when-pwned-passwords-bloom/) **SR**
-- [The 10 Algorithms Machine Learning Engineers Need to Know](https://gab41.lab41.org/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa) **SR**
-- [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html) **SR**
-- [A super harsh guide to learning ML](https://www.reddit.com/r/MachineLearning/comments/5z8110/d_a_super_harsh_guide_to_machine_learning/) **LM**
-- [Top Machine Learning Books recommended by experts](https://mentorcruise.com/books/ml/) **LM**
-- [100+ Interesting Data Sets for Statistics](http://rs.io/100-interesting-data-sets-for-statistics/) **LM**
-- [Datasets for Data Mining and Data Science](https://www.kdnuggets.com/datasets/index.html) **LM**
-- [Getting started in Robotics](https://allshire.org/getting-started-robotics/) **LM**
-- [A Compendium Of Machine Learning Resources](https://www.johnwittenauer.net/a-compendium-of-machine-learning-resources/) **LM**
-- [The Definitive Guide to Graph Problems](https://www.giulianopertile.com/blog/the-definitive-guide-to-graph-problems/) **SR**
 
 ### Algorithms
 
