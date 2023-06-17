@@ -305,7 +305,7 @@
 - [Interactive Map of Linux Kernel](https://makelinux.github.io/kernel/map/) **DD**
 - [Source tree of Linux Kernel and many others](https://elixir.bootlin.com/linux/0.01/source) **DD**
 - [An Opinionated Guide to xargs](https://www.oilshell.org/blog/2021/08/xargs.html) **SR**
-- [Linux Hardening Guide | Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html) **DD**
+- [Linux Hardening Guide - Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html) **DD**
 - [SRE deep dive into Linux Page Cache](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/) **DD**
 - [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/) **TU**
 - [ELF Science Part 1](https://greatergoodest.github.io/post/elf_science_p1/) **DD**
@@ -328,7 +328,7 @@
 - [How to set up an ARM64 playground on Ubuntu 18.04 - DEV](https://dev.to/offlinemark/how-to-set-up-an-arm64-playground-on-ubuntu-18-04-27i6) **SR**
 - [Microsoft Word - GNU-ARM-Assy-Quick-Ref.doc - gnu-arm-directives.pdf](https://www.ic.unicamp.br/~celio/mc404-2014/docs/gnu-arm-directives.pdf) **TU**
 - [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/) **TU**
-- [A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography | modexp](https://modexp.wordpress.com/2018/10/30/arm64-assembly/) **TU**
+- [A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography](https://modexp.wordpress.com/2018/10/30/arm64-assembly/) **TU**
 - [C++ Tutorial: Embedded Systems Programming Hello World for ARM - 2020](https://www.bogotobogo.com/cplusplus/embeddedSystemsProgramming_gnu_toolchain_ARM_cross_compiler.php) **TU**
 - [Reverse Engineering 101](https://malwareunicorn.org/workshops/re101.html#0) **TU**
 
@@ -490,7 +490,7 @@
 - [TOC for Full Stack Python](https://www.fullstackpython.com/table-of-contents.html) **LM**
 - [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/) **DD**
 - [Ultimate Guide to Web Scraping with Python Part 1: Requests and BeautifulSoup – LearnDataSci](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/) **TU**
-- [Understanding Python metaclasses | ionel's codelog](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/) **DD**
+- [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/) **DD**
 - [Python Courses](http://www.python-course.eu/index.php) **LM**
 - [Python for Fun](http://www.openbookproject.net/py4fun/) **TU**
 - [Python Programming Tutorials](http://pythonprogramming.net/dashboard/#tab_basics) **LM**
@@ -512,13 +512,13 @@
 - [What We Do in the /etc/shadow – Cryptography with Passwords](https://soatok.blog/2022/12/29/what-we-do-in-the-etc-shadow-cryptography-with-passwords/) **SR**
 - [Elliptic Curve Cryptography: a gentle introduction](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/) **DD**
 - [Digital Attack Map](http://www.digitalattackmap.com/) **Tool**
-- [A (relatively easy to understand) primer on elliptic curve cryptography | Ars Technica](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/) **DD**
+- [A (relatively easy to understand) primer on elliptic curve cryptography](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/) **DD**
 - [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html) **SR**
 - [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) **SR**
 - [Detecting Ghosts By Reverse Engineering: Who Ya Gonna Call? - Lawfare](https://www.lawfareblog.com/detecting-ghosts-reverse-engineering-who-ya-gonna-call) **SR**
 - [How I Hacked 40 Websites in 7 minutes – Hacker Noon](https://hackernoon.com/how-i-hacked-40-websites-in-7-minutes-5b4c28bc8824) **SR**
 - [How to survive an InfoSec job interview (cryptography)](https://www.coengoedegebure.com/surviving-an-infosec-job-interview-cryptography/) **LM**
-- [SaaS CTO Security Checklist | Sqreen](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist) **SR**
+- [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist) **SR**
 - [What Does It Really Take To Track A Million Cell Phones? – The HFT Guy](https://thehftguy.com/2017/07/19/what-does-it-really-take-to-track-100-million-cell-phones/) **DD**
 - [GPG tutorial and PGP Public Key for Alan Eliasen](https://futureboy.us/pgp.html) **TU**
 - [Time-of-check to time-of-use - Wikipedia](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use) **SR**
@@ -628,7 +628,7 @@
 - [Devhints — TL;DR for developer documentation](https://devhints.io)
 - [Online regex tester and debugger](https://regex101.com)
 - [ExplainShell](https://explainshell.com/)
-- [SS64 | Command line reference](https://ss64.com)
+- [SS64 - Command line reference](https://ss64.com)
 - [ngrok - secure introspectable tunnels to localhost](https://dashboard.ngrok.com/login)
 - [SocketXP](https://portal.socketxp.com/#/login)
 - [Login - PortSwigger](https://portswigger.net/users)
@@ -692,5 +692,5 @@
 - [Financial Management](http://financialmanagementpro.com/category/financial-statements/) **DD**
 - [Option Price Calculator](http://www.option-price.com/) **Tool**
 - [Options Strategy Builder & Analyzer Online — OptionCreator](http://optioncreator.com/) **Tool**
-- [Stock Market Tools | Tiingo](https://www.tiingo.com/) **Tool**
+- [Stock Market Tools](https://www.tiingo.com/) **Tool**
 - [DBIE-RBI : DATABASE OF INDIAN ECONOMY](https://dbie.rbi.org.in/DBIE/dbie.rbi?site=statistics) **Tool**
