@@ -1,7 +1,0 @@
-- [Assembly’s Perspective of C – Stephen Marz](https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/) **DD**
-- [How to set up an ARM64 playground on Ubuntu 18.04 - DEV](https://dev.to/offlinemark/how-to-set-up-an-arm64-playground-on-ubuntu-18-04-27i6) **SR**
-- [Microsoft Word - GNU-ARM-Assy-Quick-Ref.doc - gnu-arm-directives.pdf](https://www.ic.unicamp.br/~celio/mc404-2014/docs/gnu-arm-directives.pdf) **TU**
-- [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/) **TU**
-- [A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography](https://modexp.wordpress.com/2018/10/30/arm64-assembly/) **TU**
-- [C++ Tutorial: Embedded Systems Programming Hello World for ARM - 2020](https://www.bogotobogo.com/cplusplus/embeddedSystemsProgramming_gnu_toolchain_ARM_cross_compiler.php) **TU**
-- [Reverse Engineering 101](https://malwareunicorn.org/workshops/re101.html#0) **TU**

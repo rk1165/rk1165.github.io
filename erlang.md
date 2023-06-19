@@ -1,4 +1,0 @@
-- [BEAM Wisdoms](http://beam-wisdoms.clau.se/en/latest/) **DD**
-- [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) **DD**
-- [Spawned Shelter](https://spawnedshelter.com/) **LM**
-- [Erlang Docs](https://erldocs.com/) **LM**

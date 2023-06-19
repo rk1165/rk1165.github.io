@@ -1,4 +1,0 @@
-- [Project Oberon](http://www.projectoberon.com/) **Tool**
-- [Programmer's critique of missing structures of OS](http://blog.rfox.eu/en/Programmers_critique_of_missing_structure_of_operating_systems/index.html) **DD**
-- [Detailed Design of a Lock-Free Queue](https://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue) **SR**
-- [Making an OS (x86)](https://www.youtube.com/playlist?list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M) **TU**
