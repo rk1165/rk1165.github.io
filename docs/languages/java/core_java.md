@@ -619,24 +619,6 @@ void monitorTemperature() throws @Critical TemperatureException { ... }   // Thr
 - Never use assertions to test conditions that are external to your program, such as the existence of files, the availability of network, or the correctness of input typed by a human user.
 - Asserted expressions should not have _side-effects_
 
-### Reading 10: Abstract Data Types
-
-| ADT concept        | Ways to do it in Java           | Examples                                         |
-| ------------------ | ------------------------------- | ------------------------------------------------ |
-| Class              | `String`                        | -                                                |
-| Abstract data type | Interface + class(es)           | `List` and `ArrayList`                           |
-| Enum               | `DayOfWeek`                     | -                                                |
-| Constructor        | `ArrayList()`                   | -                                                |
-| Creator operation  | Static (factory) method         | `Collections.singletonList()`, `Arrays.asList()` |
-| Constant           | `BigInteger.ZERO`               | -                                                |
-| Observer operation | Instance method                 | `List.get()`                                     |
-| Static method      | `Collections.max()``            | -                                                |
-| Producer operation | Instance method                 | `String.trim()`                                  |
-| Static method      | `Collections.unmodifiableSet()` | -                                                |
-| Mutator operation  | Instance method                 | `List.add()`                                     |
-| Static method      | `Collections.copy()`            | -                                                |
-| Representation     | `private` fields                | -                                                |
-
 ### Reading 11: Abstraction Functions and Rep Invariants
 
 - Most important property of a good ADT is that it **preserves its own invariants**.
