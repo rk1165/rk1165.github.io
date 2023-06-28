@@ -1,6 +1,6 @@
 - In concurrent programming, there are two basic units of execution: _processes_ and _threads_.
 - A process has a self-contained execution environment. A process generally has a complete, private set of basic run-time resources; in particular, each process has its own memory space.
-- Threads are sometimes called _lightweight processes_. Both processes and threads provide an execution environment, but creating a new thread requires fewer resources than creating a new process. Threads exist within a process — every process has at least one
+- Both processes and threads provide an execution environment, but creating a new thread requires fewer resources than creating a new process. Threads exist within a process — every process has at least one
 - A _process_ runs independently and isolated of other processes. It cannot directly access shared data in other processes. The resources of the process, e.g. memory and CPU time, are allocated to it via the operating system.
 - A _thread_ is a so called lightweight process. It has its own call stack, but can access shared data of other threads in the same process. Every thread has its own memory cache. If a thread reads shared data, it stores this data in its own memory cache.
 - In Java we can create processes with the help of `ProcessBuilder` class.
@@ -11,23 +11,22 @@
 - A thread that needs exclusive and consistent access to an object's fields has to acquire the object's intrinsic lock before accessing them, and then release the intrinsic lock when it's done with them.
 - The Problem is that every object has a single monitor lock.
 - If we have 2 independent **synchronized** methods then the threads have to wait for each other to release the lock.
-- a thread **cannot acquire a lock owned by another thread**. But a given thread **can acquire a lock that it already owns**. Allowing a thread to acquire the same lock more than once is called _re-entrant synchronization_. And this is exactly what is happening with Java - the same thread may acquire the lock more than once.
-- For e.g. : If a given thread calls a recursive and synchronized method several times then it is fine.
-- Object level lock is mechanism when we want to synchronize a non-static method or non-static code block such that only one thread will be able to execute the code block on given instance of the class. This should always be done to make instance level data thread safe.
-- Class level lock prevents multiple threads to enter in synchronized block in any of all available instances of the class on runtime. Class level locking should always be done to make static data thread safe.
+- A thread **cannot acquire a lock owned by another thread**. But a given thread **can acquire a lock that it already owns**. Allowing a thread to acquire the same lock more than once is called _re-entrant synchronization_. For instance, if a given thread calls a recursive and synchronized method several times then it is fine.
+- Object level lock is a mechanism when we want to synchronize a non-static method or non-static code block such that only one thread will be able to execute the code block on given instance of the class. This should always be done to make instance level data thread safe.
+- Class level lock prevents multiple threads to enter in synchronized block in any of the all available instances of the class on runtime. Class level locking should always be done to make static data thread safe.
 - `wait` and `notify` must happen in a synchronized block on the monitor object whereas `sleep` does not.
 - `wait` and `notify` can be interrupted where as `sleep` cannot
 - Java doesn't notify the other thread immediately.
 - `ReentrantLock`
   - It has the same behaviour as the "synchronized approach" with some extended features
   - `new ReentrantLock(boolean fairnessParameter)`
-    - fairness parameter : if it is set to be true, then the longest waiting thread will get the lock. If it's set to false, then there is no access order !!!
+    - fairness parameter : if true, then the longest waiting thread will get the lock. If false, then there is no access order !!!
 - We can make a lock fair : **prevent thread starvation**. synchronized blocks are **unfair** by default.
 - We can check whether the given lock is held or not with reentrant locks.
 - We can get the **list of threads waiting** for the given lock with reentrant locks.
 - synchronized blocks are nicer : we don't need the try-catch-finally block
-- Every read of a `volatile` variable will be read from RAM not from cache.
-- Deadlock occurs when two or more threads wait forever for a lock or resource held by another of the threads.
+- Every read of a `volatile` variable will be read from RAM and not from cache.
+- Deadlock occurs when two or more threads wait forever for a lock or resource held by another thread.
 - Livelock threads are unable to make further progress. They are too busy responding to each other to resume work.
 - How to handle deadlock and livelock
   - We should ensure that a thread doesn't block infinitely if it is unable to acquire a lock. This is why using `Lock` interface's `tryLock()` method is convenient
@@ -37,27 +36,28 @@
   - `acquire()` -> if a permit is available then takes it
   - `release()` -> adds a permit
   - Semaphore just keeps count of the number available. `new Semaphore(int permits, boolean fair)`
-- Java provides its own multi-threading framework the so-called **Executor Framework**
-- With the help of this framework we can manage worker threads more efficiently because of **thread pools**
+- Java provides its own multi-threading framework the so-called **Executor Framework**.
+- With the help of this framework we can manage worker threads more efficiently because of **thread pools**.
 - Thread pools can reuse threads by keeping the threads alive and reusing them (thread pools are usually **queues**)
 - There are 4 types of executors
   - `SingleThreadExecutor` : This executor has a single thread so we can execute processes in a sequential manner. Every process is executed by a new thread.
-  - `FixedThreadPool(n)` : This is how we can create a thread pool with **n** threads. Usually `n` is the number of cores in CPU. If there's more tasks than n then these tasks are stored with a **LinkedBlockingQueue**
+  - `FixedThreadPool(n)` : This is how we can create a thread pool with **n** threads. Usually `n` is the number of cores in CPU. If there's more tasks than `n`, then these tasks are stored with a **LinkedBlockingQueue**
   - `CachedThreadPool` : The number of threads is not bounded - if all threads are busy and a new task comes the pool will create and add a new thread to the executor. If a thread remains idle for **60** secs then it is removed. It is used for short parallel tasks.
   - `ScheduledExecutor` : We can execute a given operation at regular intervals or we can use this executor if we wish to delay a certain task
 - `Runnable` and `Callable` both run on different threads than the calling thread but `Callable` can return a value and `Runnable` can not.
-- RUNNABLE : a so-called _run-and-forget_ action. We execute a given operation in run() method without a return value
-- CALLABLE<T> : We use Callable's call() method if we want to return a given value from the given thread
-  - Callable interface will not return the value : this is why we need `Future<T>`
-  - calling thread will be blocked till the `call()` method is executed and `Future<T>` returns the results.
-- `executorService.submit()` can handle Runnable and Callable both.
+- `Runnable` : a so-called _run-and-forget_ action. We execute a given operation in run() method without a return value
+- `Callable<T>` : We use `call()` method if we want to return a given value from the given thread
+  - `Callable` interface will not return the value : this is why we need `Future<T>`
+  - Calling thread will be blocked till the `call()` method is executed and `Future<T>` returns the results.
+  - `T` is the expected return type of `Callable`
+- `executorService.submit()` can handle `Runnable` and `Callable` both.
 - For parallel algorithms : we have to take the communication between threads into consideration.
 - We have to make sure we split the work evenly amongst the processors.
 - fork-join framework is the concrete implementation for parallel execution.
 - A larger task -> it can be divided into smaller ones + the subsolutions can be combined.
 - IMPORTANT subtasks have to be independent in order to be executed in parallel
-- fork-join frameworks breaks the task into smaller subtasks until these subtasks are simple enough to solve without further breakups.
-- `RecursiveTask<T>` it will return a `T` type. All the tasks we want to execute in parallel is a subclass of this class. Override the `computer` method that will return the solution of the subproblem
+- fork-join frameworks break the task into smaller subtasks until these subtasks are simple enough to solve without further breakups.
+- `RecursiveTask<T>` will return a `T` type. All the tasks we want to execute in parallel is a subclass of this class. Override the `compute` method that will return the solution of the subproblem
 - `RecursiveAction` : it is a task, but w/o any return value
 - `ForkJoinPool` : it is a thread pool for executing fork-join tasks.
 - MapReduce is a programming model : a way of structuring the computation that allows it easily to be run on lots of nodes (servers)
@@ -74,10 +74,10 @@
 - `BlockingQueue` also supports methods that take a time parameter, indicating how long the thread should block before returning to signal failure to insert or retrieve the item in question.
 - `SynchronousQueue` is a blocking queue in which each insert operation must wait for a corresponding remove operation by another thread, and vice versa. It gives us an extremely lightweight way to exchange single elements from one thread to another.
 - `SynchronousQueue` will allow an insert into the queue only if there is a thread waiting to consume it.
-- `CountDownLatch` class holds all threads at bay until a particular condition is met, at which point it releases them all at once.
+- `CountDownLatch` holds all threads at bay until a particular condition is met, at which point it releases them all at once.
 - reading a volatile variable is synchronized and writing to a volatile variable is synchronized, but non-atomic operations are not. what this means is the following code is not thread-safe : `myVolatileVar++` _look deeper into it_
-- The synchronized keyword is not considered to be part of a method's signature. So the synchronized modifier is not automatically inherited when subclasses override superclass methods, and methods in interfaces cannot be declared as synchronized .
-- Also, constructors cannot be qualified as synchronized (although block synchronization can be used within constructors)
+- The `synchronized` keyword is not considered to be part of a method's signature. So the synchronized modifier is not automatically inherited when subclasses override superclass methods, and methods in interfaces cannot be declared as `synchronized`.
+- Also, constructors cannot be qualified as `synchronized` (although block synchronization can be used within constructors)
 
 ### Java Multithreading
 
@@ -198,7 +198,7 @@ for (int i = 0; i < inputs.length; i++) {
 - A thread often acts in response to the action of another thread. If the other thread's action is also a response to the action of another thread, then _livelock_ may result
 - The biggest advantage of `Lock` objects over implicit locks is their ability to back out of an attempt to acquire a lock
 - The fork/join framework is distinct because it uses a _work-stealing_ algorithm. Worker threads that run out of things to do can steal tasks from other threads that are still busy.
-- `int r = ThreadLocalRandom.current() .nextInt(4, 77);`
+- `int r = ThreadLocalRandom.current().nextInt(4, 77);`
 - **Futures** They're basically placeholders for a result of an operation that hasn't finished yet. Once the operation finishes, the `Future` will contain that result. For example, an operation can be a `Runnable` or `Callable` instance that is submitted to an `ExecutorService`. The submitter of the operation can use the `Future` object to check whether the operation `isDone()`, or wait for it to finish using the blocking `get()` method.
 - **CompletableFuture** : They are in fact an evolution of regular Futures, inspired by Google's Listenable Futures, part of the Guava library. They are Futures that also allow you to string tasks together in a chain. You can use them to tell some worker thread to "go do some task X, and when you're done, go do this other thing using the result of X". Using CompletableFutures, you can do something with the result of the operation without actually blocking a thread to wait for the result.
 - _CompletableFuture_ is at the same time a building block and a framework, with **about 50 different methods for composing, combining, and executing asynchronous computation steps and handling errors**.
