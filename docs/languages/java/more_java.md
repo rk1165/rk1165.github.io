@@ -43,22 +43,22 @@
 - Exception class represents the exceptions which are mainly caused by the application itself. `Npe`, `ClasscastException`
 - Diamond problem of inheritance: We have two classes B and C inheriting from A. Assume that B and C are overriding an inherited method and they provide their own implementation. Now D inherits from both B and C doing multiple inheritance. D should inherit that overidden method, which overridden method will be used?
 - An `InputStreamReader` is a bridge from byte streams to character streams: It reads bytes and decodes them into characters using a specified charset. The charset that it uses may be specified by name or may be given explicitly, or the platform's default charset may be accepted.
-- `InputStreamReader(InputStream in)` || `InputStreamReader(InputStream in, Charset cs)`
-- Java `BufferedReader` class is used to read the text from a character-based input stream. It can be used to read data line by line by `readLine()` method. It makes the performance fast
-- `BufferedReader(Reader rd)` || `BufferedReader(Reader rd, int size)`
+- `InputStreamReader(InputStream in)` OR `InputStreamReader(InputStream in, Charset cs)`
+- `BufferedReader` class is used to read the text from a character-based input stream. It can be used to read data line by line using `readLine()` method. It makes the performance fast
+- `BufferedReader(Reader rd)` OR `BufferedReader(Reader rd, int size)`
 - `read()` for reading a single character
 - `Files.readAllBytes` : Reads all the bytes from a file. The method ensures that the file is closed when all bytes have been read or an I/O error, or other runtime exception, is thrown. Intended for reading small files.
 - `Paths.get(path)` Converts a path string, or a sequence of strings that when joined form a path string, to a Path
-- In Java, an abstract class can implement an interface, and not provide implementations of all of the interface's methods. It is the responsibility of the first concrete class that has that abstract class as an ancestor to implement all of the methods in the interface.
-- A blocking, or synchronous, API is one whose methods block the calling thread until they complete. Of course, the concept of blocking (or nonblocking) only makes sense when these methods can potentially take a long time to complete (say tens of milliseconds to tens of seconds).
+- An abstract class can implement an interface, and not provide implementations of all of the interface's methods. It is the responsibility of the first concrete class that has that abstract class as an ancestor to implement all of the methods in the interface.
+- A blocking or synchronous API is one whose methods block the calling thread until they complete. Of course, the concept of blocking (or nonblocking) only makes sense when these methods can potentially take a long time to complete (say tens of milliseconds to tens of seconds).
 - Another type of API, which is often called nonblocking but here we’ll call them semi-blocking (or semi-asynchronous), has methods that don’t block the calling thread for the duration of the operation. They only initiate an operation and return a future object. The future is then used to block and wait for the operation to complete at some other convenient time.
 - Finally, a third type of API, a true non-blocking, or asynchronous, API, also does not block the calling thread. Its methods take an additional parameter – a callback function which is code that will be executed (on some unknown thread) when the operation completes
-- Long.parseLong("AA0F245C", 16) to parse a hex to long
-- system-level classes such as `Thread`, `OutputStream` and its subclasses, and `Socket` are not serializable. If your serializable class contains such objects, it must mark then as "transient".
+- `Long.parseLong("AA0F245C", 16)` to parse a hex to long
+- system-level classes such as `Thread`, `OutputStream` and its subclasses, and `Socket` are not serializable. If your serializable class contains such objects, it must mark them as "transient".
 - Consider using the interface when our problem makes the statement "**A is capable of $doing_this**". For instance, Clonable is capable of cloning an object. Drawable is capable of drawing a shape.
-- Static method, can be called by null reference whereas non-static methods can't.
+- Static method can be called by `null` reference whereas non-static methods can't.
 - Consider using abstract classes and inheritance when our problem makes the evidence "**A is a B**". For example, "Dog is an Animal", "Lamborghini is a Car"
-- We can use the Object.hashCode() method to retrieve the hashcode of an object.
+- We can use the `Object.hashCode()` method to retrieve the hashcode of an object.
 - `Objects.hashCode()` is a null-safe method we can use to get the hashcode of an object. It only takes a single object. If we provide `null` we will get 0 back.
 - `Objects.hash()` can take one or more objects and provides a hashcode for them.
 - `System.out.println(1 + 2 + 3 + "Out" + 1 + 2 + 3);` prints `6Out123`
@@ -76,13 +76,11 @@
 
 ### Commands
 
-- sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java
-- sudo update-alternatives --config java
+- `sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java`
+- `sudo update-alternatives --config java`
 - to get the list of threads
-
   - `top -H -p $PID`
   - `ps -e -T $PID`
-
 - The `invokeAny()` method takes a collection of Callable objects, or subinterfaces of Callable. Invoking this method does not return a `Future`, but returns the result of one of the Callable objects. You have no guarantee about which of the Callable's results you get. Just one of the ones that finish.
 - If one of the tasks complete (or throws an exception), the rest of the Callable's are cancelled.
 - The `invokeAll()` method invokes all of the Callable objects you pass to it in the collection passed as parameter. The `invokeAll()` returns a list of `Future` objects via which you can obtain the results of the executions of each Callable.
@@ -97,8 +95,8 @@
 
 ### Why must wait() always be in synchronized block?
 
-- Let's illustrate what issues we would run into if wait() could be called outside of a synchronized block with a **concrete example**.
-- Suppose we were to implement a blocking queue (I know, there is already one in the API :)
+- Let's illustrate what issues we would run into if `wait()` could be called outside of a synchronized block with a **concrete example**.
+- Suppose we were to implement a blocking queue.
 - A first attempt (without synchronization) could look something along the lines below
 
 ```java
@@ -111,8 +109,9 @@ class BlockingQueue {
     }
 
     public String take() throws InterruptedException {
-        while (buffer.isEmpty())    // don't use "if" due to spurious wakeups.
+        while (buffer.isEmpty()) {    // don't use "if" due to spurious wakeups.
             wait();
+        }
         return buffer.remove();
     }
 }
@@ -124,16 +123,6 @@ class BlockingQueue {
   3. The consumer thread will now call `wait()` (and miss the `notify()` that was just called)
   4. If unlucky, the producer thread won't produce more `give()` as result of the fact that the consumer thread never wakes up, and we have a dead-lock
 - Once you understand the issue, the solution is obvious: Use `synchronized` to make sure `notify` is never called between `isEmpty` and `wait`.
-
-### Reading a file:
-
-```java
-Path path = Paths.get(filename);
-Scanner scanner = new Scanner(path);
-while (scanner.hasNextLine()) {
-  line = scanner.nextLine();
-}
-```
 
 ### Sorting a Map in java by values
 
