@@ -84,6 +84,9 @@
 - When working with AWS Services, you may also encounter [IAM Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html)
 - Many AWS services require that you use roles to control what that service can access.
 - IAM Roles provide only _temporary security credentials_. One common case is allowing the EC2 service to distribute credentials to your application code running on an EC2 instance. Roles can also enable other scenarios in the enterprise such as cross-account access and identity federation.
+- (OpenId connect) OIDC identity provider
+- IAM OIDC IdP are entities in IAM that describe an external identity provider service that supports the OIDC standard.
+- You use IAM OIDC IdP when you want to establish trust b/w an OIDC-compatible IdP and your AWS account.
 
 ### AWS Signature V4 Process
 

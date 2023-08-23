@@ -1,6 +1,24 @@
-### What is Java Collections Framework? List out some benefits of Collections framework?
+- The `collect` operation takes three arguments :
+  - supplier : for the collect operation, it creates instances of the result container
+  - accumulator
+  - combiner : takes two result containers and merges their contents.
+- Avoid using _stateful lambda expressions_ as parameters in stream operations. A stateful lambda expression is one whose result depends on any state that might change during the execution of a pipeline.
 
-![Java Collections Framework](./assets/collection.png)
+| Interfaces | Hash table impl | Resizable array impl | Tree impl | Linked list impl | Hash table + Linked list impl |
+| ---------- | --------------- | -------------------- | --------- | ---------------- | ----------------------------- |
+| Set        | Hashet          |                      | TreeSet   |                  | LinkedHashSet                 |
+| List       |                 | ArrayList            |           | LinkedList       |                               |
+| Queue      |                 |                      |           |                  |                               |
+| Deque      |                 | ArrayDeque           |           | LinkedList       |                               |
+| Map        | HashMap         |                      | TreeMap   |                  | LinkedHashMap                 |
+
+- SortedSet and SortedMap interfaces have one impl. TreeSet and TreeMap respectively.
+- If you accept the default load factor but want to specify an initial capacity, pick a number that's about twice the size to which you expect the set to grow.
+- There are three special-purpose Map implementations - EnumMap, WeakHashMap and IdentityHashMap
+
+### What is Java Collections Framework?
+
+![Collections Hierarchy](./images/collection-class.png)
 
 - It is a framework that provides a mechanism to store and manipulate group of objects.
 - Java Collections can achieve all the operations that we perform on data such as searching, sorting, insertion, manipulation, and deletion.
@@ -16,6 +34,10 @@
   - Sets represent a collection of **sorted** elements. Sets do not allow duplicate elements.
   - Set interface does not provide guarantee to return the elements in any predictable order; though some Set implementations store elements in their natural ordering and guarantee this order.
   - Some useful classes which implement Set interface are – **ConcurrentSkipListSet**, **CopyOnWriteArraySet**, **EnumSet**, **HashSet**, **LinkedHashSet** and **TreeSet**.
+  - `s1.containsAll(s2)` : returns true if s2 is a **subset** of s1.
+  - `s1.addAll(s2)` : transforms s1 into the **union** of s1 and s2.
+  - `s1.retainAll(s2)` : transforms s1 into the intersection of s1 and s2
+  - `s1.removeAll(s2)` : transforms s1 into the (asymmetric) set difference of s1 and s2.
 - **Map**
   - The Map interface enables us to store data in key-value pairs (keys should be immutable). A map cannot contain duplicate keys; each key can map to at most one value.
   - The Map interface provides three collection views, which allow a map’s contents to be viewed as a set of keys, collection of values, or set of key-value mappings. Some map implementations, like the TreeMap class, make specific guarantees as to their order; others, like the HashMap class, do not.
@@ -29,23 +51,12 @@
   - A double ended queue (pronounced “deck“) that supports element insertion and removal at both ends. When a deque is used as a queue, FIFO (First-In-First-Out) behavior results. When a deque is used as a stack, LIFO (Last-In-First-Out) behavior results.
   - Some common known classes implementing this interface are **ArrayDeque ConcurrentLinkedDeque, LinkedBlockingDeque** and **LinkedList**.
 
-    |             | List | Set         | Queue                                        | Map                                   |
-    | ----------- | ---- | ----------- | -------------------------------------------- | ------------------------------------- |
-    | Order       | Yes  | No          | Yes                                          | No                                    |
-    | Duplicates  | Yes  | No          | Yes                                          | No (Allow duplicate values not keys)  |
-    | Null Values | Yes  | Single Null | Yes (LinkedList Queue). No (Priority Queue). | Single null key and many null valuess |
-
-- **The Java Collections Framework provides the following benefits:**
-  - Reduces programming effort
-  - Increases program speed and quality
-  - Allows interoperability among unrelated APIs
-  - Reduces effort to learn and to use new APIs
-  - Reduces effort to design new APIs
-  - Fosters software reuse
-
-**Collections Framework Implementation Classes Summary**
-
-![Collection Class](./assets/collection-class.png)
+|               | List | Set           | Queue                  | Map                                  |
+| ------------- | ---- | ------------- | ---------------------- | ------------------------------------ |
+| Order         | Yes  | No            | Yes                    | No                                   |
+| Duplicates    | Yes  | No            | Yes                    | No (Allow duplicate values not keys) |
+| `null` Values | Yes  | Single `null` | Yes (LinkedList Queue) | Single null key and many null values |
+|               |      |               | No (Priority Queue)    |                                      |
 
 ### What will be the problem if you do not override hashcode() method?
 
@@ -60,22 +71,23 @@
 
 ### What is difference between Array and ArrayList?
 
-| Factor          | Array                                                                                                                                                | ArrayList                                                                         |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Size            | Array in Java is fixed in size                                                                                                                       | ArrayList is dynamic in size                                                      |
-| Primitives      | Array can contain both primitive data types as well as objects                                                                                       | ArrayList can not contain primitive data types. It contains only objects.         |
-| Iterator        | We use for loop for iterating elements in an array.                                                                                                  | In an ArrayList we use an Iterator object to traverse the elements                |
-| Multi-dimension | An Array can be multi-dimensional.                                                                                                                   | An ArrayList is always of single dimension                                        |
-| Type Safety     | An Array can contain objects of same type of classe. If we try to store a different data type object in an Array then it throws ArrayStoreException. | Java helps in ensuring Type Safety of elements in an ArrayList by using Generics. |
+| Factor          | Array                                                                                          | ArrayList                                                                         |
+| --------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Size            | Array in Java is fixed in size                                                                 | ArrayList is dynamic in size                                                      |
+| Primitives      | Array can contain both primitive data types as well as objects                                 | ArrayList can not contain primitive data types. It contains only objects.         |
+| Iterator        | We use for loop for iterating elements in an array.                                            | In an ArrayList we use an Iterator object to traverse the elements                |
+| Multi-dimension | An Array can be multi-dimensional.                                                             | An ArrayList is always of single dimension                                        |
+| Type Safety     | An Array can contain objects of same type of classe.                                           | Java helps in ensuring Type Safety of elements in an ArrayList by using Generics. |
+|                 | If we try to store a different data type object in an Array then it throws ArrayStoreException |                                                                                   |
 
 ### What is difference between ArrayList and LinkedList?
 
-| ArrayList                                                                                                                                              | LinkedList                                                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| ArrayList internally uses a dynamic array to store the elements.                                                                                       | LinkedList internally uses a doubly linked list to store the elements.                                                                |
-| Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the bits are shifted in memory. | Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory. |
-| An ArrayList class can act as a list only because it implements only List interface.                                                                   | LinkedList class can act as a list and queue both, because it implements List and Deque interfaces.                                   |
-| ArrayList is better for storing and accessing data.                                                                                                    | LinkedList is better for manipulating data.                                                                                           |
+| ArrayList                                                                            | LinkedList                                                                                          |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| ArrayList internally uses a dynamic array to store the elements.                     | LinkedList internally uses a doubly linked list to store the elements.                              |
+| If any element is removed from the array, all the bits are shifted in memory         | no bit shifting is required in memory                                                               |
+| An ArrayList class can act as a list only because it implements only List interface. | LinkedList class can act as a list and queue both, because it implements List and Deque interfaces. |
+| ArrayList is better for storing and accessing data.                                  | LinkedList is better for manipulating data.                                                         |
 
 ### What is difference between Comparable and Comparator interface?
 
@@ -83,12 +95,13 @@
 - **Comparable**: A comparable object is capable of comparing itself with another object. The class itself must implements the `java.lang.Comparable` interface in order to be able to compare its instances.
 - **Comparator**: A comparator object is capable of comparing two different objects. The class is not comparing its instances, but some other class’s instances. This comparator class must implement the `java.util.Comparator` interface.
 
-| Comparable                                                                                                                                              | Comparator                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price. | Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc. |
-| Comparable affects the original class, i.e., the actual class is modified.                                                                              | Comparator doesn't affect the original class, i.e., the actual class is not modified.                                                                         |
-| Comparable provides compareTo() method to sort elements.                                                                                                | Comparator provides compare() method to sort elements.                                                                                                        |
-| We can sort the list elements of Comparable type by Collections.sort(List) method.                                                                      | We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.                                                                |
+| Comparable                                                                                    | Comparator                                                                                         |
+| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Comparable provides a single sorting sequence.                                                | Comparator provides multiple sorting sequences.                                                    |
+| IOW, we can sort the collection on the basis of a single element such as id, name, and price. | IOW, we can sort the collection on the basis of multiple elements such as id, name, and price etc. |
+| Comparable affects the original class, i.e., the actual class is modified.                    | Comparator doesn't affect the original class, i.e., the actual class is not modified.              |
+| Comparable provides compareTo() method to sort elements.                                      | Comparator provides compare() method to sort elements.                                             |
+| We can sort the list elements of Comparable type by Collections.sort(List) method.            | We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.     |
 
 ### What is `PriorityQueue`?
 
@@ -106,7 +119,7 @@
 
 ### What are different Collection views provided by Map interface?
 
-![Map Interface](./assets/map-interface.png)
+![Map Interface](./images/map-interface.png)
 
 - In the inheritance tree of the Map interface, there are several implementations but only 3 major, common, and general purpose implementations - they are HashMap, LinkedHashMap and TreeMap.
 
@@ -148,16 +161,15 @@
 
 ### What is difference between HashMap and Hashtable?
 
-| HashMap                                                                                                      | Hashtable                                                         |
-| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| HashMap allows one null key and multiple null values.                                                        | Hashtable doesn't allow any null key or value.                    |
-| HashMap is a new class introduced in JDK 1.2.                                                                | Hashtable is a legacy class.                                      |
-| HashMap is fast.                                                                                             | Hashtable is slow.                                                |
-| HashMap is traversed by Iterator.                                                                            | Hashtable is traversed by Enumerator and Iterator.                |
-| Iterator in HashMap is fail-fast.                                                                            | Enumerator in Hashtable is not fail-fast.                         |
-| HashMap inherits AbstractMap class.                                                                          | Hashtable inherits Dictionary class.                              |
-| HashMap is **not synchronized**                                                                              | Hashtable is **synchronized**.                                    |
-| We can make the HashMap as synchronized by calling this code `Map m = Collections.synchronizedMap(hashMap);` | Hashtable is internally synchronized and can't be unsynchronized. |
+| HashMap                                                                        | Hashtable                                               |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------- |
+| allows one null key and multiple null values.                                  | doesn't allow any null key or value.                    |
+| is fast.                                                                       | is slow.                                                |
+| is traversed by Iterator.                                                      | is traversed by Enumerator and Iterator.                |
+| Iterator in HashMap is fail-fast.                                              | Enumerator in Hashtable is not fail-fast.               |
+| inherits AbstractMap class.                                                    | inherits Dictionary class.                              |
+| is **not synchronized**                                                        | is **synchronized**.                                    |
+| can be synchronized by calling `Map m = Collections.synchronizedMap(hashMap);` | is internally synchronized and can't be unsynchronized. |
 
 ### What is the difference between fail-fast and fail-safe iterator?
 
@@ -171,7 +183,7 @@
 - Fail-Safe iterators don’t throw any exceptions if a collection is structurally modified while iterating over it. This is because, they operate on the clone of the collection, not on the original collection and that’s why they are called fail-safe iterators. Iterators on CopyOnWriteArrayList, ConcurrentHashMap classes are examples of fail-safe Iterator.
 - According to Oracle docs, fail safe iterator is ordinarily too costly, but may be more efficient than alternatives when traversal operations vastly outnumber mutations, and is useful when you cannot or don’t want to synchronize traversals, yet need to preclude interference among concurrent threads. The "snapshot" style iterator method uses a reference to the state of the array at the point that the iterator was created. This array never changes during the lifetime of the iterator, so interference is impossible and the iterator is guaranteed not to throw ConcurrentModificationException. The iterator will not reflect additions, removals, or changes to the list since the iterator was created. Element-changing operations on iterators themselves (remove(), set(), and add()) are not supported. These methods throw UnsupportedOperationException.
 
-### How Fail Fast Iterator come to know that the internal structure is modified ?
+### How Fail Fast Iterator come to know that the internal structure is modified?
 
 - Iterator read internal data structure (object array) directly. The internal data structure (i.e. object array) should not be modified while iterating through the collection. To ensure this it maintains an internal flag "mods". Iterator checks the "mods" flag whenever it gets the next value (using hasNext() method and next() method). Value of mods flag changes whenever there is structural modification. Thus indicating iterator to throw ConcurrentModificationException.
 
@@ -191,14 +203,15 @@
 
 ### What is difference between Enumeration and Iterator interface?
 
-| Enumeration                                                                                                                | Iterator                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Enumeration was introduced in JDK 1.0                                                                                      | Iterator was introduced in JDK 1.2                                                                                   |
-| Methods : hasMoreElements() and nextElement()                                                                              | Methods : hasNext(), next() and remove()                                                                             |
-| Enumeration is fail-safe in nature.                                                                                        | Iterator is fail-fast in nature.                                                                                     |
-| Enumeration is not safe and secured due to it’s fail-safe nature.                                                          | Iterator is safer and secured than Enumeration.                                                                      |
-| is used to traverse legacy classes - Vector, Stack and HashTable.                                                          | Is used to iterate most of the classes in the collection framework like ArrayList, HashSet, HashMap, LinkedList etc. |
-| Using Enumeration, you can only traverse the collection. You can’t do any modifications to collection while traversing it. | Using Iterator, you can remove an element of the collection while traversing it.                                     |
+| Enumeration                                                       | Iterator                                                                                        |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Enumeration was introduced in JDK 1.0                             | Iterator was introduced in JDK 1.2                                                              |
+| Methods : hasMoreElements() and nextElement()                     | Methods : hasNext(), next() and remove()                                                        |
+| Enumeration is fail-safe in nature.                               | Iterator is fail-fast in nature.                                                                |
+| Enumeration is not safe and secure due to it’s fail-safe nature.  | Iterator is safer and secure than Enumeration.                                                  |
+| is used to traverse legacy classes - Vector, Stack and HashTable. | Is used to iterate most of the classes in the collection framework like ArrayList, HashSet etc. |
+| Using Enumeration, you can only traverse the collection.          | Using Iterator, you can remove an element of the collection while traversing it.                |
+| You can’t do any modifications to collection while traversing it  |                                                                                                 |
 
 ### What is difference between `Iterator` and `ListIterator`?
 
@@ -207,19 +220,19 @@
 ### How can we create a synchronized collection from given collection?
 
 - In Java, normally collections aren't synchronized, which leads to fast performance. However, in multi-threaded situations, it can be very useful for collections to be synchronized. The Java Collections class has several static methods on it that provide synchronized collections. These methods are:
-  - Collections.synchronizedCollection(Collection<T> c)
-  - Collections.synchronizedList(List<T> list)
-  - Collections.synchronizedMap(Map<K,V> m)
-  - Collections.synchronizedSet(Set<T> s)
-  - Collections.synchronizedSortedMap(SortedMap<K,V> m)
-  - Collections.synchronizedSortedSet(SortedSet<T> s)
+  - `Collections.synchronizedCollection(Collection<T> c)`
+  - `Collections.synchronizedList(List<T> list)`
+  - `Collections.synchronizedMap(Map<K,V> m)`
+  - `Collections.synchronizedSet(Set<T> s)`
+  - `Collections.synchronizedSortedMap(SortedMap<K,V> m)`
+  - `Collections.synchronizedSortedSet(SortedSet<T> s)`
 
 ### What is a default capacity of Collection?
 
 | Collections  | Capacity | Load Factor | Empty Size | 10K Entry Overhead | Expansion Algorithm |
 | ------------ | -------- | ----------- | ---------- | ------------------ | ------------------- |
 | ArrayList    | 10       |             | 88         | 40K                | size + 50%          |
-| Vector       | 10       |             |
+| Vector       | 10       |             |            |                    |                     |
 | HashSet      | 16       | 0.75        | 144        | 360K               | double size         |
 | HashMap      | 16       | 0.75        | 128        | 360K               | double size         |
 | HashTable    | 11       | 0.75        | 104        | 360K               | double size + 1     |
@@ -231,19 +244,19 @@
 - **Collection Interface** : It is the root level interface of the Java Collection Framework. Most of the classes in Java Collection Framework inherit from this interface. **List, Set and Queue** are main sub interfaces of this interface. JDK provides direct implementations of it’s sub interfaces. **ArrayList, Vector, HashSet, LinkedHashSet, PriorityQueue** are some indirect implementations of Collection interface.
 - **Collections Class** : Collections is an utility class in java.util package. It consists of only static methods which are used to operate on objects of type Collection.
 
-| Collections Methods                  | Description                                                           |
-| ------------------------------------ | --------------------------------------------------------------------- |
-| Collections.max()                    | returns maximum element in the specified collection.                  |
-| Collections.min()                    | returns minimum element in the given collection.                      |
-| Collections.sort()                   | sorts the specified collection.                                       |
-| Collections.shuffle()                | randomly shuffles the elements in the specified collection.           |
-| Collections.synchronizedCollection() | returns synchronized collection backed by the specified collection.   |
-| Collections.binarySearch()           | searches given collection for the given object using binary search    |
-| Collections.disjoint()               | returns true if two specified collections have no elements in common. |
-| Collections.copy()                   | copies all elements from one collection to another collection.        |
-| Collections.reverse()                | reverses the order of elements in the specified collection.           |
+| Collections Methods                    | Description                                                           |
+| -------------------------------------- | --------------------------------------------------------------------- |
+| `Collections.max()`                    | returns maximum element in the specified collection.                  |
+| `Collections.min()`                    | returns minimum element in the given collection.                      |
+| `Collections.sort()`                   | sorts the specified collection.                                       |
+| `Collections.shuffle()`                | randomly shuffles the elements in the specified collection.           |
+| `Collections.synchronizedCollection()` | returns synchronized collection backed by the specified collection.   |
+| `Collections.binarySearch()`           | searches given collection for the given object using binary search    |
+| `Collections.disjoint()`               | returns true if two specified collections have no elements in common. |
+| `Collections.copy()`                   | copies all elements from one collection to another collection.        |
+| `Collections.reverse()`                | reverses the order of elements in the specified collection.           |
 
-### What is `TreeSet` in Java
+### What is `TreeSet`?
 
 - Java TreeSet class implements the Set interface that uses a tree for storage. It inherits AbstractSet class and implements NavigableSet interface. The objects of TreeSet class are stored in ascending order.
 - TreeSet implements the SortedSet interface so duplicate values are not allowed.
@@ -291,7 +304,7 @@
 - we will call get() method and then HashMap uses Key Object's hashcode to find out bucket location
 - After finding bucket location, we will call keys.equals() method to identify a correct node in LinkedList and return associated value object for that key in Java HashMap.
 
-### What happens On HashMap in Java if the size of the HashMap exceeds a given threshold defined by load factor ?".
+### What happens On HashMap if the size of the HashMap exceeds a given threshold defined by load factor?.
 
 - If the size of the Map exceeds a given threshold defined by load-factor e.g. if the load factor is .75 it will act to re-size the map once it filled 75%. Similar to other collection classes like ArrayList, Java HashMap re-sizes itself by creating a new bucket array of size twice of the previous size of HashMap and then start putting every old element into that new bucket array. This process is called rehashing because it also applies the hash function to find new bucket location
 
@@ -317,18 +330,18 @@
 
 ### What is the difference between `HashMap` and `TreeMap`?
 
-| HashMap                                                                                                                              | TreeMap                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| is a hashtable based implementation of Map interface.                                                                                | is a Tree structure-based implementation of Map interface.                                                                                             |
-| implements Map, Cloneable, and Serializable interface.                                                                               | TreeMap implements NavigableMap, Cloneable, and Serializable interface.                                                                                |
-| allows a **single** null key and multiple null values.                                                                               | TreeMap does not allow **null** keys but can have multiple null values.                                                                                |
-| The HashMap class uses the **hash table**.                                                                                           | TreeMap internally uses a **Red-Black** tree, which is a self-balancing Binary Search Tree.                                                            |
-| Order of elements HashMap does not maintain any order.                                                                               | The elements are sorted in natural order (ascending).                                                                                                  |
-| allows heterogeneous elements because it does not perform sorting on keys.                                                           | TreeMap allows homogeneous values as a key because of sorting.                                                                                         |
-| is **faster** than TreeMap because it provides constant-time performance that is O(1) for the basic operations like get() and put(). | TreeMap is **slow** in comparison to HashMap because it provides the performance of O(log(n)) for most operations like add(), remove() and contains(). |
-| It uses **equals()** method of the Object class to compare keys. The equals() method of Map class overrides it.                      | It uses the **compareTo()** method to compare keys.                                                                                                    |
-| It contains only basic functions like get(), put(), KeySet(), etc.                                                                   | It is rich in functionality as it contains functions like: tailMap(), firstKey(), lastKey(), pollFirstEntry(), pollLastEntry().                        |
-| should be used when we do not require key-value pair in sorted order.                                                                | The TreeMap should be used when we require key-value pair in sorted (ascending) order.                                                                 |
+| HashMap                                                                    | TreeMap                                                                                                                  |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| is a hashtable based implementation of Map interface.                      | is a tree based implementation of Map interface.                                                                         |
+| implements Map, Cloneable, and Serializable interface.                     | implements NavigableMap, Cloneable, and Serializable interface.                                                          |
+| allows a **single** null key and multiple null values.                     | does not allow **null** keys but can have multiple null values.                                                          |
+| uses the **hash table**.                                                   | uses a **Red-Black** tree, which is a self-balancing BST.                                                                |
+| Order of elements does not maintain any order.                             | elements are sorted in natural order (ascending).                                                                        |
+| allows heterogeneous elements because it does not perform sorting on keys. | allows homogeneous values as a key because of sorting.                                                                   |
+| it provides constant-time performance that is O(1)                         | it provides the performance of O(log(n)) for most operations like add(), remove() and contains().                        |
+| uses **equals()** method of the Object class to compare keys.              | It uses the **compareTo()** method to compare keys.                                                                      |
+| contains only basic functions like get(), put(), keySet(), etc.            | is rich in functionality and contains methods like: tailMap(), firstKey(), lastKey(), pollFirstEntry(), pollLastEntry(). |
+| should be used when we do not require key-value pair in sorted order.      | should be used when we require key-value pair in sorted (ascending) order.                                               |
 
 ### What is the `Dictionary` class?
 
@@ -386,13 +399,12 @@
 
 ### What are the differences between ArrayList and Vector?
 
-| ArrayList                                                                                               | Vector                                                                                                                                                                                                   |
-| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ArrayList is **not synchronized**                                                                       | Vector is **synchronized**.                                                                                                                                                                              |
-| ArrayList **increments 50%** of current array size if the number of elements exceeds from its capacity. | Vector **increments 100%** means doubles the array size if the total number of elements exceeds than its capacity.                                                                                       |
-| ArrayList is not a legacy class. It is introduced in JDK 1.2.                                           | Vector is a legacy class.                                                                                                                                                                                |
-| ArrayList is **fast** because it is non-synchronized.                                                   | Vector is **slow** because it is synchronized, i.e., in a multithreading environment, it holds the other threads in runnable or non-runnable state until current thread releases the lock of the object. |
-| ArrayList uses the **Iterator** interface to traverse the elements.                                     | A Vector can use the **Iterator** interface or **Enumeration** interface to traverse the elements.                                                                                                       |
+| ArrayList                                                 | Vector                                                                                    |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| is **not synchronized**                                   | is **synchronized**.                                                                      |
+| **increments 50%**                                        | **increments 100%** .                                                                     |
+| is **fast** because it is non-synchronized.               | is **slow** because it is synchronized                                                    |
+| uses the **Iterator** interface to traverse the elements. | can use the **Iterator** interface or **Enumeration** interface to traverse the elements. |
 
 ### What is initial capacity and load factor?
 

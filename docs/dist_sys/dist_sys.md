@@ -12,6 +12,7 @@
 - **SR** [Cache invalidation really is on of the hardest problems in CS](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/)
 - **SR** [Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86)
 - **SR** [McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
+- **SR** [Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
 - **SR** [Distributed Systems Shibboleths](https://jolynch.github.io/posts/distsys_shibboleths/)
 - **SR** [Beta Thoughts](https://betathoughts.blogspot.com/2007/06/brief-history-of-consensus-2pc-and.html)
 - **SR** [Learning to build distributed systems](http://brooker.co.za/blog/2019/04/03/learning.html)
@@ -23,12 +24,14 @@
 - **LR** [How to crawl a quarter billion webpages in 40 hours](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
 - **LR** [Stack Overflow : The Architecture - 2016 Edition](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
 - **LR** [A Gentle Introduction to CRDTs](https://vlcn.io/blog/gentle-intro-to-crdts.html)
+- **LR** [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
 - **LR** [The Anatomy of a Search Engine](http://infolab.stanford.edu/~backrub/google.html)
 - **LR** [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
 - **LR** [Transactions across data centers](https://snarfed.org/transactions_across_datacenters_io.html)
 - **LR** [Getting To Know Logical Clocks By Implementing Them](https://brunocalza.me/getting-to-know-logical-clocks-by-implementing-them/)
 - **LR** [The Log: What every software engineer should know](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - **LR** [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM) **VDO**
+- **LR** [Load Balancing](https://samwho.dev/load-balancing/)
 
 ### Learning Resources
 

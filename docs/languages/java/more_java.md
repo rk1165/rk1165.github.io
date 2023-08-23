@@ -139,3 +139,33 @@ for (Map.Entry<String, Integer> entry : list) {
 ### Tools
 
 - Gradle/Maven, Spring Boot, Spring Data/JPA/Hibernate, JUnit, Mockito, AssertJ, Testcontainers, ArchUnit, Liquibase/Flyway, Lombok, MapStruct, Jackson, GraphQL, Docker
+
+### Manifests
+
+| Option | Description                            |
+| ------ | -------------------------------------- |
+| e      | Creates an entry point in the manifest |
+| i      | creats an index file                   |
+| m      | Adds a _manifest_ to the JAR file      |
+
+- A manifest is a description of the archive contents and origin.
+- JAR files can contain class files, images, and other resources.
+- The manifest file is called `MANIFEST.MF` and is located in a special META-INF subdirectory of the JAR file.
+
+```
+Manifest-Version: 1.0
+lines describing this archive
+
+Name: Woozle.class
+lines describing this file
+Name: com/mycompany/mypkg
+lines describing this package
+```
+
+- to make a new JAR file with a manifest, run, `jar cfm MyArchive.jar manifest.mf com/mycompany/mypkg/*.class`
+- To update the manifest of an existing JAR file, place the additions into a text file and use a command such as - `jar ufm MyArchive.jar manifest-additions.mf`
+- to specify the entry point of a program
+  - `jar cvfe MyProgram.jar com.my-company.mypkg.MainAppClass files_to_add`
+  - specify the main class of the program in the manifest of the form - `Main-Class: com.my-company.mypkg.MainAppClass`
+- _multi-release JARs_ can contain class files for different Java releases.
+- For backwards compatibility, the additional class files are placed in the `META-INF/versions` directory.

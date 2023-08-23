@@ -20,6 +20,8 @@
 - **DD** [Email](https://explained-from-first-principles.com/email/)
 - **HO** [Writing a toy traceroute from scratch](https://alexanderell.is/posts/toy-traceroute/) **Python**
 - **HO** [Writing a toy WebSocket server from scratch](https://alexanderell.is/posts/websockets-from-scratch/) **Python**
+- **HO** [Implement DNS in a Weekend](https://implement-dns.wizardzines.com/)
+- **HO** [Building a Transport Protocol on ARP](https://kognise.dev/writing/arp)
 - **Tool** [Nginx location match tester](https://nginx.viraptor.info/)
 
 ### Learning Resources

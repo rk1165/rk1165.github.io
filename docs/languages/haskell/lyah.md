@@ -179,7 +179,6 @@ case expression of pattern -> result
 
 #### Data.Char
 
--
 - `GeneralCategory` type is also an enumeration. It presents us with a few possible categories that a character can fall into.
 - The main function for getting the general category of a character is `generalCategory`
 
@@ -407,4 +406,3 @@ main = do toTry catch handler1
 - `Foldable` is for things that can be folded up! It can be found in `Data.Foldable`
 - To make a type constructor an instance of `Foldable` in easier way is to implement the `foldMap` function.
 - `foldMap` comes in handy for reducing our structure to a single monoid value.
--

@@ -17,6 +17,7 @@
 - [Software optimization resources](https://www.agner.org/optimize/)
 - [Learn Quantum Computation](https://quantum.country/)
 - [Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)
+- [Putting the You in CPU](https://cpu.land/)
 
 ### Online Courses
 

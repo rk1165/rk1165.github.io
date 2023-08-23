@@ -1,6 +1,7 @@
 ## Compilers
 
 - **LR** [A Lambda Calculus With Coroutines and Heapless, Directly-Called Closures](https://ayazhafiz.com/articles/23/a-lambda-calculus-with-coroutines-and-heapless-closures)
+- **LR** [How should I read type system notation](https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation)
 - **LR** [Parsing expressions by Recursing Descent](http://www.engr.mun.ca/~theo/Misc/exp_parsing.htm)
 - **HO** [Let’s Build A Simple Interpreter. Part 1. - Ruslan's Blog](https://ruslanspivak.com/lsbasi-part1/) **Python**
 - **HO** [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/) **C**

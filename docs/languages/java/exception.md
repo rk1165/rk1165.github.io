@@ -1,3 +1,52 @@
+- With _checked_ exceptions, the compiler checks that the programmer is aware of the exception and prepared to deal with the consequences.
+- Common exceptions, such as bounds errors or accessing a null reference, are _unchecked_. The compiler does not expect that you provide a handler.
+- You only need to supply a `throws` clause for checked exceptions.
+- In Java, an exception object is always an instance of a class derived from `Throwable`.
+- Throwable has two direct descendents : `Error` and `Exception`
+- When a dynamic linking failure or other hard failure in JVM occurs, the VM throws an Error
+- `Exception` is divided into two branches : `IOException` and `Runtime Exception`
+- The first kind of exception is the _checked exception_. These are exceptional conditions that a well-written application should anticipate and recover from.
+- Checked exceptions are _subject to_ the Catch or Specify Requirement
+- All exceptions are checked exceptions, except for those indicated by `Error`, `RuntimeException`, and their subclasses.
+- The second kind of exception is the _error_. These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from
+- Errors are not subject to the Catch or Specify Requirement. Errors are those exceptions indicated by Error and its subclasses.
+- The third kind of exception is the _runtime exception_. These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from. Usually logic error or improper use of an API.
+- The compiler checks that we provide exception handlers for all checked exceptions
+- A method must declare all the _checked_ exceptions that it might throw.
+- Catching multiple exceptions doesn't just make your code look simpler but also more efficient.
+- You can use the `finally` clause without a `catch` clause.
+- The body of `finally` clause is intended for cleaning up resources. Don't put statements that change the control flow (return, throw, break, continue) inside a finally clause.
+- A _stack trace_ is a listing of all pending method calls at a particular point in the execution of a program.
+- If the JVM exits while the `try` or `catch` code is being executed, then the `finally` block may not execute. If the thread executing the try or catch code is interrupted or killed, the finally blcok may not execute.
+- We can open multiple resources in try-with-resources statement separated by a semicolon.
+- When multiple resources are opened in try-with-resources, it closes them in the reverse order to avoid any dependency issue.
+- If an exception is thrown in both try block and finally block, the method returns the exception thrown in finally block.
+- For try-with-resources, if exception is thrown in try block and in try-with-resources statement, then method returns the exception thrown in try block.
+- You can retrieve suppressed exceptions by calling the `Throwable.getSuppressed` method from the exception thrown by the try block
+- Chained exceptions help the programmer to know when one exception causes another.
+- If a client can reasonably be expected to recover from an exception, make it a checked exception. If a client cannot do anything to recover from the exception, make it an unchecked exception.
+- checked exceptions must be explicitly caught in a method or declared in the method's throws clause. Unchecked exceptions are caused by problems that can not be solved, such as dividing by zero, null pointer, etc. Checked exceptions are especially important because you expect other developers who use your API to know how to handle the exceptions.
+- If an exception can be properly handled then it should be caught, otherwise, it should be thrown.
+- Can we catch multiple exceptions in the same catch clause?
+  - The answer is YES. As long as those exception classes can trace back to the same super class in the class inheritance hierarchy, you can use that super class only.
+- Constructors can throw exceptions
+- javac -g file.java : the. -g flag will generate debugging information, including information about local variables
+- **Advantages of Exceptions**
+  - Separate Error-Handling Code from "Regular" Code.
+  - Propagating Errors up the call stack
+  - Grouping and Differentiating Error types.
+- `java.lang.Throwable`
+  - `Throwable(Throwable cause)`
+  - `Throwable(String message, Throwable cause)`
+  - `Throwable initCause(Throwable cause)` : sets the cause for this object or throws an exception if this object already has a cause. Returns this.
+  - `Throwable getCause()`
+- Use exceptions for exceptional circumstances only because it takes far longer to catch an exception than to perform a simple test
+- Don't just throw a `RuntimeException`. Find an appropriate subclass or create your own.
+- `NoClassDefFoundError` occurs when the source was successfully compiled, but at runtime, the required `class` files were not found. It is an error and arises from the JVM having problems finding a class it expected to find. For instance, we created A.class and B.class at compile time and removed A.class on which B.class depended. So, when running B it will give this error
+- `ClassNotFoundException` may stem from trying to make reflective calls to classes at runtime, but the classes the program is trying to call don't exist.
+- ClassCast Exception is thrown when we try to cast an object of the parent class to the child class object.
+- The Java language has a keyword `assert`. There are two forms: `assert condition;` and `assert condition: expression;`
+
 ### What is Exception in Java?
 
 - Exception is an error event that can happen during the execution of a program and disrupts it’s normal flow. Exception can arise from different kind of situations such as wrong data entered by user, hardware failure, network connection failure etc.
@@ -25,7 +74,7 @@
   ```
   See the below diagram to understand the flow of the call stack.
 
-![exception_handling](./assets/exception_handling.png)
+![exception_handling](./images/exception_handling.png)
 
 ### How Programmer handles an exception?
 
@@ -73,7 +122,7 @@
   1. `getCause()` :- This method returns actual cause of an exception.
   2. `initCause(Throwable cause)` :- This method sets the cause for the calling exception.
 
-  ![chaining](./assets/chaining.png)
+  ![chaining](./images/chaining.png)
 
 ### Why Chained Exceptions?
 

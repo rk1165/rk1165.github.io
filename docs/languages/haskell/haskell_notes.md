@@ -8,6 +8,19 @@
 - [lens](https://twitter.com/fylwind/status/549342595940237312)
 - [QuickCheck](https://hackage.haskell.org/package/QuickCheck), for example, can leverage Haskell's type system to automatically generate a large number of random test-cases to check that a programmer-specified property hold for a given function.
 
+### Useful GHCi commands
+
+| Command            | Meaning               |
+| ------------------ | --------------------- |
+| `:load name`       | load script name      |
+| `:reload`          | reload current script |
+| `:set editor name` | set editor to `name`  |
+| `:edit name`       | edit script `name`    |
+| `:edit`            | edit current script   |
+| `:type expr`       | show type of `expr`   |
+| `:?`               | show all commands     |
+| `:quit`            | quit GHCi             |
+
 ### data, type, newtype, instance, class
 
 - `data` is used to declare a new algebraic data type.
@@ -103,8 +116,6 @@ instance shape Square where
 - There's a typeclass called `Show` and this provides a single function: `show`, that can take any instance of `Show`, and makes a `String` version of it.
 - `print` function can take a value whose type is any instance of `Show`
 
-### Chap 8
-
 ### Chap 9
 
 - The kind of values with typeclass-constrained types, like the type `Num a => a`, are called **polymorphic values**
@@ -148,12 +159,6 @@ instance shape Square where
 - `Maybe` is a type that takes another type to make types with (this is called a **type constructor**). That means you can have values of type `Maybe Int`, `Maybe Cat`, `Maybe House`
 - it's what we use in Haskell when we want to make a type's value optional.
 - The way `Maybe` values work is there's a value called `Nothing` which represents "no value" of the wrapped type, and there's a value called `Just a` which represents any other value of our wrapped type.
-
-### Chap 15
-
-- `:load filename` or `:l filename`
-- for checking types `:type` or `:t`
-- reload `:reload` or `:r`
 
 ### Chap 16
 

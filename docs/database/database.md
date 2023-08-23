@@ -44,6 +44,7 @@
 
 - **SR** [Postgres Indexes for Newbies](https://blog.crunchydata.com/blog/postgres-indexes-for-newbies)
 - **LR** [How Postgres Chooses Which Index To Use For A Query](https://pganalyze.com/blog/how-postgres-chooses-index)
+- **LR** [Understanding database Indexes in PostgreSQL](https://mastermind.dev/indexes-in-postgresql)
 
 ### MySQL
 

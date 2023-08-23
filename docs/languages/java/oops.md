@@ -154,12 +154,12 @@ class Base {
 
 class Derived extends Base {
     private void fun() {
-		System.out.println("Derived fun");
-	}
+		    System.out.println("Derived fun");
+	  }
 
-	public static void main(String[] args) {
-      Base obj = new Derived();
-	  obj.fun();
+	  public static void main(String[] args) {
+        Base obj = new Derived();
+	      obj.fun();
     }
 }
 ```
@@ -180,8 +180,8 @@ public class Animal {
 
 public class Dog extends Animal {
     public void sleep() {
-		// Dog code...
-	}
+		    // Dog code...
+	  }
 }
 ```
 
@@ -205,7 +205,7 @@ class Child extends Parent{
 
     public static void main(String[] args) {
         Child c1 = new  Child();
-	    c1.PrintMessage ();
+	      c1.PrintMessage ();
     }
 }
 // O/p : I am inherited
@@ -249,7 +249,7 @@ class Child extends Parent{
 
 ### What is the difference between aggregation and composition?
 
-<img src="assets/aggregation.png" alt="Aggregation" />
+<img src="images/aggregation.png" alt="Aggregation" />
 
 - **Aggregation**: We call aggregation those relationships whose **objects have an independent lifecycle, but there is ownership**, and child objects cannot belong to another parent object.
 - Example: Since Organization has Person as employees, the relationship between them is Aggregation. Here is how they look like in terms of Java classes
@@ -282,17 +282,21 @@ class Engine {
 }
 ```
 
-| Aggregation                                                                                                                                                                                                                                                                                                                                                             | Composition                                       |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Aggregation is a weak Association.                                                                                                                                                                                                                                                                                                                                      | Composition is a strong Association.              |
-| Class can exist independently without owner.                                                                                                                                                                                                                                                                                                                            | Class can not meaningfully exist without owner.   |
-| Have their own Life Time.                                                                                                                                                                                                                                                                                                                                               | Life Time depends on the Owner.                   |
-| A uses B.                                                                                                                                                                                                                                                                                                                                                               | A owns B.                                         |
-| Child is not owned by 1 owner.                                                                                                                                                                                                                                                                                                                                          | Child can have only 1 owner.                      |
-| Has-A relationship. A has B.                                                                                                                                                                                                                                                                                                                                            | Part-Of relationship. B is part of A.             |
-| Denoted by a empty diamond in UML.                                                                                                                                                                                                                                                                                                                                      | Denoted by a filled diamond in UML.               |
-| We do not use "final" keyword for Aggregation.                                                                                                                                                                                                                                                                                                                          | "final" keyword is used to represent Composition. |
-| Examples:<br>- Car has a Driver.<br>- A Human uses Clothes.<br>- A Company is an aggregation of People.<br>- A Text Editor uses a File.<br>- Mobile has a SIM Card.</td><td>Examples:<br>- Engine is a part of Car.<br>- A Human owns the Heart.<br>- A Company is a composition of Accounts.<br>- A Text Editor owns a Buffer.<br>- IMEI Number is a part of a Mobile. |
+| Aggregation                                    | Composition                                       |
+| ---------------------------------------------- | ------------------------------------------------- |
+| Aggregation is a weak Association.             | Composition is a strong Association.              |
+| Class can exist independently without owner.   | Class can not meaningfully exist without owner.   |
+| Have their own Life Time.                      | Life Time depends on the Owner.                   |
+| A uses B.                                      | A owns B.                                         |
+| Child is not owned by 1 owner.                 | Child can have only 1 owner.                      |
+| Has-A relationship. A has B.                   | Part-Of relationship. B is part of A.             |
+| Denoted by a empty diamond in UML.             | Denoted by a filled diamond in UML.               |
+| We do not use "final" keyword for Aggregation. | "final" keyword is used to represent Composition. |
+| Examples: Car has Driver                       | Examples: Engine is a part of Car.                |
+| A Human Uses Clothes                           | A Human owns the Heart                            |
+| A Company is an aggregation of People.         | A Company is a composition of Accounts            |
+| A Text Editor uses a File                      | A text editor owns a Buffer                       |
+| Mobile has a SIM Card                          | IMEI number is a part of Mobile                   |
 
 _Note: "final" keyword is used in Composition to make sure child variable is initialized._
 
@@ -356,10 +360,6 @@ _Note: "final" keyword is used in Composition to make sure child variable is ini
 
 - From Java 8 onward you can have a non-abstract method inside interface, prior to that it was not allowed as all method was implicitly public abstract. From JDK 8, you can add static and default method inside an interface.
 
-### What is the default method of Java 8?
-
-- Default method, also known as extension method are new types of the method which you can add on the interface now. These method has implementation and intended to be used by default. By using this method, JDK 8 managed to provide common functionality related to lambda expression and stream API without breaking all the clients which implement their interfaces. If you look Java 8 API documentation you will find several useful default method on key Java interface like Iterator, Map etc.
-
 ### Can we make a class both final and abstract at the same time?
 
 - No, you cannot apply both final and abstract keyword at the class same time because they are exactly opposite of each other. A final class in Java cannot be extended and you cannot use an abstract class without extending and make it a concrete class. As per Java specification, the compiler will throw an error if you try to make a class abstract and final at the same time.
@@ -377,7 +377,7 @@ _Note: "final" keyword is used in Composition to make sure child variable is ini
 
 - static method cannot be overridden in Java because their method calls are resolved at compile time but it didn't prevent you from declaring method with same name in sub class. In this case we say that method in sub class hid static method from parent class. If you have a case where variable of Parent class is pointing to object of Child class then also static method from Parent class is called because overloading is resolved at compile time.
 
-### If you have a big application having many classes. Now you have a class Application.java which is having scope as prototype. Now I have started the application , How many objects of that class will be created ?
+### If you have a big application having many classes. Now you have a class Application.java which is having scope as prototype. Now I have started the application, How many objects of that class will be created ?
 
 - We can keep track of the number of objects that have been created in a class using a static variable Because a static variable is linked to a class and not to an object. We will create a static variable count and keep incrementing it inside it’s default constructor inside that class and keep a `System.out.println(“Count is = ”+ count++)`, then it will give you the number of objects created for that class, wherever this class is getting called and its object is getting created because as constructor is called every time an object is instantiated.
 
@@ -388,10 +388,10 @@ class Students{
     public int age;
     public static int numberofobjects = 0;
 
-    Students (String name, int age){
+    Students (String name, int age) {
         this.name= name;
-    	this.age= age;
-    	numberofobjects++;
+    	  this.age= age;
+    	  numberofobjects++;
     }
 }
 ```
@@ -412,8 +412,8 @@ class Students{
   you can pass null to int[] because it is object and passing null to int will give compiler error.
 
 ```java
-Object ref=new int[]{1,2,3};   // valid statement?
-Object[] ref=new int[]{1,2,3}; // valid statement?
+Object ref = new int[]{1,2,3};   // valid statement?
+Object[] ref = new int[]{1,2,3}; // valid statement?
 ```
 
 - 1st line is perfectly valid because int[] extends Object and Object is base class.
@@ -470,7 +470,7 @@ parent.print();
 ```
 
 - So internally what Compiler does is it checks whether print() method is static, if yes, then it replace the instance to instance type.
-- parent object is of type Parent, so it replaces it to, Parent.print(); at compile time itself and at runtime there is no Null Pointer Exception.
+- parent object is of type Parent, so it replaces it to, Parent.print(); at compile time itself and at runtime there is no NPE.
 
 ### What do you mean by instance method of Subclass cannot override static method of Base class?
 

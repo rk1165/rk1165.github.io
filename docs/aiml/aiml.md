@@ -17,6 +17,7 @@
 - [Top Machine Learning Books recommended by experts](https://mentorcruise.com/books/ml/)
 - [A Compendium Of Machine Learning Resources](https://www.johnwittenauer.net/a-compendium-of-machine-learning-resources/)
 - [Getting started in Robotics](https://allshire.org/getting-started-robotics/)
+- [Understanding Large Language Models](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
 
 ### DataSets
 
