@@ -83,3 +83,5 @@
 - [AWS](aws.md)
 - [Scaling](scaling.md)
 - [Hands On](todo.md)
+- [High Scalability](high_scalability.md)
+- [Company tech blog entries](corp_tech.md)

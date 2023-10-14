@@ -8,7 +8,6 @@
 
 ### Notes
 
-- [High Scalability](high_scalability.md)
 - [Pointers](pointers.md)
 - [TechieDelight](techiedelight.md)
 - [To Know](to_know.md)
