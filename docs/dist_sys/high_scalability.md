@@ -172,7 +172,7 @@
 - Disk contention. Mailinator wrote serveral thousand log lines to memory before doing one disk write. In effect they never wanted to have contention based on the incredibly slow disk.
 - The system now is one unit. The web application, the email server, and all email storage run in one JVM.
 
-![mailinator](./mailinator.png)
+![mailinator](./images/mailinator.png)
 
 - The emails are first compressed and then put in RAM, this saves a lot of space.
 - [Scalability Best Practices : Lessons from ebay](https://www.infoq.com/articles/ebay-scalability-best-practices/)
