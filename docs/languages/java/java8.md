@@ -1,30 +1,30 @@
 ### What are the important features of Java 8 release?
 
-- Interface methods by default;
-- Lambda expressions;
-- Functional interfaces;
-- References to methods and constructors;
+- Interface methods by default
+- Lambda expressions
+- Functional interfaces
+- References to methods and constructors
 - Repeatable annotations
-- Annotations on data types;
-- Reflection for method parameters;
-- Stream API for working with collections;
-- Parallel sorting of arrays;
-- New API for working with dates and times;
-- New JavaScript Nashorn Engine ;
-- Added several new classes for thread safe operation;
-- Added a new API for `Calendar`and `Locale`;
-- Added support for Unicode 6.2.0 ;
-- Added a standard class for working with Base64 ;
-- Added support for unsigned arithmetic;
-- Improved constructor `java.lang.String(byte[], *)` and method performance `java.lang.String.getBytes()`;
-- A new implementation `AccessController.doPrivileged` that allows you to set a subset of privileges without having to check all \* other access levels;
-- Password-based algorithms have become more robust;
-- Added support for SSL / TLS Server Name Indication (NSI) in JSSE Server ;
-- Improved keystore (KeyStore);
-- Added SHA-224 algorithm;
-- Removed JDBC Bridge - ODBC;
-- PermGen is removed , the method for storing meta-data of classes is changed;
-- Ability to create profiles for the Java SE platform, which include not the entire platform, but some part of it;
+- Annotations on data types
+- Reflection for method parameters
+- Stream API for working with collections
+- Parallel sorting of arrays
+- New API for working with dates and times
+- New JavaScript Nashorn Engine
+- Added several new classes for thread safe operation
+- Added a new API for `Calendar`and `Locale`
+- Added support for Unicode 6.2.0 
+- Added a standard class for working with Base64
+- Added support for unsigned arithmetic
+- Improved constructor `java.lang.String(byte[], *)` and method performance `java.lang.String.getBytes()`
+- A new implementation `AccessController.doPrivileged` that allows you to set a subset of privileges without having to check all \* other access levels
+- Password-based algorithms have become more robust
+- Added support for SSL / TLS Server Name Indication (NSI) in JSSE Server
+- Improved keystore (KeyStore)
+- Added SHA-224 algorithm
+- Removed JDBC Bridge - ODBC
+- PermGen is removed, the method for storing meta-data of classes is changed
+- Ability to create profiles for the Java SE platform, which include not the entire platform, but some part of it
 
 ### Can you declare an interface method static?
 

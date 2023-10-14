@@ -200,3 +200,13 @@ ps = subprocess.Popen(('ps', '-A'), stdout=subprocess.PIPE)
 output = subprocess.check_output(('grep', 'process_name'), stdin=ps.stdout)
 ps.wait()
 ```
+
+- `python3 -m pip show soupsieve` : to get the metadata about soupsieve package
+- `python3 -m pip install git+https://github.com/codio-content/shapes-package#wheel=shapes`
+- A source distribution is the necessary source files and associated metadata that pip needs to install a package.
+- a wheel is a built distribution
+- There are three types of wheel :
+  - Universal wheel - this wheel can run on either Python 2 or Python 3
+  - Pure-Python wheel - this wheel only runs on Python 2 or Python 3, not both
+  - Platform wheel - this wheel is designed for a specific version of Python and platform (process and/or operating system)
+- 

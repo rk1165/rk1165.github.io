@@ -487,6 +487,7 @@ X11DisplayOffset 10
 - [Password-less SSH login](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/)
 - [SSH client configuration](https://linuxize.com/post/using-the-ssh-config-file/)
 - [Server Best Practices](http://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
+- [Detailed Guide to SSH](https://grahamhelton.com/blog/ssh-cheatsheet/)
 - ssh -p port username@server
 - Wrapping a command in '' will pass it to the ssh directly
 - the port specification in SCP is done using -P as -p is used to 'preserve' things like ownership, permissions, and creation dates.

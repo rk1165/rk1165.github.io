@@ -215,3 +215,40 @@ END {
 - Use `[[ ]]` for conditions in `if/while` statements
 - When printing error messages, redirect to stderr. Use `echo 'Something unexptected happened' >&2`
 - Use `cd "$(dirname "$0")"` to change to script's directory close to the start of the script.
+- `declare -a` : the variable is an array of strings
+- `declare -A` : the variable is an associative array of strings
+- `declare -i` : the variable holds an integer
+- `declare -r` : the variable can no longer be modified
+- `declare -x` : the variable is marked for export meaning it will be imported by an child process
+- `shopt -s extglob` : to toggle extended globs
+- **?(list)** : Matches zero or one occurrence of the given patterns
+- **\*(list)** : Matches zero or more
+- **+(list)** : Matches one or more
+- **@(list)** : Matches one of the given patterns
+- **!(list)** : Matches anything but the given patterns
+- Tests supported by `[` (also known as `test`) and `[[`
+  - **-e FILE** : True if file exists
+  - **-f FILE** : True if file is a regular file
+  - **-d FILE** : True if file is a directory
+  - **-h FILE** : True if file is a symbolic link
+  - **-p PIPE** : True if pipe exists
+  - **-r FILE** : True if the file is readable by you
+  - **-s FILE** : True if file exists and is not empty
+  - **-t FD**   : True if FD is opened on a terminal
+  - **-w FILE** : True if the file is writable by you
+  - **-x FILE** : True if the file is executable by you
+  - **-O FILE** : True if the file is effectively owned by you
+  - **-G FILE** : True if the file is effectively owned by your group
+  - **FILE -nt FILE** : True if the first file is newer than the second
+  - **FILE -ot FILE** : True if the first file is older than the second
+  - **-z STRING** : True if the string is empty
+  - **-n STRING** : True if the string is not empty
+- Additional tests supported only by `[[`
+  - **STRING = (or ==) PATTERN** : not string comparison but pattern matching is performed
+  - **STRING != PATTERN** : Not string comparison but pattern matching is performed
+  - **STRING =~ REGEX** : True if the string matches the regex pattern
+  - **( EXPR )** : Parentheses can be used to change the evaluation precedence
+  - **EXPR && EXPR** : doesn't evaulate the second expression if the first already turns out ot be false
+  - **EXPR || EXPR** : doesn't evaluate the second expression if the first already turns out to be true
+- Using `;&` instead of `;;` will grant you the ability to fall-through the case matching in bash, zsh and ksh
+- 

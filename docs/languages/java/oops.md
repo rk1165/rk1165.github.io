@@ -154,12 +154,12 @@ class Base {
 
 class Derived extends Base {
     private void fun() {
-		    System.out.println("Derived fun");
-	  }
+        System.out.println("Derived fun");
+    }
 
-	  public static void main(String[] args) {
+    public static void main(String[] args) {
         Base obj = new Derived();
-	      obj.fun();
+        obj.fun();
     }
 }
 ```
@@ -180,8 +180,8 @@ public class Animal {
 
 public class Dog extends Animal {
     public void sleep() {
-		    // Dog code...
-	  }
+        // Dog code...
+    }
 }
 ```
 
@@ -205,7 +205,7 @@ class Child extends Parent{
 
     public static void main(String[] args) {
         Child c1 = new  Child();
-	      c1.PrintMessage ();
+        c1.PrintMessage ();
     }
 }
 // O/p : I am inherited
@@ -390,8 +390,8 @@ class Students{
 
     Students (String name, int age) {
         this.name= name;
-    	  this.age= age;
-    	  numberofobjects++;
+        this.age= age;
+        numberofobjects++;
     }
 }
 ```

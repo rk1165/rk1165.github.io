@@ -1425,23 +1425,7 @@ Collection<String> list = new ArrayList<String>();
 
 ### Why Serializable is an interface?
 
-### How ConcurrentHashMap works internally?
-
-### How to desing custom ConcurrentHashMap?
-
-### Which data structure you will use to create custom ConcurrentHashMap?
-
 ### Let's say two singleton object are already persisted into the files and we want to deserialize them.
-
-### Collections - failsafe vs failfast
-
-### How do you test static method?
-
-### How to do you test a method for an exception using JUnit?
-
-### Which unit testing libraries you have used for testing Java programs?
-
-### What is the difference between @Before and @BeforeClass annotation?
 
 ### Give me an example of design pattern which is based upon open closed principle?
 
@@ -1452,7 +1436,5 @@ Collection<String> list = new ArrayList<String>();
 ### Define enums? Can you call an enum constructor from outside? What is a constant specific method?
 
 ### What is the difference between a **Stream** and an **Iterator**?
-
-### Write an @Incomplete annotation that is applied to a class and id inherited by its subclasses.
 
 ### Advanced modifiers : volatile, transient, native, strictfp

@@ -33,6 +33,7 @@
 - [Graham Hutton](https://www.youtube.com/c/GrahamHuttonNotts/playlists)
 - [Bartosz Milewski](https://www.youtube.com/user/DrBartosz/videos)
 - [Programming with Categories](http://brendanfong.com/programmingcats.html)
+- [Functional Programming Fundamentals](https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/)
 
 ### Notes
 

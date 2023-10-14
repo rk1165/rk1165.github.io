@@ -1,3 +1,7 @@
+- [Designing Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html)
+- [Consistent Hashing Algorithm](http://highscalability.com/blog/2023/2/22/consistent-hashing-algorithm.html)
+- [Gossip Protocol Explained](http://highscalability.com/blog/2023/7/16/gossip-protocol-explained.html)
+- [Lessons Learned Running Presto At Meta Scale](http://highscalability.com/blog/2023/7/16/lessons-learned-running-presto-at-meta-scale.html)
 - [How TripleLift Built an Adtech Data Pipeline Processing Billions of Events Per Day](http://highscalability.squarespace.com/blog/2020/6/15/how-triplelift-built-an-adtech-data-pipeline-processing-bill.html)
 - [A Short on How Zoom Works](http://highscalability.squarespace.com/blog/2020/5/14/a-short-on-how-zoom-works.html)
 - [Egnyte Architecture: Lessons learned in building and scaling a multi petabyte content platform](http://highscalability.squarespace.com/blog/2019/11/25/egnyte-architecture-lessons-learned-in-building-and-scaling.html)

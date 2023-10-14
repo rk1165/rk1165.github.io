@@ -29,6 +29,7 @@
 - **LR** [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
 - **LR** [Transactions across data centers](https://snarfed.org/transactions_across_datacenters_io.html)
 - **LR** [Getting To Know Logical Clocks By Implementing Them](https://brunocalza.me/getting-to-know-logical-clocks-by-implementing-them/)
+- **LR** [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
 - **LR** [The Log: What every software engineer should know](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - **LR** [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM) **VDO**
 - **LR** [Load Balancing](https://samwho.dev/load-balancing/)

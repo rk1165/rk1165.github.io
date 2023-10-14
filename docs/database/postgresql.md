@@ -85,3 +85,47 @@
 - Execute `docker network inspect bridge/name_default` and find the IPV4 address.
 - Use this ipv4 address in the server name field in pgadmin4
 - the default username is postgres
+
+### PostgreSQL for Everybody
+- `\dt` : list all the tables in the database
+- `\d+ $table_name` : describes table with a given name
+- `\i lesson1.sql` : run commands from `lesson1.sql` (file)
+- `select * from users order by email offset 1 limit 2` : skip ahead by 1 and give 2.
+- `CHAR(n)` : allocates the entire space (faster for small strings where length is known) like GUID, or Hash (64 characters)
+- `VARCHAR(n)` : allocates a variable amount of space depending on the data length (less space)
+- `TEXT` varying length. Generally not used with indexing and sorting. Blog, post or comments or whole web pages
+- `BYTEA(n)` up to 255 bytes. Not indexed or sorted
+- `SMALLINT` (-32768, 32768)
+- `INTEGER` (2 Billion)
+- `BIGINT` (10**18 ish)
+- `REAL` (32 bit) 10**38 with seven digits of accuracy
+- `DOUBLE PRECISION` (64 bit) 10**308 with 14 digits of accuracy
+- `NUMERIC(accuracy, decimal)` specified digits of accuracy and digits after the decimal point
+- `TIMESTAMP` (4713 BC , 294276 AD)
+- `DATE` 'YYYY-MM-DD'
+- `TIME` 'HH:MM:SS'
+- `TIMESTAMPTZ` TIMESTAMP with TIME ZONE
+- `NOW()` built in postgres function
+- `\copy track_raw(title, artist, album, count, rating, len) FROM 'library.csv' with DELIMITER ',' CSV;`
+- Never use your *logical key* as the **primary key**
+- Relationships that are based on matching string fields are less efficient than integers.
+- On Delete choices
+  - `Default/Restrict` - Don't allow changes that break the constraint
+  - `CASCADE` : adjust child rows by removing or updating to maintain consistency
+  - `SET NULL` : set the foreign key columns in the child rows to null `INTEGER NULL` allowing nulls
+- We use `repeat()` to generate long strings (horizontal)
+- We use `generate_series()` to generate lots of rows (vertical)
+- We use `random()` to make rows unique
+- PostgreSQL Index Types:
+  - B-Tree : Maintains order - usually preferred
+    - Helps on exact lookup, prefix lookup, <, >, range, sort
+  - HASH
+    - Smaller - helps only on exact lookup
+- Where Clause operators for REGEX
+  - `~` Matches
+  - `~*` Matches case insensitive
+  - `!~` Does not match 
+  - `!~*` Does not match case insensitive
+  - Different than `LIKE` - Match anywhere
+    - tweet ~ 'UMSI'
+    - tweet LIKE '%UMSI%'

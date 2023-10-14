@@ -190,6 +190,13 @@ Length.of []
 Length.of [1,2,3]
 ```
 
+```elixir
+def call(param1, param2, param3) do
+  IO.inspect(binding(), label: "Called with following bindings")
+end
+```
+
+- We can use binding() to get a keyword list of all bound values
 - Elixir pattern-matches the arguments that a function is called with against the arity the function is defined with.
 - We can define private functions if we don't want other modules to use them. We defined them with `defp`
 - If we want a default value for an argument we use the `argument \\ value` syntax
@@ -223,6 +230,10 @@ Length.of [1,2,3]
 - Process.unregister(:process_name)
 - Process.registered() : to get a list of all registered process
 - Process.info(self, :links) : to inspect the current link set of the shell process.
+- `sys.get_state(pid)` : to get the current state of any process.
+- `sys.trace(pid, true)` : to see what happens behind the scenes when a client sends a synchronous call request to the server process start the trace.
+- `sys.trace(pid, false)` : to turn off tracing
+- `sys.get_status(pid)` : to get the full status of a process
 
 ### Programming Elixir
 
@@ -338,8 +349,9 @@ Length.of [1,2,3]
 - Keyword lists are most often useful for allowing clients to pass an arbitrary number of optional arguments.
 - A keyword list can contain multiple values for the same key. In addition, you can control the ordering of keyword list elements — something that isn’t possible with maps
 - Elixir has couple of modules for working with date and time types : `Date`, `Time`, `DateTime`, and `NaiveDateTime`. A date can be created with the `~D` sigil. `date = ~D[2018-01-31]`
-- You can represent a time with the `~T` sigil, by providing hours, minutes, seconds, and microseconds.
+- You can represent a time with the `~T` sigil, by providing hours, minutes, seconds, and microseconds `~T[12:30:10]`.
 - You can also work with datetimes using the `NaiveDateTime` modules. The naive version can be created with the `~N` sigil.
+- `~U[2000-10-01 12:30:10Z]` datetime. Z offset specifies the TZ offset. Z is Zero for UTC
 - An IO list is a special sort of list that’s useful for incrementally building output that will be forwarded to an I/O device, such as a network or a file. Each element of an IO list must be one of the following:
   - An integer in the range of 0 to 255
   - A binary
@@ -430,6 +442,11 @@ Length.of [1,2,3]
   - `terminate/2` is called when server is about to exit, and is useful for cleanup
 - By default, `Task.await` has a built-in timeout of 5 seconds. To override : `Task.await(task, 7000)`
 - to be able to check if a long-running task has finished `Task.yield` comes in really hand.
+- Use a **Task** if you want to perform a **one-off computation or query** asynchronously.
+- Use an **Agent** if you just need a **simple process to hold state**
+- Use a **GenServer** if you need a long-running server process that **stores state and performs work concurrently**
+- Use a dedicated **GenServer** process if you need to **serialize access to a shared resource or service** used by multiple concurrent processes.
+- Use a **GenServer** process if you need to **schedule background work to be performed on a periodic interval**
 
 ### GenServer callbacks and their expected return values
 

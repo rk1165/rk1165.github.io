@@ -16,6 +16,8 @@
 - **LR** [Herding elephants: Lessons learned from sharding Postgres at Notion](https://www.notion.so/blog/sharding-postgres-at-notion)
 - **LR** [Unlocking the Power of JunoDB](https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1)
 - **LR** [Amazon Aurora: Design Considerations + On Avoiding Distributed Consensus for I/Os, Commits, and Membership Changes](https://muratbuffalo.blogspot.com/2022/03/amazon-aurora-design-considerations-and.html?m=1)
+- **LR** [How FoundationDB works and why it works](https://blog.the-pans.com/notes-on-the-foundationdb-paper/)
+- **LR** [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - **DD** [Scaling Etsy Payments with Vitess - Part 1](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model)
 - **HO** [Faster ClickHouse Imports](https://tech.marksblogg.com/faster-clickhouse-imports-csv-parquet-mysql.html) **Shell**
 - **HO** [Install and Use PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04) **Shell**
