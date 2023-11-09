@@ -47,12 +47,13 @@ String[] values = str.split(" ");
 - To make the above idiom work CPU has to do a lot of work. Instead we should use the following :
 
 ```java
+// This looks wrong... have to check
 String str = "Some string that I may want to split";
 Collection<String> values = new ArrayList<String>();
 str.split(values, " ");
 ```
 
-- In Java world this idiom becomes critical to performance when large arrays are involved. An array may be too large to be allocated in the young generation and therefore needs to be allocated in the old gen. Besides being less efficient and contended for large object allocation, the large array may cause a compaction of the old gen. resulting in a mult-second stop-the-world pause.
+- In Java world this idiom becomes critical to performance when large arrays are involved. An array may be too large to be allocated in the young generation and therefore needs to be allocated in the old gen. Besides being less efficient and contended for large object allocation, the large array may cause a compaction of the old gen. resulting in a multi-second stop-the-world pause.
 
 ### Processor affinity
 
@@ -72,13 +73,21 @@ str.split(values, " ");
 
 ### False sharing
 
-- False sharing is a term which applies when threads unwittingly impace the performance of each other while modifying independent variables sharing the same cache line.
-- Write contention on cache lines is the single most limiting factor on achieving scalability for parallel threads of execution in an SMP system.
+- False sharing is a term which applies when threads unwittingly impact the performance of each other while modifying independent variables sharing the same cache line.
+- Write contention on cache lines is the single most limiting factor on achieving scalability for parallel threads of execution in a SMP system.
 
 ![false_sharing](./images/false_sharing.png)
 
-### Inter Thread Latency
+### Microbenchmarking
 
-- Message rates between threads are fundamentally determined by the latency of memory exchange between CPU cores. The minimum unit of transfer will be a cache line exchanged via shared caches or socket interconnects. Memory Barriers are the instructions that cause a CPU to make memory visible to other cores in an ordered and timely manner.
-- In this article I’ll directly compare C++ and Java to measure the cost of signalling a change between threads.
-- For the test we'll use two counters each updated by their own thread. A simple ping-pong algorithm will be used to signal from one to the other and back again. The exchange will be repeated millions of times to measure the average latency between cores. This measurement will give us the latency of exchanging a cache line between cores in a serial manner.
+- Microbenchmarking : it's measuring the performance of something "small", like a system call to the kernel of an operating system.
+- Sometimes you way want to initialize some variables that your benchmark code needs, but which you do not want to be part of the code your benchmark measures. Such variables are called "state" variables
+- A state object can be reused across multiple calls to your benchmark method. JMH provides different "scopes" that the state object can be reused in
+- The `@Setup` annotation tell JMH that this method should be called to setup the state object before it is passed to the benchmark method. The `@TearDown` annotation tells JMH that this method should be called to clean up ("tear down") the state object after the benchmark has been executed.
+- JVM optimizations to avoid during microbenchmarking :
+  - Loop optimizations : avoid loops in your benchmark methods.
+  - Dead Code Elimination : If JVM detects that the result of some computation is never used, the JVM may consider this computation _dead code_ and eliminate it. To avoid it either return the result of code or pass the calculated value to the `Blackhole` object.
+  - Constant Folding : A calculation which is based on constants will often result in the exact same result, regardless of how many times the calculation is performed. The JVM may detect that, and replace the calculation with the result of the calculation. It can just inline the constant also.
+- create the methods that need to be micro benchmarked with `@Benchmark` annotation
+- `java -jar target/benchmarks.jar [-h]` : will run the benchmarks. This takes a lot of time, -h will give the command line options.
+- `java -jar bechmarks.jar -bm avgt` (average time to run)

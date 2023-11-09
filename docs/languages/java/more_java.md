@@ -25,20 +25,14 @@
 
 - Constructor in Java can't be `abstract`, `static`, `final` or `synchronized`
 - We may request JVM for garbage collection by calling `system.gc()` method. But this doesn't guarantee that JVM will perform the garbage collection
-- Static methods can't be overridden because static method is bound to class whereas method overriding is associated with object.
 - Abstract methods can never be `final` and `static` as they can't be overridden
 - Abstract classes can have constructors - which will get executed during the child object's instantiation, member variables and concrete methods
 - We can have instance and static initialization blocks in an abstract class, whereas we can never have them in the interface
-- A `final` method can be inherited/used in the subclass, but it cannot be overridden
-- A class declared `final` cannot be inherited.
 - When an instance variable is declared as `transient`, then its value doesn't persist when an object is serialized
-- When a class extends another class it inherits all **non private** members including fields and methods
-- **Access modifier of overridden methods cannot be more restrictive than original method**
 - String objects are stored in a special memory area known as string constant pool inside the heap memory
 - `StringBuffer` is thread safe i.e multiple threads can't access it simultaneously. Stored in heap
 - `StringBuilder` is not thread safe. Stored in stack
 - An object that implements `autocloseable` or `closeable` can be passed as a parameter to try statement
-- **If superclass method throws an exception, then subclass overridden method can throw the same exception or no exception, but must not throw parent exception of the exception thrown by Superclass method**
 - Error class represents the errors which are mainly caused by the environment in which application is running
 - Exception class represents the exceptions which are mainly caused by the application itself. `Npe`, `ClasscastException`
 - Diamond problem of inheritance: We have two classes B and C inheriting from A. Assume that B and C are overriding an inherited method and they provide their own implementation. Now D inherits from both B and C doing multiple inheritance. D should inherit that overidden method, which overridden method will be used?
@@ -49,41 +43,15 @@
 - `read()` for reading a single character
 - `Files.readAllBytes` : Reads all the bytes from a file. The method ensures that the file is closed when all bytes have been read or an I/O error, or other runtime exception, is thrown. Intended for reading small files.
 - `Paths.get(path)` Converts a path string, or a sequence of strings that when joined form a path string, to a Path
-- An abstract class can implement an interface, and not provide implementations of all of the interface's methods. It is the responsibility of the first concrete class that has that abstract class as an ancestor to implement all of the methods in the interface.
-- A blocking or synchronous API is one whose methods block the calling thread until they complete. Of course, the concept of blocking (or nonblocking) only makes sense when these methods can potentially take a long time to complete (say tens of milliseconds to tens of seconds).
-- Another type of API, which is often called nonblocking but here we’ll call them semi-blocking (or semi-asynchronous), has methods that don’t block the calling thread for the duration of the operation. They only initiate an operation and return a future object. The future is then used to block and wait for the operation to complete at some other convenient time.
-- Finally, a third type of API, a true non-blocking, or asynchronous, API, also does not block the calling thread. Its methods take an additional parameter – a callback function which is code that will be executed (on some unknown thread) when the operation completes
 - `Long.parseLong("AA0F245C", 16)` to parse a hex to long
-- system-level classes such as `Thread`, `OutputStream` and its subclasses, and `Socket` are not serializable. If your serializable class contains such objects, it must mark them as "transient".
-- Consider using the interface when our problem makes the statement "**A is capable of $doing_this**". For instance, Clonable is capable of cloning an object. Drawable is capable of drawing a shape.
-- Static method can be called by `null` reference whereas non-static methods can't.
-- Consider using abstract classes and inheritance when our problem makes the evidence "**A is a B**". For example, "Dog is an Animal", "Lamborghini is a Car"
+- System-level classes such as `Thread`, `OutputStream` and its subclasses, and `Socket` are not serializable. If your serializable class contains such objects, it must mark them as "transient".
 - We can use the `Object.hashCode()` method to retrieve the hashcode of an object.
 - `Objects.hashCode()` is a null-safe method we can use to get the hashcode of an object. It only takes a single object. If we provide `null` we will get 0 back.
 - `Objects.hash()` can take one or more objects and provides a hashcode for them.
 - `System.out.println(1 + 2 + 3 + "Out" + 1 + 2 + 3);` prints `6Out123`
-
-### Microbenchmarking
-
-- Microbenchmarking : it's measuring the performance of something "small", like a system call to the kernel of an operating system.
-- Sometimes you way want to initialize some variables that your benchmark code needs, but which you do not want to be part of the code your benchmark measures. Such variables are called "state" variables
-- A state object can be reused across multiple calls to your benchmark method. JMH provides different "scopes" that the state object can be reused in
-- The `@Setup` annotation tell JMH that this method should be called to setup the state object before it is passed to the benchmark method. The `@TearDown` annotation tells JMH that this method should be called to clean up ("tear down") the state object after the benchmark has been executed.
-- JVM optimizations to avoid during microbenchmarking :
-  - Loop optimizations : avoid loops in your benchmark methods.
-  - Dead Code Elimination : If JVM detects that the result of some computation is never used, the JVM may consider this computation _dead code_ and eliminate it. To avoid it either return the result of code or pass the calculated value to the `Blackhole` object.
-  - Constant Folding : A calculation which is based on constants will often result in the exact same result, regardless of how many times the calculation is performed. The JVM may detect that, and replace the calculation with the result of the calculation. It can just inline the constant also.
-
-### Commands
-
-- `sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java`
-- `sudo update-alternatives --config java`
-- to get the list of threads
-  - `top -H -p $PID`
-  - `ps -e -T $PID`
-- The `invokeAny()` method takes a collection of Callable objects, or subinterfaces of Callable. Invoking this method does not return a `Future`, but returns the result of one of the Callable objects. You have no guarantee about which of the Callable's results you get. Just one of the ones that finish.
-- If one of the tasks complete (or throws an exception), the rest of the Callable's are cancelled.
-- The `invokeAll()` method invokes all of the Callable objects you pass to it in the collection passed as parameter. The `invokeAll()` returns a list of `Future` objects via which you can obtain the results of the executions of each Callable.
+- The `invokeAny()` method takes a collection of `Callable` objects, or subinterfaces of `Callable`. Invoking this method does not return a `Future`, but returns the result of one of the `Callable` objects. You have no guarantee about which of the `Callable`'s results you get. Just one of the ones that finish.
+- If one of the tasks complete (or throws an exception), the rest of the `Callable`'s are cancelled.
+- The `invokeAll()` method invokes all of the Callable objects you pass to it in the collection passed as parameter. The `invokeAll()` returns a list of `Future` objects via which you can obtain the results of the executions of each `Callable`.
 - Keep in mind that a task might finish due to an exception, so it may not have "succeeded". There is no way on a `Future` to tell the difference.
 - Handling Exceptions for `ThreadPoolExecutor`
   - When you submit a task to the executor, it returns you a `FutureTask` instance.
@@ -140,32 +108,10 @@ for (Map.Entry<String, Integer> entry : list) {
 
 - Gradle/Maven, Spring Boot, Spring Data/JPA/Hibernate, JUnit, Mockito, AssertJ, Testcontainers, ArchUnit, Liquibase/Flyway, Lombok, MapStruct, Jackson, GraphQL, Docker
 
-### Manifests
+### Commands related to Java
 
-| Option | Description                            |
-| ------ | -------------------------------------- |
-| e      | Creates an entry point in the manifest |
-| i      | creats an index file                   |
-| m      | Adds a _manifest_ to the JAR file      |
-
-- A manifest is a description of the archive contents and origin.
-- JAR files can contain class files, images, and other resources.
-- The manifest file is called `MANIFEST.MF` and is located in a special META-INF subdirectory of the JAR file.
-
-```
-Manifest-Version: 1.0
-lines describing this archive
-
-Name: Woozle.class
-lines describing this file
-Name: com/mycompany/mypkg
-lines describing this package
-```
-
-- to make a new JAR file with a manifest, run, `jar cfm MyArchive.jar manifest.mf com/mycompany/mypkg/*.class`
-- To update the manifest of an existing JAR file, place the additions into a text file and use a command such as - `jar ufm MyArchive.jar manifest-additions.mf`
-- to specify the entry point of a program
-  - `jar cvfe MyProgram.jar com.my-company.mypkg.MainAppClass files_to_add`
-  - specify the main class of the program in the manifest of the form - `Main-Class: com.my-company.mypkg.MainAppClass`
-- _multi-release JARs_ can contain class files for different Java releases.
-- For backwards compatibility, the additional class files are placed in the `META-INF/versions` directory.
+- `sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java`
+- `sudo update-alternatives --config java`
+- to get the list of threads
+  - `top -H -p $PID`
+  - `ps -e -T $PID`

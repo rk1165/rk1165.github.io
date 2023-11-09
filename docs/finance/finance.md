@@ -9,6 +9,7 @@
 - **DD** [Financial Management](http://financialmanagementpro.com/)
 - **DD** [U.S. Fintech & Payments Crash Course](https://fintechgtm.substack.com/p/us-fintech-and-payments-crash-course)
 - **HO** [BitCoin from Scratch](https://monokh.com/posts/bitcoin-from-scratch-part-1) **Rust**
+- **SR** [Explaining how bitcoin works](https://allenkim67.github.io/bitcoin/2017/04/09/explaining-how-bitcoin-works-to-programmers.html)
 - **HO** [A from-scratch tour of Bitcoin in Python](https://karpathy.github.io/2021/06/21/blockchain/) **Python**
 
 ### Tools

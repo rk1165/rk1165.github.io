@@ -22,14 +22,6 @@
 - [How we built general purpose key value store for FB with ZippyDB](https://engineering.fb.com/2021/08/06/core-data/zippydb/)
 - [How Facebook encodes your videos](https://engineering.fb.com/2021/04/05/video-engineering/how-facebook-encodes-your-videos/)
 
-### Reddit
-
-- [Solving the three stooges problem](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)
-
-### Honeycomb
-
-- [Why Observability Requires a Distributed Column Store](https://www.honeycomb.io/blog/why-observability-requires-distributed-column-store/)
-
 ### Discord
 
 - [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
@@ -52,6 +44,8 @@
 - [Minimizing the downsides of dynamic programming languages](https://stackoverflow.blog/2023/01/19/adding-structure-to-dynamic-languages/)
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 - [WebSockets for fun and profit](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
+- [Stack under attack what we learned about handling DDoS attacks](https://stackoverflow.blog/2022/05/16/stack-under-attack-what-we-learned-about-handling-ddos-attacks/)
+- [Stack Overflow : The Architecture - 2016 Edition](https://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
 
 ### Netflix
 
@@ -100,6 +94,7 @@
 
 - [Evolving LinkedIn's analytics tech stack](https://engineering.linkedin.com/blog/2021/evolving-linkedin-s-analytics-tech-stack)
 - [LinkedIn’s journey of scaling the Hadoop Distributed File System](https://engineering.linkedin.com/blog/2021/the-exabyte-club--linkedin-s-journey-of-scaling-the-hadoop-distr)
+- [The Log: What every software engineer should know](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
 ### Stripe
 
@@ -108,9 +103,10 @@
 
 ### DoorDash
 
-- [Leveraging OTEL for Custom Context Propagation](https://doordash.engineering/2021/06/17/leveraging-opentelemetry-for-custom-context-propagation/) **SR**
+- [Leveraging OTEL for Custom Context Propagation](https://doordash.engineering/2021/06/17/leveraging-opentelemetry-for-custom-context-propagation/)
 - [Future-proofing: How DoorDash Transitioned from a Code Monolith to a Microservice Architecture](https://doordash.engineering/2020/12/02/how-doordash-transitioned-from-a-monolith-to-microservices/)
 - [Failure Mitigation for Microservices: An intro to Aperture](https://doordash.engineering/2023/03/14/failure-mitigation-for-microservices-an-intro-to-aperture/)
+- [Eliminating Task Processing Outages with Kafka](https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/)
 
 ### Single Entries
 
@@ -124,3 +120,22 @@
 - [LinkedIn Real-Time Architecture: How Does LinkedIn Identify Its Users](https://www.scaleyourapp.com/linkedin-real-time-architecture-how-does-linkedin-identify-its-users-online/)
 - [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)
 - [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- [A bit about content ratings](https://medium.com/vimeo-engineering-blog/a-bit-about-content-ratings-9959810359d2)
+- [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
+- [From Postgres to Amazon DynamoDB](https://www.instacart.com/company/how-its-made/from-postgres-to-amazon-dynamodb-%EF%BF%BC/)
+- [Unlocking the Power of JunoDB](https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1)
+- [Scaling Etsy Payments with Vitess - Part 1](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model)
+- [From Zero to 50 Million Uploads per Day: Scaling Media at Canva](https://canvatechblog.com/from-zero-to-50-million-uploads-per-day-scaling-media-at-canva-c81fa0c92f34)
+- [Build an end to end JSON logging system for client apps](https://medium.com/pinterest-engineering/build-an-end-to-end-json-logging-system-for-clients-apps-58ad008a1ce9)
+- [Taming Video Delivery Through HTTP Live Streaming](https://medium.com/tinder/taming-video-delivery-through-http-live-streaming-5a4d6e543c85)
+- [A Look at the Evolution of Benchling’s Search Architecture](https://benchling.engineering/a-look-at-the-evolution-of-benchlings-search-architecture-c4d5327452c)
+- [Evolution of Ads Bidding at Wayfair](https://www.aboutwayfair.com/careers/tech-blog/evolution-of-ads-bidding-at-wayfair)
+- [Ingesting Live Video Streams at Global Scale](https://blog.twitch.tv/en/2022/04/26/ingesting-live-video-streams-at-global-scale/)
+- [How We built a Context-Specific Bidding System for Etsy Ads](https://www.etsy.com/codeascraft/how-we-built-a-context-specific-bidding-system-for-etsy-ads/)
+- [Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86)
+- [McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
+- [Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
+- [From Monolith to Multicloud Micro-Services: Inside Snap’s Service Mesh](https://eng.snap.com/en-US/monolith-to-multicloud-microservices-snap-service-mesh)
+- [Solving the three stooges problem](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)
+- [Why Observability Requires a Distributed Column Store](https://www.honeycomb.io/blog/why-observability-requires-distributed-column-store/)
+- [How we protect our most sensitive secrets from the most determined attackers](https://monzo.com/blog/2021/11/18/protecting-our-most-sensitive-secrets)

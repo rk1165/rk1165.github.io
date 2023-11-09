@@ -19,7 +19,6 @@
 - [How we implemented the video player in Mail.Ru Cloud](http://highscalability.squarespace.com/blog/2016/3/28/how-we-implemented-the-video-player-in-mailru-cloud.html)
 - [A Journey Through How Zapier Automates Billions of Workflow Automation Tasks](http://highscalability.squarespace.com/blog/2016/2/29/a-journey-through-how-zapier-automates-billions-of-workflow.html)
 - [Egnyte Architecture: Lessons Learned in Building and Scaling a Multi Petabyte Distributed System](http://highscalability.squarespace.com/blog/2016/2/15/egnyte-architecture-lessons-learned-in-building-and-scaling.html)
-- [How to build your Property Management System integration using Microservices](http://highscalability.squarespace.com/blog/2016/2/10/how-to-build-your-property-management-system-integration-usi.html)
 - [A Patreon Architecture Short](http://highscalability.squarespace.com/blog/2016/2/1/a-patreon-architecture-short.html)
 - [Tinder: How does one of the largest recommendation engines decide who you'll see next?](http://highscalability.squarespace.com/blog/2016/1/27/tinder-how-does-one-of-the-largest-recommendation-engines-de.html)
 - [Building An Infinitely Scaleable Online Recording Campaign For David Guetta](http://highscalability.squarespace.com/blog/2016/1/20/building-an-infinitely-scaleable-online-recording-campaign-f.html)
@@ -147,8 +146,6 @@
 - [An Unorthodox Approach to Database Design : The Coming of the Shard](http://highscalability.squarespace.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)
 - [Stack Overflow Architecture](http://highscalability.squarespace.com/blog/2009/8/5/stack-overflow-architecture.html)
 - [37signals Architecture](http://highscalability.squarespace.com/blog/2009/7/28/37signals-architecture.html)
-- [PlentyOfFish Architecture](http://highscalability.squarespace.com/blog/2009/6/26/plentyoffish-architecture.html)
-- [Heroku - Simultaneously Develop and Deploy Automatically Scalable Rails Applications in the Cloud](http://highscalability.squarespace.com/blog/2009/4/24/heroku-simultaneously-develop-and-deploy-automatically-scala.html)
 - [Digg Architecture](http://highscalability.squarespace.com/blog/2009/4/4/digg-architecture.html)
 - [Lavabit Architecture - Creating a Scalable Email Service](http://possibility.com/LavabitArchitecture.html)
 - [Scaling Digg and Other Web Applications](http://highscalability.squarespace.com/blog/2009/2/14/scaling-digg-and-other-web-applications.html)
@@ -198,7 +195,6 @@
 - [Google+ is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.squarespace.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)
 - [How Google Serves Data from Multiple Datacenters](http://highscalability.squarespace.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)
 - [Google Architecture](http://highscalability.squarespace.com/blog/2008/11/22/google-architecture.html)
-- [GoogleTalk Architecture](http://highscalability.squarespace.com/blog/2007/7/23/googletalk-architecture.html)
 
 #### Netflix
 
@@ -216,8 +212,6 @@
 #### Instagram
 
 - [Instagram Improved their App's Performance. Here's How.](http://highscalability.squarespace.com/blog/2014/9/29/instagram-improved-their-apps-performance-heres-how.html)
-- [Instagram Architecture Update: What’s new with Instagram?](http://highscalability.squarespace.com/blog/2012/4/16/instagram-architecture-update-whats-new-with-instagram.html)
-- [Instagram Architecture: 14 Million users, Terabytes of Photos, 100s of Instances, Dozens of Technologies](http://highscalability.squarespace.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
 
 #### WhatsApp
 
@@ -233,14 +227,10 @@
 
 #### Twitter
 
-- [How Twitter Handles 3,000 Images Per Second](http://highscalability.squarespace.com/blog/2016/4/20/how-twitter-handles-3000-images-per-second.html)
-- [How Twitter Uses Redis to Scale - 105TB RAM, 39MM QPS, 10,000+ Instances ](http://highscalability.squarespace.com/blog/2014/9/8/how-twitter-uses-redis-to-scale-105tb-ram-39mm-qps-10000-ins.html)
 - [The Architecture Twitter Uses to Deal with 150M Active Users, 300K QPS, a 22 MB/S Firehose, and Send Tweets in Under 5 Seconds](http://highscalability.squarespace.com/blog/2013/7/8/the-architecture-twitter-uses-to-deal-with-150m-active-users.html)
-- [Scaling Twitter: Making Twitter 10000 Percent Faster](http://highscalability.squarespace.com/blog/2009/6/27/scaling-twitter-making-twitter-10000-percent-faster.html)
 - [Hadoop at Twitter](https://blog.twitter.com/engineering/en_us/a/2010/hadoop-at-twitter)
 
 #### Pinterest
 
 - [Scaling Pinterest - From 0 to 10s of Billions of Page Views a Month in Two Years](http://highscalability.squarespace.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html)
-- [Pinterest Architecture Update - 18 Million Visitors, 10x Growth,12 Employees, 410 TB of Data](http://highscalability.squarespace.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html)
-- [A Short on the Pinterest Stack for Handling 3+ Million Users](http://highscalability.squarespace.com/blog/2012/2/16/a-short-on-the-pinterest-stack-for-handling-3-million-users.html)
+

@@ -1,14 +1,13 @@
 - With _checked_ exceptions, the compiler checks that the programmer is aware of the exception and prepared to deal with the consequences.
-- Common exceptions, such as bounds errors or accessing a null reference, are _unchecked_. The compiler does not expect that you provide a handler.
+- Common exceptions, such as bound errors or accessing a null reference, are _unchecked_. The compiler does not expect that you provide a handler.
 - You only need to supply a `throws` clause for checked exceptions.
 - In Java, an exception object is always an instance of a class derived from `Throwable`.
 - Throwable has two direct descendents : `Error` and `Exception`
-- When a dynamic linking failure or other hard failure in JVM occurs, the VM throws an Error
 - `Exception` is divided into two branches : `IOException` and `Runtime Exception`
 - The first kind of exception is the _checked exception_. These are exceptional conditions that a well-written application should anticipate and recover from.
 - Checked exceptions are _subject to_ the Catch or Specify Requirement
 - All exceptions are checked exceptions, except for those indicated by `Error`, `RuntimeException`, and their subclasses.
-- The second kind of exception is the _error_. These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from
+- The second kind of exception is _error_. These are exceptional conditions that are external to the application, and that the application usually cannot anticipate or recover from
 - Errors are not subject to the Catch or Specify Requirement. Errors are those exceptions indicated by Error and its subclasses.
 - The third kind of exception is the _runtime exception_. These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from. Usually logic error or improper use of an API.
 - The compiler checks that we provide exception handlers for all checked exceptions
@@ -17,20 +16,20 @@
 - You can use the `finally` clause without a `catch` clause.
 - The body of `finally` clause is intended for cleaning up resources. Don't put statements that change the control flow (return, throw, break, continue) inside a finally clause.
 - A _stack trace_ is a listing of all pending method calls at a particular point in the execution of a program.
-- If the JVM exits while the `try` or `catch` code is being executed, then the `finally` block may not execute. If the thread executing the try or catch code is interrupted or killed, the finally blcok may not execute.
+- If the JVM exits while the `try` or `catch` code is being executed, then the `finally` block may not execute. If the thread executing the try or catch code is interrupted or killed, `finally` block may not execute.
 - We can open multiple resources in try-with-resources statement separated by a semicolon.
 - When multiple resources are opened in try-with-resources, it closes them in the reverse order to avoid any dependency issue.
-- If an exception is thrown in both try block and finally block, the method returns the exception thrown in finally block.
+- If an exception is thrown in both `try` block and finally block, the method returns the exception thrown in `finally` block.
 - For try-with-resources, if exception is thrown in try block and in try-with-resources statement, then method returns the exception thrown in try block.
 - You can retrieve suppressed exceptions by calling the `Throwable.getSuppressed` method from the exception thrown by the try block
 - Chained exceptions help the programmer to know when one exception causes another.
 - If a client can reasonably be expected to recover from an exception, make it a checked exception. If a client cannot do anything to recover from the exception, make it an unchecked exception.
-- checked exceptions must be explicitly caught in a method or declared in the method's throws clause. Unchecked exceptions are caused by problems that can not be solved, such as dividing by zero, null pointer, etc. Checked exceptions are especially important because you expect other developers who use your API to know how to handle the exceptions.
+- checked exceptions must be explicitly caught in a method or declared in the method's throws clause. Unchecked exceptions are caused by problems that can not be solved, such as dividing by zero, null pointer, etc. **Checked exceptions are especially important because you expect other developers who use your API to know how to handle the exceptions.**
 - If an exception can be properly handled then it should be caught, otherwise, it should be thrown.
 - Can we catch multiple exceptions in the same catch clause?
   - The answer is YES. As long as those exception classes can trace back to the same super class in the class inheritance hierarchy, you can use that super class only.
 - Constructors can throw exceptions
-- javac -g file.java : the. -g flag will generate debugging information, including information about local variables
+- `javac -g file.Java` : the. -g flag will generate debugging information, including information about local variables
 - **Advantages of Exceptions**
   - Separate Error-Handling Code from "Regular" Code.
   - Propagating Errors up the call stack
@@ -40,54 +39,17 @@
   - `Throwable(String message, Throwable cause)`
   - `Throwable initCause(Throwable cause)` : sets the cause for this object or throws an exception if this object already has a cause. Returns this.
   - `Throwable getCause()`
-- Use exceptions for exceptional circumstances only because it takes far longer to catch an exception than to perform a simple test
 - Don't just throw a `RuntimeException`. Find an appropriate subclass or create your own.
 - `NoClassDefFoundError` occurs when the source was successfully compiled, but at runtime, the required `class` files were not found. It is an error and arises from the JVM having problems finding a class it expected to find. For instance, we created A.class and B.class at compile time and removed A.class on which B.class depended. So, when running B it will give this error
 - `ClassNotFoundException` may stem from trying to make reflective calls to classes at runtime, but the classes the program is trying to call don't exist.
 - ClassCast Exception is thrown when we try to cast an object of the parent class to the child class object.
 - The Java language has a keyword `assert`. There are two forms: `assert condition;` and `assert condition: expression;`
-
-### What is Exception in Java?
-
-- Exception is an error event that can happen during the execution of a program and disrupts it’s normal flow. Exception can arise from different kind of situations such as wrong data entered by user, hardware failure, network connection failure etc.
-- Whenever any error occurs while executing a Java statement, an exception object is created and then JRE tries to find exception handler to handle the exception. If suitable exception handler is found then the exception object is passed to the handler code to process the exception, known as catching the exception. If no handler is found then application throws the exception to runtime environment and JRE terminates the program.
-- Java Exception handling framework is used to handle runtime errors only, compile time errors are not handled by exception handling framework.
-
-### What are the Exception Handling Keywords in Java?
-
-- There are four keywords used in Java exception handling.
-  - **throw**: Sometimes we explicitly want to create exception object and then throw it to halt the normal processing of the program. `throw` keyword is used to throw exception to the runtime to handle it.
-  - **throws**: When we are throwing any checked exception in a method and not handling it, then we need to use throws keyword in method signature to let caller program know the exceptions that might be thrown by the method. The caller method might handle these exceptions or propagate it to its caller method using throws keyword. We can provide multiple exceptions in the throws clause and it can be used with main() method also.
-  - **try-catch**: We use try-catch block for exception handling in our code. try is the start of the block and catch is at the end of try block to handle the exceptions. We can have multiple catch blocks with a try and try-catch block can be nested also. catch block requires a parameter that should be of type Exception.
-  - **finally**: finally block is optional and can be used only with try-catch block. Since exception halts the process of execution, we might have some resources open that will not get closed, so we can use finally block. finally block gets executed always, whether exception occurs or not.
-
-### How JVM handle an Exception?
-
-- **Default Exception Handling** : Whenever inside a method, if an exception has occurred, the method creates an Object known as Exception Object and hands it off to the run-time system(JVM). The exception object contains name and description of the exception, and current state of the program where exception has occurred. Creating the Exception Object and handling it to the run-time system is called throwing an Exception. There might be the list of the methods that had been called to get to the method where exception was occurred. This ordered list of the methods is called **Call Stack**. Now the following procedure will happen.
-  - The run-time system searches the call stack to find the method that contains block of code that can handle the occurred exception. The block of the code is called **Exception handler**.
-  - The run-time system starts searching from the method in which exception occurred, proceeds through call stack in the reverse order in which methods were called.
-  - If it finds appropriate handler then it passes the occurred exception to it. Appropriate handler means the type of the exception object thrown matches the type of the exception object it can handle.
-  - If run-time system searches all the methods on call stack and couldn’t have found the appropriate handler then run-time system handover the Exception Object to **default exception handler**, which is part of run-time system. This handler prints the exception information in below format and terminates program **abnormally**.
-  ```java
-  Exception in thread "xxx" Name of Exception : Description
-  . ...... ..  // Call Stack
-  ```
-  See the below diagram to understand the flow of the call stack.
+- **throw**: Sometimes we explicitly want to create exception object and then throw it to halt the normal processing of the program. `throw` keyword is used to throw exception to the runtime to handle it.
+- **throws**: When we are throwing any checked exception in a method and not handling it, then we need to use throws keyword in method signature to let caller program know the exceptions that might be thrown by the method. The caller method might handle these exceptions or propagate it to its caller method using throws keyword. We can provide multiple exceptions in the throws clause and it can be used with main() method also.
+- **try-catch**: We use try-catch block for exception handling in our code. try is the start of the block and catch is at the end of try block to handle the exceptions. We can have multiple catch blocks with a try and try-catch block can be nested also. catch block requires a parameter that should be of type Exception.
+- **finally**: finally block is optional and can be used only with try-catch block. Since exception halts the process of execution, we might have some resources open that will not get closed, so we can use finally block. finally block gets executed always, whether exception occurs or not.
 
 ![exception_handling](./images/exception_handling.png)
-
-### How Programmer handles an exception?
-
-- Java exception handling is managed via five keywords: **try**, **catch**, **throw**, **throws**, and **finally**. Briefly, here is how they work. Program statements that you think can raise exceptions are contained within a try block. If an exception occurs within the try block, it is thrown. Your code can catch this exception (using catch block) and handle it in some rational manner. System-generated exceptions are automatically thrown by the Java run-time system. To manually throw an exception, use the keyword throw. Any exception that is thrown out of a method must be specified as such by a throws clause. Any code that absolutely must be executed after a try block completes is put in a finally block.
-  - In a method, there can be more than one statements that might throw exception, So put all these statements within its own try block and provide separate exception handler within own catch block for each of them.
-  - If an exception occurs within the try block, that exception is handled by the exception handler associated with it. To associate exception handler, we must put catch block after it. There can be more than one exception handlers. Each catch block is an exception handler that handles the exception of the type indicated by its argument. The argument, ExceptionType declares the type of the exception that it can handle and must be the name of the class that inherits from Throwable class.
-  - For each try block there can be zero or more catch blocks, but only one finally block.
-  - The finally block is optional. It always gets executed whether an exception occurred in try block or not. If exception occurs, then it will be executed after try and catch blocks. And if exception does not occur then it will be executed after the try block. The finally block in Java is used to put important codes such as clean up code e.g. closing the file or closing the connection.
-
-### What is a stacktrace and how does it relate to an exception?
-
-- A stack trace provides the names of the classes and methods that were called, from the start of the application to the point an exception occurred.
-  It’s a very useful debugging tool since it enables us to determine exactly where the exception was thrown in the application and the original causes that led to it.
 
 ### Can an exception be rethrown?
 
@@ -553,3 +515,4 @@ try {
 | VirtualMachineError          | thrown to indicate that the Java Virtual Machine is broken or has run out of resources necessary for it to continue operating.                                                                       |
 | UnsupportedClassVersionError | This occurs when the JVM attempts to read a class file and determines that the version in the file is not supported, normally because the file was generated with a newer version of Java            |
 | NoClassDefFoundError         | thrown when JVM tries to load the definition of a class, and that class definition is no longer available. The required class definition was present at compile time, but it was missing at runtime. |
+

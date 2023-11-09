@@ -86,7 +86,7 @@ mcd() {
 
 #### Shells & Frameworks
 
-- `zsh` shell is a superset of `bash` and provides many convenient feautres out of the box such as:
+- `zsh` shell is a superset of `bash` and provides many convenient features out of the box such as:
   - Smarter globbing, `**`
   - Inline globbing/wildcard expansion
   - Spelling correction
@@ -99,7 +99,7 @@ mcd() {
 - `sed 's/.\*Disconnected from //'` - substitutes whatever matches the pattern between the first and the second slash with contents between the second and third slash.
 - sed can also do other handy things like print lines following a given match, do multiple substitutions per invocation, search for things
 - `sed -E 's/a*b+(c|d)//'` assumes all special characters are special or you have to write `sed 's/a*b\+\(c\|d\)//'`
-- here’s an article on how you might match an [e-mail address](https://www.regular-expressions.info/email.html). It’s [not easy](https://emailregex.com/). And there’s [lots of discussion](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/1917982). And people have [written tests](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php). And [test matrixes](https://mathiasbynens.be/demo/url-regex). You can even write a regex for determining if a given number [is a prime number.](https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/)
+- here’s an article on how you might match an [e-mail address](https://www.regular-expressions.info/email.html). It’s [not easy](https://emailregex.com/). And there’s [lots of discussion](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/1917982). And people have [written tests](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php). And [test matrices](https://mathiasbynens.be/demo/url-regex). You can even write a regex for determining if a given number [is a prime number.](https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/)
 - sed can inject lines in the file (with the `i` command) explicitly print the lines (with the `p` command), select lines by index
 - `uniq -c` : unique value with count
 - `sort -n -k1,1` : sort from 1st column to 1st column
@@ -132,7 +132,7 @@ END {print rows}
   - **1** of the copies being **offsite**
 - Some good backup programs and services
   - [Tarsnap](https://www.tarsnap.com/) - deduplicated, encrypted online backup service for the truly paranoid.
-  - [Borg Backup](https://borgbackup.readthedocs.io/) -
+  - [Borg Backup](https://borgbackup.readthedocs.io/)
   - [rsync](https://rsync.samba.org/) is a utility that provides fast incremental file transfer.
   - [rclone](https://rclone.org/) like rsync but for cloud storage providers.
 

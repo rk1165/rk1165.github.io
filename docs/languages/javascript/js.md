@@ -4,6 +4,7 @@
 - **LR** [JavaScript Callbacks, Promises, and Async/Await Explained](https://www.youtube.com/watch?v=JRNToFh3hxU&ab_channel=LearnWebCode) **VDO**
 - **LR** [Async Javascript Tutorial For Beginners](https://www.youtube.com/watch?v=_8gHHBlbziw&ab_channel=developedbyed) **VDO**
 - **LR** [Jake Archibald on the web browser event loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0&ab_channel=JSConf) **VDO**
+- **HO** [NODESCHOOL](https://nodeschool.io/)
 
 ### Online Books
 

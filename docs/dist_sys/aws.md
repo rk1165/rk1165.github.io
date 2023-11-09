@@ -15,6 +15,7 @@
 - [AWS Identity and Access Management (IAM)](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 - [API endpoints for Rekognition](https://docs.aws.amazon.com/general/latest/gr/rande.html#rekognition_region)
 - [API endpoints for S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)
+- **LR** [The Hitchhiker's Guide to AWS ECS and Docker](https://start.jcolemorrison.com/the-hitchhikers-guide-to-aws-ecs-and-docker/#)
 
 ## Edx Course
 

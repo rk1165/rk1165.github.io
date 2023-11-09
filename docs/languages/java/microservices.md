@@ -3,7 +3,7 @@
   >
   > **Disadvantages**: Complexity (e.g.: Dependencies), Requires accurate pre-planning, End-to-end testing is difficult, Complex deployment procedures, etc.
 - What is an API Gateway ? What "problem" does it solve ?
-- What is a Circuit Breaker ? What "problem" does it solve ? How is the `@HystrixCommand` annotations works in a Spring Cloud implementation?
+- What is a Circuit Breaker ? What "problem" does it solve ? How does the `@HystrixCommand` annotations works in a Spring Cloud implementation?
 - Explain the concept of **Observability** ?
   - What is the **Log Aggregation** pattern ? What problem does it solve ? Can you give examples of **Log Aggregation** solutions (e.g.: AWS Cloud Watch) ?
   - What is the **Application Metrics** pattern ? What problem does it solve ? What are the two models of aggregating metrics (push. vs pull) ? Can you give examples of **Application Metrics** solutions ?
@@ -21,7 +21,7 @@
 
 ### Microservice routing patterns
 
-- Service discovery : **Spring Cloud Discovery/ Netflix Eureka**
+- Service discovery : **Spring Cloud Discovery/Netflix Eureka**
 - Service routing : API gateway **Spring Cloud API Gateway**
 
 ### Microservice client resiliency patterns
@@ -34,9 +34,9 @@
 
 ### Microservice security patterns
 
-- Authentication **Spring CLoud Security/OAuth2**
-- Authorization **Spring CLoud Security/OAuth2**
-- Credential management and propagation **Spring CLoud Security/OAuth2/JWT**
+- Authentication **Spring Cloud Security/OAuth2**
+- Authorization **Spring Cloud Security/OAuth2**
+- Credential management and propagation **Spring Cloud Security/OAuth2/JWT**
 
 ### Microservice logging and tracing patterns
 

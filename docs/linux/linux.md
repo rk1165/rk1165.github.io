@@ -1,19 +1,14 @@
 ## Linux
 
-- **SR** [Reclaiming the lost art of Linux server administration](https://www.pietrorea.com/2022/01/28/reclaiming-the-lost-art-of-linux-server-administration)
-- **SR** [An Opinionated Guide to xargs](https://www.oilshell.org/blog/2021/08/xargs.html)
-- **SR** [Shell startup scripts](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html)
-- **LR** [HTOP explained](https://peteris.rocks/blog/htop/)
-- **LR** [Bash-Oneliner](https://onceupon.github.io/Bash-Oneliner/)
-- **LR** [Linux Hardening Guide - Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
-- **LR** [My Own Private Binary](http://www.muppetlabs.com/~breadbox/txt/mopb.html)
-- **LR** [Digging into Linux namespaces](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html)
-- **LR** [Linux x86 Program Start up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
-- **DD** [SRE deep dive into Linux Page Cache](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
-- **DD** [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/)
-- **DD** [ELF Science Part 1](https://greatergoodest.github.io/post/elf_science_p1/)
+- **LR** [Linux Hardening Guide - Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html) * 
+- **LR** [Digging into Linux namespaces](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html) *
+- **LR** [Linux x86 Program Start up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html) *
+- **DD** [SRE deep dive into Linux Page Cache](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/) *
+- **DD** [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/) **
+- **DD** [ELF Science Part 1](https://greatergoodest.github.io/post/elf_science_p1/) *
 - **HO** [BashGuide](https://mywiki.wooledge.org/BashGuide)
 - **HO** [Hacking the wholism of GNU/Linux net](https://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt) **C**
+- **HO** [My Own Private Binary](http://www.muppetlabs.com/~breadbox/txt/mopb.html) **C**
 
 ### Learning Resources
 
@@ -22,7 +17,7 @@
 
 ### Tools
 
-- [Fasd](https://github.com/clvv/fasd)
+- [fasd](https://github.com/clvv/fasd)
 - [autojump](https://github.com/wting/autojump)
 - [bat](https://github.com/sharkdp/bat)
 - [exa](https://github.com/ogham/exa)
@@ -42,13 +37,10 @@
 ### Online Books
 
 - [The Linux kernel](https://www.win.tue.nl/~aeb/linux/lk/lk.html#toc9)
-- [Effective Shell](https://effective-shell.com/)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/)
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 - [Is Parallel Programming Hard](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
 - [Understanding the Linux Virtual Memory Manager](https://www.kernel.org/doc/gorman/pdf/understand.pdf)
-- [GNU AWK](https://learnbyexample.github.io/learn_gnuawk/preface.html)
-- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 
 ### Book Sites
 

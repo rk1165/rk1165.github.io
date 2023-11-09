@@ -33,6 +33,7 @@
 ### Learning Resources
 
 - [Practical Go](https://dave.cheney.net/practical-go)
+- [Gophercises](https://gophercises.com/)
 
 ### Blogs
 
@@ -41,3 +42,5 @@
 - [Ben Hoyt](https://benhoyt.com/writings/rss.xml)
 - [Applied Go](https://appliedgo.net/%20/index.xml)
 - [Three Dots Tech](https://threedots.tech/index.xml)
+- [A Journey with Go](https://medium.com/a-journey-with-go)
+- [Golangbot](https://golangbot.com/)
