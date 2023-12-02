@@ -3,7 +3,6 @@
 - [SSE - Alternative to WebSockets](https://germano.dev/sse-websockets) **
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/) *
 - [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022) *
-- [Caches, Modes, and Unstable Systems](https://brooker.co.za/blog/2021/08/27/caches.html) ***
 - [Gallery of Processor Cache Effects](http://igoro.com/archive/gallery-of-processor-cache-effects/) ***
 
 ### Computer Networks
@@ -69,6 +68,7 @@
 - [How does UTF-8 turn “😂” into “F09F9882”?](https://sethmlarson.dev/blog/utf-8) **
 - [What Every Programmer Absolutely, Positively Needs to Know About Encodings and Character Sets to Work With Text](http://kunststube.net/encoding/) *
 - [Ned Batchelder: Pragmatic Unicode](http://nedbatchelder.com/text/unipain.html) **
+- [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 ](https://tonsky.me/blog/unicode/)
 
 ### Kafka
 
@@ -260,8 +260,6 @@
 
 ### C
 
-- [Everything you need to know about pointers in C](https://boredzo.org/pointers/) ***
-- [The Descent to C](https://www.chiark.greenend.org.uk/~sgtatham/cdescent/) **
 - [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/) **
 - [Learning C with gdb](https://www.recurse.com/blog/5-learning-c-with-gdb) **
 - [Understanding C by learning assembly](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly) **

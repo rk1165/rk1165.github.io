@@ -1,6 +1,5 @@
 ## Haskell
 
-- **SR** [The Benefits of Learning Haskell](https://alistairb.dev/benefits-of-learning-haskell/)
 - **SR** [What I wish somebody told me when learning Haskell](https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html)
 - **SR** [JSON Vulnerability in Haskell's Aeson library](https://cs-syd.eu/posts/2021-09-11-json-vulnerability?source=twitter)
 - **SR** [Static analysis using Haskell and Datalog](https://luctielen.com/posts/static_analysis_using_haskell_and_datalog/)

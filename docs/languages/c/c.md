@@ -14,6 +14,5 @@
 ### Notes
 
 - [Functions](functions.md)
-- [GNU](gnu.md)
 - [Language Notes](c_notes.md)
 - [Pointers](pointers.md)

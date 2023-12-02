@@ -21,6 +21,7 @@
 - **LR** [How I write HTTP services after eight years](https://pace.dev/blog/2018/05/09/how-I-write-http-services-after-eight-years.html)
 - **HO** [How to build a Web App with Go and SQLITE](https://www.allhandsontech.com/programming/golang/web-app-sqlite-go/)
 - **HO** [Writing a simple in-memory key-value Database in Go](https://aly.arriqaaq.com/building-a-database-in-go/)
+- **HO** [Case Study: Algorithmic Trading with Go](https://polygon.io/blog/case-study-algorithmict-trading-with-go)
 - **HO** [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 - **HO** [Back to basics: Writing an application using Go and PostgreSQL](https://henvic.dev/posts/go-postgres/)
 - **HO** [Orderbook : an experimental order filling engine in Go](https://dylanlott.com/orderbook/)
@@ -37,10 +38,10 @@
 
 ### Blogs
 
-- [Alex Edwards](https://www.alexedwards.net/static/feed.rss)
-- [Brandur Leach](https://brandur.org/articles.atom)
-- [Ben Hoyt](https://benhoyt.com/writings/rss.xml)
-- [Applied Go](https://appliedgo.net/%20/index.xml)
-- [Three Dots Tech](https://threedots.tech/index.xml)
+- [Alex Edwards](https://www.alexedwards.net/)
+- [Brandur Leach](https://brandur.org)
+- [Ben Hoyt](https://benhoyt.com/writings)
+- [Applied Go](https://appliedgo.net)
+- [Three Dots Tech](https://threedots.tech/)
 - [A Journey with Go](https://medium.com/a-journey-with-go)
 - [Golangbot](https://golangbot.com/)

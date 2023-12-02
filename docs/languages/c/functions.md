@@ -1,8 +1,8 @@
 ### fgets
 
 - The standard function `fgets` can be used to read a **string** from the keyboard or file (usually text). The general form of an `fgets` call is:
-- `fgets(buffer, n, fp);` Reads n-1 characters from the file pointed to by fp and stores the string in buff. A NUL character '\0' is appended as the last character in buff.
-- If fgets encounters a newline character or the end of file before n-1 characters is reached, then only the characters up to that point are stored in buff.
+- `fgets(buffer, n, fp);` Reads `n-1` characters from the file pointed to by fp and stores the string in buff. A `NUL` character `'\0'` is appended as the last character in buff.
+- If `fgets` encounters a newline character or the end of file before `n-1` characters is reached, then only the characters up to that point are stored in buff.
 - returns `NULL` if an error occurred.
 - helps prevent **buffer overflow**
 
@@ -12,7 +12,7 @@
 
 ### puts
 
-- The return value of `puts()` is an `int`. It returns EOF if an error occurs, or a non-negative value if its successful.
+- The return value of `puts()` is an `int`. It returns `EOF` if an error occurs, or a non-negative value if it's successful.
 - adds newline
 
 ### scanf
@@ -40,8 +40,6 @@
 ### sprintf
 
 - `sprintf` is similar to `fprintf` except that the first argument is a string.
-
-### printf
 
 ### vprintf
 
@@ -202,35 +200,3 @@
 - closes a pipe opened by `popen`
 - accepts a single argument as the stream to close.
 - returns: status code returned by the program called by `popen`
-
-### gets
-
-### puts
-
-### math.h
-
-- abs(int) -> returns absolute values as an int
-- fabs(double) -> returns absolute value as a double
-
-### string.h
-
-- strlen(str)
-- strcat(str1, str2)
-- strcpy(str1, str2)
-- strlwr()
-- strupr()
-- strrev()
-- strcmp(str1, str2)
-- strncat(str1, str2, n)
-- strncpy(str1, str2, n)
-- strncmp(str1, str2, n)
-- strchr(Str1, c)
-- strrchr(str1, c)
-- strstr(str1, str2)
-
-### stdlib.h
-
-- int atoi(str) : lacks error handling, recommended to use `strtol`
-- double atof(str)
-- long int atol(str)
--

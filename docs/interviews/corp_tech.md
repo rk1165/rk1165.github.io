@@ -29,6 +29,7 @@
 - [How Discord stores billions of messages](https://blog.discord.com/how-discord-stores-billions-of-messages)
 - [How Discord indexes billions of messages](https://blog.discord.com/how-discord-indexes-billions-of-messages)
 - [Why Discord is switching from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
+- [MAXJOURNEY: PUSHING DISCORD’S LIMITS WITH A MILLION+ ONLINE USERS IN A SINGLE SERVER](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server)
 
 ### CloudFlare
 
@@ -107,6 +108,7 @@
 - [Future-proofing: How DoorDash Transitioned from a Code Monolith to a Microservice Architecture](https://doordash.engineering/2020/12/02/how-doordash-transitioned-from-a-monolith-to-microservices/)
 - [Failure Mitigation for Microservices: An intro to Aperture](https://doordash.engineering/2023/03/14/failure-mitigation-for-microservices-an-intro-to-aperture/)
 - [Eliminating Task Processing Outages with Kafka](https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/)
+- [How DoorDash Standardized and Improved Microservices Caching](https://doordash.engineering/2023/10/19/how-doordash-standardized-and-improved-microservices-caching/)
 
 ### Single Entries
 
@@ -116,6 +118,7 @@
 - [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Should You Put Several Event Types in the Same Kafka Topic?](https://www.confluent.io/blog/put-several-event-types-kafka-topic/)
 - [Trident - Real-time Event Processing at Scale](https://engineering.grab.com/trident-real-time-event-processing-at-scale)
+- [Streamlining Grab's Segmentation Platform with faster creation and lower latency](https://engineering.grab.com/streamlining-grabs-segmentation-platform)
 - [Roblox Return to Service](https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/)
 - [LinkedIn Real-Time Architecture: How Does LinkedIn Identify Its Users](https://www.scaleyourapp.com/linkedin-real-time-architecture-how-does-linkedin-identify-its-users-online/)
 - [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)
