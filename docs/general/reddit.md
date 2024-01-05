@@ -195,7 +195,6 @@
 
 - [Buying a Used car](https://www.youtube.com/watch?v=8yfQX9VTZJo&index=2&list=PLewYGULsOB3aAO2NDAUyqTxA8njqmlda7)
 - [Hww to get grip](https://www.youtube.com/watch?v=FGuVJAj96SE)
-- [Multiple orgasms](https://www.nateliason.com/blog/multiple-orgasms-men)
 - [The body language](https://imgur.com/gallery/VQp8B)
 - [Tips for better life](https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life)
 
