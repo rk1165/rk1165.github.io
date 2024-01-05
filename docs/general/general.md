@@ -1,7 +1,7 @@
 ### Articles
 
 - [Bookshelf · Patrick Collison](https://patrickcollison.com/bookshelf)
-- [The Egg by Andy Weir | High Existence](http://highexistence.com/images/view/the-egg-by-andy-weir/)
+- [The Egg by Andy Weir - High Existence](http://highexistence.com/images/view/the-egg-by-andy-weir/)
 - [The Last Question -- Isaac Asimov](http://www.multivax.com/last_question.html)
 - [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 - [UW-Madison Writer’s Handbook – The Writing Center](https://writing.wisc.edu/handbook/)
