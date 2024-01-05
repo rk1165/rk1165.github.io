@@ -15,7 +15,6 @@
 - [Assembly](./prog_languages/asssembly/assembly.md)
 - [C](./prog_languages/c/c.md)
 - [Elixir](./prog_languages/elixir/elixir.md)
-- [Erlang](./prog_languages/erlang/erlang.md)
 - [Go](./prog_languages/go/go.md)
 - [Haskell](./prog_languages/haskell/haskell.md)
 - [Java](./prog_languages/java/java.md)
