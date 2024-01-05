@@ -39,7 +39,6 @@
 - loading kernel modules
 - kernel debugging tools
 
-
 ### What is _address space_?
 
 - Processes each have their own PID and _address space_, threads share the PID and address space of a single process.

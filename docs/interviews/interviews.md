@@ -8,9 +8,9 @@
 
 ### Notes
 
+- [Corp Tech Blogs](corp_tech.md)
+- [High Scalability](high_scalability.md)
 - [Pointers](pointers.md)
 - [TechieDelight](techiedelight.md)
 - [To Know](to_know.md)
 - [To Read](to_read.md)
-- [Corp Tech Blogs](corp_tech.md)
-- [High Scalability](high_scalability.md)

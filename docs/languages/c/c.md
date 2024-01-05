@@ -14,5 +14,5 @@
 ### Notes
 
 - [Functions](functions.md)
-- [Language Notes](c_notes.md)
+- [C Notes](notes.md)
 - [Pointers](pointers.md)

@@ -54,4 +54,4 @@
 - [Kernel](kernel.md)
 - [System Administration](sysadmin.md)
 - [Vim](vim.md)
-- [Linux Notes](linux_notes.md)
+- [Linux Notes](notes.md)

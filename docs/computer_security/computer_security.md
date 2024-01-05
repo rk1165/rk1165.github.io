@@ -57,5 +57,5 @@
 ### Notes
 
 - [Blog Notes](blog.md)
-- [Securing Software](securing-software.md)
-- [Security Notes](security_notes.md)
+- [Computer Security Notes](notes.md)
+- [Securing Software](securing_software.md)

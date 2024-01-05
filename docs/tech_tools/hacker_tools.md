@@ -508,15 +508,3 @@ X11DisplayOffset 10
 
 - infer run -- javac Hello.java
 - infer run -- gcc/clang -c hello.c
-
-### httpie
-
-- We should call HTTPie in this general pattern
-  - `http [flags] [METHOD] URL [ITEM [ITEM]]`
-  - `https [flags] [METHOD] URL [ITEM [ITEM]]`
-- `https httpie.io/hello` : a simple hello world GET request
-- `http PUT httpbin.org/put X-API-Token:123 name=John` : specify method and add custom items to the request
-- `http -f POST httpbin.org/post hello=world` : submit form data if we add the -f flag
-- `http -v httpbin.org/get` : for verbose output
-- `http httpbin.org/post < hello.json` : pass a file as request data
-- `http httpbin.org/image/png > image.png` : download a file

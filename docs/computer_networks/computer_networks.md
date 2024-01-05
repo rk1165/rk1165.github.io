@@ -24,6 +24,6 @@
 - [Computer Networks - A Top Down Approach](cntda.md)
 - [High Performance Browser Networking](hpbn.md)
 - [HTTP](http.md)
+- [Computer Networks Notes](notes.md)
 - [Peer to Peer](P2P.md)
 - [Networking Tools](tools.md)
-- [Computer Network Notes](networks_notes.md)

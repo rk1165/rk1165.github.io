@@ -24,7 +24,6 @@
 
 ### Discord
 
-- [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
 - [How Discord handles 2.5 million concurrent voice users](https://discord.com/blog/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc)
 - [How Discord stores billions of messages](https://blog.discord.com/how-discord-stores-billions-of-messages)
 - [How Discord indexes billions of messages](https://blog.discord.com/how-discord-indexes-billions-of-messages)

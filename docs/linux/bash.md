@@ -1,8 +1,6 @@
-- To get a sorted listing of all users on the system, type: `cut -d: -f1 < /etc/passwd | sort`
-- The _cut_ command extracts the first field (`-f1`), where fields are separated by colons (`-d:`)
 - Every job on the system is assigned a _priority_
 - `stty -a` to see the terminal settings
-- `Ctrl-C` gives the running job more of a chance to clean up before exiting. -`fc` allows to use editor for editing directly command lines.
+- `Ctrl-C` gives the running job more of a chance to clean up before exiting.
 - Emacs mode commands
 
 | command  | Description                    |
@@ -47,7 +45,7 @@
 | Fx      | Move left to previous occurrence of x                         |
 | tx      | Move right of next occurrence of x, then back one space       |
 | Tx      | Move left to previous occurrence of x, then forward one space |
-| ;       | Redo last character-finding command                          |
+| ;       | Redo last character-finding command                           |
 | ,       | Redo last character-finding command in opposite direction     |
 
 - `\` is the command that tells bash to do completion in vi-mode.
@@ -72,19 +70,18 @@
 - To list users currently logged on the system, the `who` command can be used
 - To list all existing users accounts including their properties stored in the user database, run `passwd -Sa` as root
 - To add a new user `useradd -m -g intial_group -G additional_groups -s login_shell username`
-
-* `sudo groupadd editorial` : create a group editorial
-* `sudo usermod -a -G editorial user` : adds the user to group editorial. `-a` tells we are appending, and `-G` tells we are appending to the group name that follows the option.
-* we can use `members group_name` to find which users are in a group
-* Information about users in a Linux system is stored in the following files:
+- `sudo groupadd editorial` : create a group editorial
+- `sudo usermod -a -G editorial user` : adds the user to group editorial. `-a` tells we are appending, and `-G` tells we are appending to the group name that follows the option.
+- we can use `members group_name` to find which users are in a group
+- Information about users in a Linux system is stored in the following files:
   - /etc/passwd : contanins info about users in various fields.
   - /etc/group : contains info about the user groups. `groups username` to see what groups a user belongs to
   - /etc/gshadow : contains encrypted or **shadowed** passwords for group accounts and, for security reasons, cannot be accessed by regular users.
   - /etc/shadow : stores the users actual passwords in a hashed or encrypted format.
-* `adduser username` : for adding users
-* `passwd -l username` : lock the user from loggin into the system
-* `deluser --remove-home bob`
-* The root user can add a user to an existing group with the command: `usermod -a -G group user`
+- `adduser username` : for adding users
+- `passwd -l username` : lock the user from loggin into the system
+- `deluser --remove-home bob`
+- The root user can add a user to an existing group with the command: `usermod -a -G group user`
 
 ### IMTx
 
@@ -171,9 +168,9 @@ END {
 - `lspci -v` : to view in verbose form
 - `sudo fdisk -l` : to gather info about file system partitions.
 - you can use the [dmidecode utility](https://www.tecmint.com/how-to-get-hardware-information-with-dmidecode-command-on-linux/) to extract hardware information by reading data from the DMI tables.
-- `sudo dmidecode -t memory` : to print information about memory
-- `sudo dmidecode -t system` : to print information about system
-- `sudo dmidecode -t bios` : to print information about bios
+- `sudo dmidecode -t memory`    : to print information about memory
+- `sudo dmidecode -t system`    : to print information about system
+- `sudo dmidecode -t bios`      : to print information about bios
 - `sudo dmidecode -t processor` : to print information about processor
 
 ### Useful and not much known linux commands
@@ -251,4 +248,4 @@ END {
   - **EXPR && EXPR** : doesn't evaulate the second expression if the first already turns out ot be false
   - **EXPR || EXPR** : doesn't evaluate the second expression if the first already turns out to be true
 - Using `;&` instead of `;;` will grant you the ability to fall-through the case matching in bash, zsh and ksh
-- 
+

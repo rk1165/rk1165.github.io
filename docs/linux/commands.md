@@ -139,3 +139,13 @@
 - `gpg --import <ben.asc>`save the key to file and import it
 - `cat password.txt | gpg --encrypt --armor --quiet --recipient <user_email>` encrypt a message
 - To sign a key open the interactive gpg prompt with `gpg --edit-key <email_person_key_to_verify>` type sign, then save
+
+### xargs
+
+- echo 'alice bob' | xargs -n 1 -- echo hi
+- We passed -n 1, so xargs then passes each argument to a separate echo hi $ARG command.
+- You should know how to control:
+  1. The algorithm for splitting text into arguments (-d, -0). Discussed below.
+  2. How many arguments are passed to each process (-n). This determines the total number of processes started.
+  3. Whether processes are run in sequence or in parallel (-P).
+- Remove Python and C++ unit tests : `ls | egrep '.*_test\.(py|cc)' | xargs -d $'\n' -- rm`

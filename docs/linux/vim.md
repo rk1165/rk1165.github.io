@@ -32,7 +32,6 @@
 - `S` deletes the current line and puts in insert mode
 - `.` repeats the previous action
 - `I` inserts at the beginning of the line
-- `F<char>` (backwards) and `f<char>` (forwards) find a character or word on the current line
 - `gg=G` to indent the full file
 - If you want to open the file `hello.txt` and immediately execute a Vim command, you can pass to the vim command the `+{cmd}` option. `vim +%s/pancake/bagel/g hello.txt` or `vim -c %s/pancake/bagel/g hello.txt`
 - You can redirect the output of the `ls` command to be edited in Vim with `ls -l | vim -`
@@ -56,10 +55,6 @@
 - `cw` -> delete the word and puts into INSERT mode
 - `~` -> capitalizes the letter under the cursor
 - `sp/vsp` to split windows
-- [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
-- [Vim Advent Calendar](https://vimways.org/2018/)
-- [Neovim](https://neovim.io/)
-- [Vim Golf](http://www.vimgolf.com/)
 
 ### Buffers, Windows, and tabs
 
@@ -94,3 +89,10 @@
 - Macros can be recursive
   - first clear the macro with `q{character}q`
   - record the macro, with `@{character}` to invoke the macro recursively (will be a no-op until recording is complete)
+
+### Links
+
+- [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
+- [Vim Advent Calendar](https://vimways.org/2018/)
+- [Vim Golf](http://www.vimgolf.com/)
+- [Learn Vim](https://github.com/iggredible/Learn-Vim/tree/master)

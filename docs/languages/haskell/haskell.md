@@ -37,4 +37,4 @@
 ### Notes
 
 - [Learn You a Haskell](lyah.md)
-- [Language Notes](haskell_notes.md)
+- [Haskell Notes](notes.md)

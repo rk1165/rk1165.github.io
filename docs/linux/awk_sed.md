@@ -47,7 +47,7 @@
 - The record number `NR` is another handy variable. It will always contain the number of the current record.
 - `(NR < 10 ) || (NR > 100) { print "We are on record number 1‑9 or 101+" }`
 
-```
+```aw
 {
   # skip header
   if ( NR > 10 ) {

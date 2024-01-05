@@ -19,7 +19,6 @@
 - [Haskell](./languages/haskell/haskell.md)
 - [Java](./languages/java/java.md)
 - [JavaScript](./languages/javascript/js.md)
-- [OCaml](./languages/ocaml/ocaml.md)
 - [Python](./languages/python/python.md)
 - [Linux](./linux/linux.md)
 - [Maths](./maths/maths.md)

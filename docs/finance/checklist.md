@@ -1,4 +1,4 @@
-# Conditions and criteria to consider in the search for mistakes and inefficiencies.
+#### Conditions and criteria to consider in the search for mistakes and inefficiencies.
 
 - **Klarman - Where to Find Investment Opportuinities**
 - Spin-offs
@@ -20,12 +20,12 @@
 - The ability to earn a high return on capital means that the earnings which are not paid out as dividends but rather retained in the business are likely to be re-invested at a high rate of return to provide for good future earnings and equity growth with low capital requirement.
 - It pays to emphasize companies which have the ability to generate a large portion of their earnings in cash.
 
-# Short selling
+#### Short selling
 
 - What we define as a bubble is any kind of debt fueled asset inflation, where the cash flow generation from the asset doesn't cover the debt service.
 - LBOs/acquisitions/M&A make good short targets
 
-# Four sources of Economic Moats
+#### Four sources of Economic Moats
 
 - Economies of scale and scope (walmart, cintas)
 - Network effect (eBay, Visa, American Express)

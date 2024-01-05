@@ -164,3 +164,9 @@ SELECT * FROM `products` WHERE (`products`.`title` > "Pants" OR (`products`.`tit
   - locks
 - It's easy to measure how much CPU your application is using. you can use the clock_gettime sys call
 - You can use `dstat` and `iftop` to see how much network gets used.
+
+### Effective Logging
+- we should log things that had happened instead of things we are going to do.
+- `log.info("Made request to REST API. [url={}]", url)`
+- If you did some operations which actually worked, but there have been some issues - that’s a `WARNING`. But if you did some operation and it simply didn’t work - that’s an `ERROR`.
+- `INFO` is for business, `DEBUG` is for technology. For instance, `DEBUG | Started cron job to send newsletter of the day. [subscribers=24332]`

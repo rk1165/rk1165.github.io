@@ -39,7 +39,10 @@
 - Annotated tags are **tag objects**, separate to the commit that it points to. Tag objects can be signed with a GPG key.
 - Tag objects also store a tag message and information about the tagger.
 - `git tag -a v1.0` the -a flag is used. This flag tells Git to create an annotated flag.
-- Annotated tags are recommended because they include a lot of extra information such as: the person who made the tag, the date the tag was made, a message for the tag.
+- Annotated tags are recommended because they include a lot of extra information such as:
+  - the person who made the tag
+  - the date the tag was made
+  - a message for the tag.
 - `git tag v1` Now I can refer to the current version of the program as v1.
 - `git tag` to view tags
 - `git tag -d oops` removes the tag and allow the commits it referenced to be garbage collected.
@@ -49,7 +52,7 @@
 ### hist
 
 - `git hist master --all` check for tags in the log
-- `git hist --hard <tag>` reset the branch to the tagged commit. The `--hard` parameter indicated that the working directory should be updated to be consistent with the new branch head.
+- `git hist --hard <tag>` resets the branch to the tagged commit. The `--hard` parameter indicates that the working directory should be updated to be consistent with the new branch head.
 
 ### diff
 
@@ -105,7 +108,7 @@
 - `git stash show` : to show files changed in the last stash
 - `git stash show -p` : to view the content of the most recent stash
 - `git stash show -p stash@{1}` : to view the content of an arbitrary stash.
-- To delete a normal stash created with git stash , you want `git stash drop` or `git stash drop stash@{n}`
+- To delete a normal stash created with git stash, you want `git stash drop` or `git stash drop stash@{n}`
 
 ### status
 
@@ -114,13 +117,13 @@
 ### blame
 
 - `git blame file`
-- ^ means the lines which are present since the file was first added
+- `^` means the lines which are present since the file was first added
 
 ### Rebasing
 
-- With the format `git rebase <base> <target>`, the `rebase` command will take all of the commits from `<target>` and play them on top of `<base>` one by one. It does this without actually modifying `<base>`, so the end result is a linear history in which `<base>` can be fast-forwarded to `<target>`
+- `git rebase <base> <target>`, the `rebase` command will take all of the commits from `<target>` and play them on top of `<base>` one by one. It does this without actually modifying `<base>`, so the end result is a linear history in which `<base>` can be fast-forwarded to `<target>`
 - **Moving** a set of commits (like a branch) from one **base** to another by replaying the changes that made those commits starting from the new base.
-- The `git rebase` command will move commits to have a new base. In the command `git rebase -i HEAD~3`, we're telling Git to use `HEAD~3` as the base where all of the other commits (`HEAD~2`, `HEAD~1`, and `HEAD`) will connect to. The `-i` in the command stands for "interactive
+- `git rebase` command will move commits to have a new base. In the command `git rebase -i HEAD~3`, we're telling Git to use `HEAD~3` as the base where all of the other commits (`HEAD~2`, `HEAD~1`, and `HEAD`) will connect to. The `-i` in the command stands for "interactive
 - Rebase Commands
   - use `p` or `pick` – to keep the commit as is
   - use `r` or `reword` – to keep the commit's content but alter the commit message
@@ -289,16 +292,16 @@
   - `git fetch otherRepo`
   - `git merge otherrepo/branch $your_branch_name`
 - `git merge --abort` : to abort a merge
-- How do I check out a remote git branch
+- How do I check out a remote git branch?
   - `git checkout -b <local_branch_name> <name_of_remote>/<remote_branch_name>`
   - `git checkout -t <name_of_temo>/<remote_branch_name>`
-- How do I execute a Git command without being in the repository
+- How do I execute a Git command without being in the repository?
   - `git --git-dir=/home/repo/.git log`
   - `git -C /home/repo log`
-- How to I delete a branch locally and remotely:
+- How to I delete a branch locally and remotely?
   - `git push <remote_name> -d <branch_name>`
   - `git branch -d <branch_name>`
-- Pro Git : 10, 2, 3, 7
+- Read Pro Git : 10, 2, 3, 7
 - `git log -n100000 --format="%ae" | cut -d@ -f2 | sort | uniq -c | sort -nr | less` : gives the email of the companies who contributed to a repo
 - `git update-index --assume-unchanged <file>` : to gitignore a particular file/dir
 - `git update-index --no-assume-unchanged <file>` : to undo the above steps

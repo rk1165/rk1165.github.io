@@ -21,6 +21,7 @@
 ### Online Courses
 
 - [CS 6120: Advanced Compilers](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
+- [Write your own tiny programming system(s)](https://d3s.mff.cuni.cz/teaching/nprg077/)
 
 ### Book Sites
 
@@ -30,4 +31,4 @@
 ### Notes
 
 - [Crafting Interpreters](./crafiting_interpreters/crafting_interpreters.md)
-- [Compilers Notes](compilers_notes.md)
+- [Compilers Notes](notes.md)

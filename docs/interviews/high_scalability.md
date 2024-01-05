@@ -14,7 +14,6 @@
 - [Building An Infinitely Scaleable Online Recording Campaign For David Guetta](http://highscalability.squarespace.com/blog/2016/1/20/building-an-infinitely-scaleable-online-recording-campaign-f.html)
 - [A Beginner's Guide to Scaling to 11 Million+ Users on Amazon's AWS](http://highscalability.squarespace.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)
 - [The Serverless Start-up - Down with Servers!](http://highscalability.squarespace.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html)
-- 
 - [Deep Lessons from Google and eBay on Building Ecosystems of Microservices](http://highscalability.squarespace.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [How Wistia Handles Millions of Requests Per Hour and Processes Rich Video Analytics](http://highscalability.squarespace.com/blog/2015/11/23/how-wistia-handles-millions-of-requests-per-hour-and-process.html)
 - [How Shopify Scales to Handle Flash Sales from Kanye West and the Superbowl](http://highscalability.squarespace.com/blog/2015/11/2/how-shopify-scales-to-handle-flash-sales-from-kanye-west-and.html)

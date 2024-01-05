@@ -13,29 +13,14 @@
 - Most key configuration files are kept under `/etc` and subdirs of that.
 - `/etc/passwd`, `/etc/ssh/sshd_config`, `/var/log/auth.log`
 - Read [Repositories - CommandLine](https://help.ubuntu.com/community/Repositories/CommandLine)
-- [Ubuntu and Red Hat/Cent OS package management cmoparison](https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora)
+- [Ubuntu and Red Hat/Cent OS package management comparison](https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora)
 - [Ubuntu Server Guide - Package Management](https://ubuntu.com/server/docs/package-management)
-
-### More, Less, Vim
-
-- [How to Use Bash History Commands and Expansions](https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps)
-- [What are dotfiles?](http://thegeekyway.com/what-are-dotfiles/)
-
-### Apache
-
-- In /etc/apache2/apache2.conf there's the line with the text: "IncludeOptional conf-enabled/_.conf". This tells Apache that the _.conf files in the subdirectory conf-enabled should be merged in with those from /etc/apache2/apache2.conf at load
-- The location of the default webpage is defined by the DocumentRoot parameter in the file /etc/apache2/sites-available/000-default.conf
-- Under /var/www/html/index.html : is the root html for apache. Keep a file here to be the entry point over internet.
-- Apache keeps its logs under the /var/log directory - look at the logs in /var/log/apache2 - in the access.log file you should be able to see your session from when you browsed to the test page.
-- [Use system to manage services](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
-- [HTTPD - Apache2 Web Server](https://ubuntu.com/server/docs/web-servers-apache)
-- [The Apache HTTP Server](http://docs.redhat.com/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/ch-Web_Servers.html#s1-The_Apache_HTTP_Server)
 
 ### Ports, open and closed
 
 - `ss` - "socket status", is a standard utility replacing `netstat`
 - `ss -ltp` which ports are open on which interfaces
-- The Linux kernel has built-in firewall functionality called "netfilter". We configure and query this via various utilities, the most low-level of which are the `iptables` command, and the newer `nftables`
+- The Linux kernel has built-in firewall functionality called **netfilter**. We configure and query this via various utilities, the most low-level of which are the `iptables` command, and the newer `nftables`
 - `ufw` : the uncomplicated firewall
 - `sudo iptables -L` : list what rules are in place
 - `sudo ufw allow ssh`
@@ -51,19 +36,14 @@
 
 ### Running Scheduled Tasks
 
-- Each user potentially has their own set of scheduled task which can be listed with the crontab command (list out your user crontab entry with `crontab -l` and then that for root with `sudo crontab -l`).
+- list out your user crontab entry with `crontab -l` and then that for root with `sudo crontab -l`.
 - there’s also a system-wide crontab defined in `/etc/crontab`
 - `/etc/cron.*` folders to see what's actually scheduled, daily, weekly and monthly.
-- log rotation is an automated process used in system administration in which log files are compressed, moved, renamed or deleted once they are too old or too big. New incoming log data is directed into a new fresh file
-- `systemd` can _also_ be used to run tasks at specific times via "timers".
+- `systemd` can _also_ be used to run tasks at specific times via **timers**.
 - `systemctl list-timers`
 - [Job Scheduling with "cron" and "at"](http://www.ibm.com/developerworks/linux/library/l-job-scheduling/index.html)
 - [A good overview of systemd/Timers](https://wiki.archlinux.org/index.php/Systemd/Timers)
 - [How to use Systemd Timers as a Cron Replacement](https://www.maketecheasier.com/use-systemd-timers-as-cron-replacement/)
-
-### Finding Things
-
-- locate, find, grep -R, which
 
 ### Copying with SFTP
 
@@ -93,7 +73,7 @@
 
 ### Deeper into repositories...
 
-- to see where the packages you install are coming from, view /etc/apt/sources.list where you'll see lines that are clearly specifying URLs to a “repository” for your specific version
+- to see where the packages you install are coming from, view `/etc/apt/sources.list` where you'll see lines that are clearly specifying URLs to a “repository” for your specific version
 - to see how many packages you could already install : `apt-cache dump`
 - Multiverse: "contains software which has been classified as non-free ...may not include security updates".
 - Examples of useful tools in Multiverse might include the compression utilities `rar` and `lha`, and the network performance tool `netperf`
@@ -106,7 +86,7 @@
 
 ### From the Source code
 
-- ./configure : is a script which checks to see whether the server is Intel or ARM and other stuff.
+- `./configure` : is a script which checks to see whether the server is Intel or ARM and other stuff.
 - `make` - compiles the software
 - `make install` : takes the compiled files, and installs that into the system. In some cases also sets up services and scheduled tasks etc.
 - [What is Linux From Scratch](http://www.linuxfromscratch.org/lfs/)
@@ -117,19 +97,20 @@
 
 ### Log rotation
 
+- Log rotation is an automated process used in which log files are compressed, moved, renamed or deleted once they are too old or too big.
 - Using `logrotate` you can define how many days of logs you wish to keep; split them into manageable files; compress them to save space, or even keep them on a totally separate server.
 - The overall configuration is set in `/etc/logrotate.conf`.
-- Also look at the files under the directory /etc/logrotate.d, as the contents of these are merged in to create the full configuration.
+- Also look at the files under the directory `/etc/logrotate.d`, as the contents of these are merged in to create the full configuration.
 - [The Ultimate Logrotate Tutorial](http://www.thegeekstuff.com/2010/07/logrotate-examples/)
 - [Use logrotate to Manage Log Files](http://library.linode.com/linux-tools/utilities/logrotate)
 
 ### Inodes, symlinks and stat
 
-- inux has an extra layer between the filename and the file's actual data on the disk - this is the _inode_
+- Linux has an extra layer between the filename and the file's actual data on the disk - this is the _inode_
 - `ls -li /etc/hosts` to see the inode.
 - `stat /etc/hosts`
 - When we view the permissions, ownership and dates of filenames, these attributes are actually kept at the inode level, _not_ the filename.
-- /etc/rc2.d/\* hols all the scripts that start when your machine changes to “runlevel 2” (it's normal running state)
+- `/etc/rc2.d/*` holds all the scripts that start when your machine changes to “runlevel 2” (it's normal running state)
 - [Anatomy of the Linux file system](https://developer.ibm.com/tutorials/l-linux-filesystem/)
 - [Hard and soft links](http://linuxgazette.net/105/pitcher.html)
 - [What's an inode](http://www.linux-mag.com/id/8658/)
@@ -145,7 +126,8 @@
 
 ### Ip Addressing
 
-- An IP address is divided into two main sections: The network part and the host part. In a simple IP address of 192.168.1.5 with a subnet mask or netmask of 255.255.255.0, the first three octets from the left represent the network part, and the remaining octet is the portion that is assigned to host machines on your network.
+- An IP address is divided into two main sections: The network part and the host part. 
+- In a simple IP address of 192.168.1.5 with a subnet mask or netmask of 255.255.255.0, the first three octets from the left represent the network part, and the remaining octet is the portion that is assigned to host machines on your network.
 - The purpose of a subnet is to draw a boundary between the network portion of an IP address and the host portion. For each bit of the IP address, the subnet or netmask assigns a value.
 - For the network portion, it turns on the bit and assigns the value of 1, For the host portion, it turns off the bit and assigns the value of 0
 - A commonly used subnet mask is the Class C subnet which is 255.255.255.0.

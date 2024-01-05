@@ -6,6 +6,7 @@
 - **HO** [Ultimate Guide to Web Scraping with Python Part 1](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/) *
 - **HO** [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/) *
 - **HO** [Python for Fun](http://www.openbookproject.net/py4fun/)
+- **HO** [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
 
 ### Learning Resources
 
@@ -15,6 +16,7 @@
 - [TOC for Full Stack Python](https://www.fullstackpython.com/table-of-contents.html)
 - [Python Courses](http://www.python-course.eu/index.php)
 - [Python Programming Tutorials](http://pythonprogramming.net)
+- [Python CheatSheet](https://gto76.github.io/python-cheatsheet/)
 
 ### Online Books
 
@@ -28,4 +30,4 @@
 ### Notes
 
 - [Cheatsheet](cheatsheet.md)
-- [Language notes](python_notes.md)
+- [Python notes](notes.md)

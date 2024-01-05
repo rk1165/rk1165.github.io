@@ -50,8 +50,3 @@
 - Ctrl + Alt + Shift + J : select occurrence of all word
 - Ctrl + Shift + X : cloning the carat down to up
 - Ctrl + Shift + Y : cloning the carat up to down
-
-### MacOS
-
-- ^ + Up : All windows
-- ^ + Left/Right : Switch windows

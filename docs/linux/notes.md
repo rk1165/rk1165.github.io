@@ -1,4 +1,4 @@
-### things to learn about Linux
+### Things to learn about Linux
 
 - tcp/ip & networking stuff
 - What is a port/socket?
@@ -101,10 +101,10 @@
 
 ### Random
 
-- In /proc/<PID> there is a lot of very useful information about process with pid PID.
-- in /proc/PID/env lives all of the process's environment variables.
-- in /proc/PID/fd one will find links to all open files.
-- in /proc/PID/cmdline is the command line arguments it was started with.
+- In `/proc/<PID>` there is a lot of very useful information about process with pid PID.
+- in `/proc/PID/env` lives all of the process's environment variables.
+- in `/proc/PID/fd` one will find links to all open files.
+- in `/proc/PID/cmdline` is the command line arguments it was started with.
 - `ls -l /proc/$PID/fd/{0,1,2}` : to see which files a process is reading or writing data to
 - If you look at the file `/proc/$pid/status`, you can find out all sorts of information about your processes
 - Every program has an action it does for every signal and every signal has a default action.
@@ -121,13 +121,11 @@
   6. **games**
   7. **miscellaneous** : man 7 pipe, man 7 symlink
   8. **sysadmin programs** : man apt, man chroot
-- a process can have lots of threads.
-- Threads share memory but they can run different code
-- Sharing memory can cause problems "race conditions"
-- ls -l /bin/ping : rwsr-xr-x : **s** is `setuid` flag. This means ping always runs as root, no matter who started ping.
+- `ls -l /bin/ping` : rwsr-xr-x : **s** is `setuid` flag. This means ping always runs as root, no matter who started ping.
 - Every file has an inode:
-  - who onwns the file?
-  - when was it last changed
-  - where is the file's data
-- ls -i tells inode numbers.
+  - who owns the file?
+  - when was it last changed?
+  - where is the file's data?
+- `ls -i` tells inode numbers.
 - inodes live in a HUGE ARRAY on hard drive. One for every single file + directory.
+

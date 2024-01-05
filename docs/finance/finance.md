@@ -36,5 +36,5 @@
 ### Notes
 
 - [Checklist](checklist.md)
-- [Notes](finance_notes.md)
+- [Notes](notes.md)
 - [Options](options.md)

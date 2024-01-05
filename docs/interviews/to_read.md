@@ -49,11 +49,6 @@
 - [Cassandra Data Partitioning](https://www.instaclustr.com/cassandra-data-partitioning/) ***
 
 
-### JavaScript
-
-- [How to make your own bittorrent client](https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html) *
-- [Node.js Buffer Tutorial](https://allenkim67.github.io/programming/2016/05/17/nodejs-buffer-tutorial.html) *
-
 ### Python
 
 - [Cloudfit Public Docs](https://bbc.github.io/cloudfit-public-docs/) **
@@ -95,8 +90,6 @@
 
 ### Linux
 
-- [An Opinionated Guide to xargs](https://www.oilshell.org/blog/2021/08/xargs.html) ***
-- [Reclaiming the lost art of Linux server administration](https://www.pietrorea.com/2022/01/28/reclaiming-the-lost-art-of-linux-server-administration) **
 - [HTOP explained](https://peteris.rocks/blog/htop/) **
 - [Bash-Oneliner](https://onceupon.github.io/Bash-Oneliner/) **
 - [Effective Shell](https://effective-shell.com/) ***
@@ -223,10 +216,6 @@
 - [How to Manage a Redis DB](https://www.digitalocean.com/community/tutorial_series/how-to-manage-a-redis-database)
 - [Redis a clear breakdown](https://mastermind.dev/redis-a-clear-breakdown) ***
 - [Write your own miniature Redis with Python](https://charlesleifer.com/blog/building-a-simple-redis-server-with-python/) **
-
-### Terraform
-
-- [IaC Terraform](https://crate.io/a/infrastructure-as-code-part-two-a-closer-look-at-terraform/) ***
 
 ### Distributed Systems
 

@@ -45,7 +45,7 @@
 ### Notes
 
 - [Cassandra](cassandra.md)
-- [DBMS](db_notes.md)
+- [Database Notes](notes.md)
 - [ELK](elk.md)
 - [MySQL](mysql.md)
 - [PostgreSQL](postgresql.md)

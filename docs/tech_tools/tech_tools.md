@@ -53,6 +53,6 @@
 - [Kafka](kafka.md)
 - [KeyMap](keymap.md)
 - [Nginx](nginx.md)
+- [Notes](notes.md)
 - [Redis](redis.md)
 - [Stack Overflow Questions](stack_overflow.md)
-- [Tech Tools Notes](tech_tools_notes.md)
