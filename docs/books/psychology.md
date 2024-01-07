@@ -30,7 +30,7 @@
 
 ### Predictably Irrational
 
-- Humans rarely choose things in absolute terms. We don't have an internal value meter that tells us how much things are worth. Rather, we focus on the relative advantage of one thing over another, and estimate value accordingly. (For instance, we don't know how much a six-cylinder car is worth, but we can assume it's more expensive than the four-cylinder model
+- Humans rarely choose things in absolute terms. We don't have an internal value meter that tells us how much things are worth. Rather, we focus on the relative advantage of one thing over another, and estimate value accordingly. (For instance, we don't know how much a six-cylinder car is worth, but we can assume it's more expensive than the four-cylinder model)
 - Most people don't know what they want unless they see it in context
 - We are always looking the things around us in relation to others
 - We not only tend to compare things with one another but also tend to focus on comparing things that are easily comparable—and avoid comparing things that cannot be compared easily

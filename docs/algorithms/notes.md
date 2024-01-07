@@ -224,3 +224,14 @@
 
 - Number of minimum height trees is 1 or 2. First find the tree diameter. If the diameter is even 2 MHT if it's odd 1 MHT.
 - The middle node between the two ends of the diameters correspond to the root nodes for which the MHT exists
+
+### Fast Algorithms
+
+| Application                   | Better Performance Choices                                          |
+| ----------------------------- | ------------------------------------------------------------------- |
+| Trusted data hashing          | [xxhash](http://cyan4973.github.io/xxHash/)                         |
+| Untrusted data hashing        | [blake3](https://github.com/BLAKE3-team/BLAKE3)                     |
+| Fast compression              | [lz4](https://github.com/lz4/lz4)                                   |
+| Good compression              | [zstd](https://facebook.github.io/zstd/)                            |
+| Best compression              | [zstd - 10+](https://facebook.github.io/zstd/)                      |
+| Java crypto (md5, aes-gcm...) | [ACCP](https://github.com/corretto/amazon-corretto-crypto-provider) |

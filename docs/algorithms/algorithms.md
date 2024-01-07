@@ -1,13 +1,8 @@
 ## Data Structures and Algorithms
 
-- **SR** [Use Fast Data Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/) *
-- **LR** [Pagerank Explained Correctly with Examples](https://web.archive.org/web/20200526072648/https://www.cs.princeton.edu/~chazelle/courses/BIB/pagerank.htm) *
 - **LR** [The many flavors of hashing](https://notes.volution.ro/v1/2022/07/notes/1290a79c/) **
 - **LR** [Optimizing Open Addressing](https://thenumb.at/Hashtables/) **
-- **LR** [B-Trees.pdf](http://www.cs.cornell.edu/courses/cs211/2000fa/AccelStream/B-Trees.pdf)
-- **LR** [Detailed Design of a Lock-Free Queue](https://moodycamel.com/blog/2014/detailed-design-of-a-lock-free-queue)
 - **HO** [How does Shazam work? Music Recognition Algorithms, Fingerprinting, and Processing](https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition) **Java**
-- **HO** [Bresenham algorithm for generating Circle](http://members.chello.at/~easyfilter/bresenham.html) **Java**
 
 ### Learning Resources
 
@@ -39,5 +34,5 @@
 
 ### Notes
 
-- [DS and Algo](dsalgo.md)
+- [Notes](notes.md)
 - [Techniques](tricks.md)

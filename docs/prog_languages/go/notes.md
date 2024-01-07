@@ -95,4 +95,16 @@ select {
 - Finally, call the `Write` method to set the body for the response
 - The *middleware* pattern uses a function that takes in an `http.Handler` instance and returns an `http.Handler`.
 - We use the middleware pattern for cross-cutting concerns.
+- There is another Go convention that the context is explicitly passed through your program as the first parameter of a function. The usual name for the context parameter is `ctx`.
+- There are two context-related methods on `http.Request`:
+  - `Context` returns the `context.Context` associated with the request.
+  - `WithContext` takes in a `context.Context` and returns a new `http.Request` with the old request’s state combined with the supplied `context.Context`.
+- When making an HTTP call from your application to another HTTP service, use the `NewRequestWithContext` function.
+- There is a factory method for putting values into the context, `context.WithValue`. It takes in three values: a context, a key to look up the value, and the value itself
+- The `Value` method on `context.Context` checks if a value is in a context or any of its parent contexts.
+- The key for context value must be comparable
+- There are two patterns used to guarantee that a key is unique and comparable. 
+  - The first is to create a new, unexported type for the key, based on an `int`: `type userKey int`
+  - Another option is to define the unexported key type using an empty struct: `type userKey struct{}`
+- If you have a set of related keys for storing different values in the context, use the `int` and `iota` technique. If you only have a single key, either is fine 
 - 
