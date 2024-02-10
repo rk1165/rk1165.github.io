@@ -214,8 +214,8 @@ for (int i = 0; i < inputs.length; i++) {
 | CPU intensive | CPU Core count  | How many other applications (or other executors/threads) are running on the same CPU                                                    |
 | IO intensive  | High            | Exact number will depend on rate of task submissions and average task wait time. Too many threads will increase memory consumption too. |
 
-![thread_pool_queue](./images/thread_pool_queues.png)
-![rejection_policies](./images/rejection_policies.png)
+![thread_pool_queue](/images/thread_pool_queues.png)
+![rejection_policies](/images/rejection_policies.png)
 
 ### What do we understand by the term concurrency?
 
@@ -266,7 +266,7 @@ for (int i = 0; i < inputs.length; i++) {
 
 ### Explaing Life cycle of a thread
 
-![life_cycle](./images/life_cycle.png)
+![life_cycle](/images/life_cycle.png)
 
 - **New** – A newly created thread object instance on which the start() method has not yet been invoked is in the new state.
 - **Runnable** – A thread in new state enters the runnable state when the `Thread.start()` method is invoked on it. There are 2 important points to note regarding the runnable state –
@@ -1076,7 +1076,7 @@ lock.unlock();
 - **when start() method is invoked, Thread will be created and it executes run() method of Task submitted.**
 - By calling **thread.run()** directly, will not create a new Thread instead it will call run method of the task submitted on the same caller thread. So there will be no separate execution for newly created Thread.
 
-![start_vs_run](./images/start_vs_run.png)
+![start_vs_run](/images/start_vs_run.png)
 
 ### What is volatile variable in Java?
 
@@ -1097,7 +1097,7 @@ private boolean bExit;
 
 - join() method is used for waiting the thread in execution until the thread on which join is called is not completed.
 
-![join_method](./images/join_method.png)
+![join_method](/images/join_method.png)
 
 - Remember, the thread which will wait is the thread in execution and it will wait until the thread on which join method called is not completed.
 - Lets take a scenario, we have Main thread, Thread 1, Thread 2 and Thread 3 and we want our thread to execute in particular scenario like,
@@ -1226,7 +1226,7 @@ class SynchronizationExample {
   4. The Producer thread calls the wait () method and goes into waiting state.
 - So due to race condition here we potentially lost a notification and if we use buffer or just one element, Producer thread will be waiting forever and your program will hang.
 
-![wait/notify](./images/wait_notify.png)
+![wait/notify](/images/wait_notify.png)
 
 - This race condition is resolved by using synchronized keyword and locking provided by Java. In order to call the wait(), notify() or notifyAll() methods in Java, we must have obtained the lock for the object on which we're calling the method.
 - Since the wait() method in Java also releases the lock prior to waiting and reacquires the lock prior to returning from the wait() method, we must use this lock to ensure that checking the condition (buffer is full or not) and setting the condition (taking element from buffer) is atomic which can be achieved by using synchronized method or block in Java.

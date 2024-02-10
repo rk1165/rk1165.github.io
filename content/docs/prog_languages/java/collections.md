@@ -20,7 +20,7 @@
 
 ### What is Java Collections Framework?
 
-![Collections Hierarchy](./images/collection-class.png)
+![Collections Hierarchy](/images/collection-class.png)
 
 - It is a framework that provides a mechanism to store and manipulate group of objects.
 - Java Collections can achieve all the operations that we perform on data such as searching, sorting, insertion, manipulation, and deletion.
@@ -121,7 +121,7 @@
 
 ### What are different Collection views provided by Map interface?
 
-![Map Interface](./images/map-interface.png)
+![Map Interface](/images/map-interface.png)
 
 - In the inheritance tree of the Map interface, there are several implementations but only 3 major, common, and general purpose implementations - they are HashMap, LinkedHashMap and TreeMap.
 

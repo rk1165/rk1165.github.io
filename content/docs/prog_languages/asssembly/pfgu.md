@@ -196,7 +196,7 @@ MyDouble dd  0B8000000h      ; 32 bits in size
 - `JNZ` jumps to a label if ZF is 0, and falls through if ZF is 1.
 - _Signed values_ are thought of as being _greater than_ or _less than_. For example, to test whether one signed operand is greater than another, you would use the `JG` (Jump if greater) mnemonic after a `CMP` instruction.
 - _Unsigned values_ are thought of as being _above_ or _below_. For example, to tell whether one unsigned operand is greater than (above) another, use the `JA` (Jump if Above) mnemonic after a `CMP` instruction.
-  ![Arithmetic tests useful after a CMP instruction](images/tests.png)
+  ![Arithmetic tests useful after a CMP instruction](/images/tests.png)
 - `TEST` performs an `AND` logical operation between two operands, and then sets the flags as the `AND` instruction would, _without_ altering the destination operation, as `AND` also would. `TEST` instruction syntax : `test <operand>, <bit mask>`
 - `test ax,08h ; determine whether bit 3 of AX is set to 1`
 - `test ax,00001000B` another way
@@ -206,7 +206,7 @@ MyDouble dd  0B8000000h      ; 32 bits in size
 
 ##### Protected Mode Memory Addressing in Detail.
 
-![Protected mode memory addressing](images/pmma.png)
+![Protected mode memory addressing](/images/pmma.png)
 
 - The base and index registers may be any of the 32-bit GP registers including ESP
 - The displacement may be any 32-bit constant.
@@ -221,7 +221,3 @@ MyDouble dd  0B8000000h      ; 32 bits in size
 - The `XLAT` instruction is hard-coded to use certain registers in certain ways. Its two operands are implicit:
 - The address of the translation table must be in EBX
 - The character to be translated must be in AL
-
-### 10. Dividing and Conquering
-
--

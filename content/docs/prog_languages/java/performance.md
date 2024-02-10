@@ -5,7 +5,7 @@
   - ~256 KB Level 2 (L2) cache medium speed cache
 - All cores share a Level 3 (L3) cache. The L3 cache tends to be around 8 MB.
 
-![cpu_caches](./images/cpu_cache.png)
+![cpu_caches](/images/cpu_cache.png)
 
 - L1 access latency : 4 cycles
 - L2 access latency : 11 cycles
@@ -15,24 +15,24 @@
 - A **cache line** is the unit of data transfer between the cache and main memory. Typically the cache line is 64 bytes.
 - The processor will read or write an entire cache line when any location in the 64 byte region is read or written.
 
-![row_wise_access](./images/row_wise_access.png)
-![column_wise_access](./images/column_wise_access.png)
+![row_wise_access](/images/row_wise_access.png)
+![column_wise_access](/images/column_wise_access.png)
 
 - The processors also attempt to prefetch cache lines by analyzing the memory access pattern or a thread.
 - Prefer arrays and vectors stored by value
 
-![cache_line_usage](./images/cache_line_usage.png)
-![cache_line_usage](./images/cache_line_usage_2.png)
+![cache_line_usage](/images/cache_line_usage.png)
+![cache_line_usage](/images/cache_line_usage_2.png)
 
 - Keep array entry validity flags in separate descriptor array.
 
-![array_entry_validity_flags](./images/array_entry_validity_flags.png)
-![array_entry_validity_flags](./images/array_entry_validity_flags_2.png)
+![array_entry_validity_flags](/images/array_entry_validity_flags.png)
+![array_entry_validity_flags](/images/array_entry_validity_flags_2.png)
 
 - Avoid cache line sharing between threads (false sharing)
 - Consider the array shown below that has been optimized so that two cores (blue and green) are operating on alternate entries in the array.
 
-![false_sharing](./images/false_sharing.png)
+![false_sharing](/images/false_sharing.png)
 
 - Since the green and blue processor share a cache line, this triggers _cache coherency procedures_ between green and blue cores. This approach is referred to as _false sharing_
 - Code with tight `for` loops is likely to fit into the L1 or L2 cache.
@@ -64,7 +64,7 @@ str.split(values, " ");
 - A memory fence/barrier is a class of instructions that mean memory read/writes occur in the order you expect. For example a _full fence_ means all read/writes before the fence are committed before those after the fence.
 - Memory fences are a hardware concept.
 
-![multi_core_cpu](./images/multi_core_cpu.png)
+![multi_core_cpu](/images/multi_core_cpu.png)
 
 - The techniques for making memory visible from a processor core are known as memory barriers or fences.
 - A **store barrier**, `sfence` instruction on x86, waits for all store instructions prior to the barrier to be written from the store buffer to the L1 cache for the CPU on which it is issued.
@@ -76,7 +76,7 @@ str.split(values, " ");
 - False sharing is a term which applies when threads unwittingly impact the performance of each other while modifying independent variables sharing the same cache line.
 - Write contention on cache lines is the single most limiting factor on achieving scalability for parallel threads of execution in a SMP system.
 
-![false_sharing](./images/false_sharing.png)
+![false_sharing](/images/false_sharing.png)
 
 ### Microbenchmarking
 

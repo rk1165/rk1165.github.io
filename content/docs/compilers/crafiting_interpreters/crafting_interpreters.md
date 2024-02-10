@@ -8,7 +8,7 @@
 
 ## The Parts of a Language
 
-![implementation path](./images/implementation_path.png)
+![implementation path](/images/implementation_path.png)
 
 - Let's trace through the points of interest. Our journey begins on the left with the bare text of the user's source code:
   `var average = (min + max) / 2;`
@@ -24,7 +24,7 @@
 - A **parser** takes the flat sequence of tokens and builds a tree structure that mirrors the nested nature of the grammar.
 - These trees have a couple of different names - **parse tree** or **abstract syntax tree**. In practice they are called **syntax trees**, **ASTs**
 
-![syntax trees](./images/syntax_trees.png)
+![syntax trees](/images/syntax_trees.png)
 
 - The parser's job also includes telling us by reporting **syntax errors**
 - The first two stages are pretty similar across all implementations
@@ -242,9 +242,9 @@ operator   -> "==" | "!=" | "<" | "<=" | ">" | ">=" | "+" | "-" | "*" | "/";
 
 - Tree to represent the syntax of our language is called a **syntax tree**. In particular an _abstract_ syntax tree. In a **parse tree**, very single grammar production becomes a node in the tree. An AST elides productions that aren’t needed by later phases.
 - We have a family of classes and we need to associate a chunk of behaviour with each one. The natural solution in in OOPL like Java is to put that behaviour into methods on the classes themselves. We could add an `interpret()` method on `Expr` which each subclass then implements to interpret itself. This is called the **Interpreter pattern**
-  ![OOP Style](./images/OOP_style.png)
+  ![OOP Style](/images/OOP_style.png)
 - An object-oriented language like Java assumes that all of the code in one row naturally hangs together. It figures all the things you do with a type are likely related to each other, and the language makes it easy to define them together as methods inside the same class
-  ![Functional Style](./images/functional_style.png)
+  ![Functional Style](/images/functional_style.png)
 - Functional paradigm languages in the ML family flip that around. There, you don’t have classes with methods. Types and functions are totally distinct. To implement an operation for a number of different types, you define a single function. In the body of that you use pattern matching—sort of a type-based switch on steroids—to implement the operation for each type all in one place.
 - An OO language wants you to _orient_ your code along the rows of types.
 - A functional language instead encourages to lump each each column's words of code together into _functions_

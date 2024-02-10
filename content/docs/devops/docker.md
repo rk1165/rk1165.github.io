@@ -12,33 +12,33 @@
   - Health monitoring of containers and hosts
   - Configuration of an application in relation to the containers running it
 
-![DevOps toolchain](images/toolchain.png)
+![DevOps toolchain](/images/toolchain.png)
 
 - Docker combines the application and its dependencies into an **image** that can then be run on any machine, provided it can run docker.
 - A container consists only of a given application and its dependencies
 - **Docker image** is a file. It is built according to an instruction file called `Dockerfile`. An image never changes; you cannot edit an existing file, but you can create a new **layer** to it.
 - **Docker container** Containers only contain that which is required to execute an application; and you can start, stop and interact with them. They are **isolated** environments in the host machine with the ability to interact with each other and the host machine itself via defined methods (TCP/UDP).
-- Containers are instances of images.
+- Containers are instances of /images.
 - To get an image, you have to build it with the `Dockerfile`. You then run the image creating a container.
 - `docker rmi <image-id or name>` removes an image
 - `docker container ls` to list all containers that are running.
 - `docker container ls -a` to list all containers.
 - `docker container prune` to delete hundreds of stopped containers.
 - `docker system prune` to clear everything.
-- `docker pull <image>` pulls images from a docker registry called docker hub.
+- `docker pull <image>` pulls /images from a docker registry called docker hub.
 - `docker run <image-id or name>` runs an image creating a container.
 - `docker run -d nginx` starts a container _detached_, meaning that it runs in the background.
 - `docker stop <container id or name>` stops the container
 - `docker rm <container-id or name>` removes a container.
 - `docker rm --force <container-id or name>` to remove the container forcefully.
-- `docker images` lists all images.
+- `docker /images` lists all /images.
 - `docker exec <container-id>` executes a command inside the container
-- `docker search <image name>` to search for images in the Docker Hub.
-- Images can be tagged to save different versions of the same image. You define an image's tag by adding `:<tag>` after the image's name.
-- Images are composed of different layers that are downloaded in parallel to speed up the download.
-- We can also tag images locally for convenience. For example:
+- `docker search <image name>` to search for /images in the Docker Hub.
+- /images can be tagged to save different versions of the same image. You define an image's tag by adding `:<tag>` after the image's name.
+- /images are composed of different layers that are downloaded in parallel to speed up the download.
+- We can also tag /images locally for convenience. For example:
   - `docker tag ubuntu:16.04 ubuntu:xenial` creates the tag `ubuntu:xenial` which refers to `ubuntu:16.04`
-- Tagging is also a way to **rename** images.
+- Tagging is also a way to **rename** /images.
   - `docker tag ubuntu:16.04 fav_distro:xenial` will change the name of the image
 - `docker run -d --name looper ubuntu:16.04 sh -c 'while true; do date; sleep 1; done'` run a container in the background
 - `-it` is short for `-i` - "interactive, connect STDIN" and `-t` - "allocate a pseudo-TTY".
@@ -50,7 +50,7 @@
 - To attach to a container while making sure we don't close it from the other terminal we can specify to not attach STDIN with `--no-stdin` option.
 - To enter a container, we can start a new process in it. `docker exec -it looper bash`
 - Docker will automatically search [Docker Hub](https://hub.docker.com/) for the image when running a command such as `docker run hello-world`
-- [Official images](https://docs.docker.com/docker-hub/official_images/) are curated and reviewed by Docker, Inc. They are build from repositories in the [docker-library](https://github.com/docker-library)
+- [Official /images](https://docs.docker.com/docker-hub/official_/images/) are curated and reviewed by Docker, Inc. They are build from repositories in the [docker-library](https://github.com/docker-library)
 - The image marked as "automated" is [automatically built](https://docs.docker.com/docker-hub/builds/) from the source repository.
 - We can start a process with `--rm` flag in order to remove it automatically after it has exited.
 - After attaching to a container and hitting ctrl+p, ctrl+q detaches us from the STDOUT.
@@ -117,8 +117,8 @@ RUN wget http://example.com/index.html
 - docker exec -i : allows us to have stuff we type into our terminal directed into the running process. -t : prettifying and more
 - docker commit -c 'CMD ["redis-server"]' $ID/$NAME : creates an image from a container with command
 - The docker history command shows the size of each layer associated with an image. `docker history layer-demo/latest`
-- `docker images --filter "dangling=true"` : To list out all the dangling images
-- `docker images --quiet --filter=dangling=true | xargs --no-run-if-empty docker rmi` : shows the dangling images and then removes them subsequently
+- `docker /images --filter "dangling=true"` : To list out all the dangling /images
+- `docker /images --quiet --filter=dangling=true | xargs --no-run-if-empty docker rmi` : shows the dangling /images and then removes them subsequently
 
 #### part 2
 
@@ -175,8 +175,8 @@ services:
 - `docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web`
 - `docker container status $ID` : shows a live view of how much CPU, memory, network, and disk the container is using
 - `docker container rm --force $(docker container ls --all --quiet)`
-  ![Docker Components](images/docker-components.png)
-- The Docker Engine is the management component of Docker. It looks after the local image cache, downloading images when you need them, and reusing them if they’re already downloaded. It also works with the operating system to create containers, virtual networks, and all the other Docker resources. The Engine is a background process that is always running
+  ![Docker Components](/images/docker-components.png)
+- The Docker Engine is the management component of Docker. It looks after the local image cache, downloading /images when you need them, and reusing them if they’re already downloaded. It also works with the operating system to create containers, virtual networks, and all the other Docker resources. The Engine is a background process that is always running
 - The Docker Engine makes all the features available through the Docker API, which is just a standard HTTP-based REST API.
 - When you run Docker commands, the CLI actually sends them to the Docker API, and the Docker Engine does the work.
 - `docker container cp index.html $ID:/usr/local/apache2/htdocs/index.html` : this copies the local file index.html to container with ID's file
@@ -189,13 +189,13 @@ services:
 - `docker container commit $container_name $image_name` : to create a new image from a container's changes
 - `docker network create nat`
 - when you run containers you can explicitly connect them to that Docker network using the --network flag, and any containers on that network can reach each other using the container names
-- `docker image ls -f reference=diamol/golang -f reference=image-gallery` : filtering images
+- `docker image ls -f reference=diamol/golang -f reference=image-gallery` : filtering /images
 - There are actually four parts to a full image name (which is proeprly called **image reference**)
 - docker.io/diamol/golang:latest
 - registry/account/repo_name:image_tag
 - `docker container run -d -p 5000:5000 --restart always diamol/registry` : run the docker registry in a container
 - `docker info` : to see all the information
-- Golden images use an official image as the base and then add in whatever custom setup they need, such as installing security certificates or configuring default environment settings
+- Golden /images use an official image as the base and then add in whatever custom setup they need, such as installing security certificates or configuring default environment settings
 - Each container has its own filesystem. One can run multiple containers from the same Docker image, and they will all start with the same disk contents.
 - `docker container inspect --format '{{.Mounts}}' $NAME/$ID` : to inspect volume information. Volumes are shown as "mounts" when inspecting a container.
 - you can run a container with the `volumes-from` flag, which attaches another container’s volumes

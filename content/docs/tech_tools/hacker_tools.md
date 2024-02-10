@@ -17,7 +17,7 @@
 - Containers are _mostly_ just an assembly of various Linux security features,like virtual file system, virtual network interfaces, chroots, virtual memory tricks, and the like, that together give the appearsance of virtualization.
 - Eg. Amazon Firecracker, Docker, rkt, lxc
 - Containers share the linux kernel with the host.
-  ![Docker](./images/docker.png)
+  ![Docker](/images/docker.png)
 - Containers are handy for when you want to run an automated task in a standardized setup:
   - Build systems
   - Development environments

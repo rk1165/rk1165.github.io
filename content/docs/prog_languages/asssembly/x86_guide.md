@@ -1,4 +1,4 @@
-![x86 Registers](images/x86_registers.png)
+![x86 Registers](/images/x86_registers.png)
 
 ### Memory and Addressing Modes
 
@@ -82,7 +82,7 @@ mov DWORD PTR [ebx],2 ; Move the 32-bit integer representation of 2 into the 4 b
 ### Calling Convention
 
 - The calling convention is a protocol about how to call and return from routines.
-  ![Stack during Subroutine call](images/stack.png)
+  ![Stack during Subroutine call](/images/stack.png)
 
 ## Programming from the ground up
 
@@ -213,9 +213,9 @@ fld dword [x] ; pushes value of x to stack.
 ### NASM Tutorial
 
 - NASM is line based. Most programs consist of **directives** followed by one or more **sections**. Line can have an optional **label**. Most lines have an **instruction** followed by zero or more **operands**
-- ![nasm](images/nasm.png)
+- ![nasm](/images/nasm.png)
 
-- ![registers](images/registers.png)
+- ![registers](/images/registers.png)
 - These are the basic forms of addressing:
   - [ number ]
   - [ reg ]

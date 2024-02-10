@@ -57,7 +57,7 @@
 - [Address Space Layout Randomization](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
 - When a program is run by the operating system (OS), the executable will be held in memory in a very specific way that's consistent between different processes.
 
-![Memory](./images/memory.png)
+![Memory](/images/memory.png)
 
 - The top of the **memory** is the kernel area, which contains the command-line parameters that are passed to the program and the environment variables.
 - The bottom area of the memory is called **text** and contains the actual code, the compiled machine instructions, of the program. It is a read-only area.
@@ -134,7 +134,7 @@
 
 ### OSI model
 
-![OSI](./images/osi.png)
+![OSI](/images/osi.png)
 
 - A summary of each layer's responsibilities:
   - **Application** - High-level API's, including resource sharing, remote file access.

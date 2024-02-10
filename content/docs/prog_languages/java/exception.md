@@ -51,7 +51,7 @@
 - **try-catch**: We use try-catch block for exception handling in our code. try is the start of the block and catch is at the end of try block to handle the exceptions. We can have multiple catch blocks with a try and try-catch block can be nested also. catch block requires a parameter that should be of type Exception.
 - **finally**: finally block is optional and can be used only with try-catch block. Since exception halts the process of execution, we might have some resources open that will not get closed, so we can use finally block. finally block gets executed always, whether exception occurs or not.
 
-![exception_handling](./images/exception_handling.png)
+![exception_handling](/images/exception_handling.png)
 
 ### Can an exception be rethrown?
 
@@ -86,7 +86,7 @@
   1. `getCause()` :- This method returns actual cause of an exception.
   2. `initCause(Throwable cause)` :- This method sets the cause for the calling exception.
 
-  ![chaining](./images/chaining.png)
+  ![chaining](/images/chaining.png)
 
 ### Why Chained Exceptions?
 

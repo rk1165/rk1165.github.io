@@ -109,7 +109,7 @@
   2. `jcmd <PID> VM.unlock_commercial_features`
   3. `jcmd <PID> JFR.start name=test duration=60s settings=template.jfc filename=output.jfr`
 
-![JVM architecture diagram](images/jvm.png)
+![JVM architecture diagram](/images/jvm.png)
 
 ## How does the JVM work
 

@@ -214,7 +214,7 @@ Relationship annotations:
 - @ManyToOne
 - @ManyToMany
 
-![JPA class level architecture](./images/jpa_class_level_architecture.png)
+![JPA class level architecture](/images/jpa_class_level_architecture.png)
 
 **JPA - Architecture**
 

@@ -75,8 +75,8 @@
 
 ### Explain JMM and Java GCn in that?
 
-![JMM](images/jmm.png)
-![JMM2](images/jmm2.png)
+![JMM](/images/jmm.png)
+![JMM2](/images/jmm2.png)
 
 - Once we launch the JVM, the OS allocates memory for the process. Here, the JVM itself is a process, and the memory allocated to that process includes the Heap, Meta Space, JIT code cache, thread stacks, and shared libraries. We call this native memory.
 - **Native Memory** is the memory provided to the process by the OS. How much memory the OS allocates to the Java process depends on the OS, processor, and the JRE.

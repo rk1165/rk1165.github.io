@@ -85,35 +85,35 @@
   - _red_ is a piece of infrastructure (MySQL, Redis, RabbitMQ, etc)
 - Horizontal scalability and redundancy are usually achieved via load balancing
 
-![arch](./images/arch.png)
+![arch](/images/arch.png)
 
 - Load balancing is the process of spreading requests across multiple resources according to some metric (random, round-robin, random with weighing for machine capacity, etc) and their current status (available for requests, not responding, elevated error rate, etc).
 - Caching consists of: precalculating results (e.g. the number of visits from each referring domain for the previous day), pre-generating expensive indexes (e.g. suggested stories based on a user's click history), and storing copies of frequently accessed data in a faster backend e.g. Memcached.
 - There are two primary approaches to caching: **application** caching and **database** caching (most systems rely heavily on both)
 
-![caching](./images/caching.png)
+![caching](/images/caching.png)
 
 - Application caching requires explicit integration in the application code itself
 - The other side of the coin is database caching.
 
-![dbcaching](./images/dbcaching.png)
+![dbcaching](/images/dbcaching.png)
 
 - **Least Recently used** LRU works by evicting less commonly used data in preference of more frequently used data, and is almost always an appropriate caching strategy.
 - CDNs take the burden of serving static media off of your application servers.
 
-![cdn](./images/cdn.png)
+![cdn](/images/cdn.png)
 
 - Message queues allow your web applications to quickly publish messages to the queue, and have other consumers processes perform the processing outside the scope and timeline of the client request.
 
-![queues](./images/queues.png)
+![queues](/images/queues.png)
 
 - Adding a map-reduce layer makes it possible to perform data and/or processing intensive operations in a reasonable amount of time.
 
-![map-reduce](./images/map-reduce.png)
+![map-reduce](/images/map-reduce.png)
 
 - Platform
 
-![platform](./images/platform.png)
+![platform](/images/platform.png)
 
 ### Types of databases
 

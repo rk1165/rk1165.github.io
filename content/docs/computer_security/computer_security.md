@@ -45,4 +45,4 @@
 
 ### Notes
 
-- [Computer Security Notes](notes.md)
+- [Computer Security Notes](notes)

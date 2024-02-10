@@ -180,8 +180,8 @@ public Manager getBuddy() { ... } // OK to change return type
 - In a lambda-expression, one can only reference variables whose value doesn't change.
 - It is also illegal to refer, in a lambda expression, to a variable that is mutated outside.
 - The rule is that any captured variable in a lambda expression must be _effectively final_
-- ![common_functional_interfaces](images/common_functional_interfaces.png)
-- ![fi_for_primitive_types](images/fi_for_primitive_types.png)
+- ![common_functional_interfaces](/images/common_functional_interfaces.png)
+- ![fi_for_primitive_types](/images/fi_for_primitive_types.png)
 - The static `comparing` method takes a "key extractor" function that maps a type T to a comparable type (such as `String`). `Arrays.sort(people, Comparator.comparing(Person :: getName));`
 - We can chain comparators with the `thenComparing` method for breaking ties.
 
@@ -306,7 +306,7 @@ void monitorTemperature() throws @Critical TemperatureException { ... }   // Thr
 - It's important to note that List<Object> and List<?> are not the same. You can insert an Object, or any subtype of Object, into a List<Object>. But you can only insert null into a List<?>
 - a _lower bounded_ wildcard restricts the unknown type to be a specific type or a _super type_ of that type
 - A lower bounded wildcard is expressed using the wildcard character ('?'), following by the _super_ keyword, followed by its lower bound: `<? super A>`.
-- ![hierarchy](images/hierarchy.png)
+- ![hierarchy](/images/hierarchy.png)
 - a list may be defined as `List<?>` but, when evaluating an expression, the compiler infers a particular type from the code. This scenario is known as _wildcard capture_
 - `copy(src, dest)` : src is the "in" variable, dest is the "out" variable.
 - use the "in" and "out" principle when deciding whether to use a wildcard and what type of wildcard is appropriate. The following list provides the guidelines to follow:
@@ -910,7 +910,7 @@ System.out.println(s2==s4); //false
 System.out.println(s1==s2); //false
 ```
 
-![interning](./images/interning.png)
+![interning](/images/interning.png)
 We can see total 3 objects are created here.
 
 ### Why String class is immutable?
@@ -931,7 +931,7 @@ We can see total 3 objects are created here.
 - The real purpose of Constructor Chaining is that you can pass parameters through a bunch of different constructors, but only have the initialization done in a single place. This allows you to maintain your initializations from a single location, while providing multiple constructors to the user. If we don’t chain, and two different constructors require a specific parameter, you will have to initialize that parameter twice, and when the initialization changes, you’ll have to change it in every constructor, instead of just the one.
 - As a rule, constructors with fewer arguments should call those with more
 
-![Constructor chaining](./images/chaining_constructor.png)
+![Constructor chaining](/images/chaining_constructor.png)
 
 - **Important points about constructor**
   1. Every class has a constructor whether it’s a normal class or an abstract class.
