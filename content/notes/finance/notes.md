@@ -1,3 +1,9 @@
++++
+title = 'Finance Notes'
+date = 2024-02-11
+
++++
+
 ### Pairs trade
 
 - The strategy monitors performance of two historically correlated securities. When the correlation between the two securities temporarily weakens, i.e. one stock moves up while the other moves down, the pairs trade would be to short the outperforming stock and to long the underperforming one, betting that the "spread" between the two would eventually converge.
@@ -29,7 +35,6 @@
 - Great fundamental investors focus on understanding the magnitude and sustainability of free cash flow. Factors that an investor must consider include where the industry is in its life cycle, a company’s competitive position within its industry, barriers to entry, the economics of the business, and management’s skill at allocating capital.
 - Great investors can explain clearly how a company makes money, have a grasp on the changes in the drivers of profitability, and never own the stock of a company if they do not understand how it makes money.
 - Albert Einstein’s point that _success comes from curiosity, concentration, perseverance and self-criticism. And by self-criticism, he meant the ability to change his mind so that he destroyed his own best-loved ideas_
-
 - Volatility is high; hence the premiums are attractive for an options seller. When volatility drops premiums drop and buy back the option
 - **MDA** - The most standard way for any company to start this section is by talking about the macro trends in the economy. They discuss the overall economic activity of the country and the business sentiment across the corporate world. If the company has high exposure to exports, they even talk about global economic and business sentiment. Following this, companies talk about trends in the industry and what they expect for the year ahead. Read through this and compare it with its peers to understand if the company has any advantage over its peers. Then it talks about how the business had performed across various divisions, how did it fare in comparison to the previous year etc. Some companies discuss their guidelines and strategies for the year ahead across the various verticals they operate in.
 - **Stock in trade** refers to finished goods of previous financial year being sold in this financial year.

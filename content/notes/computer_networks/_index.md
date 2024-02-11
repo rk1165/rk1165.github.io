@@ -13,13 +13,5 @@
 
 ### Online Books
 
-- [High Performance Browser Networking](https://hpbn.co/) ***
+- [High Performance Browser Networking](https://hpbn.co/)
 - [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu/)
-
-### Notes
-
-- [Computer Networks - A Top Down Approach](cntda)
-- [High Performance Browser Networking](hpbn)
-- [Computer Networks Notes](notes)
-- [Peer to Peer](P2P)
-- [Networking Tools](tools)

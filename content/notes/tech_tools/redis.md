@@ -1,4 +1,8 @@
-### Redis
++++
+title = 'Redis'
+date = 2024-02-11
+
++++
 
 - Redis is Key-Value Store NoSQL Database.
 - Key is a string, value is pretty much anything.

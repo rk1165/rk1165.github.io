@@ -1,3 +1,9 @@
++++
+title = 'Tools and Techonologies'
+date = 2024-02-11
+
++++
+
 ### How debuggers work
 
 - **ptrace** : It's a versatile and rather complex tool that allows one process to control the execution of another and to peek and poke at its innards

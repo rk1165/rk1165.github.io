@@ -1,3 +1,9 @@
++++
+title = 'Terminal Commands and how to use them'
+date = 2024-02-11
+
++++
+
 ### cut
 
 - It can be used to cut parts of a line by delimiter, byte position, and character.

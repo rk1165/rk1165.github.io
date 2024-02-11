@@ -1,4 +1,8 @@
-### Kafka Notes
++++
+title = 'Apache Kafka'
+date = 2024-02-11
+
++++
 
 - When we create a topic we have to say how many partitions we need and replication-factor
 - In kafka we can't create a topic with replication-factor > no. of brokers we have

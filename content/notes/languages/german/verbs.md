@@ -1,4 +1,8 @@
-### German Verbs
++++
+title = 'German Verbs'
+date = 2024-02-11
+
++++
 
 - feiern : to celebrate
 - fehlen : to be missing
@@ -75,7 +79,6 @@
 - (etwas) rachen : to smoke | raucht, rauchte, hat geraucht
 - etwas kaufen : to buy | kauft, kaufte, hat gekauft
 - etwas/jemanden röntgen : to x-ray | röntgt, röntgte, hat geröntgt
--
 
 ### Sentences
 

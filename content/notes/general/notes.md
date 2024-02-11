@@ -1,4 +1,8 @@
-### General Notes
++++
+title = 'General Notes'
+date = 2024-02-11
+
++++
 
 - An **acquired taste** is an appreciation for something unlikely to be enjoyed by a person who has not had substantial exposure to it.
 - **Don't throw the baby out with the bathwater** is an idiomatic expression for an avoidable error in which something good is eliminated when trying to get rid of something bad, or in other words, rejecting the favorable along with the unfavorable

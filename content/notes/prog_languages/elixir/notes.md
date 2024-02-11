@@ -1,4 +1,8 @@
-### Elixir Notes
++++
+title = 'Elixir Notes'
+date = 2024-02-11
+
++++
 
 - An atom is a constant whose name is its value. `:foo`
 - The booleans `true` and `false` are also the atoms `:true` and `:false`, respectively.

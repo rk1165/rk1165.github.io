@@ -1,3 +1,9 @@
++++
+title = 'ELK Stack'
+date = 2024-02-11
+
++++
+
 ### Components
 
 - Kibana is an analytics & visualization platform. It is an ES dashboard where we can create pie-charts, graph etc.

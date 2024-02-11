@@ -1,3 +1,10 @@
++++
+title = 'Building Blocks for Theoretical Computer Science'
+date = 2024-02-11
+
++++
+
+
 #### Note 1
 
 - **proposition** is simply a statement which is either true or false.

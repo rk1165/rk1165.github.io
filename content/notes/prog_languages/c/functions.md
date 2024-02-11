@@ -1,3 +1,9 @@
++++
+title = 'C Functions in stdlib'
+date = 2024-02-11
+
++++
+
 ### fgets
 
 - The standard function `fgets` can be used to read a **string** from the keyboard or file (usually text). The general form of an `fgets` call is:

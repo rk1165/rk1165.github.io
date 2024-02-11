@@ -1,3 +1,9 @@
++++
+title = 'Checklist before Investing'
+date = 2024-02-11
+
++++
+
 #### Conditions and criteria to consider in the search for mistakes and inefficiencies.
 
 - **Klarman - Where to Find Investment Opportuinities**

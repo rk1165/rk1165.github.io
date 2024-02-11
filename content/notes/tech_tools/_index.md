@@ -1,16 +1,16 @@
 ## Technologies and Tools
 
-- **SR** [CACHE COLLISION - Memcached vs Redis](https://engineering.kablamo.com.au/posts/2021/memcached-vs-redis-whats-the-difference) \*\*
-- **LR** [How browsers work](https://web.dev/howbrowserswork/) \*\*
-- **LR** [CSS Utility Classes and "Separation of Concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
-- **DD** [How video works](https://howvideo.works/) \*\*
-- **DD** [RTC (Real-Time Communication) at scale](http://www.horatiulazu.ca/blog/coop/2020/05/02/rt-calling.html)
-- **DD** [Inside look at modern web browser](https://developer.chrome.com/blog/inside-browser-part1/) \*\*
-- **HO** [Firecracker internals : a deep dive inside the technology powering AWS lambda](https://www.talhoffman.com/2021/07/18/firecracker-internals/) **Rust**
+- [CACHE COLLISION - Memcached vs Redis](https://engineering.kablamo.com.au/posts/2021/memcached-vs-redis-whats-the-difference)
+- [How browsers work](https://web.dev/howbrowserswork/)
+- [CSS Utility Classes and "Separation of Concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+- [How video works](https://howvideo.works/)
+- [RTC (Real-Time Communication) at scale](http://www.horatiulazu.ca/blog/coop/2020/05/02/rt-calling.html)
+- [Inside look at modern web browser](https://developer.chrome.com/blog/inside-browser-part1/)
+- [Firecracker internals : a deep dive inside the technology powering AWS lambda](https://www.talhoffman.com/2021/07/18/firecracker-internals/)
 
 #### Sites
 
-- [Learn RegEx](https://regexone.com/) **Tutorial**
+- [Learn RegEx](https://regexone.com/)
 - [ExplainShell](https://explainshell.com/)
 - [SS64 - Command line reference](https://ss64.com)
 - [The POSIX Shell And Utilities](https://shellhaters.org/)
@@ -36,8 +36,8 @@
 
 #### Kafka
 
-- **DD** [Connector Developer Guide](https://docs.confluent.io/3.2.0/connect/devguide.html) \*
-- **Tool** [Confluent Open Source / Community / Partner Connectors](https://www.confluent.io/product/connectors/)
+- [Connector Developer Guide](https://docs.confluent.io/3.2.0/connect/devguide.html)
+- [Confluent Open Source / Community / Partner Connectors](https://www.confluent.io/product/connectors/)
 
 ### Online Books
 
@@ -45,14 +45,3 @@
 - [Build your own Redis](https://build-your-own.org/blog/20230127_byor/)
 - [Web RTC for the Curious](https://webrtcforthecurious.com/)
 - [Git Book](https://git-scm.com/book/en/v2)
-
-### Notes
-
-- [Git](git)
-- [Hacker Tools](hacker_tools)
-- [Kafka](kafka)
-- [KeyMap](keymap)
-- [Nginx](nginx)
-- [Notes](notes)
-- [Redis](redis)
-- [Stack Overflow Questions](stack_overflow)

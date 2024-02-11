@@ -1,4 +1,8 @@
-### Nginx
++++
+title = 'Ngnix'
+date = 2024-02-11
+
++++
 
 - Ngnix acts as both a server and a proxy.
 - Nginx can operate in Layer 7 (http) or Layer 4 (tcp)

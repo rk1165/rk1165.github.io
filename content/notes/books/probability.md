@@ -1,5 +1,5 @@
 +++
-title = 'Notes on Probability related books'
+title = 'Probability'
 date = 2024-02-11
 
 +++

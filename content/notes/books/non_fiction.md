@@ -1,5 +1,5 @@
 +++
-title = 'Notes on Non-Fiction books'
+title = 'Non-Fiction'
 date = 2024-02-11
 
 +++

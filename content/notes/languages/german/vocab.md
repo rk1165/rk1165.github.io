@@ -1,3 +1,9 @@
++++
+title = 'German Vocabulary'
+date = 2024-02-11
+
++++
+
 | Singular                  | Plural                       | Word/meaning                                | Remarks                          |
 | ------------------------- | ---------------------------- | ------------------------------------------- | -------------------------------- |
 | das Abitur                | -                            | school leaving exam; high school graduation | nur Singular                     |

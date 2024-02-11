@@ -1,3 +1,9 @@
++++
+title = 'AWS Notes'
+date = 2024-02-11
+
++++
+
 ### Edx Course
 
 - AZ - Availability zone: A physically distinct, independent infrastructure, that is engineered to be highly reliable.

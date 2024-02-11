@@ -1,3 +1,9 @@
++++
+title = 'Scalability Notes'
+date = 2024-02-11
+
++++
+
 ### Web scalability for Startup Engineers
 
 - The key thing to observe is that any data you put into the session should be stored outside of the web server itself to be available from any web server.

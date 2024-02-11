@@ -1,3 +1,9 @@
++++
+title = 'Kubernetes'
+date = 2024-02-11
+
++++
+
 ### What problems have you actually solved with kubernetes?
 
 - Immutable infrastructure - leads to things like better security- e.g scan 1 container image instead of every os image

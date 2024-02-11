@@ -1,3 +1,9 @@
++++
+title = 'Cassandra'
+date = 2024-02-11
+
++++
+
 ### Architecture
 
 - gossip protocol is primarily implemented by the `org.apache.cassandra.gms.Gossiper` class, which is responsible for managing gossip for the local node.

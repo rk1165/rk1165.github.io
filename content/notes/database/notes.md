@@ -1,3 +1,9 @@
++++
+title = 'Database Notes'
+date = 2024-02-11
+
++++
+
 ### General
 
 - `SERIAL` will automatically increase itself.

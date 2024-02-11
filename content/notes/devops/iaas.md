@@ -1,4 +1,10 @@
-### IAAS Basics
++++
+title = 'Infra as a Service'
+date = 2024-02-11
+
++++
+
+### IaaS Basics
 
 - **Orchestration tools** are used to provision, organize, and manage infrastructure components.
 - **Configuration management tools** are used to install, update, and manage the software running on the infrastructure components.

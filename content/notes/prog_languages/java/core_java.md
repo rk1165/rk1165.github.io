@@ -1,3 +1,9 @@
++++
+title = 'Core Java'
+date = 2024-02-11
+
++++
+
 ### Basics
 
 - **static initialization block** is executed before the main() method.

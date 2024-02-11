@@ -1,3 +1,9 @@
++++
+title = 'Paul Graham article notes'
+date = 2024-02-11
+
++++
+
 ### How to Start a Startup
 
 - You need three things to create a successful startup:

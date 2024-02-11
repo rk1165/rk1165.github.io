@@ -1,4 +1,8 @@
-### OOPS Concepts
++++
+title = 'OOPS Concepts'
+date = 2024-02-11
+
++++
 
 - **Polymorphism** : Polymorphism is the ability to process objects differently based on the data type or class. `overloading`, `overriding` methods
 - The most common relation ships between classes are:

@@ -1,3 +1,9 @@
++++
+title = 'General SQL'
+date = 2024-02-11
+
++++
+
 ### Chap1
 
 - The process of refining a database design to ensure that each independent piece of information is in only one place (except for foreign keys) is known as _normalization_.

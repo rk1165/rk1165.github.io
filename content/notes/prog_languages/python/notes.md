@@ -1,4 +1,8 @@
-### Notes on Python
++++
+title = 'Python Notes'
+date = 2024-02-11
+
++++
 
 - python can be passed arbitrary code as a string in the shell. `python3 -c 'print("Hello, World")'`.
 

@@ -1,3 +1,9 @@
++++
+title = 'Understanding Pointers'
+date = 2024-02-11
+
++++
+
 ### Chap 1
 
 - When a C program is compiled, it works with three types of memory:

@@ -1,4 +1,8 @@
-### DS Algo Questions for Practice
++++
+title = 'DS Algo Questions for Practice'
+date = 2024-02-11
+
++++
 
 - [Find largest sub-array formed by consecutive integers](http://www.techiedelight.com/find-largest-sub-array-formed-by-consecutive-integers/)
 - [Find index of 0 to replaced to get maximum length sequence of continuous ones](http://www.techiedelight.com/find-index-0-replaced-get-maximum-length-sequence-of-continuous-ones/)

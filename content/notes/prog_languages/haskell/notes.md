@@ -1,3 +1,9 @@
++++
+title = 'Haskell Notes'
+date = 2024-02-11
+
++++
+
 ### Haskell in a startup
 
 - Haskell distinguishes itself from most languages by purity, laziness, and its strong, static, inferred type system.

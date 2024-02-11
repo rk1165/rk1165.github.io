@@ -1,3 +1,9 @@
++++
+title = 'Articles to read '
+date = 2024-02-11
+
++++
+
 ## Posts to Read
 
 - [Stream Updates with Server-Sent Events](https://web.dev/eventsource-basics/) **
@@ -17,11 +23,11 @@
 - [Intro to DNS](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts) **
 - [Computer Networking Introduction - Ethernet and IP](https://iximiuz.com/en/posts/computer-networking-101/) **
 - [How HTTPS Works](https://howhttps.works/) **
-- [Writing a toy WebSocket server from scratch](https://alexanderell.is/posts/websockets-from-scratch/) **Python** *
+- [Writing a toy WebSocket server from scratch](https://alexanderell.is/posts/websockets-from-scratch/)
 - [Implement DNS in a Weekend](https://implement-dns.wizardzines.com/) *
 - [Building a Transport Protocol on ARP](https://kognise.dev/writing/arp) *
 - [DNS Concepts](https://www.nslookup.io/learning/) ***
-- [Writing a toy traceroute from scratch](https://alexanderell.is/posts/toy-traceroute/) **Python**
+- [Writing a toy traceroute from scratch](https://alexanderell.is/posts/toy-traceroute/)
 
 ### Databases
 
@@ -76,12 +82,12 @@
 - [Kafka Topic Naming Conventions](https://cnr.sh/essays/how-paint-bike-shed-kafka-topic-naming-conventions) **
 - [Exactly-once Support in Apache Kafka](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f) **
 - [Exactly-Once Semantics Are Possible: Here’s How Kafka Does It](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/) **
-- [Introducing Exactly Once Semantics in Apache Kafka](https://www.youtube.com/watch?v=Wo9jlaz8h0k&t=1s) **VDO** **
+- [Introducing Exactly Once Semantics in Apache Kafka](https://www.youtube.com/watch?v=Wo9jlaz8h0k&t=1s)
 
 
 ### Git
 
-- [Write yourself a git](https://wyag.thb.lt/) **Python** **
+- [Write yourself a git](https://wyag.thb.lt/)
 - [A Plumber's Guide to Git](https://alexwlchan.net/a-plumbers-guide-to-git/) **
 
 ### 1 Person Startup Tech
@@ -107,7 +113,7 @@
 - [Java Memory Model Pragmatics (transcript)](https://shipilev.net/blog/2014/jmm-pragmatics/) **
 - [Close Encounters of The Java Memory Model Kind](https://shipilev.net/blog/2016/close-encounters-of-jmm-kind/) **
 - [Garbage Collection Series](http://onemogin.com/programming/gc/why-garbage-collection.html) **
-- [Java Concurrency](https://www.youtube.com/playlist?app=desktop&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6) **VDO** **
+- [Java Concurrency](https://www.youtube.com/playlist?app=desktop&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6)
 - [Unit tests with Mockito](http://www.vogella.com/tutorials/Mockito/article.html) **
 - [Introduction to JShell](https://docs.oracle.com/en/java/javase/14/jshell/introduction-jshell.html#GUID-630F27C8-1195-4989-9F6B-2C51D46F52C8) **
 
@@ -130,7 +136,7 @@
 ### Algorithms
 
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) *
-- [The Definitive Guide to Graph Problems](https://www.giulianopertile.com/blog/the-definitive-guide-to-graph-problems/) **Python**
+- [The Definitive Guide to Graph Problems](https://www.giulianopertile.com/blog/the-definitive-guide-to-graph-problems/)
 - [Competitive Programming](https://cp-algorithms.com/) ***
 - [DP Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns) ***
 - [DP Solving](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months) ***
@@ -173,7 +179,7 @@
 
 - [What is Load Balancing](https://www.digitalocean.com/community/tutorials/what-is-load-balancing) ***
 - [HAProxy and Load Balancing](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts) **
-- [HAProxy to Set up MySQL Load Balancing](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-mysql-load-balancing--3) **Shell** *
+- [HAProxy to Set up MySQL Load Balancing](https://www.digitalocean.com/community/tutorials/how-to-use-haproxy-to-set-up-mysql-load-balancing--3)
 - [Load Balancing](https://samwho.dev/load-balancing/) ***
 
 #### APM
@@ -202,7 +208,7 @@
 - [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html) **
 - [Everything you ever wanted to know about building a secure password reset feature](https://www.troyhunt.com/everything-you-ever-wanted-to-know/) **
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/) **
-- [Getting started with NMAP](https://ittavern.com/getting-started-with-nmap/) **Shell**
+- [Getting started with NMAP](https://ittavern.com/getting-started-with-nmap/)
 
 
 ### Docker
@@ -235,7 +241,7 @@
 - [Transactions across data centers](https://snarfed.org/transactions_across_datacenters_io.html) **
 - [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html) ***
 - [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/) ***
-- [Microservices to Async Processing Migration at Scale](https://www.infoq.com/presentations/migration-microservices-scale/) **VDO** *
+- [Microservices to Async Processing Migration at Scale](https://www.infoq.com/presentations/migration-microservices-scale/)
 
 ### AWS
 

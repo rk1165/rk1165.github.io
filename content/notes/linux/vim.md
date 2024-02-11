@@ -1,4 +1,8 @@
-### Vim Notes
++++
+title = 'Vim'
+date = 2024-02-11
+
++++
 
 - `:scriptnames` - shows what scripts vim loads.
 - Check what slows down the editor most at startup by running the following and look at the `start.log` it creates: `vim --startuptime start.log file_name`

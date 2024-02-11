@@ -1,15 +1,15 @@
 ## Haskell
 
-- **SR** [What I wish somebody told me when learning Haskell](https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html)
-- **SR** [JSON Vulnerability in Haskell's Aeson library](https://cs-syd.eu/posts/2021-09-11-json-vulnerability?source=twitter)
-- **SR** [Static analysis using Haskell and Datalog](https://luctielen.com/posts/static_analysis_using_haskell_and_datalog/)
-- **SR** [Influential Books](https://www.stephendiehl.com/posts/books.html)
-- **LR** [Of Algebirds, Monoids, Monads, and other Bestiary for Large-Scale Data Analytics](https://www.michael-noll.com/blog/2013/12/02/twitter-algebird-monoid-monad-for-large-scala-data-analytics/)
-- **LR** [Haskell Mini-Patterns](https://kowainik.github.io/posts/haskell-mini-patterns)
-- **LR** [An Introduction to Type Level Programming](https://rebeccaskinner.net/posts/2021-08-25-introduction-to-type-level-programming.html)
-- **DD** [Aeson Object Design](https://www.extrema.is/blog/2021/09/14/aeson-object-design)
-- **DD** [ALGEBRAIC DATA TYPES: THINGS I WISH SOMEONE HAD EXPLAINED ABOUT FP](https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/)
-- **DD** [TYPE-CHECKING PLUGINS, PART I: WHY WRITE A TYPE-CHECKING PLUGIN?](https://www.tweag.io/blog/2021-10-21-tcplugins-1/)
+- [What I wish somebody told me when learning Haskell](https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html)
+- [JSON Vulnerability in Haskell's Aeson library](https://cs-syd.eu/posts/2021-09-11-json-vulnerability?source=twitter)
+- [Static analysis using Haskell and Datalog](https://luctielen.com/posts/static_analysis_using_haskell_and_datalog/)
+- [Influential Books](https://www.stephendiehl.com/posts/books.html)
+- [Of Algebirds, Monoids, Monads, and other Bestiary for Large-Scale Data Analytics](https://www.michael-noll.com/blog/2013/12/02/twitter-algebird-monoid-monad-for-large-scala-data-analytics/)
+- [Haskell Mini-Patterns](https://kowainik.github.io/posts/haskell-mini-patterns)
+- [An Introduction to Type Level Programming](https://rebeccaskinner.net/posts/2021-08-25-introduction-to-type-level-programming.html)
+- [Aeson Object Design](https://www.extrema.is/blog/2021/09/14/aeson-object-design)
+- [ALGEBRAIC DATA TYPES: THINGS I WISH SOMEONE HAD EXPLAINED ABOUT FP](https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/)
+- [TYPE-CHECKING PLUGINS, PART I: WHY WRITE A TYPE-CHECKING PLUGIN?](https://www.tweag.io/blog/2021-10-21-tcplugins-1/)
 
 ### Learning Resource
 
@@ -33,8 +33,3 @@
 - [Bartosz Milewski](https://www.youtube.com/user/DrBartosz/videos)
 - [Programming with Categories](http://brendanfong.com/programmingcats.html)
 - [Functional Programming Fundamentals](https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/)
-
-### Notes
-
-- [Learn You a Haskell](lyah)
-- [Haskell Notes](notes)

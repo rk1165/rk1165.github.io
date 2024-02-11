@@ -1,3 +1,9 @@
++++
+title = 'Peer to Peer'
+date = 2024-02-11
+
++++
+
 ### A BitTorrent file distribution consists of these entities:
 
 - Bit Torrent advantage over plain HTTP is that when multiple downloads of the same file happen concurrently, the downloaders upload to each other.

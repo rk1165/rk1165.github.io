@@ -1,3 +1,9 @@
++++
+title = 'Golang Notes'
+date = 2024-02-11
+
++++
+
 ### Notes on Golang
 
 - To make it easier to debug and log maps, the formatting functions (like fmt.Println) always output maps with their keys in ascending sorted order

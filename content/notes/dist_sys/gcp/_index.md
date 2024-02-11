@@ -1,7 +1,3 @@
-### General GCP
+### Google Cloud Platform
 
 - [Google Cloud Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
-
-### Notes
-
-- [GCP Notes](notes)

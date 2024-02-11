@@ -1,3 +1,9 @@
++++
+title = 'x86 Guide'
+date = 2024-02-11
+
++++
+
 ![x86 Registers](/images/x86_registers.png)
 
 ### Memory and Addressing Modes

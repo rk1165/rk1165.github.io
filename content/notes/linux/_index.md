@@ -1,14 +1,14 @@
 ## Linux
 
-- **LR** [Linux Hardening Guide - Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html) * 
-- **LR** [Digging into Linux namespaces](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html) *
-- **LR** [Linux x86 Program Start up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html) *
-- **DD** [SRE deep dive into Linux Page Cache](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/) *
-- **DD** [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/) **
-- **DD** [ELF Science Part 1](https://greatergoodest.github.io/post/elf_science_p1/) *
-- **HO** [BashGuide](https://mywiki.wooledge.org/BashGuide)
-- **HO** [Hacking the wholism of GNU/Linux net](https://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt) **C**
-- **HO** [My Own Private Binary](http://www.muppetlabs.com/~breadbox/txt/mopb.html) **C**
+- [Linux Hardening Guide - Madaidan's Insecurities](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+- [Digging into Linux namespaces](https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html)
+- [Linux x86 Program Start up](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
+- [SRE deep dive into Linux Page Cache](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
+- [systemd by example](https://seb.jambor.dev/posts/systemd-by-example-part-1-minimization/)
+- [ELF Science Part 1](https://greatergoodest.github.io/post/elf_science_p1/)
+- [BashGuide](https://mywiki.wooledge.org/BashGuide)
+- [Hacking the wholism of GNU/Linux net](https://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt)
+- [My Own Private Binary](http://www.muppetlabs.com/~breadbox/txt/mopb.html)
 
 ### Learning Resources
 
@@ -21,7 +21,7 @@
 - [ranger](https://github.com/ranger/ranger), [fd](https://github.com/sharkdp/fd), [ack](https://beyondgrep.com/), [ag](https://github.com/ggreer/the_silver_searcher)
 - [rg](https://github.com/BurntSushi/ripgrep), [fzf](https://github.com/junegunn/fzf), [mosh](https://mosh.org/), [prezto](https://github.com/sorin-ionescu/prezto)
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-, [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+  , [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
 
 ### Online Books
 
@@ -34,13 +34,3 @@
 ### Book Sites
 
 - [The Linux Programming Interface](http://man7.org/tlpi/)
-
-### Notes
-
-- [AWK SED](awk_sed)
-- [Bash](bash)
-- [Commands](commands)
-- [Kernel](kernel)
-- [Linux Notes](notes)
-- [System Administration](sysadmin)
-- [Vim](vim)

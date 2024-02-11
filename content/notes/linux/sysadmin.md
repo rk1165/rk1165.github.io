@@ -1,3 +1,9 @@
++++
+title = 'System Administration'
+date = 2024-02-11
+
++++
+
 ### Power Trip
 
 - [This is how password cracking is done](https://null-byte.wonderhowto.com/how-to/crack-shadow-hashes-after-getting-root-linux-system-0186386/)

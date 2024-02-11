@@ -1,4 +1,10 @@
-# Browser JS
++++
+title = 'JavaScript Notes'
+date = 2024-02-11
+
++++
+
+### Browser JS
 
 - In fact document.head and document.body are the only tags that we can access directly. All other tags must be accessed using querySelector
 - <button>Click Me </button>

@@ -1,3 +1,9 @@
++++
+title = 'Reddit comments and posts'
+date = 2024-02-11
+
++++
+
 ### Reddit Links, Comments and Wisdom
 
 - Don't work on "easy" things. Failing at easy things is shameful; succeeding is unremarkable. Much better to work on hard things. Failure is unfortunate but expected; success makes you a hero.

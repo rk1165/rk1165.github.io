@@ -1,3 +1,9 @@
++++
+title = 'JVM'
+date = 2024-02-11
+
++++
+
 ### JVM Tools All Platforms
 
 - [jar](https://docs.oracle.com/en/java/javase/21/docs/specs/man/jar.html) - create an archive for classes and resources, and manipulate or restore individual classes or resources from an archive

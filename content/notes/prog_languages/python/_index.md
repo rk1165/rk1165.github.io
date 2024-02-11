@@ -1,12 +1,12 @@
 ## Python
 
-- **LR** [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
-- **LR** [Django for Startup Founders: A better software architecture for SaaS startups and consumer apps](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html)
-- **DD** [Python Design Patterns](https://python-patterns.guide/)
-- **HO** [Ultimate Guide to Web Scraping with Python Part 1](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/)
-- **HO** [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
-- **HO** [Python for Fun](http://www.openbookproject.net/py4fun/)
-- **HO** [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
+- [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
+- [Django for Startup Founders: A better software architecture for SaaS startups and consumer apps](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html)
+- [Python Design Patterns](https://python-patterns.guide/)
+- [Ultimate Guide to Web Scraping with Python Part 1](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/)
+- [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
+- [Python for Fun](http://www.openbookproject.net/py4fun/)
+- [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
 
 ### Learning Resources
 
@@ -26,7 +26,3 @@
 ### Online Courses
 
 - [Design of Computer Programs](https://classroom.udacity.com/courses/cs212)
-
-### Notes
-
-- [Python notes](notes)

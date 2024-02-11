@@ -1,4 +1,8 @@
-## What every CS major should know
++++
+title = 'What every CS Major should know'
+date = 2024-02-11
+
++++
 
 ### Portfolio vs Resume
 

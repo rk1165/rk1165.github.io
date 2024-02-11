@@ -1,3 +1,9 @@
++++
+title = 'German Grammar Notes'
+date = 2024-02-11
+
++++
+
 ### Nominative und Akkusativ
 
 - The **subject** of a sentence is the person or thing that is “doing” the verb. To find the subject, look for the verb and ask “Who or what is doing?”

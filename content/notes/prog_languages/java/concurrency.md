@@ -1,4 +1,8 @@
-### Notes on Java Concurrency
++++
+title = 'Concurrency in Java'
+date = 2024-02-11
+
++++
 
 - In concurrent programming, there are two basic units of execution: _processes_ and _threads_.
 - A process has a self-contained execution environment. A process generally has a complete, private set of basic run-time resources; in particular, each process has its own memory space.

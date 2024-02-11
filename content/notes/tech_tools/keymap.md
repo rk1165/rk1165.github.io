@@ -1,3 +1,9 @@
++++
+title = 'Varous KeyMaps'
+date = 2024-02-11
+
++++
+
 ### Ubuntu
 
 - Super + D : minimize everything and show desktop

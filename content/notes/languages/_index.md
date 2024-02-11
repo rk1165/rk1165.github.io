@@ -11,5 +11,5 @@
 
 ### Notes
 
-- [German](./german/german)
-- [Spanish](./spanish/spanish)
+- [German](./german/)
+- [Spanish](./spanish/)

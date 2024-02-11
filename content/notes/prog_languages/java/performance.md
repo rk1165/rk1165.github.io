@@ -1,3 +1,9 @@
++++
+title = 'Performance in Java'
+date = 2024-02-11
+
++++
+
 ### CPU Caches
 
 - Each processor core sports two level of cache:

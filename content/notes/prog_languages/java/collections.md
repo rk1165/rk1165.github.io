@@ -1,4 +1,9 @@
-### Collections Framework Notes
++++
+title = 'Collections Framework Notes'
+date = 2024-02-11
+
++++
+
 
 - The `collect` operation takes three arguments :
   - supplier : for the collect operation, it creates instances of the result container

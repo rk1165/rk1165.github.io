@@ -1,3 +1,9 @@
++++
+title = 'Programming from the ground up'
+date = 2024-02-11
+
++++
+
 ### 3. Lifting the Hood
 
 - The CPU chip's most important job is to communicate with the computer's memory system.

@@ -1,3 +1,9 @@
++++
+title = 'AWK and SED'
+date = 2024-02-11
+
++++
+
 ### awk
 
 - Curly braces are used to group blocks of code together, similar to C.
@@ -21,7 +27,7 @@
 - `$1 ~ /root/ { print $3 }` will print only the third field on the line if the first field on the same line contains the character sequence root
 - `! /matchme/ { print $1 $3 $4 }` can be transformed to this
 
-```aw
+```awk
 {
   if ( $0 !~ /matchme/ ) {
     print $1 $3 $4
@@ -36,7 +42,7 @@
 - `NF` variable - also called the "number of fields" variable. Awk sets this variable to the number of fields in the current record.
 - `NF == 3 { print "this particular record has three fields: " $0 }`
 
-```aw
+```awk
 {
   if ( NF > 2 ) {
     print $1 " " $2 ":" $3
@@ -47,7 +53,7 @@
 - The record number `NR` is another handy variable. It will always contain the number of the current record.
 - `(NR < 10 ) || (NR > 100) { print "We are on record number 1‑9 or 101+" }`
 
-```aw
+```awk
 {
   # skip header
   if ( NR > 10 ) {

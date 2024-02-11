@@ -1,3 +1,9 @@
++++
+title = 'Google Cloud Notes'
+date = 2024-02-11
+
++++
+
 ### Google Cloud Fundamentals
 
 - GC resource hierarchy

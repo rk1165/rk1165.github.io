@@ -1,3 +1,9 @@
++++
+title = 'DW Study Notes'
+date = 2024-02-11
+
++++
+
 ### Learning German
 
 - In formal situations, people in Germany greet each other with "Guten Tag". When doing so, they often shake hands.

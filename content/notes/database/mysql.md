@@ -1,3 +1,9 @@
++++
+title = 'MySQL'
+date = 2024-02-11
+
++++
+
 ### MySQL administration
 
 - `sudo mysql_secure_installation utility` : this utility prompts to define the mysql root password and other security-related options.

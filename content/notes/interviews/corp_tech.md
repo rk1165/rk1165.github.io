@@ -1,3 +1,9 @@
++++
+title = 'Corporate Tech Blog Articles'
+date = 2024-02-11
+
++++
+
 ### Uber
 
 - [How Uber migrated Financial Data from DynamoDB to DocStore](https://www.uber.com/en-IN/blog/dynamodb-to-docstore-migration/)

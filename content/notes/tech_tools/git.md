@@ -1,3 +1,9 @@
++++
+title = 'Git Notes'
+date = 2024-02-11
+
++++
+
 ### log
 
 - `git log --pretty=oneline` displays commit and comment

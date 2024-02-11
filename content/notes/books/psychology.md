@@ -1,5 +1,5 @@
 +++
-title = 'Notes on Psychology related books'
+title = 'Psychology'
 date = 2024-02-11
 
 +++

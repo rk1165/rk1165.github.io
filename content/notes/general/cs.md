@@ -1,3 +1,9 @@
++++
+title = 'Notes on Computer Science'
+date = 2024-02-11
+
++++
+
 ### Resources
 
 - [What Books should Everyone read?](https://cstheory.stackexchange.com/questions/3253/what-books-should-everyone-read)

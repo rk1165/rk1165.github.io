@@ -1,4 +1,8 @@
-### Notes on Java Garabage Collection
++++
+title = 'Garbage Collection'
+date = 2024-02-11
+
++++
 
 - GC is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
 - It does this by using a **mark and sweep** approach. It first enumerates all the roots and then starts visiting the objects referenced by them recursively (essentially travelling the nodes in the memory graph). When it reaches an object it marks it with a special flag indicating that the object is reachable and hence not garbage. At the end of this mark phase it gets into the sweep phase. Any object in memory that is not marked by this time is garbage and the system disposes it.

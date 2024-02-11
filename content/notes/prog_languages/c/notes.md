@@ -1,6 +1,13 @@
-# A BOOK on C
++++
+title = 'C Notes'
+date = 2024-02-11
 
-## Chapter 1
++++
+
+
+## A BOOK on C
+
+### Chapter 1
 
 - To seed the random-number generator before it gets used can be done with the following line: `srand(time(NULL));`
 - The expression `a+++` can be interpreted as either `a++ + b` or `a + ++b`.The correct grouping is the first one. This is because the compiler groups the longest string as a token first, and so uses ++ instead of + as a first token.
@@ -9,7 +16,7 @@
 - The proper way to time C code is with the use of the `clock()` function.
 - The function `drand48()`, can be used to produce randomly distributed doubles in the range `[0, 1]` and the function `lrand48()` can be used to produce randomly distributed integers in the range `[0, 2<sup>31</sup> – 1]`.
 
-## Chapter 3
+### Chapter 3
 
 - In C, variables of any integral type can be used to represent characters.
 - `char` is equivalent to either `signed char` or `unsigned char`, depending on the compiler.
@@ -34,7 +41,7 @@
 - When using `scanf()` to read in a hexadecimal number, do not type an 0x prefix.
 - The function `putchar()` returns the `int` value of the character that it writes.
 
-## Chapter 5
+### Chapter 5
 
 - The function storage class specifier, if present, can be either `extern` or `static` but not both.
 - The only storage class specifier that can occur in the parameter type list is `register`.
@@ -57,7 +64,7 @@
 - When declaring a variable in traditional C, it is permissible to write the storage class specifier and the type specifier in any order.
 - In ANSI C, the storage class specifier is supposed to come first.
 
-## Chapter 6
+### Chapter 6
 
 - It is good programming practice to define the size of an array as a symbolic constant.
 - Arrays may be of storage class automatic, external, or static, but not register.
@@ -69,7 +76,7 @@
 - `double sum(double a[], int n)` is equivalent to function definition of `double sum(double *a, int n)`
 - `malloc()` may take less time.
 
-# IMT
+## IMT
 
 - `%lf` rounds the number to nearest even
 - `ptr[x]` means : current value of ptr + x elements more in the array
@@ -94,7 +101,6 @@
 - menu.h allows the creation of menu, from which user can pick
 - libcurses.so, libmenus.so
 - `c` The `c` option is for only compiling, i.e not creating an executable.
-
 * The difference between **const** and **#define** is that the former uses memory for storage and the latter does not.
 * when a local variable is being passed out of a function, you need to declare it as static in the function.
 * Pointers to functions, or **function pointers**, point to executable code for a function in memory. Function pointers can be stored in an array or passed as arguments to other functions.
@@ -123,20 +129,16 @@
 * There are more than a hundred error codes. We can use loop and strerror to list them
 * Some of the mathematical functions in the math.h library set `errno` to the defined macro value `EDOM` when a domain is out of range. Similarly, the `ERANGE` macro value is used when there is a range error
 
-# WIKIPEDIA
+## WIKIPEDIA
 
 - When you declare a function or global variable as static, you cannot access the function or variable through the extern (see below) keyword from other files in your project. This is called _static linkage_.
-
 - When you declare a local variable as static, it is created just like any other variable. However, when the variable goes out of scope (i.e. the block it was local to is finished) the variable stays in memory, retaining its value. The variable stays in memory until the program ends. While this behaviour resembles that of global variables, static variables still obey scope rules and therefore cannot be accessed outside of their scope. This is called _static storage duration_
-
 - **volatile** is a special type of modifier which informs the compiler that the value of the variable may be changed by external entities other than the program itself
-
-- y = (x << shift) | (x >> (32 - shift)); 32 bit rotate instruction
+- `y = (x << shift) | (x >> (32 - shift));` 32 bit rotate instruction
 - One use for the bitwise operators is to emulate bit flags. These flags can be set with OR, tested with AND, flipped with XOR, and cleared with AND NOT.
 - To create a function that can accept a variable-length argument list, you must first include the standard library header stdarg.h. Next, declare the function as you would normally. Next, add as the last argument an ellipsis ("..."). This indicates to the compiler that a variable list of arguments is to followIf a function is to be called only from within the file in which it is declared, it is appropriate to declare it as a static function.
 - eg `float average (int n_args, ...);`
 - we must somehow, in the arguments, specify the number of elements in the variable-length part of the arguments
-
 - When returning a pointer from a function, do not return a pointer that points to a value that is local to the function or that is a pointer to a function argument
 - Declaring a typedef to a function pointer generally clarifies the code
 - Function pointers can be useful for implementing a form of polymorphism in C.
@@ -152,7 +154,7 @@
 - Usually, more efficient to pass a pointer to the struct
 - `char ***` is pointer to two dimensional jagged array
 
-### King
+## King
 
 - The `g` specifier is especially useful for displaying numbers whose size can't be predicted when the program is written or that tend to vary widely in size.
 - In scanf, %d can only match an integer written in decimal form, while %i can match an integer expressed in octal, decimal, or hexadecimal
@@ -293,7 +295,6 @@ for (p = a; p < a + NUM_ROWS; p++)
 - **Program indenters** Programs like `cb` and `indent` will take a program and indent it _correctly_
 - **Pretty printers** A pretty printer such as `vgrind` or `cprint` will take the source and typeset it for printing on a laser printer.
 - **Call graphs** `calls` produces call graphs. The call graphs show who calls whom and who is called by whom.
-
 - Buffered I/O does not write immediately to the file. Instead, the data is kept in a buffer until there is enough for a big write, or until it is flushed.
 - In unbuffered I/O, the data is immediately sent to the file. Each read or write requires a system call.
 - Unbuffered I/O should be used only when reading or writing large amounts of binary data or when direct control of a device or file is required.
@@ -443,7 +444,6 @@ int main()
 - Least types provide with the most _compact_ number of bits for the type you request.
 - The correct type for pointer math is `uintptr_t` defined by `stdint.h`, while the also useful `ptrdiff_t` is defined by `stddef.h`
 - `ptrdiff_t` is the proper type for storing values of subtracted pointers.
-
 - The current date and time is returned when we call the `time()` function with `NULL` as paramter.
 - the `srand()` function initializes the rng. It takes an **unsigned** interger value as a parameter.
 - The `rand()` function returns a random number between 0 and `RAND_MAX` (the value of `RAND_MAX` is defined in `stdlib.h`)
@@ -468,7 +468,6 @@ int main()
 - that `envp` is an array of strings, just as `argv` is. It consists of a list of the environment variables of your shell, in the following format: NAME=value
 - the simplest way to access the value of an environment variable is with the `getenv` function, defined in the system header `stdlib.h`
 - Do not modify strings returned from `getenv`; they are pointers to data that belongs to the system. To process a value returned from `getenv`, copy it to another string with `strcpy`. To change an environment variable from within program (not usually advisable), use the `putenv`, `setenv`, and `unsetenv` functions
-
 - Whenever you're building or modifying strings, you have to make sure that the memory you're building or modifying them in is writable. That memory should either be an array you've allocated, or some memory which you've dynamically allocated.
 - Function calls cannot be used as macro parameters.
 
@@ -521,7 +520,6 @@ int main()
 - The function `fscanf()`, like `scanf()`, normally returns the number of values it was able to read in.
 - The bad thing about testing `EOF` is that if the file is not in the right format then `fscanf()` will not be able to read that line and it won't advance to the next line in the file.
 - Another way to test for end of file is with the library function `feof()`. It just takes a file pointer and returns a true/false value based on whether we are at the end of the file.
-
 - `static` function can only be called from other functions within the same source code file.
 
 ### Trie

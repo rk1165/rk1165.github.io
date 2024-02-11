@@ -1,3 +1,9 @@
++++
+title = 'Bash'
+date = 2024-02-11
+
++++
+
 ### Bash utilities
 
 - Every job on the system is assigned a _priority_

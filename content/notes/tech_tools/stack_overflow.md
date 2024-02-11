@@ -1,3 +1,9 @@
++++
+title = 'Questions from Stack Overflow'
+date = 2024-02-11
+
++++
+
 ### Joins in SQL
 
 - **Inner join** produces only the set of records that match in both Table A and Table B

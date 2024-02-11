@@ -1,4 +1,9 @@
-## System Design Solving template
++++
+title = 'System Design Interview Solving Template'
+date = 2024-02-11
+
++++
+
 
 ### FEATURE EXPECTATIONS (5 min)
 

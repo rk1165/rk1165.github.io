@@ -1,3 +1,9 @@
++++
+title = 'Learn You a Haskell'
+date = 2024-02-11
+
++++
+
 ### Introduction
 
 - In purely functional programming you don't tell the computer what to do as such but rather you tell it what stuff _is_. The sum of a list of numbers is the first number plus the sum of all other numbers.

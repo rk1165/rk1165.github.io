@@ -1,3 +1,9 @@
++++
+title = 'How to get hands-on in Cloud'
+date = 2024-02-11
+
++++
+
 ### Introduction
 
 - So many people struggle with where to get started with AWS and cloud technologies in general. There is popular "How do I learn to be a Linux admin?" post that inspired me to write an equivalent for cloud technologies. This post serves as a guide of goals to grow from basic AWS knowledge to understanding and deploying complex architectures in an automated way. Feel free to pick up where you feel relevant based on prior experience.

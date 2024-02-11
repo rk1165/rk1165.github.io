@@ -1,4 +1,8 @@
-### Notes on Java Exception Handling
++++
+title = 'Exceptions in Java'
+date = 2024-02-11
+
++++
 
 - With _checked_ exceptions, the compiler checks that the programmer is aware of the exception and prepared to deal with the consequences.
 - Common exceptions, such as bound errors or accessing a null reference, are _unchecked_. The compiler does not expect that you provide a handler.

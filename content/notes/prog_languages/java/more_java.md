@@ -1,3 +1,9 @@
++++
+title = 'More on Java'
+date = 2024-02-11
+
++++
+
 ### [A guide to accessing databases in Java](https://www.marcobehler.com/guides/a-guide-to-accessing-databases-in-java)
 
 - JDBC drivers do a fair amount of work, from the basics of opening up connections to the database to more advanced features like offering abilities to receive events from the database (Oracle)

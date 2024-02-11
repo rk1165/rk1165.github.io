@@ -1,3 +1,9 @@
++++
+title = 'Linux Notes'
+date = 2024-02-11
+
++++
+
 ### Things to learn about Linux
 
 - tcp/ip & networking stuff

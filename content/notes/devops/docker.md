@@ -1,3 +1,9 @@
++++
+title = 'Docker'
+date = 2024-02-11
+
++++
+
 ### Containerization
 
 - When you are operating at scale, container orchestration - automating the deployment, management, scaling, networking, and availability of your containers - becomes essential.

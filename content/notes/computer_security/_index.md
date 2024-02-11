@@ -1,12 +1,12 @@
 ## Computer Systems Security
 
-- **SR** [Exploit Mitigation Techniques on Linux Systems](https://7h3ram.blogspot.com/2012/07/exploit-mitigation-techniques-on-linux.html)
-- **SR** [Thinking of a cybersecurity career](https://krebsonsecurity.com/2020/07/thinking-of-a-cybersecurity-career-read-this/)
-- **LR** [Chrome Browser Exploitation](https://jhalon.github.io/chrome-browser-exploitation-1/)
-- **LR** [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
-- **DD** [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist)
-- **DD** [OSINT FOR BEGINNERS](https://www.reddit.com/r/OSINT/comments/e78he1/osint_for_beginners_part_1_introduction/)
-- **HO** [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) **Shell**
+- [Exploit Mitigation Techniques on Linux Systems](https://7h3ram.blogspot.com/2012/07/exploit-mitigation-techniques-on-linux.html)
+- [Thinking of a cybersecurity career](https://krebsonsecurity.com/2020/07/thinking-of-a-cybersecurity-career-read-this/)
+- [Chrome Browser Exploitation](https://jhalon.github.io/chrome-browser-exploitation-1/)
+- [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
+- [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist)
+- [OSINT FOR BEGINNERS](https://www.reddit.com/r/OSINT/comments/e78he1/osint_for_beginners_part_1_introduction/)
+- [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 
 ### Practice
 
@@ -42,7 +42,3 @@
 - [CS253 - Web Security](https://web.stanford.edu/class/cs253/)
 - [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
 - [Computer and Network Security](https://engineering.purdue.edu/kak/compsec/)
-
-### Notes
-
-- [Computer Security Notes](notes)

@@ -1,3 +1,9 @@
++++
+title = 'Software Engineering Notes'
+date = 2024-02-11
+
++++
+
 ### An Old Hacker's Tips On Staying Employed
 
 - Don’t take losing a job or having to move jobs too personally, because it’s almost certain to happen at some point.

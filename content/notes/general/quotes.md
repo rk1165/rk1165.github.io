@@ -1,4 +1,8 @@
-### Quotes
++++
+title = 'Quotes'
+date = 2024-02-11
+
++++
 
 - We can't change the direction of the wind, but we can adjust the sails.
 - Life is much more manageable when thought of as a scavenger hunt as opposed to a surprise party.

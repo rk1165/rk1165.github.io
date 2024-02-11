@@ -1,3 +1,9 @@
++++
+title = 'Spanish Study Notes'
+date = 2024-02-11
+
++++
+
 ### Spanish Basics
 
 - De nada : You're welcome

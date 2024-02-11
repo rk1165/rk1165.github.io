@@ -1,3 +1,9 @@
++++
+title = 'Design Patterns'
+date = 2024-02-11
+
++++
+
 ### Design Patterns
 
 - Design Patterns are simply sets of standardized practices used in the software development industry

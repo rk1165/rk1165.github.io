@@ -1,3 +1,9 @@
++++
+title = 'Spring Framework'
+date = 2024-02-11
+
++++
+
 ### Spring tutorial
 
 - Spring Data repositories are interfaces with methods supporting CRUD operations against a backend data store

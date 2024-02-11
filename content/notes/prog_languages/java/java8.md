@@ -1,3 +1,9 @@
++++
+title = 'Java 8'
+date = 2024-02-11
+
++++
+
 ### What are the important features of Java 8 release?
 
 - Interface methods by default

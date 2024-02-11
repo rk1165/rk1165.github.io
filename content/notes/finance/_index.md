@@ -1,16 +1,16 @@
 ## Finance
 
-- **SR** [A Simplified Synthesis of Financial Options Pricing](https://www.physicsforums.com/insights/a-simplified-synthesis-of-financial-options-pricing/)
-- **SR** [Financial Modelers' Manifesto - Wilmott](https://www.wilmott.com/financial-modelers-manifesto/)
-- **LR** [How to Read a 10-K Annual Report Efficiently – The Rational Walk](http://www.rationalwalk.com/?p=15643)
-- **LR** [On the Job With Simple As… My Research Process](https://www.wallstreetoasis.com/forums/on-the-job-with-simple-as%E2%80%A6-my-research-process)
-- **LR** [Blockchain, Explained](https://www.theverge.com/22654785/blockchain-explained-cryptocurrency-what-is-stake-nft)
-- **DD** [Macro-Investment Analysis](https://web.stanford.edu/~wfsharpe/mia/MIA.HTM)
-- **DD** [Financial Management](http://financialmanagementpro.com/)
-- **DD** [U.S. Fintech & Payments Crash Course](https://fintechgtm.substack.com/p/us-fintech-and-payments-crash-course)
-- **HO** [BitCoin from Scratch](https://monokh.com/posts/bitcoin-from-scratch-part-1) **Rust**
-- **SR** [Explaining how bitcoin works](https://allenkim67.github.io/bitcoin/2017/04/09/explaining-how-bitcoin-works-to-programmers.html)
-- **HO** [A from-scratch tour of Bitcoin in Python](https://karpathy.github.io/2021/06/21/blockchain/) **Python**
+- [A Simplified Synthesis of Financial Options Pricing](https://www.physicsforums.com/insights/a-simplified-synthesis-of-financial-options-pricing/)
+- [Financial Modelers' Manifesto - Wilmott](https://www.wilmott.com/financial-modelers-manifesto/)
+- [How to Read a 10-K Annual Report Efficiently – The Rational Walk](http://www.rationalwalk.com/?p=15643)
+- [On the Job With Simple As… My Research Process](https://www.wallstreetoasis.com/forums/on-the-job-with-simple-as%E2%80%A6-my-research-process)
+- [Blockchain, Explained](https://www.theverge.com/22654785/blockchain-explained-cryptocurrency-what-is-stake-nft)
+- [Macro-Investment Analysis](https://web.stanford.edu/~wfsharpe/mia/MIA.HTM)
+- [Financial Management](http://financialmanagementpro.com/)
+- [U.S. Fintech & Payments Crash Course](https://fintechgtm.substack.com/p/us-fintech-and-payments-crash-course)
+- [BitCoin from Scratch](https://monokh.com/posts/bitcoin-from-scratch-part-1)
+- [Explaining how bitcoin works](https://allenkim67.github.io/bitcoin/2017/04/09/explaining-how-bitcoin-works-to-programmers.html)
+- [A from-scratch tour of Bitcoin in Python](https://karpathy.github.io/2021/06/21/blockchain/)
 
 ### Tools
 
@@ -31,9 +31,3 @@
 ### Book Sites
 
 - [Options, Futures, and Other Derivatives](http://www-2.rotman.utoronto.ca/~hull/ofod/index.html)
-
-### Notes
-
-- [Checklist](checklist)
-- [Notes](notes)
-- [Options](options)

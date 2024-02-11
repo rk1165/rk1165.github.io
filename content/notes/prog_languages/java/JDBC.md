@@ -1,3 +1,9 @@
++++
+title = 'JDBC'
+date = 2024-02-11
+
++++
+
 ### What are the differences between ResultSet and RowSet?
 
 | ResultSet                                                       | RowSet                                                             |

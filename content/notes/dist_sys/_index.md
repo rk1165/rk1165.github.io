@@ -1,9 +1,9 @@
 ## Distributed Systems
 
-- **LR** [5000x faster CRDTs: An Adventure in Optimization](https://josephg.com/blog/crdts-go-brrr/)
-- **LR** [The Anatomy of a Search Engine](http://infolab.stanford.edu/~backrub/google.html)
-- **LR** [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
-- **LR** [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM) **VDO**
+- [5000x faster CRDTs: An Adventure in Optimization](https://josephg.com/blog/crdts-go-brrr/)
+- [The Anatomy of a Search Engine](http://infolab.stanford.edu/~backrub/google.html)
+- [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
+- [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM)
 
 ### Learning Resources
 
@@ -28,9 +28,7 @@
 - [CSE138 Distributed Systems](https://www.youtube.com/playlist?list=PLNPUF5QyWU8O0Wd8QDh9KaM1ggsxspJ31)
 - [Distributed Systems Course](http://www.distributedsystemscourse.com/)
 
-### Notes
+### Cloud Providers
 
-- [AWS](./aws/aws)
-- [GCP](./gcp/gcp)
-- [Hands On Practice](practice)
-- [Scaling](scaling)
+- [AWS](./aws/)
+- [GCP](./gcp/)

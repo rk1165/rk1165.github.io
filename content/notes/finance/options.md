@@ -1,3 +1,9 @@
++++
+title = 'Option Volatility and Pricing'
+date = 2024-02-11
+
++++
+
 ### Chapter 1
 
 - Option premium can be separated into two components:
