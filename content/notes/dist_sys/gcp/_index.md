@@ -1,3 +1,3 @@
 ### Google Cloud Platform
 
-- [Google Cloud Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
+1. [Google Cloud Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)

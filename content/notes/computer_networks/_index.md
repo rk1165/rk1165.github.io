@@ -1,17 +1,17 @@
 ## Computer Networks
 
-- [SSL : it's hard to do right](https://recompilermag.com/issues/issue-1/ssl-its-hard-to-do-right/)
-- [The Illustrated TLS Connection: Every Byte Explained](https://tls13.xargs.org/)
-- [TLS 1.3](https://davidwong.fr/tls13/)
-- [The Internet](https://explained-from-first-principles.com/internet/)
-- [Email](https://explained-from-first-principles.com/email/)
-- [Nginx location match tester](https://nginx.viraptor.info/)
+1. [SSL : it's hard to do right](https://recompilermag.com/issues/issue-1/ssl-its-hard-to-do-right/)
+2. [The Illustrated TLS Connection: Every Byte Explained](https://tls13.xargs.org/)
+3. [TLS 1.3](https://davidwong.fr/tls13/)
+4. [The Internet](https://explained-from-first-principles.com/internet/)
+5. [Email](https://explained-from-first-principles.com/email/)
+6. [Nginx location match tester](https://nginx.viraptor.info/)
 
 ### Learning Resources
 
-- [Network Programming Self-Study](https://siliconsprawl.com/2020/05/10/network-programming-self-study.html)
+1. [Network Programming Self-Study](https://siliconsprawl.com/2020/05/10/network-programming-self-study.html)
 
 ### Online Books
 
-- [High Performance Browser Networking](https://hpbn.co/)
-- [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu/)
+1. [High Performance Browser Networking](https://hpbn.co/)
+2. [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu/)

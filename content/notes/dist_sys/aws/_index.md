@@ -1,148 +1,142 @@
 ### Amazon Web Service
 
-- [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
-- [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc&awsf.filter-content-level=*all)
-- [AWS Compute Services](https://aws.amazon.com/products/compute/)
-- [AWS Compute Services Whitepapers](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
-- [The Hitchhiker's Guide to AWS ECS and Docker](https://start.jcolemorrison.com/the-hitchhikers-guide-to-aws-ecs-and-docker/#)
-- [AWS Services list](https://adayinthelifeof.nl/2020/05/20/aws.html)
-- [Cloud Diagrams and notes](https://www.awsgeek.com/)
+1. [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc)
+2. [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc&awsf.filter-content-level=*all)
+3. [AWS Compute Services](https://aws.amazon.com/products/compute/)
+4. [AWS Compute Services Whitepapers](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
+5. [The Hitchhiker's Guide to AWS ECS and Docker](https://start.jcolemorrison.com/the-hitchhikers-guide-to-aws-ecs-and-docker/#)
+6. [AWS Services list](https://adayinthelifeof.nl/2020/05/20/aws.html)
+7. [Cloud Diagrams and notes](https://www.awsgeek.com/)
 
 ### Tools
 
-- [Instances](https://instances.vantage.sh/)
-- [Cloudping](https://www.cloudping.info/)
+1. [Instances](https://instances.vantage.sh/)
+2. [Cloudping](https://www.cloudping.info/)
 
 ### Architecting Fundamentals
 
-- [AWS Infrastructure](https://youtu.be/UObQZ3R9_4c)
-- [AWS Services](https://youtu.be/qKJ5U1ETDJI)
-- [Securing Resources](https://youtu.be/hWq5DIyk_Y8)
-- [Well-Architected Framework](https://youtu.be/UczdYkCJV18)
+1. [AWS Infrastructure](https://youtu.be/UObQZ3R9_4c)
+2. [AWS Services](https://youtu.be/qKJ5U1ETDJI)
+3. [Securing Resources](https://youtu.be/hWq5DIyk_Y8)
+4. [Well-Architected Framework](https://youtu.be/UczdYkCJV18)
 
 ##### Resources
 
-- > **AWS infrastructure**
-  - [Leveraging AWS Global Backbone for Data Center Migration and Global Expansion](https://aws.amazon.com/blogs/architecture/leveraging-aws-global-backbone-for-data-center-migration-and-global-expansion/)
-  - [Building a Self-Service, Secure, and Continually Compliant Environment on AWS](https://aws.amazon.com/blogs/architecture/building-a-self-service-secure-continually-compliant-environment-on-aws/)
-- > **AWS services**
-  - [Building Your Hybrid Cloud Strategy with AWS](https://pages.awscloud.com/rs/112-TZM-766/images/Building-Your-Hybrid-Cloud-Strategy-eBook.pdf)
-  - [How to Accelerate Your WordPress Site with Amazon CloudFront](https://aws.amazon.com/blogs/startups/how-to-accelerate-your-wordpress-site-with-amazon-cloudfront/)
-  - [Infrastructure as Code Testing Strategies with AWS CloudFormation](https://www.youtube.com/watch?v=JSfqUCIK_OA)
-- > **Securing resources**
-  - [Applying the AWS Shared Responsibility Model to your GxP Solution](https://aws.amazon.com/blogs/industries/applying-the-aws-shared-responsibility-model-to-your-gxp-solution/)
-- > **Well-Architected Framework**
-  - [AWS Well Architected Framework: Best Practices for Building and Deploying an Optimized Cloud Environment](https://aws.amazon.com/blogs/publicsector/aws-well-architected-framework-best-practices-for-building-and-deploying-an-optimized-cloud-environment/)
-  - [Are You Well-Architected?](https://www.youtube.com/watch?v=gjNPpjYNiow)
-  - [Security Best Practices the Well Architected Way](https://www.youtube.com/watch?v=vqvdMvqs82M)
-  - [AWS Summit Brussels 2022 - AWS Well-Architected Framework for Sustainability](https://www.youtube.com/watch?v=IHJkbg3jqVg)
+1. **AWS infrastructure**
+   1. [Leveraging AWS Global Backbone for Data Center Migration and Global Expansion](https://aws.amazon.com/blogs/architecture/leveraging-aws-global-backbone-for-data-center-migration-and-global-expansion/)
+   2. [Building a Self-Service, Secure, and Continually Compliant Environment on AWS](https://aws.amazon.com/blogs/architecture/building-a-self-service-secure-continually-compliant-environment-on-aws/)
+2. **AWS services**
+   1. [Building Your Hybrid Cloud Strategy with AWS](https://pages.awscloud.com/rs/112-TZM-766/images/Building-Your-Hybrid-Cloud-Strategy-eBook.pdf)
+   2. [How to Accelerate Your WordPress Site with Amazon CloudFront](https://aws.amazon.com/blogs/startups/how-to-accelerate-your-wordpress-site-with-amazon-cloudfront/)
+   3. [Infrastructure as Code Testing Strategies with AWS CloudFormation](https://www.youtube.com/watch?v=JSfqUCIK_OA)
+3. **Securing resources**
+   1. [Applying the AWS Shared Responsibility Model to your GxP Solution](https://aws.amazon.com/blogs/industries/applying-the-aws-shared-responsibility-model-to-your-gxp-solution/)
+4. **Well-Architected Framework**
+   1. [AWS Well Architected Framework: Best Practices for Building and Deploying an Optimized Cloud Environment](https://aws.amazon.com/blogs/publicsector/aws-well-architected-framework-best-practices-for-building-and-deploying-an-optimized-cloud-environment/)
+   2. [Are You Well-Architected?](https://www.youtube.com/watch?v=gjNPpjYNiow)
+   3. [Security Best Practices the Well Architected Way](https://www.youtube.com/watch?v=vqvdMvqs82M)
+   4. [AWS Summit Brussels 2022 - AWS Well-Architected Framework for Sustainability](https://www.youtube.com/watch?v=IHJkbg3jqVg)
 
 ### Account Security
 
-- [Security Principals](https://youtu.be/rFHnZkx7nqY)
-- [Security Policies](https://youtu.be/Ry_a_PvXmX8)
-- [Managing Multiple Accounts](https://youtu.be/T86rapsuXPk)
+1. [Security Principals](https://youtu.be/rFHnZkx7nqY)
+2. [Security Policies](https://youtu.be/Ry_a_PvXmX8)
+3. [Managing Multiple Accounts](https://youtu.be/T86rapsuXPk)
 
 ##### Resources
 
-- > **Principals and Identities**
-  - [Easily Control the Naming of Individual IAM Role Sessions](https://aws.amazon.com/blogs/security/easily-control-naming-individual-iam-role-sessions/)
-- > **Security policies**
-  - [Techniques for Writing Least Privilege IAM Policies](https://aws.amazon.com/blogs/security/techniques-for-writing-least-privilege-iam-policies/)
-  - [IAM Access Analyzer Makes It Easier to Implement Least Privilege Permissions by Generating IAM Policies Based on Access Activity](https://aws.amazon.com/blogs/security/iam-access-analyzer-makes-it-easier-to-implement-least-privilege-permissions-by-generating-iam-policies-based-on-access-activity/)
-  - [AWS re:Invent 2018: [REPEAT 1] Become an IAM Policy Master in 60 Minutes or Less (SEC316-R1)](https://www.youtube.com/watch?v=YQsK4MtsELU)
-- > **Managing multiple accounts**
-  - [Best Practices for Organizational Units with AWS Organizations](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
-  - [How to Use Service Control Policies in AWS Organizations](https://aws.amazon.com/blogs/security/how-to-use-service-control-policies-in-aws-organizations/)
-  - [Control VPC Sharing in an AWS Multi-Account Setup with Service Control Policies](https://aws.amazon.com/blogs/security/control-vpc-sharing-in-an-aws-multi-account-setup-with-service-control-policies/)
+1. **Principals and Identities**
+   1. [Easily Control the Naming of Individual IAM Role Sessions](https://aws.amazon.com/blogs/security/easily-control-naming-individual-iam-role-sessions/)
+2. **Security policies**
+   1. [Techniques for Writing Least Privilege IAM Policies](https://aws.amazon.com/blogs/security/techniques-for-writing-least-privilege-iam-policies/)
+   2. [IAM Access Analyzer Makes It Easier to Implement Least Privilege Permissions by Generating IAM Policies Based on Access Activity](https://aws.amazon.com/blogs/security/iam-access-analyzer-makes-it-easier-to-implement-least-privilege-permissions-by-generating-iam-policies-based-on-access-activity/)
+   3. [AWS re:Invent 2018: [REPEAT 1] Become an IAM Policy Master in 60 Minutes or Less (SEC316-R1)](https://www.youtube.com/watch?v=YQsK4MtsELU)
+3. **Managing multiple accounts**
+   1. [Best Practices for Organizational Units with AWS Organizations](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
+   2. [How to Use Service Control Policies in AWS Organizations](https://aws.amazon.com/blogs/security/how-to-use-service-control-policies-in-aws-organizations/)
+   3. [Control VPC Sharing in an AWS Multi-Account Setup with Service Control Policies](https://aws.amazon.com/blogs/security/control-vpc-sharing-in-an-aws-multi-account-setup-with-service-control-policies/)
 
 ### Networking
 
-- [IP Addressing](https://youtu.be/rvJMCdjSZxU)
-- [VPC Fundamentals](https://youtu.be/jZAvKgqlrjY)
-- [VPC Traffic Security](https://youtu.be/zPovlZxuZ-c)
+1. [IP Addressing](https://youtu.be/rvJMCdjSZxU)
+2. [VPC Fundamentals](https://youtu.be/jZAvKgqlrjY)
+3. [VPC Traffic Security](https://youtu.be/zPovlZxuZ-c)
 
 ![accessibility notes](/images/accessibility_notes.png)
 
 ##### Resources
 
-- [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
-- > **IP addressing**
-  - [VPCs and Subnets](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html#how-it-works-subnet)
-  - [How Do I Modify the IPv4 CIDR Block of My Amazon VPC?](https://aws.amazon.com/premiumsupport/knowledge-center/vpc-ip-address-range/)
-  - [Bring Your Own IP Address to the Cloud](https://www.youtube.com/watch?v=6G54JaQq5Go)
-- > **VPC fundamentals**
-  - [One to Many: Evolving VPC Design](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
-  - [VPC Sharing: Key Considerations and Best Practices](https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-key-considerations-and-best-practices/)
-  - [Field Notes: Launch Amazon EMR with a Static Private IP in a Private Subnet](https://aws.amazon.com/blogs/architecture/field-notes-launch-amazon-emr-with-a-static-private-ip-in-a-private-subnet/)
-  - [Advanced VPC Design and New Capabilities for Amazon VPC](https://www.youtube.com/watch?v=tkaMmFoWwaA)
-  - [Secure Your Workloads with NAT Gateway](https://www.youtube.com/watch?v=SwZoQZi-eYk)
-- > **VPC traffic security**
-  - [VPC Traffic Mirroring – Capture & Inspect Network Traffic](https://aws.amazon.com/blogs/aws/new-vpc-traffic-mirroring/)
+1. [AWS Networking Fundamentals](https://www.youtube.com/watch?v=hiKPPy584Mg)
+2. **IP addressing**
+   1. [VPCs and Subnets](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html#how-it-works-subnet)
+   2. [How Do I Modify the IPv4 CIDR Block of My Amazon VPC?](https://aws.amazon.com/premiumsupport/knowledge-center/vpc-ip-address-range/)
+   3. [Bring Your Own IP Address to the Cloud](https://www.youtube.com/watch?v=6G54JaQq5Go)
+2. **VPC fundamentals**
+   1. [One to Many: Evolving VPC Design](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
+   2. [VPC Sharing: Key Considerations and Best Practices](https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-key-considerations-and-best-practices/)
+   3. [Field Notes: Launch Amazon EMR with a Static Private IP in a Private Subnet](https://aws.amazon.com/blogs/architecture/field-notes-launch-amazon-emr-with-a-static-private-ip-in-a-private-subnet/)
+   4. [Advanced VPC Design and New Capabilities for Amazon VPC](https://www.youtube.com/watch?v=tkaMmFoWwaA)
+   5. [Secure Your Workloads with NAT Gateway](https://www.youtube.com/watch?v=SwZoQZi-eYk)
+3. **VPC traffic security**
+   1. [VPC Traffic Mirroring – Capture & Inspect Network Traffic](https://aws.amazon.com/blogs/aws/new-vpc-traffic-mirroring/)
 
 ### Compute
 
-- [High Performance Computing](https://youtu.be/Us9ZGtzZRk8)
-- [AWS Lambda](https://youtu.be/9IYpGTS7Jy0)
+1. [High Performance Computing](https://youtu.be/Us9ZGtzZRk8)
+2. [AWS Lambda](https://youtu.be/9IYpGTS7Jy0)
 
 ##### Resources
 
-- > **High performance computing**
-  - [FORMULA 1 Transfers Race Car Data into AWS Using AWS DataSync](https://aws.amazon.com/blogs/storage/formula-1-transfers-race-car-data-into-the-aws-cloud-using-aws-datasync/)
-  - [Enabling Job Accounting for HPC with AWS ParallelCluster and Amazon RDS](https://aws.amazon.com/blogs/compute/enabling-job-accounting-for-hpc-with-aws-parallelcluster-and-amazon-rds/)
-  - [Orchestrating an Application Process with AWS Batch Using AWS CloudFormation](https://aws.amazon.com/blogs/compute/orchestrating-an-application-process-with-aws-batch-using-aws-cloudformation/)
-- > **AWS Lambda**
-  - [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
-  - [Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/)
-  - [Building Microservices with AWS Lambda](https://www.youtube.com/watch?v=TOn0xhev0Uk)
-  - [AWS Lambda Under the Hood](https://www.youtube.com/watch?v=xmacMfbrG28)
-- > **Amazon EC2 pricing options**
-  - [Savings Plans FAQ](https://aws.amazon.com/savingsplans/faq/?nc1=h_ls)
-  - [Save Up to 90% and Run Production Workloads on Spot Instances](https://www.youtube.com/watch?v=7q5AeoKsGJw)
+1. **High performance computing**
+   1. [FORMULA 1 Transfers Race Car Data into AWS Using AWS DataSync](https://aws.amazon.com/blogs/storage/formula-1-transfers-race-car-data-into-the-aws-cloud-using-aws-datasync/)
+   2. [Enabling Job Accounting for HPC with AWS ParallelCluster and Amazon RDS](https://aws.amazon.com/blogs/compute/enabling-job-accounting-for-hpc-with-aws-parallelcluster-and-amazon-rds/)
+   3. [Orchestrating an Application Process with AWS Batch Using AWS CloudFormation](https://aws.amazon.com/blogs/compute/orchestrating-an-application-process-with-aws-batch-using-aws-cloudformation/)
+2. **AWS Lambda**
+   1. [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda](https://aws.amazon.com/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
+   2. [Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/)
+   3. [Building Microservices with AWS Lambda](https://www.youtube.com/watch?v=TOn0xhev0Uk)
+   4. [AWS Lambda Under the Hood](https://www.youtube.com/watch?v=xmacMfbrG28)
+3. **Amazon EC2 pricing options**
+   1. [Savings Plans FAQ](https://aws.amazon.com/savingsplans/faq/?nc1=h_ls)
+   2. [Save Up to 90% and Run Production Workloads on Spot Instances](https://www.youtube.com/watch?v=7q5AeoKsGJw)
 
 ### Storage
 
-- [Storage Services](https://youtu.be/qlAw07o5l00)
-- [Amazon S3](https://youtu.be/N_3IaOVcIO0)
-- [Shared File Systems](https://youtu.be/IMDWTIShlyI)
-- [AWS DataSync](https://youtu.be/_qhTF-gB-JE)
+1. [Storage Services](https://youtu.be/qlAw07o5l00)
+2. [Amazon S3](https://youtu.be/N_3IaOVcIO0)
+3. [Shared File Systems](https://youtu.be/IMDWTIShlyI)
+4. [AWS DataSync](https://youtu.be/_qhTF-gB-JE)
 
 ![Storage Classes](/images/storage_classes.png)
-
-- > **S3 Standard**
-  - Use S3 Standard for general-purpose storage of frequently accessed data. It delivers low latency and high throughput.
-- > **S3 Standard IA**
-  - Use S3 Standard Infrequent-Access for long-lived but less frequently accessed data that requires rapid access when needed. It offers the high durability, high throughput, and low latency of S3 Standard, with a low per-GB storage price and per-GB retrieval fee. This combination of low cost and high performance make S3 Standard-IA ideal for long-term storage and backups, and as a data store for disaster recovery files.
-- > **S3 Intelligent Tiering**
-  - Use S3 Intelligent Tiering storage class for data with unknown or changing access patterns. It delivers automatic cost savings by moving objects between four access tiers when access patterns change.
-- > **S3 One Zone-IA**
-  - Use the S3 1Zone-IA storage class for long-lived data that requires rapid access when needed. S3 1Z-IA stores data in a single AZ and costs 20% less than S3 Standard-IA. It is ideal for customers who want a lower-cost option for storing secondary backup copies of on-premises data or data that can be re-created.
-- > **S3 Glacier**
-  - Use the S3 Glacier storage classes for long-term archive and digital preservation at a drastically reduced cost.
+  1. **S3 Standard** : Use S3 Standard for general-purpose storage of frequently accessed data. It delivers low latency and high throughput.
+  2. **S3 Standard IA** : Use S3 Standard Infrequent-Access for long-lived but less frequently accessed data that requires rapid access when needed. It offers the high durability, high throughput, and low latency of S3 Standard, with a low per-GB storage price and per-GB retrieval fee. This combination of low cost and high performance make S3 Standard-IA ideal for long-term storage and backups, and as a data store for disaster recovery files.
+  3. **S3 Intelligent Tiering** : Use S3 Intelligent Tiering storage class for data with unknown or changing access patterns. It delivers automatic cost savings by moving objects between four access tiers when access patterns change.
+  4. **S3 One Zone-IA** : Use the S3 1Zone-IA storage class for long-lived data that requires rapid access when needed. S3 1Z-IA stores data in a single AZ and costs 20% less than S3 Standard-IA. It is ideal for customers who want a lower-cost option for storing secondary backup copies of on-premises data or data that can be re-created.
+  5. **S3 Glacier** : Use the S3 Glacier storage classes for long-term archive and digital preservation at a drastically reduced cost.
 
 ![Amazon FSx File Gateway](/images/fsx_file_gw.png)
 ![Amazon Storage Gateway Modes](/images/storage_gw_modes.png)
 
-- [Cloud Storage in Minutes with AWS Storage Gateway](https://aws.amazon.com/blogs/storage/cloud-storage-in-minutes-with-aws-storage-gateway-updated/)
-- [AWS Storage Gateway Adds SMB Support to Store and Access Objects in Amazon S3 Buckets](https://aws.amazon.com/about-aws/whats-new/2018/06/aws-storage-gateway-adds-smb-support-to-store-objects-in-amazon-s3/)
+5. [Cloud Storage in Minutes with AWS Storage Gateway](https://aws.amazon.com/blogs/storage/cloud-storage-in-minutes-with-aws-storage-gateway-updated/)
+6. [AWS Storage Gateway Adds SMB Support to Store and Access Objects in Amazon S3 Buckets](https://aws.amazon.com/about-aws/whats-new/2018/06/aws-storage-gateway-adds-smb-support-to-store-objects-in-amazon-s3/)
 
 ##### Resources
 
-- > **Storage services**
-  - [AWS Storage – EBS vs S3 vs EFS](https://www.youtube.com/watch?v=6vNC_BCqFmI)
-  - [Comparing Your On-Premises Storage Patterns with AWS Storage Services](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)
-  - [Storage Options and Designs for VMware Cloud on AWS – Direct Attached Storage](https://aws.amazon.com/blogs/storage/storage-options-and-designs-for-vmware-cloud-on-aws/)
-- > **Amazon S3**
-  - [S3 Encryption and Networking with S3 PrivateLink and S3 Bucket Keys](https://www.youtube.com/watch?v=qvXEJwnJXRA)
-  - [Amazon S3 Block Public Access – Another Layer of Protection for Your Accounts and Buckets](https://aws.amazon.com/blogs/aws/amazon-s3-block-public-access-another-layer-of-protection-for-your-accounts-and-buckets/)
-  - [Changing Your Amazon S3 Encryption from S3-Managed to AWS KMS](https://aws.amazon.com/blogs/storage/changing-your-amazon-s3-encryption-from-s3-managed-encryption-sse-s3-to-aws-key-management-service-sse-kms/)
-- > **Shared file systems**
-  - [Get Started Using Amazon FSx File Gateway for Fast, Cached Access to File Server Data in the Cloud](https://aws.amazon.com/blogs/aws/get-started-using-amazon-fsx-file-gateway-for-fast-cached-access-to-file-server-data-in-the-cloud/)
-  - [What's New with Amazon FSx](https://www.youtube.com/watch?v=Fm_aaDdROyk)
-  - [High-Performance HDD Storage for Amazon FSx for Lustre File Systems](https://aws.amazon.com/blogs/aws/new-high-performance-hdd-storage-for-amazon-fsx-for-lustre-file-systems/)
-  - [Windows Home Directories Made Easy with Amazon FSx](https://aws.amazon.com/blogs/storage/windows-home-directories-and-file-shares-made-easy-with-amazon-fsx/)
-  - [Using Microsoft Windows File Shares](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
-  - [Creating and Activating File Gateway on VMware](https://aws.amazon.com/blogs/storage/creating-and-activating-aws-file-gateway-on-vmware/)
+1. **Storage services**
+   1. [AWS Storage – EBS vs S3 vs EFS](https://www.youtube.com/watch?v=6vNC_BCqFmI)
+   2. [Comparing Your On-Premises Storage Patterns with AWS Storage Services](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)
+   3. [Storage Options and Designs for VMware Cloud on AWS – Direct Attached Storage](https://aws.amazon.com/blogs/storage/storage-options-and-designs-for-vmware-cloud-on-aws/)
+2. **Amazon S3**
+   1. [S3 Encryption and Networking with S3 PrivateLink and S3 Bucket Keys](https://www.youtube.com/watch?v=qvXEJwnJXRA)
+   2. [Amazon S3 Block Public Access – Another Layer of Protection for Your Accounts and Buckets](https://aws.amazon.com/blogs/aws/amazon-s3-block-public-access-another-layer-of-protection-for-your-accounts-and-buckets/)
+   3. [Changing Your Amazon S3 Encryption from S3-Managed to AWS KMS](https://aws.amazon.com/blogs/storage/changing-your-amazon-s3-encryption-from-s3-managed-encryption-sse-s3-to-aws-key-management-service-sse-kms/)
+3. **Shared file systems**
+   1. [Get Started Using Amazon FSx File Gateway for Fast, Cached Access to File Server Data in the Cloud](https://aws.amazon.com/blogs/aws/get-started-using-amazon-fsx-file-gateway-for-fast-cached-access-to-file-server-data-in-the-cloud/)
+   2. [What's New with Amazon FSx](https://www.youtube.com/watch?v=Fm_aaDdROyk)
+   3. [High-Performance HDD Storage for Amazon FSx for Lustre File Systems](https://aws.amazon.com/blogs/aws/new-high-performance-hdd-storage-for-amazon-fsx-for-lustre-file-systems/)
+   4. [Windows Home Directories Made Easy with Amazon FSx](https://aws.amazon.com/blogs/storage/windows-home-directories-and-file-shares-made-easy-with-amazon-fsx/)
+   5. [Using Microsoft Windows File Shares](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
+   6. [Creating and Activating File Gateway on VMware](https://aws.amazon.com/blogs/storage/creating-and-activating-aws-file-gateway-on-vmware/)
 
 ### Database Services
 

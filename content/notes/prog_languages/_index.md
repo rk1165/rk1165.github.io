@@ -18,23 +18,23 @@
 
 ### Lisp
 
-- [Practical Common Lisp](http://www.gigamonkeys.com/book/)
+1. [Practical Common Lisp](http://www.gigamonkeys.com/book/)
 
 ### Racket
 
-- [Beautiful Racket](https://beautifulracket.com/)
-- [How to Design Programs](https://htdp.org)
-- [Server Racket](https://serverracket.com/)
-- [A Data-Centric Introduction to Computing](https://dcic-world.org)
+1. [Beautiful Racket](https://beautifulracket.com/)
+2. [How to Design Programs](https://htdp.org)
+3. [Server Racket](https://serverracket.com/)
+4. [A Data-Centric Introduction to Computing](https://dcic-world.org)
 
 ### Rust
 
-- [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
-- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [Read Rust](https://readrust.net/)
-- [John's videos](https://www.youtube.com/c/JonGjengset/videos)
+1. [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
+2. [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+3. [Read Rust](https://readrust.net/)
+4. [John's videos](https://www.youtube.com/c/JonGjengset/videos)
 
 ### Scheme
 
-- [SICP](http://sarabander.github.io/sicp/)
-- [Simply Scheme](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
+1. [SICP](http://sarabander.github.io/sicp/)
+2. [Simply Scheme](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
