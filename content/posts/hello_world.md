@@ -1,7 +1,6 @@
 +++
 title = 'Hello World'
 date = 2024-02-09T17:46:41+05:30
-draft = true
 # categories = ["Hugo", "Basic"]
 # tags = ["Hugo", "howto"]
 
