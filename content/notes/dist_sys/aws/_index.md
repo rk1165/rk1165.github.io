@@ -140,94 +140,94 @@
 
 ### Database Services
 
-- [Amazon RDS](https://youtu.be/igRfulrrYCo)
-- [Amazon DynamoDB](https://youtu.be/DIQVJqiSUkE)
-- [Amazon Redshift](https://youtu.be/dfo4J5ZhlKI)
-- [Database caching](https://youtu.be/OWLGK-eVrTw)
-- [Database migration tools](https://youtu.be/zb4GcjEdl8U)
-- [AWS databases](https://youtu.be/7OI3C7TwW64)
+1. [Amazon RDS](https://youtu.be/igRfulrrYCo)
+2. [Amazon DynamoDB](https://youtu.be/DIQVJqiSUkE)
+3. [Amazon Redshift](https://youtu.be/dfo4J5ZhlKI)
+4. [Database caching](https://youtu.be/OWLGK-eVrTw)
+5. [Database migration tools](https://youtu.be/zb4GcjEdl8U)
+6. [AWS databases](https://youtu.be/7OI3C7TwW64)
 
 ##### Resources
 
-- > **Amazon RDS**
-  - [Implementing a Disaster Recovery Strategy with Amazon RDS](https://aws.amazon.com/blogs/database/implementing-a-disaster-recovery-strategy-with-amazon-rds/)
-- > **Amazon DynamoDB**
-  - [Build with DynamoDB | S1 E1 – Intro to Amazon DynamoDB](https://www.youtube.com/watch?v=W3S1OnDqWl4)
-- > **Amazon Aurora**
-  - [Amazon Aurora Under the Hood](https://aws.amazon.com/jp/blogs/database/amazon-aurora-under-the-hood-quorum-and-correlated-failure/)
-- > **Amazon Redshift**
-  - [Deep Dive and Best Practices for Amazon Redshift](https://www.youtube.com/watch?v=lj8oaSpCFTc)
-  - [Top 10 Performance Tuning Techniques for Amazon Redshift](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift/)
-  - [Automate Amazon Redshift Cluster Creation Using AWS CloudFormation](https://aws.amazon.com/blogs/big-data/automate-amazon-redshift-cluster-creation-using-aws-cloudformation/)
-- > **Database caching**
-  - [Automated Query Caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds/)
-  - [Caching for Performance with Amazon DocumentDB and Amazon ElastiCache](https://aws.amazon.com/blogs/database/caching-for-performance-with-amazon-documentdb-and-amazon-elasticache/)
-  - [Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/database-caching-strategies-using-redis.pdf)
-- > **Database migration tools**
-  - [Top 10 Data Migration Best Practices](https://www.youtube.com/watch?v=i0-pSHQJ7pA)
-  - [Standardizing Database Migrations with AWS Database Migration Service and AWS Service Catalog](https://aws.amazon.com/blogs/mt/standardizing-database-migrations-with-aws-database-migration-service-and-aws-service-catalog/)
+1. **Amazon RDS**
+   1. [Implementing a Disaster Recovery Strategy with Amazon RDS](https://aws.amazon.com/blogs/database/implementing-a-disaster-recovery-strategy-with-amazon-rds/)
+2. **Amazon DynamoDB**
+   1. [Build with DynamoDB | S1 E1 – Intro to Amazon DynamoDB](https://www.youtube.com/watch?v=W3S1OnDqWl4)
+3. **Amazon Aurora**
+   1. [Amazon Aurora Under the Hood](https://aws.amazon.com/jp/blogs/database/amazon-aurora-under-the-hood-quorum-and-correlated-failure/)
+4. **Amazon Redshift**
+   1.  [Deep Dive and Best Practices for Amazon Redshift](https://www.youtube.com/watch?v=lj8oaSpCFTc)
+   2. [Top 10 Performance Tuning Techniques for Amazon Redshift](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift/)
+   3. [Automate Amazon Redshift Cluster Creation Using AWS CloudFormation](https://aws.amazon.com/blogs/big-data/automate-amazon-redshift-cluster-creation-using-aws-cloudformation/)
+5. **Database caching**
+   1. [Automated Query Caching into Amazon ElastiCache for Amazon RDS, Amazon Aurora and Amazon Redshift](https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds/)
+   2. [Caching for Performance with Amazon DocumentDB and Amazon ElastiCache](https://aws.amazon.com/blogs/database/caching-for-performance-with-amazon-documentdb-and-amazon-elasticache/)
+   3. [Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/database-caching-strategies-using-redis.pdf)
+6. **Database migration tools**
+   1. [Top 10 Data Migration Best Practices](https://www.youtube.com/watch?v=i0-pSHQJ7pA)
+   2. [Standardizing Database Migrations with AWS Database Migration Service and AWS Service Catalog](https://aws.amazon.com/blogs/mt/standardizing-database-migrations-with-aws-database-migration-service-and-aws-service-catalog/)
 
 ### Monitoring and Scaling
 
-- [Monitoring](https://youtu.be/_eWaPVski6o)
-- [Load Balancing](https://youtu.be/VIgAT7vjol8)
-- [Auto Scaling](https://youtu.be/9BlsFNBnKHc)
+1. [Monitoring](https://youtu.be/_eWaPVski6o)
+2. [Load Balancing](https://youtu.be/VIgAT7vjol8)
+3. [Auto Scaling](https://youtu.be/9BlsFNBnKHc)
 
 ##### Resources
 
-- > **Monitoring**
-  - [How Amazon CloudWatch Works](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html)
-  - [Amazon CloudWatch Concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
-  - [Creating Metrics from Log Events Using Filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringLogData.html)
-  - [Monitor Resource Changes with Amazon CloudWatch Events](https://www.youtube.com/watch?v=-rQku_AeN_Y)
-- > **Load balancing**
-  - [Get the Most from Elastic Load Balancing for Different Workloads](https://www.youtube.com/watch?v=HKh54BkaOK0)
-  - [Building with AWS PrivateLink, Gateway Load Balancer, and AWS Partners](https://www.youtube.com/watch?v=09Fvr796SVQ)
-  - [AWS Elastic Load Balancer Demonstrations](https://mv.exampleloadbalancer.net/)
-- > **Auto scaling**
-  - [Scaling Up to Your First 10 Million Users](https://www.youtube.com/watch?v=kKjm4ehYiMs)
+1. **Monitoring**
+   1. [How Amazon CloudWatch Works](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html)
+   2. [Amazon CloudWatch Concepts](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
+   3. [Creating Metrics from Log Events Using Filters](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/MonitoringLogData.html)
+   4. [Monitor Resource Changes with Amazon CloudWatch Events](https://www.youtube.com/watch?v=-rQku_AeN_Y)
+2. **Load balancing**
+   1. [Get the Most from Elastic Load Balancing for Different Workloads](https://www.youtube.com/watch?v=HKh54BkaOK0)
+   2. [Building with AWS PrivateLink, Gateway Load Balancer, and AWS Partners](https://www.youtube.com/watch?v=09Fvr796SVQ)
+   3. [AWS Elastic Load Balancer Demonstrations](https://mv.exampleloadbalancer.net/)
+3. **Auto scaling**
+   1. [Scaling Up to Your First 10 Million Users](https://www.youtube.com/watch?v=kKjm4ehYiMs)
 
 ### Automation
 
-- [Elastic BeanStalk](https://youtu.be/o4clRJuH9xU)
-- [Cloudformation](https://youtu.be/1h-GPXQrLZw)
-- [Systems Manager](https://youtu.be/2efz7EH4czQ)
+1. [Elastic BeanStalk](https://youtu.be/o4clRJuH9xU)
+2. [Cloudformation](https://youtu.be/1h-GPXQrLZw)
+3. [Systems Manager](https://youtu.be/2efz7EH4czQ)
 
 ##### Resources
 
-- > **Elastic Beanstalk**
-  - [Introducing a New Generation of AWS Elastic Beanstalk Platforms](https://aws.amazon.com/blogs/compute/introducing-a-new-generation-of-aws-elastic-beanstalk-platforms/)
-  - [Optimizing the Cost of Running AWS Elastic Beanstalk Workloads](https://aws.amazon.com/blogs/devops/optimizing-the-cost-of-running-aws-elastic-beanstalk-workloads/)
-- > **CloudFormation**
-  - [AWS Container Day – Amazon EKS and AWS Fargate: Better Together](https://www.youtube.com/watch?v=-xMNbys0tF8)
-  - [Best Practices for Authoring AWS CloudFormation](https://www.youtube.com/watch?v=bJHHQM7GGro)
-- > **Systems Manager**
-  - [AWS Systems Manager Operational Capabilities](https://docs.aws.amazon.com/whitepapers/latest/aws-systems-manager-operational-capabilities/aws-systems-manager-operational-capabilities.html)
-  - [What Is AWS Systems Manager?](https://docs.aws.amazon.com/systems-manager/latest/userguide/getting-started.html)
-  - [Manage Instances Using AWS Systems Manager Quick Setup Across AWS Organization](https://aws.amazon.com/jp/blogs/mt/manage-instances-using-aws-systems-manager-quick-setup-across-aws-organization/)
-  - [AWS Systems Manager: Gain Operational Insights and Take Action on AWS Resources](https://www.youtube.com/watch?v=2efz7EH4czQ)
-  - [Automate Anything with AWS Systems Manager](https://www.youtube.com/watch?v=AaI2xkW85yE)
+1. **Elastic Beanstalk**
+   1. [Introducing a New Generation of AWS Elastic Beanstalk Platforms](https://aws.amazon.com/blogs/compute/introducing-a-new-generation-of-aws-elastic-beanstalk-platforms/)
+   2. [Optimizing the Cost of Running AWS Elastic Beanstalk Workloads](https://aws.amazon.com/blogs/devops/optimizing-the-cost-of-running-aws-elastic-beanstalk-workloads/)
+2. **CloudFormation**
+   1. [AWS Container Day – Amazon EKS and AWS Fargate: Better Together](https://www.youtube.com/watch?v=-xMNbys0tF8)
+   1. [Best Practices for Authoring AWS CloudFormation](https://www.youtube.com/watch?v=bJHHQM7GGro)
+3. **Systems Manager**
+   1. [AWS Systems Manager Operational Capabilities](https://docs.aws.amazon.com/whitepapers/latest/aws-systems-manager-operational-capabilities/aws-systems-manager-operational-capabilities.html)
+   2. [What Is AWS Systems Manager?](https://docs.aws.amazon.com/systems-manager/latest/userguide/getting-started.html)
+   3. [Manage Instances Using AWS Systems Manager Quick Setup Across AWS Organization](https://aws.amazon.com/jp/blogs/mt/manage-instances-using-aws-systems-manager-quick-setup-across-aws-organization/)
+   4. [AWS Systems Manager: Gain Operational Insights and Take Action on AWS Resources](https://www.youtube.com/watch?v=2efz7EH4czQ)
+   5. [Automate Anything with AWS Systems Manager](https://www.youtube.com/watch?v=AaI2xkW85yE)
 
 ### Containers
 
-- [Microservices](https://youtu.be/_ep_yKuDWkE)
-- [Container Services](https://youtu.be/Vtymod0nPBo)
+1. [Microservices](https://youtu.be/_ep_yKuDWkE)
+2. [Container Services](https://youtu.be/Vtymod0nPBo)
 
 ##### Resources
 
-- > **Microservices**
-  - [Migrating Applications from Monolithic to Microservice on AWS](https://aws.amazon.com/blogs/apn/migrating-applications-from-monolithic-to-microservice-on-aws/)
-  - [Application Modernization Using Microservices Architecture with VMware Cloud on AWS](https://aws.amazon.com/blogs/apn/application-modernization-using-microservices-architecture-with-vmware-cloud-on-aws/)
-- > **Containers**
-  - [Getting Started with Amazon ECS Anywhere](https://aws.amazon.com/blogs/aws/getting-started-with-amazon-ecs-anywhere-now-generally-available/)
-  - [AWS Container Day – Amazon EKS and AWS Fargate: Better Together](https://www.youtube.com/watch?v=-xMNbys0tF8)
-  - [AWS Fargate Under the Hood](https://www.youtube.com/watch?v=Hr-zOaBGyEA)
+1. **Microservices**
+   1. [Migrating Applications from Monolithic to Microservice on AWS](https://aws.amazon.com/blogs/apn/migrating-applications-from-monolithic-to-microservice-on-aws/)
+   2. [Application Modernization Using Microservices Architecture with VMware Cloud on AWS](https://aws.amazon.com/blogs/apn/application-modernization-using-microservices-architecture-with-vmware-cloud-on-aws/)
+2. **Containers**
+   1. [Getting Started with Amazon ECS Anywhere](https://aws.amazon.com/blogs/aws/getting-started-with-amazon-ecs-anywhere-now-generally-available/)
+   2. [AWS Container Day – Amazon EKS and AWS Fargate: Better Together](https://www.youtube.com/watch?v=-xMNbys0tF8)
+   3. [AWS Fargate Under the Hood](https://www.youtube.com/watch?v=Hr-zOaBGyEA)
 
 ### Networking 2
 
-- [VPC Endpoints](https://youtu.be/TqApkvJx5hw)
-- [Transit GW](https://youtu.be/Z6LD59s_wJo)
-- [Hybrid Networking](https://youtu.be/eqW6CPb58gs)
+1. [VPC Endpoints](https://youtu.be/TqApkvJx5hw)
+2. [Transit GW](https://youtu.be/Z6LD59s_wJo)
+3. [Hybrid Networking](https://youtu.be/eqW6CPb58gs)
 
 ![Direct Connect virtual interfaces](/images/direct_connect.png)
 
@@ -240,123 +240,123 @@
 
 ##### Resources
 
-- > **VPC endpoints**
-  - [Centralize Access Using VPC Interface Endpoints to Access AWS Services Across Multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
-  - [Establish Private Connectivity with AWS PrivateLink](https://www.youtube.com/watch?v=weN2sCKFquA)
-  - [Access virtual appliances through AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/vpce-gateway-load-balancer.html)
-- > **Transit Gateway**
-  - [Common Use Cases for Transit Gateways](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
-  - [AWS Transit Gateway Reference Architectures for Many VPCs](https://www.youtube.com/watch?v=9Nikqn_02Oc)
-- > **Hybrid networking**
-  - [Adding MACsec Security to AWS Direct Connect Connections](https://aws.amazon.com/blogs/networking-and-content-delivery/adding-macsec-security-to-aws-direct-connect-connections/)
-  - [AWS Direct Connect Integration with VMware Cloud on AWS](https://aws.amazon.com/blogs/apn/aws-direct-connect-integration-with-vmware-cloud-on-aws/)
-  - [AWS App Mesh – Application-Level Networking for Cloud Applications](https://aws.amazon.com/blogs/aws/aws-app-mesh-application-level-networking-for-cloud-applications/)
-  - [Set Up DNS Resolution for Hybrid Networks in a Multi-Account AWS Environment](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/set-up-dns-resolution-for-hybrid-networks-in-a-multi-account-aws-environment.html)
-  - [How Do I Set Up Routing My AWS Direct Connect Private Virtual Interfaces to Access My VPC Resources?](https://youtu.be/mj5V3_-QEW0)
-  - [What's the Difference Between a Hosted Virtual Interface \(VIF\) and a Hosted Connection?](https://youtu.be/2e34hUCXly8)
+1. **VPC endpoints**
+   1. [Centralize Access Using VPC Interface Endpoints to Access AWS Services Across Multiple VPCs](https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/)
+   2. [Establish Private Connectivity with AWS PrivateLink](https://www.youtube.com/watch?v=weN2sCKFquA)
+   3. [Access virtual appliances through AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/privatelink/vpce-gateway-load-balancer.html)
+2. **Transit Gateway**
+   1. [Common Use Cases for Transit Gateways](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
+   2. [AWS Transit Gateway Reference Architectures for Many VPCs](https://www.youtube.com/watch?v=9Nikqn_02Oc)
+3. **Hybrid networking**
+   1. [Adding MACsec Security to AWS Direct Connect Connections](https://aws.amazon.com/blogs/networking-and-content-delivery/adding-macsec-security-to-aws-direct-connect-connections/)
+   2. [AWS Direct Connect Integration with VMware Cloud on AWS](https://aws.amazon.com/blogs/apn/aws-direct-connect-integration-with-vmware-cloud-on-aws/)
+   3. [AWS App Mesh – Application-Level Networking for Cloud Applications](https://aws.amazon.com/blogs/aws/aws-app-mesh-application-level-networking-for-cloud-applications/)
+   4. [Set Up DNS Resolution for Hybrid Networks in a Multi-Account AWS Environment](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/set-up-dns-resolution-for-hybrid-networks-in-a-multi-account-aws-environment.html)
+   5. [How Do I Set Up Routing My AWS Direct Connect Private Virtual Interfaces to Access My VPC Resources?](https://youtu.be/mj5V3_-QEW0)
+   6. [What's the Difference Between a Hosted Virtual Interface \(VIF\) and a Hosted Connection?](https://youtu.be/2e34hUCXly8)
 
 ### Serverless
 
-- [API GW](https://youtu.be/yfJZc3sJZ8E)
-- [Amazon SQS](https://youtu.be/-yJqBuwouZ4)
-- [Amazon SNS](https://youtu.be/8zysQqxgj0I)
-- [Kinesis](https://youtu.be/hLLgkTUmwOU)
-- [Step Functions](https://youtu.be/2zCvMcZTr1E)
+1. [API GW](https://youtu.be/yfJZc3sJZ8E)
+2. [Amazon SQS](https://youtu.be/-yJqBuwouZ4)
+3. [Amazon SNS](https://youtu.be/8zysQqxgj0I)
+4. [Kinesis](https://youtu.be/hLLgkTUmwOU)
+5. [Step Functions](https://youtu.be/2zCvMcZTr1E)
 
 ##### Resources
 
-- > **API Gateway**
-  - [Introducing Amazon API Gateway Service Integration for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/)
-  - [Best Practices for Building Enterprise Grade APIs with Amazon API Gateway](https://www.youtube.com/watch?v=9ElpSPXk-g8)
-  - [How Do I Restrict Access to My API Gateway via API Gateway Resource Policies?](https://www.youtube.com/watch?v=VUxCJR1UG-Y)
-  - [I Didn’t Know Amazon API Gateway Did That](https://www.youtube.com/watch?v=yfJZc3sJZ8E)
-- > **Amazon SQS**
-  - [Application Integration Using Queues and Messages](https://aws.amazon.com/blogs/architecture/application-integration-using-queues-and-messages/)
-  - [Simple Two-Way Messaging Using the Amazon SQS Temporary Queue Client](https://aws.amazon.com/blogs/compute/simple-two-way-messaging-using-the-amazon-sqs-temporary-queue-client/)
-- > **Amazon SNS**
-  - [Building event-driven architectures with Amazon SNS FIFO](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
-  - [Application integration patterns for microservices: Running distributed RFQs](https://aws.amazon.com/blogs/compute/application-integration-patterns-running-distributed-rfqs/)
-- > **Kinesis**
-  - [Stream Data to an HTTP Endpoint with Amazon Kinesis Data Firehose](https://aws.amazon.com/blogs/big-data/stream-data-to-an-http-endpoint-with-amazon-kinesis-data-firehose/)
-  - [Under the Hood: Scaling Your Kinesis Data Streams](https://aws.amazon.com/blogs/big-data/under-the-hood-scaling-your-kinesis-data-streams/)
-- > **Step Functions**
-  - [Manage a Batch Job \(AWS Batch, Amazon SNS\)](https://docs.aws.amazon.com/step-functions/latest/dg/batch-job-notification.html)
-- > **Serverless applications**
-  - [Building Modern Applications at AWS](https://www.youtube.com/watch?v=szsdJ8kbXq0)
-  - [Choosing Events, Queues, Topics, and Streams in Your Serverless Application](https://www.youtube.com/watch?v=d9Jb1WKCLd8)
+1. **API Gateway**
+   1. [Introducing Amazon API Gateway Service Integration for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-amazon-api-gateway-service-integration-for-aws-step-functions/)
+   2. [Best Practices for Building Enterprise Grade APIs with Amazon API Gateway](https://www.youtube.com/watch?v=9ElpSPXk-g8)
+   3. [How Do I Restrict Access to My API Gateway via API Gateway Resource Policies?](https://www.youtube.com/watch?v=VUxCJR1UG-Y)
+   4. [I Didn’t Know Amazon API Gateway Did That](https://www.youtube.com/watch?v=yfJZc3sJZ8E)
+2. **Amazon SQS**
+   1. [Application Integration Using Queues and Messages](https://aws.amazon.com/blogs/architecture/application-integration-using-queues-and-messages/)
+   2. [Simple Two-Way Messaging Using the Amazon SQS Temporary Queue Client](https://aws.amazon.com/blogs/compute/simple-two-way-messaging-using-the-amazon-sqs-temporary-queue-client/)
+3. **Amazon SNS**
+   1. [Building event-driven architectures with Amazon SNS FIFO](https://aws.amazon.com/blogs/compute/building-event-driven-architectures-with-amazon-sns-fifo/)
+   2. [Application integration patterns for microservices: Running distributed RFQs](https://aws.amazon.com/blogs/compute/application-integration-patterns-running-distributed-rfqs/)
+4. **Kinesis**
+   1. [Stream Data to an HTTP Endpoint with Amazon Kinesis Data Firehose](https://aws.amazon.com/blogs/big-data/stream-data-to-an-http-endpoint-with-amazon-kinesis-data-firehose/)
+   2. [Under the Hood: Scaling Your Kinesis Data Streams](https://aws.amazon.com/blogs/big-data/under-the-hood-scaling-your-kinesis-data-streams/)
+5. **Step Functions**
+   1. [Manage a Batch Job \(AWS Batch, Amazon SNS\)](https://docs.aws.amazon.com/step-functions/latest/dg/batch-job-notification.html)
+6. **Serverless applications**
+   1. [Building Modern Applications at AWS](https://www.youtube.com/watch?v=szsdJ8kbXq0)
+   2. [Choosing Events, Queues, Topics, and Streams in Your Serverless Application](https://www.youtube.com/watch?v=d9Jb1WKCLd8)
 
 ### Edge Services
 
-- [Edge fundamentals](https://youtu.be/hms0IkNqNJo)
-- [Amazon Route 53](https://youtu.be/E33dA6n9O7I)
-- [Amazon CloudFront](https://youtu.be/DeygvViFlXQ)
-- [AWS Global Accelerator](https://youtu.be/rqQUHDj1K_o)
-- [DDoS protection](https://youtu.be/0xlwLEccRe0)
-- [AWS Outposts](https://youtu.be/Q6OgRawyjIQ)
-- [AWS Shield](https://youtu.be/lU_zPruIL9w)
+1. [Edge fundamentals](https://youtu.be/hms0IkNqNJo)
+2. [Amazon Route 53](https://youtu.be/E33dA6n9O7I)
+3. [Amazon CloudFront](https://youtu.be/DeygvViFlXQ)
+4. [AWS Global Accelerator](https://youtu.be/rqQUHDj1K_o)
+5. [DDoS protection](https://youtu.be/0xlwLEccRe0)
+6. [AWS Outposts](https://youtu.be/Q6OgRawyjIQ)
+7. [AWS Shield](https://youtu.be/lU_zPruIL9w)
 
 ##### Resources
 
-- > **Edge fundamentals**
-  - [The Extended Cloud: AWS Powers Edge-to-Cloud Applications](https://www.youtube.com/watch?v=o70tW8JB1Bw)
-  - [AWS Wavelength - Edge Computing for 5G Networks](https://www.youtube.com/watch?v=EhMqwPqPzcY)
-- > **Route 53**
-  - [Using Route 53 Private Hosted Zones for Cross-Account Multi-Region Architectures](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
-  - [Creating Amazon Route 53 Health Checks and Configuring DNS Failover](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html)
-  - [Deep Dive on DNS in the Hybrid Cloud](https://www.youtube.com/watch?v=_Z5jAs2gvPA)
-- > **CloudFront**
-  - [How to Accelerate Your WordPress Site with Amazon CloudFront](https://aws.amazon.com/blogs/startups/how-to-accelerate-your-wordpress-site-with-amazon-cloudfront/)
-  - [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/)
-- > **Global Accelerator**
-  - [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
-  - [Create Your First Accelerator](https://intro-to-global-accelerator.workshop.aws/en/create-accelerator.html)
-  - [Improving the Player Experience by Leveraging AWS Global Accelerator and Amazon GameLift FleetIQ](https://aws.amazon.com/blogs/gametech/improving-the-player-experience-by-leveraging-aws-global-accelerator-and-amazon-gamelift-fleetiq/)
-- > **DDoS protection**
-  - [High-Performance DDoS Protection with AWS](https://www.youtube.com/watch?v=d0EE1HuZSEU)
-  - [DDoS Attack Detection at Scale](https://www.youtube.com/watch?v=2lAcE3NA2UU)
-  - [Get Ahead of the Curve with DDoS Response Team Escalations](https://www.youtube.com/watch?v=Ftxtn5Ng_4s)
-- > **AWS Outposts**
-  - [Cloud Where You Want It](https://www.youtube.com/watch?v=VcMdq_j34dA)
-  - [Networking Foundations](https://www.youtube.com/watch?v=mrnkvuH0--E)
-  - [Storage Foundations](https://www.youtube.com/watch?v=A_khazmf6jU)
-  - [An In-Depth Look at Hybrid Cloud Use Cases](https://www.youtube.com/watch?v=ET_knLLb3HI)
-  - [Extend the AWS Experience to On-Premises Environments](https://www.youtube.com/watch?v=n7AWdZVCq7g)
-  - [How to Order AWS Outposts in 7 Minutes](https://youtu.be/lhXuJwhZHUY)
-  - [Outpost Hardware Maintenance](https://docs.aws.amazon.com/outposts/latest/userguide/outpost-maintenance.html)
-  - [AWS Outposts Support and Maintenance](https://aws.amazon.com/outposts/faqs/#Support_.26_maintenance)
-- > **AWS Shield**
-  - [Protect Your Applications from DDoS Attacks](https://aws.amazon.com/blogs/aws/aws-shield-protect-your-applications-from-ddos-attacks/)
-  - [Advanced Techniques for Securing Your Web Applications with AWS WAF and AWS Shield](https://www.youtube.com/watch?v=lU_zPruIL9w)
-- > **AWS Snow Family**
-  - [Edge Computing Innovation with the AWS Snow Family](https://aws.amazon.com/blogs/storage/aws-reinvent-recap-edge-computing-innovation-with-the-aws-snow-family/)
+1. **Edge fundamentals**
+   1. [The Extended Cloud: AWS Powers Edge-to-Cloud Applications](https://www.youtube.com/watch?v=o70tW8JB1Bw)
+   2. [AWS Wavelength - Edge Computing for 5G Networks](https://www.youtube.com/watch?v=EhMqwPqPzcY)
+2. **Route 53**
+   1. [Using Route 53 Private Hosted Zones for Cross-Account Multi-Region Architectures](https://aws.amazon.com/blogs/architecture/using-route-53-private-hosted-zones-for-cross-account-multi-region-architectures/)
+   2. [Creating Amazon Route 53 Health Checks and Configuring DNS Failover](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html)
+   3. [Deep Dive on DNS in the Hybrid Cloud](https://www.youtube.com/watch?v=_Z5jAs2gvPA)
+3. **CloudFront**
+   1. [How to Accelerate Your WordPress Site with Amazon CloudFront](https://aws.amazon.com/blogs/startups/how-to-accelerate-your-wordpress-site-with-amazon-cloudfront/)
+   2. [How to Prevent Hotlinking by Using AWS WAF, Amazon CloudFront, and Referer Checking](https://aws.amazon.com/blogs/security/how-to-prevent-hotlinking-by-using-aws-waf-amazon-cloudfront-and-referer-checking/)
+4. **Global Accelerator**
+   1. [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
+   2. [Create Your First Accelerator](https://intro-to-global-accelerator.workshop.aws/en/create-accelerator.html)
+   3. [Improving the Player Experience by Leveraging AWS Global Accelerator and Amazon GameLift FleetIQ](https://aws.amazon.com/blogs/gametech/improving-the-player-experience-by-leveraging-aws-global-accelerator-and-amazon-gamelift-fleetiq/)
+5. **DDoS protection**
+   1. [High-Performance DDoS Protection with AWS](https://www.youtube.com/watch?v=d0EE1HuZSEU)
+   2. [DDoS Attack Detection at Scale](https://www.youtube.com/watch?v=2lAcE3NA2UU)
+   3. [Get Ahead of the Curve with DDoS Response Team Escalations](https://www.youtube.com/watch?v=Ftxtn5Ng_4s)
+6. **AWS Outposts**
+   1. [Cloud Where You Want It](https://www.youtube.com/watch?v=VcMdq_j34dA)
+   2. [Networking Foundations](https://www.youtube.com/watch?v=mrnkvuH0--E)
+   3. [Storage Foundations](https://www.youtube.com/watch?v=A_khazmf6jU)
+   4. [An In-Depth Look at Hybrid Cloud Use Cases](https://www.youtube.com/watch?v=ET_knLLb3HI)
+   5. [Extend the AWS Experience to On-Premises Environments](https://www.youtube.com/watch?v=n7AWdZVCq7g)
+   6. [How to Order AWS Outposts in 7 Minutes](https://youtu.be/lhXuJwhZHUY)
+   7. [Outpost Hardware Maintenance](https://docs.aws.amazon.com/outposts/latest/userguide/outpost-maintenance.html)
+   8. [AWS Outposts Support and Maintenance](https://aws.amazon.com/outposts/faqs/#Support_.26_maintenance)
+7. **AWS Shield**
+   1. [Protect Your Applications from DDoS Attacks](https://aws.amazon.com/blogs/aws/aws-shield-protect-your-applications-from-ddos-attacks/)
+   2. [Advanced Techniques for Securing Your Web Applications with AWS WAF and AWS Shield](https://www.youtube.com/watch?v=lU_zPruIL9w)
+8. **AWS Snow Family**
+   1. [Edge Computing Innovation with the AWS Snow Family](https://aws.amazon.com/blogs/storage/aws-reinvent-recap-edge-computing-innovation-with-the-aws-snow-family/)
 
 ### Backup and Recovery
 
-- [Recover Strategies](https://youtu.be/cJZw5mrxryA)
-- [AWS Backup](https://youtu.be/dCy7ixko3tE)
-- [Disaster Planning](https://youtu.be/hxox0lB6ynA)
-- [High Availability](https://youtu.be/rwjXqEUiJps)
+1. [Recover Strategies](https://youtu.be/cJZw5mrxryA)
+2. [AWS Backup](https://youtu.be/dCy7ixko3tE)
+3. [Disaster Planning](https://youtu.be/hxox0lB6ynA)
+4. [High Availability](https://youtu.be/rwjXqEUiJps)
 
 ##### Resources
 
-- > **Recovery strategies**
-  - [Plan for Disaster Recovery](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
-  - [AWS Direct Connect Resiliency Recommendations](https://aws.amazon.com/directconnect/resiliency-recommendation/)
-- > **AWS Backup**
-  - [Introducing AWS Backup: Automate and Centralize Data Protection in the AWS Cloud](https://www.youtube.com/watch?v=AI8hKeh7yCs)
-  - [Point-in-Time Recovery and Continuous Backup for Amazon RDS with AWS Backup](https://aws.amazon.com/blogs/storage/point-in-time-recovery-and-continuous-backup-for-amazon-rds-with-aws-backup/)
-  - [Managing Backups at Scale in Your AWS Organizations Using AWS Backup](https://aws.amazon.com/blogs/storage/managing-backups-at-scale-in-your-aws-organizations-using-aws-backup/)
-  - [Secure Data Recovery with Cross-Account Backup and Cross-Region Copy Using AWS Backup](https://aws.amazon.com/blogs/storage/secure-data-recovery-with-cross-account-backup-and-cross-region-copy-using-aws-backup/)
-- > **Disaster planning**
-  - [Disaster Recovery Architecture on AWS](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
-  - [Making Application Failover Seamless by Failing Over Your Private Virtual IP Across Availability Zones](https://aws.amazon.com/blogs/apn/making-application-failover-seamless-by-failing-over-your-private-virtual-ip-across-availability-zones/)
-  - [Field Notes: Setting Up Disaster Recovery in a Different Seismic Zone Using AWS Outposts](https://aws.amazon.com/blogs/architecture/field-notes-setting-up-disaster-recovery-in-a-different-seismic-zone-using-aws-outposts/)
-  - [Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)
-- > **High availability**
-  - [Architecting for High Availability on Amazon S3](https://aws.amazon.com/blogs/storage/architecting-for-high-availability-on-amazon-s3/)
-  - [High Availability and Scalability on AWS](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html)
-  - [Floating IP Pattern for HA Between Active–Standby Stateful Servers](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/floating-ip-pattern-for-ha-between-activestandby-stateful-servers.html)
-  - [Cross-Region DNS-Based Load Balancing and Failover](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/cross-region-dns-based-load-balancing-and-failover.html)
-  - [Data Durability and HA with Persistent Storage](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/data-durability-and-ha-with-persistent-storage.html)
-  - [Dynamic Scaling with AWS Lambda, Amazon Route 53, and AWS Auto Scaling](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/dynamic-scaling-with-aws-lambda-amazon-route-53-and-aws-auto-scaling.html)
-  - [Multi-Region Deployment – Part 2: Architectural Best Practices](https://www.youtube.com/watch?v=sBvIphOw_FQ&t=1320s)
+1. **Recovery strategies**
+   1. [Plan for Disaster Recovery](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
+   2. [AWS Direct Connect Resiliency Recommendations](https://aws.amazon.com/directconnect/resiliency-recommendation/)
+2. **AWS Backup**
+   1. [Introducing AWS Backup: Automate and Centralize Data Protection in the AWS Cloud](https://www.youtube.com/watch?v=AI8hKeh7yCs)
+   2. [Point-in-Time Recovery and Continuous Backup for Amazon RDS with AWS Backup](https://aws.amazon.com/blogs/storage/point-in-time-recovery-and-continuous-backup-for-amazon-rds-with-aws-backup/)
+   3.[Managing Backups at Scale in Your AWS Organizations Using AWS Backup](https://aws.amazon.com/blogs/storage/managing-backups-at-scale-in-your-aws-organizations-using-aws-backup/)
+   4. [Secure Data Recovery with Cross-Account Backup and Cross-Region Copy Using AWS Backup](https://aws.amazon.com/blogs/storage/secure-data-recovery-with-cross-account-backup-and-cross-region-copy-using-aws-backup/)
+3. **Disaster planning**
+   1. [Disaster Recovery Architecture on AWS](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
+   2. [Making Application Failover Seamless by Failing Over Your Private Virtual IP Across Availability Zones](https://aws.amazon.com/blogs/apn/making-application-failover-seamless-by-failing-over-your-private-virtual-ip-across-availability-zones/)
+   3. [Field Notes: Setting Up Disaster Recovery in a Different Seismic Zone Using AWS Outposts](https://aws.amazon.com/blogs/architecture/field-notes-setting-up-disaster-recovery-in-a-different-seismic-zone-using-aws-outposts/)
+   4. [Disaster Recovery of Workloads on AWS: Recovery in the Cloud](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)
+4. **High availability**
+   1. [Architecting for High Availability on Amazon S3](https://aws.amazon.com/blogs/storage/architecting-for-high-availability-on-amazon-s3/)
+   2. [High Availability and Scalability on AWS](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html)
+   3. [Floating IP Pattern for HA Between Active–Standby Stateful Servers](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/floating-ip-pattern-for-ha-between-activestandby-stateful-servers.html)
+   4. [Cross-Region DNS-Based Load Balancing and Failover](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/cross-region-dns-based-load-balancing-and-failover.html)
+   5. [Data Durability and HA with Persistent Storage](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/data-durability-and-ha-with-persistent-storage.html)
+   6. [Dynamic Scaling with AWS Lambda, Amazon Route 53, and AWS Auto Scaling](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/dynamic-scaling-with-aws-lambda-amazon-route-53-and-aws-auto-scaling.html)
+   7. [Multi-Region Deployment – Part 2: Architectural Best Practices](https://www.youtube.com/watch?v=sBvIphOw_FQ&t=1320s)
