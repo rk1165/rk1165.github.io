@@ -49,6 +49,9 @@
 47. [The cost and complexity of CGO](https://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/)
 48. [FAQs](https://go.dev/doc/faq)
 49. [How I write HTTP services in Go after 13 years](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/)
+50. [Validation Snippets in Go](https://www.alexedwards.net/blog/validation-snippets-for-go)
+51. [Go Proverbs](https://go-proverbs.github.io/)
+https://google.github.io/styleguide/go/
 
 ### Learning Resources
 

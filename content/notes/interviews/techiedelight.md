@@ -287,6 +287,12 @@ date = 2024-02-11
 - [Find maximum occurring word in given set of strings](http://www.techiedelight.com/find-maximum-occurring-word-given-set-strings/)
 - [Shortest Superstring Problem](http://www.techiedelight.com/shortest-superstring-problem/)
 
+### Dynamic Programming
+
+- [DP Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+- [DP Solving](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months)
+
+
 ### Graph related problems
 
 - **Union Find:**

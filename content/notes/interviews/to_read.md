@@ -138,8 +138,6 @@ date = 2024-02-11
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) *
 - [The Definitive Guide to Graph Problems](https://www.giulianopertile.com/blog/the-definitive-guide-to-graph-problems/)
 - [Competitive Programming](https://cp-algorithms.com/) ***
-- [DP Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns) ***
-- [DP Solving](https://leetcode.com/discuss/general-discussion/1000929/solved-all-dynamic-programming-dp-problems-in-7-months) ***
 - [Interviews.School](https://interviews.school/simple) ***
 - [Introduction to Programming Contests](https://web.stanford.edu/class/cs97si/) **
 - [Bloom Filters by Example](https://llimllib.github.io/bloomfilter-tutorial/) **
