@@ -11,6 +11,7 @@
 9. [BitCoin from Scratch](https://monokh.com/posts/bitcoin-from-scratch-part-1)
 10. [Explaining how bitcoin works](https://allenkim67.github.io/bitcoin/2017/04/09/explaining-how-bitcoin-works-to-programmers.html)
 11. [A from-scratch tour of Bitcoin in Python](https://karpathy.github.io/2021/06/21/blockchain/)
+12. [Developing In Stockfighter With No Trading Experience](https://www.kalzumeus.com/2015/10/30/developing-in-stockfighter-with-no-trading-experience/)
 
 ### Tools
 

@@ -20,7 +20,7 @@ date = 2024-02-11
 3. Read/Write ratio
 4. Traffic estimates
    - Write (QPS, Volume of data)
-   - Read (QPS, Volumne of data)
+   - Read (QPS, Volume of data)
 5. Storage estimates
 6. Memory estimates
    - If we are using a cache, what is the kind of data we want to store in cache

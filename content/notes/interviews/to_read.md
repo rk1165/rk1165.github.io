@@ -4,8 +4,6 @@ date = 2024-02-11
 
 +++
 
-## Posts to Read
-
 - [Stream Updates with Server-Sent Events](https://web.dev/eventsource-basics/) **
 - [SSE - Alternative to WebSockets](https://germano.dev/sse-websockets) **
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/) *
@@ -83,6 +81,7 @@ date = 2024-02-11
 - [Exactly-once Support in Apache Kafka](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f) **
 - [Exactly-Once Semantics Are Possible: Here’s How Kafka Does It](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/) **
 - [Introducing Exactly Once Semantics in Apache Kafka](https://www.youtube.com/watch?v=Wo9jlaz8h0k&t=1s)
+- [Ordering message and deduplication with idempotent producer](https://medium.com/@mbh023/kafka-ordering-message-and-deduplication-with-idempotent-producer-cdc6a3ccc8af)
 
 
 ### Git

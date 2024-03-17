@@ -11,6 +11,7 @@
 2. [Best resources to learn about data and distributed systems](https://pierrezemb.fr/posts/distsys-resources/)
 3. [Readings in distributed systems](http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html)
 4. [A Distributed Systems Reading List](https://dancres.github.io/Pages/)
+5. [Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/)
 
 ### Practice
 

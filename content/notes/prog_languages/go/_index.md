@@ -52,11 +52,29 @@
 50. [Validation Snippets in Go](https://www.alexedwards.net/blog/validation-snippets-for-go)
 51. [Go Proverbs](https://go-proverbs.github.io/)
 https://google.github.io/styleguide/go/
+52. [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
+53. [What's in a Name](https://go.dev/talks/2014/names.slide#1)
+54. [Don't fear the pointer](https://bitfieldconsulting.com/golang/pointers)
+55. [Golang Interface Explained](https://www.alexedwards.net/blog/interfaces-explained)
+56. [Data Races vs Race Conditions](https://cronokirby.github.io/posts/data-races-vs-race-conditions)
+57. [Understanding Mutexes](https://www.alexedwards.net/blog/understanding-mutexes)
+58. [Go Wiki: Go modules](https://go.dev/wiki/Modules)
+59. [Go Wiki: Error Values](https://go.dev/wiki/ErrorValueFAQ)
+60. [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
+61. [50 Shades of Go](https://golang50shad.es/)
+62. [Go I18n](https://phrase.com/blog/posts/internationalization-i18n-go/)
+63. [Learning Go's Concurrency Through Illustrations](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
+64. [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
+65. [What even is Context](https://www.reddit.com/r/golang/comments/18mphqt/what_even_is_context/)
+66. [Understanding nil](https://www.youtube.com/watch?v=ynoY2xz-F8s&ab_channel=GopherAcademy)
 
 ### Learning Resources
 
 1. [Practical Go](https://dave.cheney.net/practical-go)
 2. [Gophercises](https://gophercises.com/)
+3. [Best Go Tutorials in Town](https://www.reddit.com/r/golang/comments/t8owza/best_go_tutorials_in_town/)
+4. [FieldNotes](https://github.com/vbd/Fieldnotes/blob/main/golang.md)
+5. [Go Advocates](https://docs.google.com/document/d/1Zb9GCWPKeEJ4Dyn2TkT-O3wJ8AFc-IMxZzTugNCjr-8/edit)
 
 ### Tools
 
@@ -67,6 +85,7 @@ https://google.github.io/styleguide/go/
 5. [Viper](https://github.com/spf13/viper)
 6. [Envconfig](https://github.com/kelseyhightower/envconfig)
 7. [godotenv](https://github.com/joho/godotenv)
+8. [Templ](https://templ.guide/)
 
 ### Blogs
 
@@ -77,3 +96,6 @@ https://google.github.io/styleguide/go/
 5. [Three Dots Tech](https://threedots.tech/)
 6. [A Journey with Go](https://medium.com/a-journey-with-go)
 7. [Golangbot](https://golangbot.com/)
+8. [questionable services](https://blog.questionable.services/archive/)
+9. [Peter Bourgon](https://peter.bourgon.org/articles/)
+

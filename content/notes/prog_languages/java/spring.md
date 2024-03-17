@@ -8,7 +8,6 @@ date = 2024-02-11
 
 - Spring Data repositories are interfaces with methods supporting CRUD operations against a backend data store
 - To wrap your repository with a web layer, you must turn to Spring MVC
-- RPC (Remote Procedure Call)
 - [Spring HATEOAS](https://spring.io/projects/spring-hateoas), a Spring project aimed at helping you write hypermedia-driven outputs.
 - This tiny library will give us the constructs to define a RESTful service and then render it in an acceptible format for client consumption.
 - A critical ingredient to any RESTful service is adding links to relevant operations
@@ -73,16 +72,6 @@ date = 2024-02-11
   - Spring container creates only one instance of bean by default.
   - It is cached in memory
   - All requests for the bean : will return a SHARED reference to the SAME bean.
-- We can explicitly specify bean scope.
-- Different scope types
-
-| Scope              | Description                                                                                   |
-| ------------------ | --------------------------------------------------------------------------------------------- |
-| **singleton**      | Creates a single shared instance of the bean. Default scope                                   |
-| **prototype**      | Creates a new bean instance for each container request. (why would we need a new scope type?) |
-| **request**        | Scoped to an HTTP web request. Only for web apps                                              |
-| **session**        | Scoped to an HTTP web session. Only for web apps                                              |
-| **global-session** | Scoped to a global HTTP web session. For Web apps.                                            |
 
 - We can have multiple container running inside a JVM and each of those container can have a singleton bean.
 - ApplicationContext is initialized only once. If we want to refer it in another class we need to implement interface : `ApplicationContextAware` and override the method `setApplicationContext`
@@ -96,7 +85,7 @@ date = 2024-02-11
 - You can add custom code during **bean initialization**
   - Calling custom business logic methods
   - Setting up handles to resources (db, sockets, file etc)
-- You can add custom code druing **bean destruction**
+- You can add custom code during **bean destruction**
   - Calling custom business logic methods
   - Setting up handles to resources (db, sockets, file etc)
 - Dev Process
@@ -112,7 +101,7 @@ date = 2024-02-11
 ### Java Annotations
 
 - Special labels/markers added to Java classes
-- Provide meta-data about the class
+- Provide metadata about the class
 - Processed at compile time or run-time for special processing.
 - At compile time, compiler will check/verify the override.
 - Development Process
@@ -1122,12 +1111,12 @@ logging:
 - _Hypermedia as the Engine of Application State_, or HATEOAS, is a means for creating self-describing APIs wherein resources returned from an API contain links to related resources.
 - HAL [Hypertext Application Language](http://stateless.co/hal_specification.html) a simple and commonly used format for embedding hyperlinks in JSON responses.
 - By annotating `TacoResource` with `@Relation`, you can specify how Spring HATEOAS should name the field in the resulting JSON.
-- HttpMessageConvertersAutoConfiguration : Converts from bean to json. Jackson2Object
-- ErrorMvcAutoConfiguration : configures the error page. Configures the default error page
-- DispatcherServletAutoConfiguration : configures the dispatcher servlet
+- `HttpMessageConvertersAutoConfiguration` : Converts from bean to json. Jackson2Object
+- `ErrorMvcAutoConfiguration` : configures the error page. Configures the default error page
+- `DispatcherServletAutoConfiguration` : configures the dispatcher servlet
 - SpringBoot autoconfiguration is configuring dispatcher servlet.
 - Dispatcher Servlet is the front-controller.
-- ResponseEntityExceptionHandler : to handle exceptions to provide customized handling
+- `ResponseEntityExceptionHandler` : to handle exceptions to provide customized handling
 - I18n : Internationalizatoin
 - We need to Configure
   - LocaleResolver : Default Locale - Locale.US
@@ -1371,7 +1360,7 @@ logging:
   - Monitoring. Circuit breakers. Consumer Driven Contracts
   - Gateways. Streams. Externalized configuration
   - Functions. Service Discovery. Load balancing. Documentation
-- For golden signals
+- Four golden signals
   - Latency : how long does it take to service a request
   - Traffic : level of demand on the system. Request/second. I/O rate
   - Errors : failed requests. Can be explicit, implicit or policy failure
@@ -1405,10 +1394,6 @@ public Employee findEmployee(int empId) {
 
 - To remove cache, e.g. if Employee is deleted from a dao method, we need to have `@CacheEvict` on the delete method.
 
-### What are the types of IOC container in spring?
-
-- There are two types of IoC containers in Spring. `BeanFactory` and `ApplicationContext`
-
 ### Difference between ApplicationContext and BeanFactory?
 
 - ApplicationContext provides a means for resolving text messages, including support for i18n of those messages.
@@ -1423,7 +1408,7 @@ public Employee findEmployee(int empId) {
   - **singleton**: This scopes the bean definition to a single instance per Spring IoC container.
   - **prototype**: This scopes a single bean definition to have any number of object instances.
   - **request**: This scopes a bean definition to an HTTP request. Only valid in the context of a web-aware Spring ApplicationContext.
-  - **session**: This scopes a bean definition to an HTTP session. Only valid in the context of a webaware Spring ApplicationContext.
+  - **session**: This scopes a bean definition to an HTTP session. Only valid in the context of a web-aware Spring ApplicationContext.
   - **global-session**: This scopes a bean definition to a global HTTP session. Only valid in the context of a web-aware Spring ApplicationContext.
 
 ### What is the disadvantage of Spring singleton scope? How do you ensure thread safety?
@@ -1432,19 +1417,8 @@ public Employee findEmployee(int empId) {
 
 ### What is the reason for singleton bean not providing thread safety?
 
-- The default scope of Spring bean is singleton, so there will be only one instance per context. That means that all the having a class level variable that any thread can update will lead to inconsistent data. Hence in default mode spring beans are not thread-safe.
+- The default scope of Spring bean is singleton, so there will be only one instance per context. That means having a class level variable that any thread can update will lead to inconsistent data. Hence in default mode spring beans are not thread-safe.
 - However we can change spring bean scope to request, prototype or session to achieve thread-safety at the cost of performance. It’s a design decision and based on the project requirements.
-
-### Topics in Spring core
-
-- Bean Life Cycle
-- Init / destroy methods
-- Bean Listeners
-- Processors
-- Scopes
-- Loading mechanisms
-
-## Spring JDBC
 
 ### What template does Spring JDBC provide to access database?
 
@@ -1475,8 +1449,6 @@ public Employee findEmployee(int empId) {
 - `ResultSetExtractor` interface can be used to fetch records from the database. It accepts a `ResultSet` and returns the list.
 - `RowMapper` interface allows to map a row of the relations with the instance of user-defined class. It iterates the `ResultSet` internally and adds it into the collection. So we don't need to write a lot of code to fetch the records as `ResultSetExtractor`. It saves a lot of code becuase it internally adds the data of `ResultSet` into the collection.
 - `RowMapper` is a higher level interface than `ResultSetExtractor`. We would use the latter if you want to deal with the entire `ResultSet`, and translate that to some sort of returned object, whereas `RowMapper` pre-supposes that each row in the `ResultSet` will be mapped to a returned object of some sort. The callback will happen once for each row.
-
-## Spring MVC
 
 ### What is DispatcherServlet and ContextLoaderListener?
 

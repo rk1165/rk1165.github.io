@@ -130,6 +130,7 @@ date = 2024-02-11
 - [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
 - [A bit about content ratings](https://medium.com/vimeo-engineering-blog/a-bit-about-content-ratings-9959810359d2)
 - [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
+- [Better Rate Limiting With Redis Sorted Sets](https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/)
 - [From Postgres to Amazon DynamoDB](https://www.instacart.com/company/how-its-made/from-postgres-to-amazon-dynamodb-%EF%BF%BC/)
 - [Unlocking the Power of JunoDB](https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1)
 - [Scaling Etsy Payments with Vitess - Part 1](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model)

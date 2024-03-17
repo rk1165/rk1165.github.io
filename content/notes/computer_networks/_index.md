@@ -6,10 +6,12 @@
 4. [The Internet](https://explained-from-first-principles.com/internet/)
 5. [Email](https://explained-from-first-principles.com/email/)
 6. [Nginx location match tester](https://nginx.viraptor.info/)
+7. [Why was Facebook down for five hours?](https://www.youtube.com/watch?v=-wMU8vmfaYo&ab_channel=BenEater)
 
 ### Learning Resources
 
 1. [Network Programming Self-Study](https://siliconsprawl.com/2020/05/10/network-programming-self-study.html)
+2. [Protohackers](https://protohackers.com/)
 
 ### Online Books
 

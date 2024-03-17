@@ -6,6 +6,7 @@
 4. [Building a full-text search engine in Elixir](https://culttt.com/2023/03/22/building-a-full-text-search-engine-in-elixir)
 5. [Andrea Leopardi](https://www.youtube.com/@whatyouhide/videos)
 6. [Elixir Code Casts](https://www.youtube.com/@E-xyza/videos)
+7. [Building a BitTorrent client in Elixir](https://kochika.me/posts/torrent/)
 
 ### Blogs
 
@@ -21,6 +22,7 @@
 1. [Elixir Learning Track](https://alchemist.camp/start)
 2. [Underjord by Lars Wikman](https://www.youtube.com/@underjord/videos)
 3. [Elixir Mentor](https://www.youtube.com/@elixirmentor/videos)
+4. [Hands-on Elixir & OTP: Cryptocurrency trading bot](https://book.elixircryptobot.com/)
 
 
 ## Erlang

@@ -215,4 +215,5 @@ ps.wait()
   - Universal wheel - this wheel can run on either Python 2 or Python 3
   - Pure-Python wheel - this wheel only runs on Python 2 or Python 3, not both
   - Platform wheel - this wheel is designed for a specific version of Python and platform (process and/or operating system)
+- `echo '{"foo": "bar", "baz": [1, 2, 3]}' | python -m json.tool` for pretty printing
 - 

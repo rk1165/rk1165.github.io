@@ -7,6 +7,13 @@
 5. [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
 6. [Python for Fun](http://www.openbookproject.net/py4fun/)
 7. [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
+8. [Data Classes](https://realpython.com/python-data-classes/)
+9. [gevent tutorial](https://sdiehl.github.io/gevent-tutorial/)
+10. [A search engine in 80 lines of Python](https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html)
+
+### Tools
+
+1. [Playwright](https://playwright.dev/python/)
 
 ### Learning Resources
 

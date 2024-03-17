@@ -21,9 +21,14 @@
 5. [Muscle Wiki](https://musclewiki.com/)
 6. [Atlas Obscura](https://www.atlasobscura.com/)
 8. [Go Inside the Great Pyramids](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
+9. [World Heritage List](https://whc.unesco.org/en/list/)
 
-### Youtube Cooking Channels
+### Cooking Channels
 
 1. [Alex : French Guy Cooking](https://www.youtube.com/@FrenchGuyCooking/videos)
 2. [Adam Ragusea](https://www.youtube.com/@aragusea/videos)
 3. [Tasting History with Max Miller](https://www.youtube.com/@TastingHistory/videos)
+
+### Philosophy Channels
+
+1. [Michael Sugrue](https://www.youtube.com/@dr.michaelsugrue/videos)

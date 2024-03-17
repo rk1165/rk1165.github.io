@@ -17,11 +17,23 @@
 
 ### Modern Command Line Tools
 
-1. [fasd](https://github.com/clvv/fasd), [autojump](https://github.com/wting/autojump), [bat](https://github.com/sharkdp/bat), [exa](https://github.com/ogham/exa)
-2. [ranger](https://github.com/ranger/ranger), [fd](https://github.com/sharkdp/fd), [ack](https://beyondgrep.com/), [ag](https://github.com/ggreer/the_silver_searcher)
-3. [rg](https://github.com/BurntSushi/ripgrep), [fzf](https://github.com/junegunn/fzf), [mosh](https://mosh.org/), [prezto](https://github.com/sorin-ionescu/prezto)
-4. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-  , [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+1. [fasd](https://github.com/clvv/fasd)
+2. [autojump](https://github.com/wting/autojump)
+3. [bat](https://github.com/sharkdp/bat)
+4. [exa](https://github.com/ogham/exa)
+5. [ranger](https://github.com/ranger/ranger)
+6. [fd](https://github.com/sharkdp/fd)
+7. [ack](https://beyondgrep.com/)
+8. [ag](https://github.com/ggreer/the_silver_searcher)
+9. [rg](https://github.com/BurntSushi/ripgrep)
+10. [fzf](https://github.com/junegunn/fzf)
+11. [mosh](https://mosh.org/)
+12. [prezto](https://github.com/sorin-ionescu/prezto)
+13. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+14. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+15. [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+16. [Terminal Trove](https://terminaltrove.com/)
+
 
 ### Online Books
 
