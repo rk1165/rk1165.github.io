@@ -10,6 +10,7 @@
 8. [Aeson Object Design](https://www.extrema.is/blog/2021/09/14/aeson-object-design)
 9. [ALGEBRAIC DATA TYPES: THINGS I WISH SOMEONE HAD EXPLAINED ABOUT FP](https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/)
 10. [TYPE-CHECKING PLUGINS, PART I: WHY WRITE A TYPE-CHECKING PLUGIN?](https://www.tweag.io/blog/2021-10-21-tcplugins-1/)
+11. [Parallel stream processing with zero-copy fan-out and sharding](https://stevana.github.io/parallel_stream_processing_with_zero-copy_fan-out_and_sharding.html)
 
 ### Learning Resource
 

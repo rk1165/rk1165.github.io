@@ -2,6 +2,8 @@
 
 1. [How FoundationDB works and why it works](https://blog.the-pans.com/notes-on-the-foundationdb-paper/)
 2. [Faster ClickHouse Imports](https://tech.marksblogg.com/faster-clickhouse-imports-csv-parquet-mysql.html)
+3. [Database Fundamentals](https://tontinton.com/posts/database-fundementals/)
+4. [Understanding Database Replication: A Practical Overview](https://medium.com/@atakanserbes/understanding-database-replication-a-practical-overview-dbe23344acc7)
 
 ### Cassandra
 

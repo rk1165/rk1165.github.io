@@ -7,6 +7,7 @@
 5. [Andrea Leopardi](https://www.youtube.com/@whatyouhide/videos)
 6. [Elixir Code Casts](https://www.youtube.com/@E-xyza/videos)
 7. [Building a BitTorrent client in Elixir](https://kochika.me/posts/torrent/)
+8. [CAREFUL WHAT DATA YOU SEND OR HOW TO TANK YOUR PERFORMANCE WITH TASK.ASYNC](https://pragtob.wordpress.com/2023/12/18/careful-what-data-you-send-or-how-to-tank-your-performance-with-task-async/)
 
 ### Blogs
 
@@ -31,6 +32,7 @@
 2. [gen_tcp](https://www.erlang.org/doc/man/gen_tcp.html)
 3. [sys](https://www.erlang.org/doc/man/sys.html)
 4. [BEAM Wisdoms](https://web.archive.org/web/20230613211430/http://beam-wisdoms.clau.se/en/latest/)
+5. [Erlang's not about lightweight processes and message passing...](https://stevana.github.io/erlangs_not_about_lightweight_processes_and_message_passing.html)
 
 ### Learning Resources
 

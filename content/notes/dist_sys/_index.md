@@ -4,6 +4,7 @@
 2. [The Anatomy of a Search Engine](http://infolab.stanford.edu/~backrub/google.html)
 3. [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
 4. [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM)
+5. [Building a Fly.io-like Scheduler](https://www.aspiring.dev/fly-io-scheduler-part-1/)
 
 ### Learning Resources
 
@@ -12,6 +13,7 @@
 3. [Readings in distributed systems](http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html)
 4. [A Distributed Systems Reading List](https://dancres.github.io/Pages/)
 5. [Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/)
+6. [A Distributed Systems Reading List](https://ferd.ca/a-distributed-systems-reading-list.html)
 
 ### Practice
 

@@ -67,6 +67,8 @@ https://google.github.io/styleguide/go/
 64. [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
 65. [What even is Context](https://www.reddit.com/r/golang/comments/18mphqt/what_even_is_context/)
 66. [Understanding nil](https://www.youtube.com/watch?v=ynoY2xz-F8s&ab_channel=GopherAcademy)
+67. [Go Testing By Example](https://research.swtch.com/testing)
+68. [Prefer Table Driven Tests](https://dave.cheney.net/2019/05/07/prefer-table-driven-tests)
 
 ### Learning Resources
 
