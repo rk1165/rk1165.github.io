@@ -13,3 +13,24 @@ For questions and comments, please contact me at kumarravi1165@gmail.com.
 5FC*#%#5Crhcaf
 
 QBUS
+
+How to spawn a JVM per core running a single threaded APP
+leave some CPU cores for OS stuff and interrupts
+network I/O happens on separate threads
+threads don't wait for more work but busy sping instead.
+
+In most cases market data comes with FIX protocol.
+
+
+Collection < User > users = … ; // Fetch. 
+try
+(
+    ExecutorService es = Executors. newVirtualThreadPerTaskExecutor() ;
+)
+{
+    for ( User : user ) 
+    { 
+        es.submit( … some task object — `Runnable` or `Callable` … ) ;
+    }
+}
+// Flow-of-control stops here (blocks) until all submitted tasks complete/fail. 

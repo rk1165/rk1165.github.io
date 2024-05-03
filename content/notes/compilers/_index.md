@@ -6,6 +6,7 @@
 4. [So You Want to Build a Language VM - Part 00 - Computer Hardware Crash Course](https://blog.subnetzero.io/post/building-language-vm-part-00/)
 5. [Where can I find a simple, easy to understand implementation of an LR(1) parser generator?](http://stackoverflow.com/questions/14252806/where-can-i-find-a-simple-easy-to-understand-implementation-of-an-lr1-parse)
 6. [Compiler Explorer](https://godbolt.org/)
+7. [Parsing Expressions by Recursive Descent](https://www.engr.mun.ca/~theo/Misc/exp_parsing.htm)
 
 ### Learning Resources
 

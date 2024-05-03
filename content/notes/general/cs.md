@@ -21,6 +21,7 @@ date = 2024-02-11
 
 - [Data Detox Kit](https://datadetoxkit.org/)
 - [STARTUP OPTION VALUE CALCULATOR](https://valuation.vc/startup_options.html)
+- [Startup Resources Toolkit](https://timothyhui.com.au/toolkit)
 - [Free for Developers](https://free-for.dev/#/)
 - [HN Recommendation](https://hn-recommend.julienc.me/)
 

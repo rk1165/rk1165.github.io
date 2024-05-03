@@ -5,6 +5,9 @@
 3. [Raft Understandable Distributed Consensus](https://thesecretlivesofdata.com/raft/)
 4. [rqlite: The Distributed Database Built on Raft and SQLite](https://www.youtube.com/watch?v=JLlIAWjvHxM)
 5. [Building a Fly.io-like Scheduler](https://www.aspiring.dev/fly-io-scheduler-part-1/)
+6. [An incomplete list of practices to improve security of your (micro)services](https://ludovicianul.github.io/2021/07/06/incomplete-list-of-security/)
+7. [Introduction to Microservices](https://www.nginx.com/blog/introduction-to-microservices/)
+8. [CAP-FAQ](https://github.com/henryr/cap-faq)
 
 ### Learning Resources
 

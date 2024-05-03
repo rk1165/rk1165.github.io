@@ -10,6 +10,7 @@
 8. [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/)
 9. [Data Mining in Python](https://www.springboard.com/blog/data-science/data-mining-python-tutorial/)
 10. [EigenFaces and A Simple Face Detector with PCA/SVD in Python](https://sandipanweb.wordpress.com/2018/01/06/eigenfaces-and-a-simple-face-detector-with-pca-svd-in-python/)
+11. [Building an LLM from Scratch](https://bclarkson-code.com/posts/llm-from-scratch-scalar-autograd/post.html)
 
 ### Learning Resources
 

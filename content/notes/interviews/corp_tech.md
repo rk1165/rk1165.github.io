@@ -15,6 +15,7 @@ date = 2024-02-11
 - [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/)
 - [How Uber Optimizes the Timing of Push Notifications using ML and Linear Programming](https://www.uber.com/en-IN/blog/how-uber-optimizes-push-notifications-using-ml/)
 - [How Uber Optimized Cassandra Operations at Scale](https://www.uber.com/en-IN/blog/how-uber-optimized-cassandra-operations-at-scale/)
+- [How Uber Serves Over 40 Million Reads Per Second from Online Storage Using an Integrated Cache](https://www.uber.com/en-IN/blog/how-uber-serves-over-40-million-reads-per-second-using-an-integrated-cache/)
 
 ### Facebook
 
@@ -95,6 +96,7 @@ date = 2024-02-11
 
 - [How PayPal Uses Real-time Graph Database and Graph Analysis to Fight Fraud](https://medium.com/paypal-tech/how-paypal-uses-real-time-graph-database-and-graph-analysis-to-fight-fraud-96a2b918619a)
 - [Scaling Kafka to Support Paypal's Data Growth](https://medium.com/paypal-tech/scaling-kafka-to-support-paypals-data-growth-a0b4da420fab)
+- [Unlocking the Power of JunoDB](https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1)
 
 ### LinkedIn
 
@@ -106,6 +108,7 @@ date = 2024-02-11
 
 - [Similarity Clustering to catch fraud rings](https://stripe.com/blog/similarity-clustering)
 - [Scaling your API with rate limiters](https://stripe.com/blog/rate-limiters)
+- [Ledger: Stripe’s system for tracking and validating money movement](https://stripe.com/blog/ledger-stripe-system-for-tracking-and-validating-money-movement)
 
 ### DoorDash
 
@@ -114,10 +117,20 @@ date = 2024-02-11
 - [Failure Mitigation for Microservices: An intro to Aperture](https://doordash.engineering/2023/03/14/failure-mitigation-for-microservices-an-intro-to-aperture/)
 - [Eliminating Task Processing Outages with Kafka](https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/)
 - [How DoorDash Standardized and Improved Microservices Caching](https://doordash.engineering/2023/10/19/how-doordash-standardized-and-improved-microservices-caching/)
+- [Eight Things We Learned from Implementing Payments in the DoorDash Android App](https://doordash.engineering/2021/10/05/eight-things-we-learned-from-implementing-payments-in-the-doordash-android-app/)
+
+### GitHub
+
+- [Partitioning GitHub’s relational databases to handle scale](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
+- [The technology behind GitHub’s new code search](https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/)
+
+### Amazon
+
+- [Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
+- [How Prime Video ingests, processes, and distributes live TV to millions of customers around the world, while reducing costs](https://www.primevideotech.com/video-streaming/how-prime-video-ingests-processes-and-distributes-live-tv-to-millions-of-customers-around-the-world-while-reducing-costs)
 
 ### Single Entries
 
-- [Partitioning GitHub’s relational databases to handle scale](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
 - [MySQL Sharding at Quora](https://www.quora.com/q/quoraengineering/MySQL-sharding-at-Quora?share=1)
 - [Scaling with common sense](https://zerodha.tech/blog/scaling-with-common-sense/)
 - [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
@@ -132,19 +145,22 @@ date = 2024-02-11
 - [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
 - [Better Rate Limiting With Redis Sorted Sets](https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/)
 - [From Postgres to Amazon DynamoDB](https://www.instacart.com/company/how-its-made/from-postgres-to-amazon-dynamodb-%EF%BF%BC/)
-- [Unlocking the Power of JunoDB](https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1)
 - [Scaling Etsy Payments with Vitess - Part 1](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model)
+- [How We built a Context-Specific Bidding System for Etsy Ads](https://www.etsy.com/codeascraft/how-we-built-a-context-specific-bidding-system-for-etsy-ads/)
 - [From Zero to 50 Million Uploads per Day: Scaling Media at Canva](https://canvatechblog.com/from-zero-to-50-million-uploads-per-day-scaling-media-at-canva-c81fa0c92f34)
 - [Build an end to end JSON logging system for client apps](https://medium.com/pinterest-engineering/build-an-end-to-end-json-logging-system-for-clients-apps-58ad008a1ce9)
 - [Taming Video Delivery Through HTTP Live Streaming](https://medium.com/tinder/taming-video-delivery-through-http-live-streaming-5a4d6e543c85)
 - [A Look at the Evolution of Benchling’s Search Architecture](https://benchling.engineering/a-look-at-the-evolution-of-benchlings-search-architecture-c4d5327452c)
 - [Evolution of Ads Bidding at Wayfair](https://www.aboutwayfair.com/careers/tech-blog/evolution-of-ads-bidding-at-wayfair)
 - [Ingesting Live Video Streams at Global Scale](https://blog.twitch.tv/en/2022/04/26/ingesting-live-video-streams-at-global-scale/)
-- [How We built a Context-Specific Bidding System for Etsy Ads](https://www.etsy.com/codeascraft/how-we-built-a-context-specific-bidding-system-for-etsy-ads/)
 - [Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86)
 - [McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
-- [Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
 - [From Monolith to Multicloud Micro-Services: Inside Snap’s Service Mesh](https://eng.snap.com/en-US/monolith-to-multicloud-microservices-snap-service-mesh)
 - [Solving the three stooges problem](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)
 - [Why Observability Requires a Distributed Column Store](https://www.honeycomb.io/blog/why-observability-requires-distributed-column-store/)
 - [How we protect our most sensitive secrets from the most determined attackers](https://monzo.com/blog/2021/11/18/protecting-our-most-sensitive-secrets)
+- [How we built Text-to-SQL at Pinterest](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)
+- [Horizontally scaling the Rails backend of Shop app with Vitess](https://shopify.engineering/horizontally-scaling-the-rails-backend-of-shop-app-with-vitess)
+- [10 Tips for Building Resilient Payment Systems](https://shopify.engineering/building-resilient-payment-systems)
+- [The Developer's Guide to SSO](https://workos.com/blog/the-developers-guide-to-sso)
+- [How we built the Tinder API Gateway](https://medium.com/tinder/how-we-built-the-tinder-api-gateway-831c6ca5ceca)

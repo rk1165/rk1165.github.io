@@ -59,8 +59,6 @@ date = 2024-02-11
 
 - CAP Theorem states that, in a distributed system, you can only have two out of the following three guarantees across a write/read pair: Consistency, Availability, and Partition Tolerance - one of them must be sacrificed.
 - More informally, the CAP theorem tells us that we can't build a database that both responds to every request and returns the results that you would expect every time
-- [cap-faq](https://github.com/henryr/cap-faq)
-- [Microservices](https://www.nginx.com/blog/introduction-to-microservices/)
 - **Consistency**:
   - Every read receives the most recent write or an error.
   - A read is guaranteed to return the most recent write for a given client.

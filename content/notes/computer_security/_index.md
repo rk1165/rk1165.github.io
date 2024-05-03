@@ -7,6 +7,7 @@
 5. [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist)
 6. [OSINT FOR BEGINNERS](https://www.reddit.com/r/OSINT/comments/e78he1/osint_for_beginners_part_1_introduction/)
 7. [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+8. [Identity, authentication, and authorisation from the ground up](https://apuchitnis.substack.com/p/identity-authentication-and-authorisation)
 
 ### Practice
 

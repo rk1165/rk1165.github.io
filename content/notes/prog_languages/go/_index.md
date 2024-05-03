@@ -51,7 +51,6 @@
 49. [How I write HTTP services in Go after 13 years](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/)
 50. [Validation Snippets in Go](https://www.alexedwards.net/blog/validation-snippets-for-go)
 51. [Go Proverbs](https://go-proverbs.github.io/)
-https://google.github.io/styleguide/go/
 52. [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 53. [What's in a Name](https://go.dev/talks/2014/names.slide#1)
 54. [Don't fear the pointer](https://bitfieldconsulting.com/golang/pointers)
@@ -69,6 +68,11 @@ https://google.github.io/styleguide/go/
 66. [Understanding nil](https://www.youtube.com/watch?v=ynoY2xz-F8s&ab_channel=GopherAcademy)
 67. [Go Testing By Example](https://research.swtch.com/testing)
 68. [Prefer Table Driven Tests](https://dave.cheney.net/2019/05/07/prefer-table-driven-tests)
+69. [Google Go StyleGuide](https://google.github.io/styleguide/go/)
+70. [A guide to Interfaces in Go](https://fast4ward.online/posts/a-guide-to-interfaces-in-go/)
+71. [Writing a Postgres Logical Replication System in Golang](https://www.dolthub.com/blog/2024-03-08-postgres-logical-replication/)
+72. [Building a Distributed Log from Scratch](https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-1-storage-mechanics/)
+73. [Organizing Database Access in Go](https://www.alexedwards.net/blog/organising-database-access)
 
 ### Learning Resources
 
@@ -77,6 +81,7 @@ https://google.github.io/styleguide/go/
 3. [Best Go Tutorials in Town](https://www.reddit.com/r/golang/comments/t8owza/best_go_tutorials_in_town/)
 4. [FieldNotes](https://github.com/vbd/Fieldnotes/blob/main/golang.md)
 5. [Go Advocates](https://docs.google.com/document/d/1Zb9GCWPKeEJ4Dyn2TkT-O3wJ8AFc-IMxZzTugNCjr-8/edit)
+6. [Ultimate Go Tour](https://tour.ardanlabs.com/tour/eng/list)
 
 ### Tools
 
@@ -100,4 +105,7 @@ https://google.github.io/styleguide/go/
 7. [Golangbot](https://golangbot.com/)
 8. [questionable services](https://blog.questionable.services/archive/)
 9. [Peter Bourgon](https://peter.bourgon.org/articles/)
+
+01244628725
+01242898040
 

@@ -9,6 +9,7 @@ date = 2024-02-11
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/) *
 - [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022) *
 - [Gallery of Processor Cache Effects](http://igoro.com/archive/gallery-of-processor-cache-effects/) ***
+- [Video Streaming at Scale with Kubernetes and RabbitMQ](https://techblog.skeepers.io/video-streaming-at-scale-with-kubernetes-and-rabbitmq-6e23fd0e75fb)
 
 ### Computer Networks
 
@@ -100,6 +101,7 @@ date = 2024-02-11
 - [Bash-Oneliner](https://onceupon.github.io/Bash-Oneliner/) **
 - [Effective Shell](https://effective-shell.com/) ***
 - [GNU AWK](https://learnbyexample.github.io/learn_gnuawk/preface.html) **
+- [GNU Coreutils](https://learnbyexample.github.io/cli_text_processing_coreutils/cover.html)
 - [Storage Terminology](https://www.digitalocean.com/community/tutorials/an-introduction-to-storage-terminology-and-concepts-in-linux) **
 
 ### Java

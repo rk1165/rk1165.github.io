@@ -7,6 +7,7 @@
 5. [Email](https://explained-from-first-principles.com/email/)
 6. [Nginx location match tester](https://nginx.viraptor.info/)
 7. [Why was Facebook down for five hours?](https://www.youtube.com/watch?v=-wMU8vmfaYo&ab_channel=BenEater)
+8. [No, It's not always DNS](https://thesoloadmin.com/no-its-not-always-dns/)
 
 ### Learning Resources
 

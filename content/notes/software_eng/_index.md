@@ -9,6 +9,9 @@
 7. [Rebuilding the spellchecker](https://zverok.space/spellchecker.html)
 8. [WebAuthn](https://webauthn.guide/#about-webauthn)
 9. [Smashing the state machine: the true potential of web race conditions](https://portswigger.net/research/smashing-the-state-machine)
+10. [CSS and Network Performance](https://csswizardry.com/2018/11/css-and-network-performance/)
+11. [Caching best practices](https://jakearchibald.com/2016/caching-best-practices/)
+12. [CSRF Demystified](https://www.gnucitizen.org/blog/csrf-demystified/)
 
 ### Learning Resources
 
