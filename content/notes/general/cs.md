@@ -10,6 +10,8 @@ date = 2024-02-11
 - [Electronic References](https://csgordon.github.io/books)
 - [Matt Might's blog](http://matt.might.net/articles/)
 - [Awesome Lists](https://awesomelists.top/#/)
+- [Project Ideas](https://www.andreinc.net/2024/03/28/programming-projects-ideas)
+- [Challenging projects every programmer should try](https://austinhenley.com/blog/challengingprojects.html)
 
 ### Online Books
 
@@ -63,3 +65,4 @@ date = 2024-02-11
 - [Obscure data structures](https://news.ycombinator.com/item?id=32186203)
 - [Server-Sent Events - an alternative to WebSockets](https://news.ycombinator.com/item?id=30312897)
 - [HN fav](https://observablehq.com/@tomlarkworthy/hacker-favourites-analysis)
+- [Favourite Tech Youtubers](https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers)

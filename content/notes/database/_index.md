@@ -4,6 +4,7 @@
 2. [Faster ClickHouse Imports](https://tech.marksblogg.com/faster-clickhouse-imports-csv-parquet-mysql.html)
 3. [Database Fundamentals](https://tontinton.com/posts/database-fundementals/)
 4. [Understanding Database Replication: A Practical Overview](https://medium.com/@atakanserbes/understanding-database-replication-a-practical-overview-dbe23344acc7)
+5. [How we Built a 19 PiB Logging Platform with ClickHouse and Saved Millions](https://clickhouse.com/blog/building-a-logging-platform-with-clickhouse-and-saving-millions-over-datadog)
 
 ### Cassandra
 
@@ -21,6 +22,7 @@
 ### Sqlite
 
 1. [Sqlite](./sqlite.pdf)
+2. [Distributed SQLite: Paradigm shift or hype?](https://kerkour.com/distributed-sqlite)
 
 ### Practice
 

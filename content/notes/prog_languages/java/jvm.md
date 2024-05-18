@@ -287,6 +287,7 @@ date = 2024-02-11
 - JVM ignores _InitialRAMPercentage_ when we configure the -Xms option.
 - The MinRAMPercentage parameter, unlike its name, allows **setting the maximum heap size for a JVM running with a small amount of memory** (less than 200MB).
 - The MaxRAMPercentage parameter allows **setting the maximum heap size for a JVM running with a large amount of memory**(greater than 200 MB).
+- To enable JVM native memory tracking we simply pass it the `-XX:NativeMemoryTracking=detail` flag, after which running `jcmd PID VM.native_memory` reports all native memory allocations known by the JVM.
 
 ### JVM Run-Time Data Areas
 

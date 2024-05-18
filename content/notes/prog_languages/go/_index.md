@@ -82,6 +82,7 @@
 4. [FieldNotes](https://github.com/vbd/Fieldnotes/blob/main/golang.md)
 5. [Go Advocates](https://docs.google.com/document/d/1Zb9GCWPKeEJ4Dyn2TkT-O3wJ8AFc-IMxZzTugNCjr-8/edit)
 6. [Ultimate Go Tour](https://tour.ardanlabs.com/tour/eng/list)
+7. [Learning Go](https://www.bytesizego.com/blog/learning-golang-2024)
 
 ### Tools
 

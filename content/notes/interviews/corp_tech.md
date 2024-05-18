@@ -74,6 +74,7 @@ date = 2024-02-11
 - [Real-time Messaging](https://slack.engineering/real-time-messaging/)
 - [How we use Terraform at Slack](https://slack.engineering/how-we-use-terraform-at-slack/)
 - [Slack’s Migration to a Cellular Architecture](https://slack.engineering/slacks-migration-to-a-cellular-architecture/)
+- [The Scary thing about Automating Deploys](https://slack.engineering/the-scary-thing-about-automating-deploys/)
 
 ### Ably
 

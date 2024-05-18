@@ -8,6 +8,7 @@
 6. [An incomplete list of practices to improve security of your (micro)services](https://ludovicianul.github.io/2021/07/06/incomplete-list-of-security/)
 7. [Introduction to Microservices](https://www.nginx.com/blog/introduction-to-microservices/)
 8. [CAP-FAQ](https://github.com/henryr/cap-faq)
+9. [CDN Up and Running](https://github.com/leandromoreira/cdn-up-and-running)
 
 ### Learning Resources
 

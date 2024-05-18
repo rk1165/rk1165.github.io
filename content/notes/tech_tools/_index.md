@@ -38,6 +38,9 @@
 
 1. [Connector Developer Guide](https://docs.confluent.io/3.2.0/connect/devguide.html)
 2. [Confluent Open Source / Community / Partner Connectors](https://www.confluent.io/product/connectors/)
+3. [Optimizing Kafka Producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
+4. [Optimizing Kafka Consumers](https://strimzi.io/blog/2021/01/07/consumer-tuning/)
+
 
 ### Online Books
 

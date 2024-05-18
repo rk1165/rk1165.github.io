@@ -130,3 +130,12 @@ date = 2024-02-11
 - A **weak reference** can be created in a similar manner using _WeakReference_ class. When `sb` is set to null and the `StringBuilder` object only has a weak reference, the JVM's GC will have absolutely no compromise and immediately collect the object at the very next cycle.
 - A **phantom reference** is similar to a weak reference and an object with only phantom references will be collected without waiting. However, phantom references are enqueued as soon as their objects are collected.
 - We can poll the reference queue to know exactly when the object was collected. The objects which are being referenced by phantom references are eligible for GCn. But, before removing them from the memory, JVM puts them in a queue called _reference queue_. They are put in a reference queue after calling finalize() method on them.
+
+- The only times `finally` won't be called are:
+  - If you invoke System.exit()
+  - If you invoke Runtime.getRuntime().halt(exitStatus)
+  - If the JVM crashes first
+  - If the JVM reaches an infinite loop (or some other non-interruptable, non-terminating statement) in the try or catch block
+  - If the OS forcibly terminates the JVM process; e.g., kill -9 <pid> on UNIX
+  - If the host system dies; e.g., power failure, hardware error, OS panic, et cetera
+  - If the finally block is going to be executed by a daemon thread and all other non-daemon threads exit before finally is called

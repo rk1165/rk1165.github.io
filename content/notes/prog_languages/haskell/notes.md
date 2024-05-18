@@ -213,3 +213,13 @@ instance shape Square where
 - Y combinator's sole purpose is to allow one to do calculation in a functional language without any named variables or functions.
 - The mathematical name for **folding** is **catamorphism**.
 - **Anamorphism** are things that unfold.
+
+- To avoid running out of memory, we have a version of `foldl` called `foldl'` that is strict — it forces the evaluation of `f` immediately at each step
+- As a rule of thumb, you should use `foldr` on lists that might be infinite or where the fold is building up a data structure and use `foldl'` if the list is known to be finite and comes down to a single value.
+- `foldr1` ("fold - R - one") and `foldl1` which dispenses with an explicit "zero" for an accumulator by taking the last element of the list instead.
+- One reason that right-associative folds are more natural in Haskell than left-associative ones is that right folds can operate on infinite lists.
+- A scan does both: it accumulates a value like a fold, but instead of returning only a final value it returns a list of all the intermediate values.
+- `scanl` accumulates the list from the left, and the second argument becomes the first item in the resulting list. So, `scanl (+) 0 [1,2,3] = [0,1,3,6]`
+- `scanl1` uses the first item of the list as a zero parameter. `scanl1 (+) [1,2,3] = [1,3,6]`
+- `scanr (+) 0 [1,2,3] = [6,5,3,0]`
+- `scanr1 (+) [1,2,3] = [6,5,3]`

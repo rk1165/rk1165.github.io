@@ -9,6 +9,7 @@
 7. [18 System Design Concepts Every Engineer Must Know](https://www.designgurus.io/blog/system-design-interview-fundamentals)
 8. [System Design Primer](https://github.com/donnemartin/system-design-primer)
 9. [Getting a good job is easy Part 1 : Get Noticed](https://imgur.com/gallery/Q89Wo)
+10. [Stop Parroting YouTube solutions in System Design Interviews](https://newsletter.techleadmentor.com/p/stop-parroting-youtube-solutions)
 
 ### Online Interviews
 
