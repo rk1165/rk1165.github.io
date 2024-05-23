@@ -4,8 +4,6 @@ date = 2024-02-11
 
 +++
 
-### Notes on Golang
-
 - To make it easier to debug and log maps, the formatting functions (like fmt.Println) always output maps with their keys in ascending sorted order
 - Whenever a `for-range` loop encounters a multibyte rune in a string, it converts the UTF-8 representation into a single 32-bit number and assigns it to the value. The offset is incremented by the number of bytes in the rune. If the `for-range` loop encounters a byte that doesn’t represent a valid UTF-8 value, the Unicode replacement character (hex value 0xfffd) is returned instead.
 - Using `:=` instead of `=` inside the closure creates a new `a` that ceases to exist when the closure exits.

@@ -19,6 +19,13 @@
 3. [Learning Haskell - HaskellWiki](https://wiki.haskell.org/Learning_Haskell)
 4. [H-99: Ninety-Nine Haskell Problems - HaskellWiki](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems)
 
+### Youtube Channels
+
+1. [Tsoding](https://www.youtube.com/c/Tsoding)
+2. [Haskell at Work](https://www.youtube.com/@HaskellatWork/videos)
+3. [Boston Haskell](https://www.youtube.com/@BostonHaskell/videos)
+4. [NYC Haskell Users Group](https://www.youtube.com/@nychaskellusersgroup1792/videos)
+
 ### Online Books
 
 1. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)

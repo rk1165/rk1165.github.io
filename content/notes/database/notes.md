@@ -178,3 +178,6 @@ date = 2024-02-11
   - log-structured storage engines (like "log-structured merge trees") : You write new stuff to the end of the log, and then query for the latest update to read. The idea here is that this way you don't need to make random disk writes. LevelDB, RocksDB, and Cassandra all use log-structured storage
   - page-oriented storate engines (like b-trees) : when we need this, we need to search for the right page (4k of data or so) that contains your data and update it. PostgreSQL, MySQL, etcd, and sqlite all use page-oriented storage engines
 - Writing to disk is expensive. Because of that, databases will often just do writes to memory, and then save their state to disk later. Write-ahead log (WAL): To avoid losing data, you can just log all your writes to disk by appending to a file.
+
+
+- Isolation is a property of a database where simultaneous operations on the same data never see each other’s in-progress work.

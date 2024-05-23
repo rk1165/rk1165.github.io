@@ -9,6 +9,9 @@
 7. [Introduction to Microservices](https://www.nginx.com/blog/introduction-to-microservices/)
 8. [CAP-FAQ](https://github.com/henryr/cap-faq)
 9. [CDN Up and Running](https://github.com/leandromoreira/cdn-up-and-running)
+10. [Making retries safe with idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/)
+11. [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys)
+12. [Using Atomic Transactions to Power an Idempotent API](https://brandur.org/http-transactions)
 
 ### Learning Resources
 

@@ -106,7 +106,3 @@
 7. [Golangbot](https://golangbot.com/)
 8. [questionable services](https://blog.questionable.services/archive/)
 9. [Peter Bourgon](https://peter.bourgon.org/articles/)
-
-01244628725
-01242898040
-
