@@ -1,13 +1,22 @@
 ## Computer Systems Security
 
-1. [Exploit Mitigation Techniques on Linux Systems](https://7h3ram.blogspot.com/2012/07/exploit-mitigation-techniques-on-linux.html)
-2. [Thinking of a cybersecurity career](https://krebsonsecurity.com/2020/07/thinking-of-a-cybersecurity-career-read-this/)
-3. [Chrome Browser Exploitation](https://jhalon.github.io/chrome-browser-exploitation-1/)
-4. [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
-5. [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist)
-6. [OSINT FOR BEGINNERS](https://www.reddit.com/r/OSINT/comments/e78he1/osint_for_beginners_part_1_introduction/)
-7. [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
-8. [Identity, authentication, and authorisation from the ground up](https://apuchitnis.substack.com/p/identity-authentication-and-authorisation)
+01. [Exploit Mitigation Techniques on Linux Systems](https://7h3ram.blogspot.com/2012/07/exploit-mitigation-techniques-on-linux.html)
+02. [Thinking of a cybersecurity career](https://krebsonsecurity.com/2020/07/thinking-of-a-cybersecurity-career-read-this/)
+03. [Chrome Browser Exploitation](https://jhalon.github.io/chrome-browser-exploitation-1/)
+04. [Je Ne Sais Quoi - Falcons over the Horizon](https://hexkyz.blogspot.com/2021/11/je-ne-sais-quoi-falcons-over-horizon.html)
+05. [SaaS CTO Security Checklist](http://web.archive.org/web/20210225144550/https://www.sqreen.com/checklists/saas-cto-security-checklist)
+06. [OSINT FOR BEGINNERS](https://www.reddit.com/r/OSINT/comments/e78he1/osint_for_beginners_part_1_introduction/)
+07. [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+08. [Identity, authentication, and authorisation from the ground up](https://apuchitnis.substack.com/p/identity-authentication-and-authorisation)
+09. [How I Hacked 40 Websites in 7 minutes – Hacker Noon](https://hackernoon.com/how-i-hacked-40-websites-in-7-minutes-5b4c28bc8824)
+10. [What We Do in the /etc/shadow – Cryptography with Passwords](https://soatok.blog/2022/12/29/what-we-do-in-the-etc-shadow-cryptography-with-passwords/)
+11. [A (relatively easy to understand) primer on elliptic curve cryptography](https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)
+12. [Elliptic Curve Cryptography: a gentle introduction](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
+13. [How to survive an InfoSec job interview (cryptography)](https://www.coengoedegebure.com/surviving-an-infosec-job-interview-cryptography/)
+14. [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)
+15. [Everything you ever wanted to know about building a secure password reset feature](https://www.troyhunt.com/everything-you-ever-wanted-to-know/)
+16. [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
+17. [Getting started with NMAP](https://ittavern.com/getting-started-with-nmap/)
 
 ### Practice
 
@@ -33,13 +42,13 @@
 
 ### Online Courses
 
-1. [LiveOverflow - LiveOverflow](http://liveoverflow.com/)
-2. [Metasploit Unleashed - Free Online Ethical Hacking Course](https://www.offensive-security.com/metasploit-unleashed/)
-3. [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
-4. [SEED Project](https://seedsecuritylabs.org/)
-5. [6.858 / Spring 2019](https://css.csail.mit.edu/6.858/2020/)
-6. [pwn.college BETA](https://pwn.college/)
-7. [CS6038/CS5138 Malware Analysis, UC by ckane](https://class.malware.re/)
-8. [CS253 - Web Security](https://web.stanford.edu/class/cs253/)
-9. [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
+01. [LiveOverflow - LiveOverflow](http://liveoverflow.com/)
+02. [Metasploit Unleashed - Free Online Ethical Hacking Course](https://www.offensive-security.com/metasploit-unleashed/)
+03. [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
+04. [SEED Project](https://seedsecuritylabs.org/)
+05. [6.858 / Spring 2019](https://css.csail.mit.edu/6.858/2020/)
+06. [pwn.college BETA](https://pwn.college/)
+07. [CS6038/CS5138 Malware Analysis, UC by ckane](https://class.malware.re/)
+08. [CS253 - Web Security](https://web.stanford.edu/class/cs253/)
+09. [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
 10. [Computer and Network Security](https://engineering.purdue.edu/kak/compsec/)

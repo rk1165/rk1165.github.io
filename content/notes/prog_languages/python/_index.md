@@ -1,16 +1,23 @@
 ## Python
 
-1. [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
-2. [Django for Startup Founders: A better software architecture for SaaS startups and consumer apps](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html)
-3. [Python Design Patterns](https://python-patterns.guide/)
-4. [Ultimate Guide to Web Scraping with Python Part 1](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/)
-5. [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
-6. [Python for Fun](http://www.openbookproject.net/py4fun/)
-7. [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
-8. [Data Classes](https://realpython.com/python-data-classes/)
-9. [gevent tutorial](https://sdiehl.github.io/gevent-tutorial/)
+01. [Your Guide to the CPython Source Code – Real Python](https://realpython.com/cpython-source-code-guide/)
+02. [Django for Startup Founders: A better software architecture for SaaS startups and consumer apps](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html)
+03. [Python Design Patterns](https://python-patterns.guide/)
+04. [Ultimate Guide to Web Scraping with Python Part 1](https://www.learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/)
+05. [Understanding Python metaclasses](https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/)
+06. [Python for Fun](http://www.openbookproject.net/py4fun/)
+07. [Building WebSocket chat (messenger) app from scratch](https://centrifugal.dev/docs/tutorial/intro)
+08. [Data Classes](https://realpython.com/python-data-classes/)
+09. [gevent tutorial](https://sdiehl.github.io/gevent-tutorial/)
 10. [A search engine in 80 lines of Python](https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html)
 11. [Notes on Structured Concurrency](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/)
+12. [Cloudfit Public Docs](https://bbc.github.io/cloudfit-public-docs/) 
+13. [Why You Should Use Data Classes in Python](https://www.giulianopertile.com/blog/why-you-should-use-dataclasses-in-python/) 
+14. [How Python Async works](https://guicommits.com/how-python-async-works/) 
+15. [Python Concurrency from the ground up](https://www.youtube.com/watch?v=MCs5OvhV9S4&ab_channel=PyCon2015) 
+16. [Python Concurrency: The Tricky bits](https://python.hamel.dev/concurrency/) 
+17. [A BitTorrent Client written in Python](https://markuseliasson.se/article/bittorrent-in-python/) 
+18. [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 
 ### Tools
 
