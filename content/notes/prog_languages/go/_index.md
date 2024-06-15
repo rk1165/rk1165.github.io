@@ -4,7 +4,6 @@
 02. [Application data caching using SSDs](https://netflixtechblog.com/application-data-caching-using-ssds-5bf25df851ef)
 03. [Go’s march to low-latency GC](https://blog.twitch.tv/en/2016/07/05/gos-march-to-low-latency-gc-a6fa96f06eb7/)
 04. [Dependency Injection in a Nutshell](https://appliedgo.net/di/)
-05. [Handling five billion sessions a day – in real time](https://blog.twitter.com/engineering/en_us/a/2015/handling-five-billion-sessions-a-day-in-real-time)
 06. [Introducing AresDB](https://eng.uber.com/aresdb/)
 07. [Visualizing Concurrency in Go](https://divan.dev/posts/go_concurrency_visualize/)
 08. [Writing a very fast cache service with millions of entries in Go](https://blog.allegro.tech/2016/03/writing-fast-cache-service-in-go.html)

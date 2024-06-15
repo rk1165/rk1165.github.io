@@ -150,21 +150,15 @@ date = 2024-02-11
 ### Distributed Systems
 
 - [Use One Big Server](https://specbranch.com/posts/one-big-server/)
-- [Cache invalidation really is on of the hardest problems in CS](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/)
 - [Distributed Systems Shibboleths](https://jolynch.github.io/posts/distsys_shibboleths/)
-- [A brief history of Consensus, 2PC and Transaction Commit](https://betathoughts.blogspot.com/2007/06/brief-history-of-consensus-2pc-and.html)
-- [Learning to build distributed systems](http://brooker.co.za/blog/2019/04/03/learning.html)
 - [Fixing retries with token buckets and circuit breakers](https://brooker.co.za/blog/2022/02/28/retries.html)
-- [Consistency Models Explained](https://www.bodunhu.com/blog/posts/consistency-models-explained/)
 - [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
 - [A Gentle Introduction to CRDTs](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 - [How to crawl a quarter billion webpages in 40 hours](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
-- [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
 - [Getting To Know Logical Clocks By Implementing Them](https://brunocalza.me/getting-to-know-logical-clocks-by-implementing-them/)
 - [Transactions across data centers](https://snarfed.org/transactions_across_datacenters_io.html)
 - [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
 - [Distributed systems theory for the distributed systems engineer](https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/)
-- [Microservices to Async Processing Migration at Scale](https://www.infoq.com/presentations/migration-microservices-scale/)
 
 ### AWS
 

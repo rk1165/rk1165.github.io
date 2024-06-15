@@ -41,3 +41,5 @@
 2. [Bartosz Milewski](https://www.youtube.com/user/DrBartosz/videos)
 3. [Programming with Categories](http://brendanfong.com/programmingcats.html)
 4. [Functional Programming Fundamentals](https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/)
+5. [Haskell Course](https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/)
+
