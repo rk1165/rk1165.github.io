@@ -16,7 +16,6 @@ date = 2024-03-17
 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)             | leftSum = 0, leftSum * 2 == sum - nums[i], return i                         |   C    | E
 | [Find All Numbers Disappeared in An Array](https://tinyurl.com/47n89kz9)        | -1 * index, index = Math.abs(nums[i])-1, find positive ones                 |   C    | E
 | [Word Pattern](https://leetcode.com/problems/word-pattern/)                     | map to digit and check if present or not and if present has same value      |   C    | E
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)             |                                                                             |   C    | E
 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)       |                                                                             |        | E
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)         | merge from end. merge while j >= 0                                          |   C    | E
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                       | count zeros and if zeros > 0 nums[i-zeros] = nums[i]                        |   C    | E
@@ -28,62 +27,46 @@ date = 2024-03-17
 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                |                                                                              |        | E
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)      | temp = head.next, head.next = prev, prev = head, head = temp                 |   C    | E
 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | reverse 2nd half and compare with first half                                |   C    | E
-| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) |                                                                   |        | E
+| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) |  create dummy node, prev = curr, curr = head, move curr and cmp   |        | E
 | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |                                                     |   C    | E
 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | move slow and fast pointers. return slow                              |   C    | E
-| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                           |        | E
-| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                 |   C    | E
-| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                                               |   C    | E
-| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)                                                             |   C    | E
-| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                       |   C    | E
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | a = hA, b = hB, while (a != b) switch heads             |        | E
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | pushAllLeft(root), pushAllLeft(curr.right)  in !empty loop    |   C    | E
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | stack.push(right), stack.push(left)                         |   C    | E
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | `in`, `out` stack. pop `in`, put in `out`, traverse `out` |   C    | E
+| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)         | compare and swap and recurse on left and right nodes.                       |   C    | E
 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                             |        | E
 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                                   |        | E
-| [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                         |   C    | E
+| [Same Tree](https://leetcode.com/problems/same-tree/)                           | compare p & q                                                               |   C    | E
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                                                                             |        | E
 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                                       |        | E
-| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)                                                                               |   C    | E
-| [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                                           |   C    | E
+| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | n = new (r1.val + r2.val), n.l = merge(r1.l, r2.l), n.r = merge(r1.r, r2.r) |   C    | E
+| [Path Sum](https://leetcode.com/problems/path-sum/)                             | hasSum(root.l, target - root.val) || hasSum(root.r, target - root.val)      |   C    | E
 | [Minimum Distance between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)                                                       |        | E
-| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                               |   C    | E
-| [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                                                             |   C    | E
-| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)                                                                                         |   C    | E
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                 | compare (l.l, r.r) && (l.r, r.l)                                            |   C    | E
+| [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | PQ                                                        |   C    | E
+| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)           | PQ with reverse comparator                                                  |   C    | E
 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/)                                                                                           |        | E
 | [Verifying An Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)                                                                 |        | E
 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)                                                                           |        | E
 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)                                                       |        | E
-| [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)                                               |        | E
-| [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)                                                                                     |   C    | E
-| [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                   |   C    | E
 | [Plus One](https://leetcode.com/problems/plus-one/)                                                                                                           |        | E
-| [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                                                         |   C    | E
-| [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                     |   C    | E
+| [Ugly Number](https://leetcode.com/problems/ugly-number/)                       | repeated divide by 2, 3, and 5                                              |   C    | E
 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)                                                                                                 |        |
-| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                                           |   C    | E
-| [Single Number](https://leetcode.com/problems/single-number/)                                                                                                 |   C    | E
-| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                                                                           |   C    | E
+| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)             |                                                                             |   C    | E
 | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                 |        | E
 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                                                                                   |        | E
-| [Missing Number](https://leetcode.com/problems/missing-number/)                                                                                               |   C    | E
 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                                         |        | E
 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)                                                                   |        | E
 | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                                                       |        | E
-| [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                                                                         |   C    | E
-| [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                       |   C    | E
-| [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                     |   C    | E
-| [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)                                           |   C    | E
-| [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)                                                                         |   C    | E
-| [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)                                                                   |   C    | E
-| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)                                                               |   C    | E
-| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)                                                                       |   C    | E
-| [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                                                               |        | E
-| [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                           |   C    | E
-| [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)                                           |   C    | E
+| [Flood Fill](https://leetcode.com/problems/flood-fill/)  |                                                                                                    |   C    | E
+| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | inner while loop moving i & j based on if not vowel, the swap vowel |   C    | E
+| [Summary Ranges](https://leetcode.com/problems/summary-ranges/)  | if diff is 1 keep looping, then club the values                                            |   C    | E
 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)                                                                   |        | E
 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)                                                               |   C    | E
 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                                                                                         |        | E
 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)                                                                               |        | E
 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)                                                                                       |        | E
-| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                                                           |   C    | E
 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)                                                                   |        | E
 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                                                                                       |        | E
 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)                                                                       |        | E
@@ -141,7 +124,6 @@ date = 2024-03-17
 | [Largest Number](https://leetcode.com/problems/largest-number/)                                                                                               |        | M
 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)                                                                             |        | M
 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)                                                                               |        | M
-| [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)                                                                    |   IM   | M
 | [Non Decreasing Array](https://leetcode.com/problems/non-decreasing-array/)                                                                                   |        | M
 | [Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)                                               |        | M
 | [3Sum](https://leetcode.com/problems/3sum/)                                                                                                                   |        | M
@@ -160,12 +142,10 @@ date = 2024-03-17
 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                       |        | M
 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                               |        | M
 | [Search In Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)                                                         |        | M
-| [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                       |   IM   | M
 | [Find First And Last Position of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)             |        | M
 | [Maximum Twin Sum Of A Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                         |   C    | M
 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                                           |        | M
 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                             |        | M
-| [Design Linked List](https://leetcode.com/problems/design-linked-list/)                                                                                       |   IM   | M
 | [Design Browser History](https://leetcode.com/problems/design-browser-history/)                                                                               |        | M
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                             |   C    | M
 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)                                                                         |        | M
@@ -445,7 +425,6 @@ date = 2024-03-17
 | [Maximum Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                               |        |
 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                                                                     |        |
 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/)                                                                                           |        |
-| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                             |   IM   |
 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                                                                                           |        |
 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)                                                           |        |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                                                                         |        |
@@ -505,6 +484,11 @@ date = 2024-03-17
 | [Word Squares](https://leetcode.com/problems/word-squares/)                                                                                                   |   P    |
 | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                               |   IM   | E
 | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                               |   IM   | E
+| [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                                                                         |   IM   | E
+| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                             |   IM   |
+| [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                       |   IM   | M
+| [Design Linked List](https://leetcode.com/problems/design-linked-list/)                                                                                       |   IM   | M
+| [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)                                                                    |   IM   | M
 
 
 ### Dynamic Programming

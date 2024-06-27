@@ -1,5 +1,5 @@
 +++
-title = 'Varous KeyMaps'
+title = 'Various KeyMaps'
 date = 2024-02-11
 
 +++

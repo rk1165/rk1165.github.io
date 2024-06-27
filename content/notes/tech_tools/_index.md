@@ -29,22 +29,11 @@
 07. [Login - PortSwigger](https://portswigger.net/users)
 08. [HexEd.it - Browser-based Online and Offline Hex Editing](https://hexed.it)
 09. [CloudAMQP - RabbitMQ in the cloud](https://customer.cloudamqp.com/login)
-10. [ElephantSQL - SQL in the cloud](https://customer.elephantsql.com/login)
-11. [Bonsai - ElasticSearch in the cloud](https://app.bonsai.io/login)
-12. [Cassandra as a service](https://astra.datastax.com/)
-13. [LMAX Disruptor](https://lmax-exchange.github.io/disruptor/)
+10. [Bonsai - ElasticSearch in the cloud](https://app.bonsai.io/login)
+11. [Cassandra as a service](https://astra.datastax.com/)
+12. [LMAX Disruptor](https://lmax-exchange.github.io/disruptor/)
 
 #### Kafka
 
-1. [Connector Developer Guide](https://docs.confluent.io/3.2.0/connect/devguide.html)
-2. [Confluent Open Source / Community / Partner Connectors](https://www.confluent.io/product/connectors/)
-3. [Optimizing Kafka Producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
-4. [Optimizing Kafka Consumers](https://strimzi.io/blog/2021/01/07/consumer-tuning/)
-
-
-### Online Books
-
-1. [Zero MQ Guide](https://zguide.zeromq.org/)
-2. [Build your own Redis](https://build-your-own.org/blog/20230127_byor/)
-3. [Web RTC for the Curious](https://webrtcforthecurious.com/)
-4. [Git Book](https://git-scm.com/book/en/v2)
+1. [Optimizing Kafka Producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
+2. [Optimizing Kafka Consumers](https://strimzi.io/blog/2021/01/07/consumer-tuning/)

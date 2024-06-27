@@ -4,9 +4,7 @@
 2. [The Egg by Andy Weir - High Existence](https://www.highexistence.com/egg-andy-weir/)
 3. [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 4. [UW-Madison Writer’s Handbook – The Writing Center](https://writing.wisc.edu/handbook/)
-5. [Movie locations in Ireland](https://www.atlasofwonders.com/2021/04/kilabbey-ireland-castle-as-luck-would-have-it-location.html)
-7. [Plain English](http://www.plainenglish.co.uk/how-to-write-in-plain-english.html)
-8. [The Longest Train Ride in the World - Basement Geographer](https://basementgeographer.com/the-longest-train-ride-in-the-world/)
+5. [Plain English](http://www.plainenglish.co.uk/how-to-write-in-plain-english.html)
 
 ### Blogs
 

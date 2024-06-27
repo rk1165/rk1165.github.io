@@ -21,3 +21,4 @@
 18. [Programming Languages](./prog_languages/)
 19. [Software Engineering](./software_eng/)
 20. [Technologies and Tools](./tech_tools/)
+21. [Travel](./travel/)

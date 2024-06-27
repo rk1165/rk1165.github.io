@@ -40,15 +40,6 @@
 15. [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
 16. [Terminal Trove](https://terminaltrove.com/)
 
-
-### Online Books
-
-1. [The Linux kernel](https://www.win.tue.nl/~aeb/linux/lk/lk.html)
-2. [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/)
-3. [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
-4. [Is Parallel Programming Hard](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
-5. [Understanding the Linux Virtual Memory Manager](https://www.kernel.org/doc/gorman/pdf/understand.pdf)
-
 ### Book Sites
 
 1. [The Linux Programming Interface](http://man7.org/tlpi/)

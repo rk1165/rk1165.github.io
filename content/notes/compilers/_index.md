@@ -12,12 +12,3 @@
 
 1. [Programming languages resources](https://bernsteinbear.com/pl-resources/)
 2. [How to learn compilers](https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/)
-
-### Online Books
-
-1. [Anatomy of Programming Languages](https://www.cs.utexas.edu/~wcook/anatomy/anatomy.htm)
-
-### Online Courses
-
-1. [CS 6120: Advanced Compilers](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
-2. [Write your own tiny programming system(s)](https://d3s.mff.cuni.cz/teaching/nprg077/)

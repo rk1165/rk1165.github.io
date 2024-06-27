@@ -19,16 +19,6 @@
 2. [Options Strategy Builder & Analyzer Online — OptionCreator](http://optioncreator.com/)
 3. [Stock Market Tools](https://www.tiingo.com/)
 
-### Online Books
-
-1. [Pricing Money](https://www.jdawiseman.com/books/pricing-money/Pricing_Money_JDAWiseman.html)
-
-### Online Courses
-
-1. [FinTech: Shaping the Financial World](https://ocw.mit.edu/courses/sloan-school-of-management/15-s08-fintech-shaping-the-financial-world-spring-2020/)
-2. [Blockchain and Money](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/)
-3. [Cryptocurrency Engineering and Design](https://ocw.mit.edu/courses/media-arts-and-sciences/mas-s62-cryptocurrency-engineering-and-design-spring-2018/lecture-videos/index.htm)
-
 ### Book Sites
 
 1. [Options, Futures, and Other Derivatives](http://www-2.rotman.utoronto.ca/~hull/ofod/index.html)

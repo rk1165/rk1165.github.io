@@ -15,12 +15,3 @@
 13. [Everything I wish I knew when learning C](https://tmewett.com/c-tips/)
 14. [Few lesser known tricks, quirks and features of C](https://jorenar.com/blog/less-known-c)
 15. [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/)
-
-### Online Books
-
-1. [Writing Bug-Free C Code](https://www.duckware.com/bugfreec/index.html)
-2. [C Puzzles](http://programmedlessons.org/CPuzzlesNew/CPuzzlesMain.html)
-3. [comp.lang.c Frequently Asked Questions](http://www.c-faq.com/)
-4. [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
-5. [Dive into Systems](https://diveintosystems.org/singlepage/)
-6. [Notes on DS and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html)
