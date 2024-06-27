@@ -1,5 +1,5 @@
 +++
-title = 'General Notes'
+title = 'Lectures on various topics'
 date = 2024-06-27
 
 +++
