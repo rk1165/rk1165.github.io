@@ -13,8 +13,3 @@
 
 1. [Network Programming Self-Study](https://siliconsprawl.com/2020/05/10/network-programming-self-study.html)
 2. [Protohackers](https://protohackers.com/)
-
-### Online Books
-
-1. [High Performance Browser Networking](https://hpbn.co/)
-2. [An Introduction to Computer Networks](http://intronetworks.cs.luc.edu/)

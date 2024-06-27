@@ -19,6 +19,7 @@
 17. [10 tips for new Elixir developers](https://www.chriis.dev/opinion/10-tips-for-new-elixir-developers) 
 18. [Pearls of Elixir - Interesting patterns](https://minhajuddin.com/2019/02/01/pearls-of-elixir-interesting-patterns-from-popular-elixir-packages/) 
 19. [Functional Arrays in Elixir and Erlang](https://readreplica.io/functional-arrays-in-elixir-erlang/) 
+20. [10 Elixir Gotchas](https://lobste.rs/s/ud34df/10_elixir_gotchas)
 
 ### Blogs
 

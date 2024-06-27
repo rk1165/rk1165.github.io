@@ -39,16 +39,3 @@
 2. [We Break Software](https://secret.club/)
 3. [Pagedout](https://pagedout.institute/)
 4. [Introduction - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
-
-### Online Courses
-
-01. [LiveOverflow - LiveOverflow](http://liveoverflow.com/)
-02. [Metasploit Unleashed - Free Online Ethical Hacking Course](https://www.offensive-security.com/metasploit-unleashed/)
-03. [Pick a Vulnerability to Learn About](https://www.hacksplaining.com/lessons)
-04. [SEED Project](https://seedsecuritylabs.org/)
-05. [6.858 / Spring 2019](https://css.csail.mit.edu/6.858/2020/)
-06. [pwn.college BETA](https://pwn.college/)
-07. [CS6038/CS5138 Malware Analysis, UC by ckane](https://class.malware.re/)
-08. [CS253 - Web Security](https://web.stanford.edu/class/cs253/)
-09. [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
-10. [Computer and Network Security](https://engineering.purdue.edu/kak/compsec/)

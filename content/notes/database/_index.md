@@ -54,18 +54,6 @@
 
 1. [SQL Interview Questions](https://quip.com/2gwZArKuWk7W)
 
-### Online Books
-
-1. [Redbook](http://www.redbook.io/)
-2. [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
-3. [Learn BigQuery](https://scosco.github.io/learn-bigquery/)
-4. [The Internals of PostgreSQL](https://www.interdb.jp/pg/index.html)
-
-### Online Courses
-
-1. [Andy Pavlo courses](https://www.cs.cmu.edu/~pavlo/)
-2. [Select Star SQL](https://selectstarsql.com/)
-
 ### Book Sites
 
 1. [Database System Concepts](https://codex.cs.yale.edu/avi/db-book/)

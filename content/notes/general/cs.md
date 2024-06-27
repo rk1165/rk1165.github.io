@@ -13,11 +13,6 @@ date = 2024-02-11
 05. [Project Ideas](https://www.andreinc.net/2024/03/28/programming-projects-ideas)
 06. [Challenging projects every programmer should try](https://austinhenley.com/blog/challengingprojects.html)
 
-### Online Books
-
-01. [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html)
-02. [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
-03. [Green Tea Press](https://greenteapress.com/wp/)
 
 ### Sites
 
@@ -26,6 +21,7 @@ date = 2024-02-11
 03. [Startup Resources Toolkit](https://timothyhui.com.au/toolkit)
 04. [Free for Developers](https://free-for.dev/#/)
 05. [HN Recommendation](https://hn-recommend.julienc.me/)
+06. [Explorables](https://explorabl.es/) #co
 
 ### Tools
 

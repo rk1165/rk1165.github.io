@@ -7,8 +7,3 @@
 5. [Reverse Engineering 101](https://malwareunicorn.org/workshops/re101.html#0)
 6. [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 7. [Assembly’s Perspective of C – Stephen Marz](https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/)
-
-### Online Books
-
-1. [Introduction to Computer Organization](http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html)
-2. [MIPS assembly programming](http://www.robertwinkler.com/projects/mips_book/mips_book.html)

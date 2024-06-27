@@ -16,8 +16,3 @@
 ### Learning Resources
 
 1. [Best of 2020 in Tech [Talks]](https://copyconstruct.medium.com/best-of-2020-in-tech-talks-2f29002f4a92)
-
-### Online Books
-
-1. [Game Programming Patterns](http://gameprogrammingpatterns.com/contents.html)
-2. [Web Browser Engineering](https://browser.engineering/)

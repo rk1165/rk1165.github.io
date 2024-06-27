@@ -11,6 +11,7 @@
 09. [ALGEBRAIC DATA TYPES: THINGS I WISH SOMEONE HAD EXPLAINED ABOUT FP](https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/)
 10. [TYPE-CHECKING PLUGINS, PART I: WHY WRITE A TYPE-CHECKING PLUGIN?](https://www.tweag.io/blog/2021-10-21-tcplugins-1/)
 11. [Parallel stream processing with zero-copy fan-out and sharding](https://stevana.github.io/parallel_stream_processing_with_zero-copy_fan-out_and_sharding.html)
+12. [The Ultimate guide to Haskell Strings](https://hasufell.github.io/posts/2024-05-07-ultimate-string-guide.html)
 
 ### Learning Resource
 
@@ -25,21 +26,3 @@
 2. [Haskell at Work](https://www.youtube.com/@HaskellatWork/videos)
 3. [Boston Haskell](https://www.youtube.com/@BostonHaskell/videos)
 4. [NYC Haskell Users Group](https://www.youtube.com/@nychaskellusersgroup1792/videos)
-
-### Online Books
-
-1. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)
-2. [Real World Haskell](http://book.realworldhaskell.org/read/)
-3. [Happy Learn Haskell](http://www.happylearnhaskelltutorial.com)
-4. [Functional Algorithms, Verified](https://functional-algorithms-verified.org/)
-5. [Category theory illustrated](https://abuseofnotation.github.io/category-theory-illustrated/)
-6. [Learning Haskell by building a static blog generator](https://soupi.github.io/learn-haskell-blog-generator/01-about.html)
-
-### Online Courses
-
-1. [Graham Hutton](https://www.youtube.com/c/GrahamHuttonNotts/playlists)
-2. [Bartosz Milewski](https://www.youtube.com/user/DrBartosz/videos)
-3. [Programming with Categories](http://brendanfong.com/programmingcats.html)
-4. [Functional Programming Fundamentals](https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/)
-5. [Haskell Course](https://well-typed.com/blog/2024/06/announcing-free-haskell-intro-course/)
-
