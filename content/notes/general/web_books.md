@@ -1,3 +1,9 @@
++++
+title = 'General Notes'
+date = 2024-06-27
+
++++
+
 ### Technologies
 
 1. [Zero MQ Guide](https://zguide.zeromq.org/)

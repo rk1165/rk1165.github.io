@@ -1,3 +1,9 @@
++++
+title = 'General Notes'
+date = 2024-06-27
+
++++
+
 ### AI/ML
 
 1. [OS Dev Wiki](https://wiki.osdev.org/Main_Page)
