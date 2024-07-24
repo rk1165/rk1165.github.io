@@ -46,11 +46,11 @@ date = 2024-06-27
   - cake (Dej Bakery on Płatnicza street) or go to Las Bielański for a stroll through the woods
   - https://maps.app.goo.gl/sgtxghhTKe9YufSTA
 - **Restaurants**
-  - Pyzy, flaki gorące! - https://maps.app.goo.gl/JcWPfEtukJA7B6Rq5
+  - Pyzy, flaki gorące!
   - SETKA (Świętokrzyska street)
   - Miss Kimchi
-  - [Manekin](https://manekin.pl/wp-content/uploads/2024/04/ENG_Menu_Marszalkowska_-_kwiecien_2024.pdf) https://maps.app.goo.gl/4NFDsR9irwsy9DmN8
-  - Dobra Pączkarnia - Pączek - https://maps.app.goo.gl/UFev9u1LNBgEj9G86
+  - [Manekin](https://manekin.pl/wp-content/uploads/2024/04/ENG_Menu_Marszalkowska_-_kwiecien_2024.pdf)
+  - Dobra Pączkarnia - Pączek
 
 ### Wroclaw
 
@@ -62,11 +62,11 @@ date = 2024-06-27
   - Visit Cathedral Island, go to the top of few cathedrals. Lock rooms. Dwarf hunting
   - Neon Gallery in the evening
 - **Restaurants**
-  - rozrusznik (must) - https://maps.app.goo.gl/XhVUCeP3z2J61RQz6
-  - [WW cafe](wwcafe.pl) - (must) https://maps.app.goo.gl/FevGtHezC7oY79xw8
-  - Art cafe Kalambur (must) https://maps.app.goo.gl/vJYY9Tf5oXNtXmke7
+  - rozrusznik (must)
+  - [WW cafe](wwcafe.pl) (must)
+  - Art cafe Kalambur (must)
   - Konspira
-  - Przedwojenna - https://maps.app.goo.gl/bDST2h6ENauaCjqD7
+  - Przedwojenna
 
 ### Krakow
 
@@ -88,13 +88,13 @@ date = 2024-06-27
 - Aug 17 (Sat)
   - Leave for Home - (0900)
 - **Restaurants**
-  - Milkbar Tomasza - https://restaurantguru.com/Milkbar-Tomasza-Krakow/menu - https://maps.app.goo.gl/F54dH97TfCzUJfVo8
-  - Andrus Maczanka po - https://www.maczankapokrakowsku.pl/menu - https://maps.app.goo.gl/EzWFDPdzZneohRSMA
-  - Bar Uniwersytecki - https://maps.app.goo.gl/Mgqoj8bxpBuw96bp9
-  - Miła - https://maps.app.goo.gl/pjuBpWJWp8JDbtyb7
-  - Kluska na placu - https://maps.app.goo.gl/1GmRD7BZqj7A8q8U7
-  - Max Grill - https://maps.app.goo.gl/id4t5KY23m4K3F5n9 (Near Nowa Huta)
-  - Bar Mleczny Centralny (Nowa Huta) - https://maps.app.goo.gl/6cUL5oNEpBe5WXe4A
+  - Milkbar Tomasza - https://restaurantguru.com/Milkbar-Tomasza-Krakow/menu
+  - Andrus Maczanka po - https://www.maczankapokrakowsku.pl/menu
+  - Bar Uniwersytecki
+  - Miła
+  - Kluska na placu
+  - Max Grill
+  - Bar Mleczny Centralny 
 
 ### Cuisine
 
