@@ -4,73 +4,124 @@ date = 2024-06-27
 
 +++
 
-### Itinerary
+## Itinerary
 
-| Date   | Day | Place    | Activity                                                                        | Remark                         | Restaurants              |
-| ------ | --- | -------- | ------------------------------------------------------------------------------- | ------------------------------ | ------------------------ |
-| Aug 03 | Sat | Home     | Departure from Home 2135                                                        |                                |                          |
-| Aug 04 | Sun | Gdansk   | Reach by 1500, take bus no. **210** to **Port Lotnisko**                        | Bus depot 50 meters outside T2 | Chłopskie Jadło          |
-|        |     |          | Visit WWII museum (4pm - 8pm) https://maps.app.goo.gl/qPiJsyUQus1z5pTL9         | Opens 10am - 8pm               | _Jaros_ (Milk Bar)       |
-| Aug 05 | Mon | Gdansk   | Explore Gdansk Wrzeszcz, market square, Old Town, Westerplatte, Amber street    |                                | _Jozef K on ul. Piwna_   |
-|        |     |          | Gdynia https://maps.app.goo.gl/RXmhu8hyUjynf7mv5                                | In the evening                 | _Drukarnia_              |
-| Aug 06 | Tue | Gdansk   | Tour Malbork Castle 0900 - 1300 and be back by 1500. Later walk to Sopot        | Opens 9am - 8pm                | _Cafe Kamienica_         |
-|        |     |          | (City center and pier). Cliffs on Gdynia for some nature. Bike friendly         |                                | _Mandu_ - (best pierogi) |
-|        |     |          | https://maps.app.goo.gl/BuRX6TyjYczvchwp7                                       |                                |                          |
-| Aug 07 | Wed | Warsaw   | Train to Warsaw - **0805-1115**                                                 |                                |                          |
-|        |     |          | Start from Nowy Świat street walk up to the Old Town and nearby Mariensztat.    |                                |                          |
-|        |     |          | Explore Grzybowski Square and Palace of Culture and Science observeration deck. |                                |                          |
-|        |     |          | Museum of Warsaw, Crypts in Archcathedral, Museum of Marie Curie,               |                                |                          |
-|        |     |          | Nożyk Synagogue (it survived the Holocaust), Saxon gardens,                     |                                |                          |
-|        |     |          | Teatralny square with National Theatre, changing of guard next to the           |                                |                          |
-|        |     |          | Tomb of the Unknown Soldier. https://maps.app.goo.gl/fxPUXhMiYomnacDw9          |                                |                          |
-| Aug 08 | Thu | Warsaw   | **Polin Museum** (0900 - 1300) _Thu Free_                                       | Opens (9am - 6pm).             | Manekin                  |
-|        |     |          | Explore **Łazienki Park** and the main palaces there. like Pałac na Wodzie,     |                                | Dobra Pączkarnia         |
-|        |     |          | Stara Oranżeria, Pałac Myślewicki. Wilanów Palace. See the Vistula River bank,  |                                |                          |
-|        |     |          | either from the boulevard or from the beach side. Royal castle                  |                                |                          |
-|        |     |          | https://maps.app.goo.gl/EcWaH7UWEuDwjpDo8                                       |                                |                          |
-| Aug 09 | Fri | Warsaw   | **Warsaw Uprising Museum** (1000 - 1100). Take the tram up to Bielany.          | Opens (10am - 6pm)             |                          |
-|        |     |          | Head towards Plac Konfederacji in Stare Bielany. For coffee (Czytelnia)         |                                |                          |
-|        |     |          | cake (Dej Bakery on Płatnicza street) or go to Las Bielański for a stroll       |                                |                          |
-|        |     |          | through the woods https://maps.app.goo.gl/sgtxghhTKe9YufSTA                     |                                |                          |
-| Aug 10 | Sat | Wroclaw  | Train to Wroclaw - **0724-1154**                                                |                                | rozrusznik - must        |
-|        |     |          | Walk around the old town and Visit the market square.                           |                                | WW cafe - must           |
-|        |     |          | Centennial Hall. Japanese Garden https://maps.app.goo.gl/q9orxfHghGv12kH47      |                                | Art cafe Kalambur        |
-| Aug 11 | Sun | Wroclaw  | Visit Cathedral Island, go to the top of few cathedrals. Lock rooms             |                                | Konspira - dinner        |
-|        |     |          | Dwarf hunting. Neon Gallery in the evening                                      |                                | Przedwojenna             |
-| Aug 12 | Mon | Krakow   | Train to Krakow - **0926-1259** and explore Wawel Castle                        | Free on Mondays                |                          |
-|        |     |          | Explore Kazimierz https://maps.app.goo.gl/HSK7QWA6giNGz76Y6                     | Castle in only in weekends?    | Milkbar Tomasza          |
-| Aug 13 | Tue | Krakow   | Visit Wieliczka Salt Mines - Tourist Route and Graduation Tower                 |                                | Andrus Maczanka po       |
-| Aug 14 | Wed | Katowice | Train to Katowice. Guido Coal Mine (1230-1430) Visit Old town, Nikiszowiec,     |                                |                          |
-|        |     |          | NOSPR, Mariacka Street, https://maps.app.goo.gl/MCKi3adEVVD6TppK9               |                                |                          |
-| Aug 15 | Thu | Krakow   | Spend the day walking around Old Town, and the main Square. Experience Polish   |                                | Bar Uniwersytecki        |
-|        |     |          | Cuisine. Participate in Army day celebrations. kosciuszko mound.                |                                | Miła , Kluska na placu   |
-| Aug 16 | Fri | Krakow   | Rynek Underground museum, Cloth hall. Nowa Huta and Forum przestrzenie.         |                                | Max Grill                |
-| Aug 17 | Sat | -        | Leave for Home (0930)                                                           |                                |                          |
+### Gdansk
+
+- Aug 04 (Sun)
+  - Reach by 1500, take bus no. **210** to **Port Lotnisko** (Bus depot 50 meters outside T2)
+  - Visit WWII museum (4pm - 8pm) https://maps.app.goo.gl/qPiJsyUQus1z5pTL9
+- Aug 05 (Mon)
+  - Explore Gdansk Wrzeszcz, market square, Old Town, Westerplatte, Amber street
+  - Gdynia (in the evening) - Cliffs on Gdynia for some nature. It's bike friendly
+  - https://maps.app.goo.gl/RXmhu8hyUjynf7mv5
+- Aug 06 (Tue)
+  - Tour Malbork Castle 0900 - 1300 and be back by 1500.
+  - Later walk to Sopot (City center and pier).
+  - https://maps.app.goo.gl/BuRX6TyjYczvchwp7
+- **Restaurants**
+  - Jaros (Milk bar)
+  - Jozef K on ul.Piwna
+  - Drukarnia
+  - Cafe Kamienica
+  - Mandu (best pierogi)
+
+### Warsaw
+
+- Aug 07 (Wed)
+  - Train to Warsaw - **0805-1115**
+  - Start from Nowy Świat street walk up to the Old Town and nearby Mariensztat. Explore Grzybowski Square and Palace of Culture and Science observeration deck
+  - Museum of Warsaw, Crypts in Archcathedral, Museum of Marie Curie. Nożyk Synagogue (it survived the Holocaust), Saxon gardens,
+  - Teatralny square with National Theatre, changing of guard next to the Tomb of the Unknown Soldier.
+  - https://maps.app.goo.gl/fxPUXhMiYomnacDw9
+- Aug 08 (Thu)
+  - **Polin Museum** (0900 - 1300). On Thu it's free.
+  - Explore **Łazienki Park** and the main palaces there. like Pałac na Wodzie,
+  - Stara Oranżeria, Pałac Myślewicki. Wilanów Palace. See the Vistula River bank
+  - either from the boulevard or from the beach side. Royal castle
+  - https://maps.app.goo.gl/EcWaH7UWEuDwjpDo8
+- Aug 09 (Fri)
+  - **Warsaw Uprising Museum** (1000 - 1100).
+  - Take the tram up to Bielany. Head towards Plac Konfederacji in Stare Bielany. For coffee (Czytelnia)
+  - cake (Dej Bakery on Płatnicza street) or go to Las Bielański for a stroll through the woods
+  - https://maps.app.goo.gl/sgtxghhTKe9YufSTA
+- **Restaurants**
+  - Pyzy, flaki gorące! - https://maps.app.goo.gl/JcWPfEtukJA7B6Rq5
+  - SETKA (Świętokrzyska street)
+  - Miss Kimchi
+  - [Manekin](https://manekin.pl/wp-content/uploads/2024/04/ENG_Menu_Marszalkowska_-_kwiecien_2024.pdf) https://maps.app.goo.gl/4NFDsR9irwsy9DmN8
+  - Dobra Pączkarnia - Pączek - https://maps.app.goo.gl/UFev9u1LNBgEj9G86
+
+### Wroclaw
+
+- Aug 10 (Sat)
+  - Train to Wroclaw - **0724 - 1154**
+  - Walk around the old town and Visit the market square. Centennial Hall. Japanese Garden
+  - https://maps.app.goo.gl/q9orxfHghGv12kH47
+- Aug 11 (Sun)
+  - Visit Cathedral Island, go to the top of few cathedrals. Lock rooms. Dwarf hunting
+  - Neon Gallery in the evening
+- **Restaurants**
+  - rozrusznik (must) - https://maps.app.goo.gl/XhVUCeP3z2J61RQz6
+  - [WW cafe](wwcafe.pl) - (must) https://maps.app.goo.gl/FevGtHezC7oY79xw8
+  - Art cafe Kalambur (must) https://maps.app.goo.gl/vJYY9Tf5oXNtXmke7
+  - Konspira
+  - Przedwojenna - https://maps.app.goo.gl/bDST2h6ENauaCjqD7
+
+### Krakow
+
+- Aug 12 (Mon)
+  - Train to Krakow - **0926 - 1259**. Explore Wawel Castle. It's free on Mondays
+  - Explore Kazimierz in the evening.
+  - https://maps.app.goo.gl/HSK7QWA6giNGz76Y6
+- Aug 13 (Tue)
+  - Visit Wieliczka Salt Mines - Tourist Route and Graduation Tower.
+- Aug 14 (Wed)
+  - Train to Katowice. Guido Coal Mine (**1230-1500**) Visit Old town, Nikiszowiec, NOSPR, Mariacka Street
+  - https://maps.app.goo.gl/MCKi3adEVVD6TppK9
+- Aug 15 (Thu) : **Army Day**
+  - Spend the day walking around Old Town, and the main Square. Experience Polish
+  - Cuisine. Participate in Army day celebrations. kosciuszko mound.
+- Aug 16 (Fri)
+  - Rynek Underground museum, Cloth hall. Nowa Huta and Forum przestrzenie.
+  - Stary Kleparz , Pierogi Festival in Maly Rynek. Possibly ride [Krakow river tram](https://tramwajwodny.net.pl/en/)
+- Aug 17 (Sat)
+  - Leave for Home - (0900)
+- **Restaurants**
+  - Milkbar Tomasza - https://restaurantguru.com/Milkbar-Tomasza-Krakow/menu - https://maps.app.goo.gl/F54dH97TfCzUJfVo8
+  - Andrus Maczanka po - https://www.maczankapokrakowsku.pl/menu - https://maps.app.goo.gl/EzWFDPdzZneohRSMA
+  - Bar Uniwersytecki - https://maps.app.goo.gl/Mgqoj8bxpBuw96bp9
+  - Miła - https://maps.app.goo.gl/pjuBpWJWp8JDbtyb7
+  - Kluska na placu - https://maps.app.goo.gl/1GmRD7BZqj7A8q8U7
+  - Max Grill - https://maps.app.goo.gl/id4t5KY23m4K3F5n9 (Near Nowa Huta)
+  - Bar Mleczny Centralny (Nowa Huta) - https://maps.app.goo.gl/6cUL5oNEpBe5WXe4A
 
 ### Cuisine
 
 - Zapiekanka - dish
 - Kaszanka - Bloot sausage, you can add to it ogórek kiszony (pickled cucumber), surówka domowa (home salad) and oranżada (Polish sweet carbonated beverage)
 - Obwarzanek krakowski - This is the ancestor of the bagel, you definitely have to try it - you will find a lot of blue stalls with it.
-- Pączek - you will find it in "Dobra Pączkarnia"
 - drożdzówka and/or bułka in good bakery (you can go to Huta Wypieków, Pochlebstwo, breaking bread, Świeżo upieczona, Zaczyn, Piekarnia mojego taty)
 - Bigos - dish of chopped meat of various kinds stewed with sauerkraut,
 - Zurek - a soup made of soured rye flour (akin to sourdough) and meat (usually boiled pork sausage or pieces of smoked sausage, bacon or pork ribs).
+- Barszcz: Red-Beetroot soup.  Famously Polish, served with white beans or stuffed dumplings
 - At night you can eat Kiełbaski z nyski- [Iconic place](https://www.google.com/maps?sca_esv=582215947&output=search&q=Kie%C5%82baska+z+nyski&source=lnms&entry=mc&sa=X&ved=2ahUKEwjh4ffMm8OCAxWkVfEDHWNwCpUQ0pQJegQIBRAB)
 - Kotlet schabowy - ingredients include eggs, lard or oil, spices, pork loin with or without the bone, breadcrumbs and flour.
 - [Mandu menu](https://pierogarnia-mandu.pl/en/gdansk-centrum/menu/)
 
 ### Links
 
-- https://www.earthtrekkers.com/10-day-poland-itinerary-gdansk-warsaw-krakow/
-- https://docs.google.com/document/d/11dIkVPR_YwEQWmAgvhodViZM7IkZsNmbuXKIXDCt3pQ/edit#heading=h.pvopm6pmpkcx
-- https://www.reddit.com/r/krakow/comments/1ad31xy/alternative_to_zakopane/
+- [10 Day poland Guide](https://www.earthtrekkers.com/10-day-poland-itinerary-gdansk-warsaw-krakow/)
+- [Krakow Guide](https://docs.google.com/document/d/11dIkVPR_YwEQWmAgvhodViZM7IkZsNmbuXKIXDCt3pQ/edit#heading=h.pvopm6pmpkcx)
+- [Alternative to Zakopane](https://www.reddit.com/r/krakow/comments/1ad31xy/alternative_to_zakopane/)
 
 ### General
 
 - If you buy tickets early (30 days before, at 00:30) you can get the price to as low as 49/69 PLN, and there is a cheaper option available - check **IC** and **TLK** trains, these can get as low as 24 PLN
 - A side note about currency, bring cash into Poland and then exchange it at a kantor. They will give you a much better rate than your home country or the bank.
 - Get Padlocks
+- Tram 0 in Krakow - Historic Line
+- Just look for the **zestaw dnia** on menus and ask what is included. Equivalent to daily menus which are set.
 
 ### Attractions
 
