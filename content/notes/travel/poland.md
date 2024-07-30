@@ -11,6 +11,7 @@ date = 2024-06-27
 - Aug 04 (Sun)
   - Reach by 1500, take bus no. **210** to **Port Lotnisko** (Bus depot 50 meters outside T2)
   - Visit WWII museum (4pm - 8pm) https://maps.app.goo.gl/qPiJsyUQus1z5pTL9
+  - Green Kantor next to manhattan mall
 - Aug 05 (Mon)
   - Explore Gdansk Wrzeszcz, market square, Old Town, Westerplatte, Amber street
   - Gdynia (in the evening) - Cliffs on Gdynia for some nature. It's bike friendly
@@ -79,6 +80,7 @@ date = 2024-06-27
 - Aug 14 (Wed)
   - Train to Katowice. Guido Coal Mine (**1230-1500**) Visit Old town, Nikiszowiec, NOSPR, Mariacka Street
   - https://maps.app.goo.gl/MCKi3adEVVD6TppK9
+  - Osprey - https://maps.app.goo.gl/jQKnC6jNnCYhVMAt9
 - Aug 15 (Thu) : **Army Day**
   - Spend the day walking around Old Town, and the main Square. Experience Polish
   - Cuisine. Participate in Army day celebrations. kosciuszko mound.
