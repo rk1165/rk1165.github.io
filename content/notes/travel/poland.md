@@ -77,16 +77,17 @@ date = 2024-06-27
   - https://maps.app.goo.gl/HSK7QWA6giNGz76Y6
 - Aug 13 (Tue)
   - Visit Wieliczka Salt Mines - Tourist Route and Graduation Tower.
+  - Schindler's Factory : 1650 (0900-1900)
 - Aug 14 (Wed)
   - Train to Katowice. Guido Coal Mine (**1230-1500**) Visit Old town, Nikiszowiec, NOSPR, Mariacka Street
   - https://maps.app.goo.gl/MCKi3adEVVD6TppK9
-  - Osprey - https://maps.app.goo.gl/jQKnC6jNnCYhVMAt9
 - Aug 15 (Thu) : **Army Day**
   - Spend the day walking around Old Town, and the main Square. Experience Polish
   - Cuisine. Participate in Army day celebrations. kosciuszko mound.
 - Aug 16 (Fri)
-  - Rynek Underground museum, Cloth hall. Nowa Huta and Forum przestrzenie.
-  - Stary Kleparz , Pierogi Festival in Maly Rynek. Possibly ride [Krakow river tram](https://tramwajwodny.net.pl/en/)
+  - Townhall tower, Rynek Underground museum : 1140 (1000-2000), Cloth hall. Nowa Huta and Forum przestrzenie.
+  - Stary Kleparz, Pierogi Festival in Maly Rynek. Possibly ride [Krakow river tram](https://tramwajwodny.net.pl/en/)
+  - https://maps.app.goo.gl/hd2EtDsfdqroDvLV7
 - Aug 17 (Sat)
   - Leave for Home - (0900)
 - **Restaurants**
