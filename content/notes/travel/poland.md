@@ -85,7 +85,7 @@ date = 2024-06-27
   - Spend the day walking around Old Town, and the main Square. Experience Polish
   - Cuisine. Participate in Army day celebrations. kosciuszko mound.
 - Aug 16 (Fri)
-  - Townhall tower, Rynek Underground museum : 1140 (1000-2000), Cloth hall. Nowa Huta and Forum przestrzenie.
+  - Townhall tower (1100), Rynek Underground museum : 1140 (1000-2000), Cloth hall. Nowa Huta and Forum przestrzenie.
   - Stary Kleparz, Pierogi Festival in Maly Rynek. Possibly ride [Krakow river tram](https://tramwajwodny.net.pl/en/)
   - https://maps.app.goo.gl/hd2EtDsfdqroDvLV7
 - Aug 17 (Sat)
