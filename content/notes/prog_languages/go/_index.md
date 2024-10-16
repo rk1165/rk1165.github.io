@@ -1,25 +1,16 @@
 ## Golang
 
-01. [Graceful upgrades in Go](https://blog.cloudflare.com/graceful-upgrades-in-go/)
-02. [Application data caching using SSDs](https://netflixtechblog.com/application-data-caching-using-ssds-5bf25df851ef)
-03. [Go’s march to low-latency GC](https://blog.twitch.tv/en/2016/07/05/gos-march-to-low-latency-gc-a6fa96f06eb7/)
-04. [Dependency Injection in a Nutshell](https://appliedgo.net/di/)
-06. [Introducing AresDB](https://eng.uber.com/aresdb/)
 07. [Visualizing Concurrency in Go](https://divan.dev/posts/go_concurrency_visualize/)
 08. [Writing a very fast cache service with millions of entries in Go](https://blog.allegro.tech/2016/03/writing-fast-cache-service-in-go.html)
 09. [Go for industrial programming](https://peter.bourgon.org/go-for-industrial-programming/)
 10. [SOLID Go Design](https://dave.cheney.net/2016/08/20/solid-go-design)
-11. [How to build a Web App with Go and SQLITE](https://www.allhandsontech.com/programming/golang/web-app-sqlite-go/)
-12. [Writing a simple in-memory key-value Database in Go](https://aly.arriqaaq.com/building-a-database-in-go/)
 13. [Case Study: Algorithmic Trading with Go](https://polygon.io/blog/case-study-algorithmict-trading-with-go)
 14. [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 15. [Back to basics: Writing an application using Go and PostgreSQL](https://henvic.dev/posts/go-postgres/)
-16. [Orderbook : an experimental order filling engine in Go](https://dylanlott.com/orderbook/)
 17. [Backend master class](https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 18. [The Complete gRPC course](https://www.youtube.com/playlist?list=PLy_6D98if3UJd5hxWNfAqKMr15HZqFnqf)
 19. [Building Microservices with GO](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_)
 20. [Just for Func](https://www.youtube.com/playlist?list=PL64wiCrrxh4Jisi7OcCJIUpguV_f5jGnZ)
-21. [Failing Forward](https://www.youtube.com/channel/UCqRfhD3bKs-6gc5lPh2fRVw/videos)
 22. [Rethinking Classical Concurrency Patterns](https://www.youtube.com/watch?v=5zXAHh5tJqQ&ab_channel=GopherAcademy)
 23. [Golang Concurrency Patterns](https://medium.com/@ninucium/golang-concurrency-patterns-for-select-done-errgroup-and-worker-pool-645bec0bd3c9)
 24. [ErrGroup in GoLang Explained](https://www.pixelstech.net/article/1685247768-errGroup-in-GoLang-explained)
@@ -40,7 +31,6 @@
 39. [The Scheduler Saga](https://www.youtube.com/watch?v=YHRO5WQGh0k&ab_channel=GopherAcademy)
 40. [How and why the leap second affected Cloudflare DNS](https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/)
 41. [Error Handling and Go](https://go.dev/blog/error-handling-and-go)
-42. [Http.Handler and Error Handling in Go](https://blog.questionable.services/article/http-handler-error-handling-revisited/)
 43. [Scaling Golang to 192 cores with Heavy I/O](https://jazco.dev/2024/01/10/golang-and-epoll/)
 44. [Profiling Go Programs with pprof](https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/)
 45. [Don't Use build tags for integration tests](https://peter.bourgon.org/blog/2021/04/02/dont-use-build-tags-for-integration-tests.html)
@@ -59,7 +49,6 @@
 58. [Go Wiki: Go modules](https://go.dev/wiki/Modules)
 59. [Go Wiki: Error Values](https://go.dev/wiki/ErrorValueFAQ)
 60. [An Overview of Go's Tooling](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
-61. [50 Shades of Go](https://golang50shad.es/)
 62. [Go I18n](https://phrase.com/blog/posts/internationalization-i18n-go/)
 63. [Learning Go's Concurrency Through Illustrations](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
 64. [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go)
@@ -72,6 +61,7 @@
 71. [Writing a Postgres Logical Replication System in Golang](https://www.dolthub.com/blog/2024-03-08-postgres-logical-replication/)
 72. [Building a Distributed Log from Scratch](https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-1-storage-mechanics/)
 73. [Organizing Database Access in Go](https://www.alexedwards.net/blog/organising-database-access)
+74. [SQLx Guide](https://jmoiron.github.io/sqlx/)
 
 ### Learning Resources
 
@@ -82,26 +72,3 @@
 5. [Go Advocates](https://docs.google.com/document/d/1Zb9GCWPKeEJ4Dyn2TkT-O3wJ8AFc-IMxZzTugNCjr-8/edit)
 6. [Ultimate Go Tour](https://tour.ardanlabs.com/tour/eng/list)
 7. [Learning Go](https://www.bytesizego.com/blog/learning-golang-2024)
-
-### Tools
-
-1. [Huh - For forms and prompts in terminal](https://github.com/charmbracelet/huh)
-2. [Bubble Tea - TUI Framework](https://github.com/charmbracelet/bubbletea)
-3. [Static Check](https://staticcheck.dev/docs/getting-started/)
-4. [SQLx](https://jmoiron.github.io/sqlx/)
-5. [Viper](https://github.com/spf13/viper)
-6. [Envconfig](https://github.com/kelseyhightower/envconfig)
-7. [godotenv](https://github.com/joho/godotenv)
-8. [Templ](https://templ.guide/)
-
-### Blogs
-
-1. [Alex Edwards](https://www.alexedwards.net/)
-2. [Brandur Leach](https://brandur.org)
-3. [Ben Hoyt](https://benhoyt.com/writings)
-4. [Applied Go](https://appliedgo.net)
-5. [Three Dots Tech](https://threedots.tech/)
-6. [A Journey with Go](https://medium.com/a-journey-with-go)
-7. [Golangbot](https://golangbot.com/)
-8. [questionable services](https://blog.questionable.services/archive/)
-9. [Peter Bourgon](https://peter.bourgon.org/articles/)

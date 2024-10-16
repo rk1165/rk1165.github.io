@@ -8,4 +8,4 @@ It's a never ending list. Hopefully, someday I would be able to read most if not
 
 ### Contact
 
-For questions and comments, please contact me at kumarravi1165@gmail.com.
+For questions and comments, please shoot me an email [at](kumarravi1165@gmail.com)
