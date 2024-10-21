@@ -62,6 +62,14 @@
 72. [Building a Distributed Log from Scratch](https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-1-storage-mechanics/)
 73. [Organizing Database Access in Go](https://www.alexedwards.net/blog/organising-database-access)
 74. [SQLx Guide](https://jmoiron.github.io/sqlx/)
+75. [Writing Advanced Web Applications with Go](https://www.jtolio.com/2017/01/writing-advanced-web-applications-with-go/)
+76. [Goroutines are cheap, but not free](https://blog.fillmore-labs.com/posts/goroutines-1/)
+77. [Simple Golang HTTP Request Context Example](https://gocodecloud.com/blog/2016/11/15/simple-golang-http-request-context-example/)
+78. [Go concurrency patterns](https://www.youtube.com/watch?v=f6kdp27TYZs&ab_channel=GoogleforDevelopers)
+79. [Advanced Go concurrency patterns](https://www.youtube.com/watch?v=QDDwwePbDtw&ab_channel=GoogleforDevelopers)
+80. [The trouble with optional interfaces](https://blog.merovius.de/posts/2017-07-30-the-trouble-with-optional-interfaces/)
+81. [Composable HTTP handlers using generics](https://www.willem.dev/articles/generic-http-handlers/)
+82. [Tips for building bubble tea programs](https://leg100.github.io/en/posts/building-bubbletea-programs/)
 
 ### Learning Resources
 
@@ -72,3 +80,4 @@
 5. [Go Advocates](https://docs.google.com/document/d/1Zb9GCWPKeEJ4Dyn2TkT-O3wJ8AFc-IMxZzTugNCjr-8/edit)
 6. [Ultimate Go Tour](https://tour.ardanlabs.com/tour/eng/list)
 7. [Learning Go](https://www.bytesizego.com/blog/learning-golang-2024)
+8. [Go 10 week onboarding course](https://stream-wiki.notion.site/Stream-Go-10-Week-Backend-Eng-Onboarding-625363c8c3684753b7f2b7d829bcd67a#1dcc5f01027d4731be1c3ada162ae981)
