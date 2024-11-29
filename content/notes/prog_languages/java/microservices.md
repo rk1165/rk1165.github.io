@@ -6,24 +6,7 @@ date = 2024-02-11
 
 - What are the advantages and disadvantages of using a Microservice based architecture ?
   > **Advantages**: Improved Scalability, Fault Isolation, Localised Complexity, Increased Agility, Simplified Debugging and Maintenance, Smaller Development Teams, etc.
-  >
   > **Disadvantages**: Complexity (e.g.: Dependencies), Requires accurate pre-planning, End-to-end testing is difficult, Complex deployment procedures, etc.
-- What is an API Gateway ? What "problem" does it solve ?
-- What is a Circuit Breaker ? What "problem" does it solve ? How does the `@HystrixCommand` annotations works in a Spring Cloud implementation?
-- Explain the concept of **Observability** ?
-  - What is the **Log Aggregation** pattern ? What problem does it solve ? Can you give examples of **Log Aggregation** solutions (e.g.: AWS Cloud Watch) ?
-  - What is the **Application Metrics** pattern ? What problem does it solve ? What are the two models of aggregating metrics (push. vs pull) ? Can you give examples of **Application Metrics** solutions ?
-  - What is the **Distributed Tracing** pattern ?
-- You have applied the **Database per Service** pattern, so each microservice has its own database. Some business transactions are spanning over multiple services, so you need a mechanism to implement transaction that Span Services. How to implement transaction that span services ? (e.g.: **Saga Pattern**)
-- You have applied the **Database per Service** pattern, so each microservice has its own database. Additionally, you have implemented the **Event Sourcing** Pattern and data is no longer easily queryable. How to implement a query that retrieves data from multiple services in a micorservice architecture ? (e.g.: Command Query Responsibility Segregation - CQRS).
-
-### Core Microservice development patterns
-
-- Service granularity
-- Communication protocols
-- Interface design
-- Configuration management of services : to move it across environments **Spring Cloud Config**
-- Event processing between services **Spring Cloud Stream**
 
 ### Microservice routing patterns
 

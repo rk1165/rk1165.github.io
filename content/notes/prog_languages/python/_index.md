@@ -20,6 +20,7 @@
 18. [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 19. [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
 20. [Python Type Challenge](https://python-type-challenges.zeabur.app/)
+21. [Why you should be using pathlib](https://treyhunner.com/2018/12/why-you-should-be-using-pathlib/)
 
 ### Tools
 

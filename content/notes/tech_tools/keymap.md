@@ -32,7 +32,6 @@ date = 2024-02-11
 - Ctrl + K Ctrl + T : to pick a color theme
 - Ctrl + Shift + ` : to open terminal
 - Ctrl + Shift + P : command palette
-- Ctrl + J : to show or hid panel
 
 ### Intellij
 

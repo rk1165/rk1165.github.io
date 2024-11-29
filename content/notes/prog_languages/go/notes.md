@@ -137,4 +137,10 @@ select {
 - The `unsafe.Pointer` type is a special type that exists for a single purpose: a pointer of any type can be converted to or from `unsafe.Pointer`. In addition to pointers, `unsafe.Pointer` can also be converted to or from a special integer type, called `uintptr`.
 - You can sometimes achieve significant savings in memory usage simply by reordering the fields in heavily used structs in order to minimize the amount of padding needed for alignment.
 - Run your code with the flag `-gcflags=-d=checkptr` to add additional checks at runtime.
+- `select` can be challenging and lead to mistakes:
+  - `default` is always active
+  - a `nil` channel is always ignored
+  - a full channel (for send) is skipped over
+  - a *done* channel is *just another channel*
+  - **available channels are selected at random**
 - 

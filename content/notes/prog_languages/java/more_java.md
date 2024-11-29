@@ -4,29 +4,6 @@ date = 2024-02-11
 
 +++
 
-### [A guide to accessing databases in Java](https://www.marcobehler.com/guides/a-guide-to-accessing-databases-in-java)
-
-- JDBC drivers do a fair amount of work, from the basics of opening up connections to the database to more advanced features like offering abilities to receive events from the database (Oracle)
-- When we look at what the major bottlenecks for a database are, they can be summarized as three basic categories: _CPU_, _Disk_, _Network_. We could add _Memory_ in there, but compared to _Disk_ and _Network_ there are several orders of magnitude difference in bandwidth.
-- **connections = ((core_count \* 2) + effective_spindle_count)**
-- Especially in web applications you do not want to open up a fresh database connection for every user, rather you want to have a small pool of connections that are always open and that are shared between users. That’s what connection pools are for.
-- A `SessionFactory` basically represents the mapping between your Java classes and your database tables
-- A session is basically a database connection (or more specifically a wrapper of the JDBC connection), with additional goodies on top
-- There are two approaches for interacting with the databases:
-  - Java First: where we first write classes and map them with our database and perform transactions with them. Hibernate
-  - Database First: design and write the database schema BEFORE writing the corresponding Java classes. JooQ.
-- jOOQ generates Java code from your database and lets you build type safe SQL queries through its fluent API.
-
-### [A guide to logging in java](https://www.marcobehler.com/guides/a-guide-to-logging-in-java)
-
-- It’s not only that `Log4j` has sane log level names, like 'error' and 'debug'. It also comes with a ton of different and clever appenders, like _SMTPAppender_ (to e-mail log events), _SyslogAppenders_ (to send events to a remote syslog daemon), _JdbcAppenders_ (to send them to the database)
-- **FATAL** : Anything at this level means your Java process cannot continue and will now terminate.
-- **ERROR** : A request was aborted and the underlying reason requires human intervention ASAP.
-- **WARN** : A request was not serviced satisfactorily, intervention is required soon, but not necessarily immediately.
-- **INFO** : Info is the log level developers probably feel most 'comfortable' using and in practice you’ll find that developers print out a ton of statements with the INFO level, from client activities (webapps), progress information (batch jobs) to quite intricate, internal process flow details.
-- **DEBUG** : Advanced level detail of internal process flows.
-- **TRACE** : More details than debug or reserved for use in specific environments
-
 ### Java Gotchas
 
 - Constructor in Java can't be `abstract`, `static`, `final` or `synchronized`
@@ -39,8 +16,8 @@ date = 2024-02-11
 - `StringBuffer` is thread safe i.e multiple threads can't access it simultaneously. Stored in heap
 - `StringBuilder` is not thread safe. Stored in stack
 - An object that implements `autocloseable` or `closeable` can be passed as a parameter to try statement
-- Error class represents the errors which are mainly caused by the environment in which application is running
-- Exception class represents the exceptions which are mainly caused by the application itself. `Npe`, `ClasscastException`
+- `Error` class represents the errors which are mainly caused by the environment in which application is running
+- `Exception` class represents the exceptions which are mainly caused by the application itself. `Npe`, `ClasscastException`
 - Diamond problem of inheritance: We have two classes B and C inheriting from A. Assume that B and C are overriding an inherited method and they provide their own implementation. Now D inherits from both B and C doing multiple inheritance. D should inherit that overidden method, which overridden method will be used?
 - An `InputStreamReader` is a bridge from byte streams to character streams: It reads bytes and decodes them into characters using a specified charset. The charset that it uses may be specified by name or may be given explicitly, or the platform's default charset may be accepted.
 - `InputStreamReader(InputStream in)` OR `InputStreamReader(InputStream in, Charset cs)`
@@ -93,26 +70,14 @@ class BlockingQueue {
 
 - This is what could potentially happen
   1. A consumer thread calls `take()` and sees that `buffer.isEmpty()`
-  2. Before the consumer thread goes on to call `wait()`, a producer thread comes along and invokes a full `give()`, that is, `buffer.add(data); notify();`
+  2. Before the consumer thread goes on to call `wait()`, a producer thread comes along and invokes a full `give()`
   3. The consumer thread will now call `wait()` (and miss the `notify()` that was just called)
   4. If unlucky, the producer thread won't produce more `give()` as result of the fact that the consumer thread never wakes up, and we have a dead-lock
 - Once you understand the issue, the solution is obvious: Use `synchronized` to make sure `notify` is never called between `isEmpty` and `wait`.
 
-### Sorting a Map in java by values
-
-```java
-List<Map.Entry<String, Integer>> list = new ArrayList<>(distance.entrySet());
-list.sort(Map.Entry.comparingByValue());
-
-Map<String, Integer> sorted = new LinkedHashMap<>();
-for (Map.Entry<String, Integer> entry : list) {
-  sorted.put(entry.getKey(), entry.getValue());
-}
-```
-
 ### Tools
 
-- Gradle/Maven, Spring Boot, Spring Data/JPA/Hibernate, JUnit, Mockito, AssertJ, Testcontainers, ArchUnit, Liquibase/Flyway, Lombok, MapStruct, Jackson, GraphQL, Docker
+- Testcontainers, ArchUnit, Liquibase/Flyway, MapStruct
 
 ### Commands related to Java
 

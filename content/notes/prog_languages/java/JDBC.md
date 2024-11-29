@@ -22,8 +22,8 @@ date = 2024-02-11
 1. **Row and Key Locks**: Useful when updating the rows (update, insert or delete operations), as they increase concurrency.
 2. **Page Locks**: Locks the page when the transaction updates, inserts or deletes rows or keys. The database server locks the entire page that contains the row. The lock is made only once by database server, even more rows are updated. This lock is suggested in the situation where large number of rows is to be changed at once.
 3. **Table Locks**: Utilizing table locks is efficient when a query accesses most of the tables of a table. These are of two types:
-   a) **Shared lock**: One shared lock is placed by the database server, which prevents other to perform any update operations.
-   b) **Exclusive lock**: One exclusive lock is placed by the database server, irrespective of the number of the rows that are updated.
+   - **Shared lock**: One shared lock is placed by the database server, which prevents other to perform any update operations.
+   - **Exclusive lock**: One exclusive lock is placed by the database server, irrespective of the number of the rows that are updated.
 4. **Database Lock**: In order to prevent the read or update access from other transactions when the database is open, the database lock is used.
 
 ### What are the differences between Stored Procedure and functions?

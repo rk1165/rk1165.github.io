@@ -45,6 +45,7 @@ date = 2024-02-11
 - [The tale of a single register value](https://blog.cloudflare.com/the-tale-of-a-single-register-value/?a)
 - [Everything you ever wanted to know about UDP sockets but were afraid to ask, part 1](https://blog.cloudflare.com/everything-you-ever-wanted-to-know-about-udp-sockets-but-were-afraid-to-ask-part-1/)
 - [Exposing a web service with Cloudflare Tunnel](https://erisa.dev/exposing-a-web-service-with-cloudflare-tunnel/)
+- [A good day to trie-hard: saving compute 1% at a time](https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/)
 
 ### Stackoverflow
 
@@ -86,6 +87,7 @@ date = 2024-02-11
 - [How we designed Dropbox ATF: an async task framework](https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox)
 - [Rewriting the heart of our sync engine](https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine)
 - [How image search works at Dropbox](https://dropbox.tech/machine-learning/how-image-search-works-at-dropbox)
+- [What’s new with Robinhood, our in-house load balancing service](https://dropbox.tech/infrastructure/robinhood-in-house-load-balancing-service)
 
 ### AirBnb
 
@@ -110,6 +112,7 @@ date = 2024-02-11
 - [Similarity Clustering to catch fraud rings](https://stripe.com/blog/similarity-clustering)
 - [Scaling your API with rate limiters](https://stripe.com/blog/rate-limiters)
 - [Ledger: Stripe’s system for tracking and validating money movement](https://stripe.com/blog/ledger-stripe-system-for-tracking-and-validating-money-movement)
+- [Test clocks: How we made it easier to test Stripe Billing integrations](https://stripe.com/blog/test-clocks-how-we-made-it-easier-to-test-stripe-billing-integrations)
 
 ### DoorDash
 
@@ -165,3 +168,4 @@ date = 2024-02-11
 - [10 Tips for Building Resilient Payment Systems](https://shopify.engineering/building-resilient-payment-systems)
 - [The Developer's Guide to SSO](https://workos.com/blog/the-developers-guide-to-sso)
 - [How we built the Tinder API Gateway](https://medium.com/tinder/how-we-built-the-tinder-api-gateway-831c6ca5ceca)
+- [The Reddit Metadata Store](https://www.reddit.com/r/RedditEng/comments/1avlywv/the_reddit_media_metadata_store/)

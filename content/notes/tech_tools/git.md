@@ -62,57 +62,57 @@ date = 2024-02-11
 
 ### diff
 
-- `git diff` : changed and not staged for commit
-- `git diff --cached` : to see the changes you just staged.
-- `git diff HEAD` : changed since last commit
-- `git diff <commit>` : shows changes from the given commit till latest one
-- `git diff --cached <commit>` : Specific commit and staged
-- `git diff <commit> <commit>` : difference between two commits
-- `git diff feature master` : difference between tips of branches
-- `git diff feature...master` : changes in master since feature was started off of it
+- `git diff`                         : changed and not staged for commit
+- `git diff --cached`                : to see the changes you just staged.
+- `git diff HEAD`                    : changed since last commit
+- `git diff <commit>`                : shows changes from the given commit till latest one
+- `git diff --cached <commit>`       : Specific commit and staged
+- `git diff <commit> <commit>`       : difference between two commits
+- `git diff feature master`          : difference between tips of branches
+- `git diff feature...master`        : changes in master since feature was started off of it
 - `git diff feature master file.txt` : difference in file.txt on two branches
-- `git diff -w` : ignore whitespace related changes
-- `git diff --color-words`
-- `git diff commit_id file_name` : shows different between the file at given commit id to the one at master branch
-- `git diff tag1 tag2 --stat` : how many files have changed between tag1 and tag2
+- `git diff -w`                      : ignore whitespace related changes
+- `git diff commit_id file_name`     : shows different between the file at given commit id to the one at master branch
+- `git diff tag1 tag2 --stat`        : how many files have changed between tag1 and tag2
 - `git diff commit_id1..commit_id2 $file_name` : gets a diff for given file name between the commits
 - `git diff --staged --no-renames`
+- `git diff --color-words`
 
 ### remote
 
 - `git remote show origin`
-- `git remote add shared ../hello.git` Adds the bare repository to our original repostiory (when this is done one can see in his local repository what has been done).
+- `git remote add shared ../hello.git` Adds the bare repository to our original repository (when this is done one can see in his local repository what has been done).
 - `git remote rm <name>` to remove the remote `<name>`
 - `git remote add [remote-repo-name] [remote-repo-URL]`: Records a new location for network data transfers.
 - `git remote -v`: Lists all locations for network data transfers.
 
 ### branch
 
-- `git branch --track greet origin/greet` adds a local branch that tracks a remote branch.
+- `git branch --track greet origin/greet` : adds a local branch that tracks a remote branch.
 - `git switch -c <new-branchname> [start-point]`
 - `git switch branchname`
-- `git branch -f master HEAD~3` : moves (by force) the master branch to three parents behind HEAD
-- `git branch -d` : delete only if it has already been fully merged in its upstream branch.
-- `git branch -D` : deletes the branch "irrespective of its merged status"
-- `git branch -m <oldname> <newname>` : rename a branch while pointed to any branch
-- `git branch -m <newname>` : rename the current branch
+- `git branch -f master HEAD~3`           : moves (by force) the master branch to three parents behind HEAD
+- `git branch -d`                         : delete only if it has already been fully merged in its upstream branch.
+- `git branch -D`                         : deletes the branch "irrespective of its merged status"
+- `git branch -m <oldname> <newname>`     : rename a branch while pointed to any branch
+- `git branch -m <newname>`               : rename the current branch
 
 ### show
 
-- `git show` command lets us peer right into the beating heart of a commit.
-- `git show commit_id:` : looks at the diff of that commit
+- `git show`                      : command lets us peer right into the beating heart of a commit.
+- `git show commit_id:`           : looks at the diff of that commit
 - `git show commit_id:filename`
-- `git show tag` : shows the commit of the given tag
-- `git show HEAD` : shows what commit id HEAD corresponds to now
-- `git show HEAD~2^2` : two commit back head and second parent
+- `git show tag`                  : shows the commit of the given tag
+- `git show HEAD`                 : shows what commit id HEAD corresponds to now
+- `git show HEAD~2^2`             : two commit back head and second parent
 - `git show HEAD@{"1 month ago"}` : show where head was a month ago
 
 ### stash
 
 - Git creates a special reference for the stash which lives in `.git/refs/stash`. We can verify this with `git show-ref`
-- `git stash list` : To list the stashed modifications
-- `git stash show` : to show files changed in the last stash
-- `git stash show -p` : to view the content of the most recent stash
+- `git stash list`              : To list the stashed modifications
+- `git stash show`              : to show files changed in the last stash
+- `git stash show -p`           : to view the content of the most recent stash
 - `git stash show -p stash@{1}` : to view the content of an arbitrary stash.
 - To delete a normal stash created with git stash, you want `git stash drop` or `git stash drop stash@{n}`
 

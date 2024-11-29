@@ -21,7 +21,7 @@ date = 2024-02-11
 03. [Startup Resources Toolkit](https://timothyhui.com.au/toolkit)
 04. [Free for Developers](https://free-for.dev/#/)
 05. [HN Recommendation](https://hn-recommend.julienc.me/)
-06. [Explorables](https://explorabl.es/) #co
+06. [Explorables](https://explorabl.es/)
 
 ### Tools
 
@@ -62,3 +62,17 @@ date = 2024-02-11
 11. [Server-Sent Events - an alternative to WebSockets](https://news.ycombinator.com/item?id=30312897)
 12. [HN fav](https://observablehq.com/@tomlarkworthy/hacker-favourites-analysis)
 13. [Favourite Tech Youtubers](https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers)
+
+### Learn by doing online
+
+1. [Learn RegEx](https://regexone.com/)
+2. [Learn Git Branching](https://learngitbranching.js.org/)
+
+
+### Web tools
+
+1. [Explain shell commands](https://explainshell.com/)
+2. [Man pages on the web](https://ss64.com)
+3. [Shell commands And Utilities](https://shellhaters.org/)
+4. [Analyze security best practices for websites](https://observatory.mozilla.org/)
+5. [Devhints — TL;DR for developer documentation](https://devhints.io)

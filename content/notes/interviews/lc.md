@@ -55,9 +55,8 @@ date = 2024-03-17
 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)                                                                                                 |        |
 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)             |                                                                             |   C    | E
 | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                 |        | E
-| [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                                                                                   |        | E
-| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                                         |        | E
-| [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)                                                                   |        | E
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | start from pos 31 and shift bits in result if curr bit is 1                                    |        | E
+| [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | Use LList, add to head (K + num[i]) % 10 and k % 10 while k > 0 |        | E
 | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                                                       |        | E
 | [Flood Fill](https://leetcode.com/problems/flood-fill/)  |                                                                                                    |   C    | E
 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | inner while loop moving i & j based on if not vowel, the swap vowel |   C    | E

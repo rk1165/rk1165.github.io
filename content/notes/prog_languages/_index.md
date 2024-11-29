@@ -14,11 +14,9 @@
 
 ### [Python](../prog_languages/python/)
 
+### [Rust](../prog_languages/rust)
+
 ---
-
-### Lisp
-
-1. [Practical Common Lisp](http://www.gigamonkeys.com/book/)
 
 ### Racket
 
@@ -27,12 +25,7 @@
 3. [Server Racket](https://serverracket.com/)
 4. [A Data-Centric Introduction to Computing](https://dcic-world.org)
 
-### Rust
 
-1. [Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
-2. [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-3. [Read Rust](https://readrust.net/)
-4. [John's videos](https://www.youtube.com/c/JonGjengset/videos)
 
 ### Scheme
 

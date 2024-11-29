@@ -31,31 +31,31 @@ date = 2024-02-11
 
 - `data` is used to declare a new algebraic data type.
 
-```
+```haskell
 data Bool = True | False
 data Maybe a = Nothing | Just a
 ```
 
 - `type` is used to create an alias for an algebraic data type.
 
-```
+```haskell
 type String = [Char]
 ```
 
 - `newtype` acts similarly to `type` with a syntax akin to `data`
 
-```
+```haskell
 newtype Radius = Radius Double
 data Diameter = Diameter Double
 ```
 
-- Differnce between `newtype` and `data`:
+- Difference between `newtype` and `data`:
   - `newtype` can only have a single constructor taking a single argument
   - `newtype` creates a strict value constructor and type creates a lazy one
   - `newtype` introduces no runtime overhead.
 - A typeclass is a way to guarantee that a type implements certain function (or data). A type is declared to implement the functions using the keyword `instance`.
 
-```
+```haskell
 type Point = (Int, Int)
 data Triangle = Triangle Point Point Point deriving (Show)
 data Square = Square Point Point Point Point deriving (Show)

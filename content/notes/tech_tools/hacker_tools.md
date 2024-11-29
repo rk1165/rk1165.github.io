@@ -7,20 +7,19 @@ date = 2024-02-11
 ### Virtual Machines and Containers
 
 - Virtual machines are simulated computers.
-- Hypervisor - this is a barebones operating system designed to have virtual machines on it, such as esxi or Hyper-V
+- Hypervisor - this is a barebones operating system designed to have virtual machines on it, such as **esxi** or **Hyper-V**
 - Suppose I need 5 programs to run in my datacenter which have slightly different - but conflicting - software dependencies. It can run on one hypervisor but effectively a lot of resources - RAM and CPU usage - will be wasted. This is one of the problems docker aims to fix.
-- Docker works by sandboxing programs and abstracting the parts of the os they need to talk to.(eg file system access to write and read data)
+- Docker works by sandboxing programs and abstracting the parts of the os they need to talk to. (eg file system access to write and read data)
 - Another key benefit of docker is scaling. With docker you can design your containers to be independent of each other, but capable of working together.
 
-##### Useful features
+#### Useful features
 
 - **Isolation**: hypervisors do a pretty good job of isolating the guest from the host, so one can use VMs to run buggy or untrusted software reasonably safely
-- **Snapshots**: you can take "snapshots" of your virual machine, capturing the entire state (disk, memory, etc.) make changes to your machine, and then restore to earlier state. This is useful for testing out potentially destructive actions, among other things.
-- [libvirt](https://wiki.libvirt.org/page/UbuntuKVMWalkthrough) toolkit allows you to manage multiple different virtualization providers/hypervisors
+- **Snapshots**: you can take "snapshots" of your virtual machine, capturing the entire state (disk, memory, etc.) make changes to your machine, and then restore to earlier state. This is useful for testing out potentially destructive actions, among other things.
 
-#### Containers
+### Containers
 
-- Containers are _mostly_ just an assembly of various Linux security features,like virtual file system, virtual network interfaces, chroots, virtual memory tricks, and the like, that together give the appearsance of virtualization.
+- Containers are _mostly_ just an assembly of various Linux security features, like virtual file system, virtual network interfaces, chroots, virtual memory tricks, and the like, that together give the appearance of virtualization.
 - Eg. Amazon Firecracker, Docker, rkt, lxc
 - Containers share the linux kernel with the host.
   ![Docker](/images/docker.png)
@@ -200,7 +199,6 @@ END {print rows}
 - `iptables` : firewall
 - `sudo wg-quick up wg0` : start wireguard vpn
 - `sudo wg-quick down wg0` : stop wireguard vpn
-- `tcpdump`?
 
 ### Program introspection
 
@@ -244,11 +242,6 @@ END {print rows}
 - Increment **minor** version when you add functionality in a backward-compatible manner
 - Increment **patch** when you make backward-compatible bug fixes
 - Another very different approach to dependency management is **vendoring**
-
-### OS Customization
-
-- [Tiling window management](https://en.wikipedia.org/wiki/Tiling_window_manager) is one approach to window management, where you organize windows into non-overlapping frames
-- Remap Caps Lock key to (Escape or Ctrl or BackSpace)
 
 ### Remote machines
 
@@ -299,7 +292,7 @@ X11DisplayOffset 10
 - Web APIs can be useful for very many reasons:
   - **Retrieval**: Web APIs can quite easily provide you information such as maps, weather or what your public ip address
   - **Interaction**. Web API endpoints can also be used to trigger actions. For example performing the following `curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' "https://hooks.slack.com/services/$SLACK_TOKEN"` will send a `Hello, World!` message in a channel.
-  - **Piping** common web API “gluing” has already been implemented and is provided with server included. This is the case for services like [If This Then That](https://ifttt.com/) and [Zapier](https://zapier.com/)
+  - **Piping** common web API "gluing" has already been implemented and is provided with server included. This is the case for services like [If This Then That](https://ifttt.com/) and [Zapier](https://zapier.com/)
 - WebDriver software like [Selenium](https://docs.seleniumhq.org/) for automating tasks
 
 ### Security and Privacy
@@ -334,96 +327,7 @@ X11DisplayOffset 10
 - Detecting lies by amateurs is fairly simple. For example, have them repeat the story over and over again and keep detailed notes (people tend to forget the lies they’ve told after about 20 minutes, so the details will change.) Have them describe the story in reverse chronological order (lies are harder to keep straight when they’re told backwards.)
 - TSA respects a locked suitcase “oh noes! we can’t open it, better let it go.”
 
-### GDB
-
-- `r[un]` [*args*] : Begin program execution. If the program normally takes command-line arguments, specify them here (e.g.,run hi 3)
-- `b[reak]` [*address*] : Set a breakpoint at the specified address.
-- `c[ontinue]` : Continue execution after stopping at a breakpoint
-- `i[nfo] b[reak]` : Display numbered list of all breakpoints currently set
-- `d[elete] b[reakpoints]` _number_ : Delete specified breakpoint number
-- `p[rint]` [/*format*] _expr_ : Print the value of an expression using the specified format. Expressions can involve program variables or registers, specified using a `$`. Useful formats include: `d`, `x`, `t` - binary, `f`, `i`-instruction, `c`
-- `i[nfo] r[egisters]` _register_ : print the value of the register
-- x/[_count_][*format*][*address*] : Examine the contents of a specified memory address, or the current address ifnone specified. If count is specified, displays specified number of word. particularly useful for printing the program text, e.g `x/100i foo` disassembles and prints 100 instructions starting a `foo`
-- `disas[semble]` _address_[,*address*] : Another way to print the assembly program text surrounding an address, or be-tween two addresses
-- `set` _var_ = _expr_ : Set specified register or memory location to value of expression
-- `s[tep] i` : Execute a single instruction and then return to the command line interpreter.
-- `n[ext] i` " Like `step i`, except that if the instruction is a subroutine call, the entire subrou-tine is executed before control returns to the interpreter.
-- `whe[re]` : show current activation stack, to find out where we are in call stack
-- `q[uit]` : exit from gdb
-- `x/10cb 0x40061c` show 10 values stored in location 0x40061c
-- print (int) 2147483648
-- print &i
-- print sizeof(i), print sizeof(int), print sizeof(double)
-- x/4xb &i : examine 4 values, formatted as x numerals, one b byte at a time.
-- `ptype` command tells you the type of a C expression.
-- `ptype &i`, `ptype main`, `ptype i`
-- `ptype &a` : where a is an array gives `int (*) [3]`
-- In GDB you can write scripts to automate.
-- set environment LD_PRELOAD=./mylibrary.so
-- set logging file output.txt
-- set loggin on
-- gdb ./test -x init.gdb (the script file to be used)
-- .gdbinit if always want to be run when running GDB
-- `run input.txt` giving the command line argument in gdb
-- `delete breakpoints`
-- break icorruptmem.c:30 if (x> 255)
-- set follow-fork-mode child/parent
-- set follow-exec-mode new
-- info threads : shows what threads are running and which thread we are currently in
-- LWP : Light-Weight process
-- thread 1 : switch to thread 1
-- thread 2 : switch to thread 2
-- watch counter >= 4500 (hex 4500) : setting a watch point to a variable
-- break count_to_big thread 2 : setting a break point to a specific thread (id = 2)
-- thread apply all backtrace :
-- thread apply all f : apply printing stack frame
-- set disassembly-flavour intel
-
-### TMUX
-
-#### Learning the basics
-
-- Tmux has sessions, windows, and panes.
-- Tmux could have multiple sessions, a session could have multiple windows, a window could have multiple panes.
-- In the Tmux terminal, we could call out Tmux console by `PREFIX + :` and run all the commands available for the local terminal without tmux prefix. e.g. in local terminal `tmux xxxxx` equivalent to `:xxxxx` in tmux terminal
-- In the Tmux terminal, to create Tmux sessions, first call out the Tmux console by hitting `PREFIX + :`.
-- `:new` for creating a new tmux session.
-- `tmux new -s [session-name]` create session with the given session name.
-- `tmux rename-session [-t session-name] [new-session-name]` to rename session from local terminal
-- `PREFIX + d` to detach and return to the local terminal from tmux.
-- `tmux attach -t [session-name]` to attach to the given session name.
-- `tmux kill-session -t [session-name]` to kill the session with given session name.
-- `tmux ls` or `tmux list-sessions` to view sessions from local terminal.
-- `tmux new -s windows -n shell` using the -n flag tells tmux to name the first window so we can identify it easily.
-- `PREFIX + c` to create a window in a current session.
-- `PREFIX + ,` to rename the current window.
-- `PREFIX + n` to move to the next window.
-- `PREFIX + p` to move to the previous window.
-- `PREFIX + [0-9]` to move between 0 to 9 numbered windows.
-- `PREFIX + w` to display a visual menu of windows.
-- `PREFIX + &` to kill the current window.
-- `PREFIX + %` to split the pane vertically.
-- `PREFIX + "` to split the pane horizontally
-- `PREFIX + window id` to select a specific window.
-- `PREFIX + x` to close the current pane.
-- `PREFIX + ↑/↓/←/→` to toggle between panes.
-- `PREFIX + q` momentarily displays pane numbers in each pane.
-- **Layouts**
-  - `even-horizontal` stacks all panes horizontally, L to R.
-  - `even-vertical` stacks all panes vertically, top to bottom
-  - `main-horizontal` creates one larger pane on the top and smaller panes underneath.
-  - `main-vertical` creates one large pane on the left side of the screen, and stacks the rest of the panes vertically on the right.
-  - `tiled` arranges all panes evenly on the screen.
-- `PREFIX + spacebar` cycles through the layouts.
-- `:new-window -n console` creates a new window named console in cmd mode.
-- `PREFIX + c` creates a new windows from withing an existing tmux session.
-- `:new-window -n processes "top"` creates a new window with top application running.
-- `PREFIX + ?` list all associated predefine keybindings and commands.
-- `PREFIX + s` to check sessions in tmux terminal
-- `PREFIX + $` to rename the current session in the Tmux terminal.
-- `tmux kill-server` to kill all sessions.
-
-#### Configuring tmux
+### Configuring tmux
 
 - `set` command sets options for the tmux session.
 - `setw` command sets options for windows
@@ -435,57 +339,6 @@ X11DisplayOffset 10
 - With commands such as `send-keys`, we can specify not only the target session, but also the target window and pane.
 - `[session]:[window].[pane]` format to target a pane
 - We can specify a configuration file when we start up an instance of tmux, by using the -f flag
-- tmuxinator list : lists all current projects.
-- tmuxinator implode : deletes all current projects.
-- tmuxinator open [configuration file name]
-- tmuxinator [name] : loads the tmux session for the given project.
-- tmuxinator delete [name] : deletes the specified project.
-
-#### Working with Text and Buffers
-
-- `PREFIX + [` places in copy mode.
-- `CTRL + b` up one page
-- `CTRL + f` down one page.
-- `g` : top of buffer history
-- `G` : bottom of buffer history.
-- `?` : by pressing in copy mode we can search upwards for phrases or keywords. `n` next, `N` previous occurrence
-- `/` : searc downwards
-- move the cursor to where we want to start selecting text. Press `SPACE` and move the cursor to the end of the text. Press `ENTER` and the selected text gets copied.
-- To paste the contents : `PREFIX + ]`
-- `:capture-pane`
-- `tmux show-buffer` display the contents of our paste buffer.
-- `tmux capture-pane && tmux save-buffer buffer.txt`
-
-#### Pair programming with tmux
-
-- Using a shared account is the simplest way to work with another user.
-- Enable SSH access on the machine that will act as the host, install and configure tmux on the that machine and then create a tmux session there.
-- **Steps**
-  1. `adduser tmux` create a tmux user that everyone will use for pairing session.
-  2. configure the account to take SSH keys from other developers to log into this account. Create a file ~/.ssh/authorized_keys under the `tmux` account. We copy the public key from our desktop machine to the server and add it to the `authorized_keys` file.
-- Using "grouped sessions"
-- Using tmux's support for sockets, we can create sessions that multiple users can connect to with ease.
-- **Steps**
-  1. create two new users.
-  2. create "tmux" group and the /var/tmux folder to hold the shared sessions.
-  3. We create sessions using the `-S` switch.
-- `tmux -S [socket]` creates a new session using a socket instead of a name.
-- `tmux -S [socket] attach` attaches to an existing session using a socket instead of a name.
-- `tmux new-session -t [existing session] -s [new session]` creates a connection to a grouped session.
-
-#### Workflows
-
-- Inside any pane, press `PREFIX !` will create a new window from that pane.
-- `join-pane` command to take a window and turn it into a pane.
-- `break-pane` to make a pane go full-screen.
-- When we create a new session, we can pass the command we want to execute as the last argument.
-- `PREFIX (` to go to the previous session and `PREFIX )` to the next session.
-- `PREFIX s` to display a list of sessions.
-- the `has-session` command returns a boolean value.
-- the `move-window` command is mapped to `PREFIX .`
-- `tmux move-window -s processes:1 -t editor` move the first window of the "processes" session to the "editor" session.
-- tmux can record the activity in a pane right to a text file with the `pipe-pane` command.
-- enter command mode and type `pipe-pane -o "mylog.txt"`
 
 ### SSH
 

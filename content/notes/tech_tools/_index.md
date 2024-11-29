@@ -8,30 +8,16 @@
 6. [Inside look at modern web browser](https://developer.chrome.com/blog/inside-browser-part1/)
 7. [Firecracker internals : a deep dive inside the technology powering AWS lambda](https://www.talhoffman.com/2021/07/18/firecracker-internals/)
 
-#### Sites
-
-1. [Learn RegEx](https://regexone.com/)
-2. [ExplainShell](https://explainshell.com/)
-3. [SS64 - Command line reference](https://ss64.com)
-4. [The POSIX Shell And Utilities](https://shellhaters.org/)
-5. [Observatory](https://observatory.mozilla.org/)
-6. [Devhints — TL;DR for developer documentation](https://devhints.io)
-7. [Learn Git Branching](https://learngitbranching.js.org/)
-
 #### Tools
 
-01. [fb-Infer](https://fbinfer.com/docs/infer-workflow/)
-02. [TailWind CSS](https://tailwindcss.com/)
-03. [jsonschema2pojo](https://www.jsonschema2pojo.org/)
-04. [Online regex tester and debugger](https://regex101.com)
-05. [ngrok - secure introspectable tunnels to localhost](https://dashboard.ngrok.com/login)
-06. [SocketXP](https://portal.socketxp.com/#/login)
-07. [Login - PortSwigger](https://portswigger.net/users)
-08. [HexEd.it - Browser-based Online and Offline Hex Editing](https://hexed.it)
-09. [CloudAMQP - RabbitMQ in the cloud](https://customer.cloudamqp.com/login)
-10. [Bonsai - ElasticSearch in the cloud](https://app.bonsai.io/login)
-11. [Cassandra as a service](https://astra.datastax.com/)
-12. [LMAX Disruptor](https://lmax-exchange.github.io/disruptor/)
+01. [fb-Infer - static analysis](https://fbinfer.com/docs/infer-workflow/)
+02. [jsonschema2pojo - convert from json schem to POJO classes](https://www.jsonschema2pojo.org/)
+03. [ngrok - secure introspectable tunnels to localhost](https://dashboard.ngrok.com/login)
+04. [HexEd.it - Browser-based Online and Offline Hex Editing](https://hexed.it)
+05. [CloudAMQP - RabbitMQ in the cloud](https://customer.cloudamqp.com/login)
+06. [Bonsai - ElasticSearch in the cloud](https://app.bonsai.io/login)
+07. [Cassandra as a service](https://astra.datastax.com/)
+08. [LMAX Disruptor - high throughput low latency](https://lmax-exchange.github.io/disruptor/)
 
 #### Kafka
 

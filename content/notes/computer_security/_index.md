@@ -39,3 +39,9 @@
 2. [We Break Software](https://secret.club/)
 3. [Pagedout](https://pagedout.institute/)
 4. [Introduction - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
+
+### Books
+
+- Applied Cryptography by Schneier as a general reference
+- Practical Cryptography as a design reference
+- Introduction to Modern Cryptography by J. Katz and Y. Lindell

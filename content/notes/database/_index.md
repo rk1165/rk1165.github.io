@@ -35,6 +35,7 @@
 3. [Understanding database Indexes in PostgreSQL](https://mastermind.dev/indexes-in-postgresql)
 4. [Enhance your Postgres skills](https://www.crunchydata.com/developers/tutorials)
 5. [PostgreSQL Exercises](https://pgexercises.com/)
+6. [Postgres internals](https://www.interdb.jp/pg/index.html)
 
 ### MySQL
 

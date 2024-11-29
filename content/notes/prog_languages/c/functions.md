@@ -181,10 +181,6 @@ date = 2024-02-11
 - `EBADF` : file descriptor invalid or is not open for reading.
 - `EIO` : hardware error
 
-### write
-
--
-
 ### close
 
 - the close call `flag = close(file_descriptor)` closes the file. where `flag` is zero for success, negative for error. `file_descriptor` is the file_descriptor of an open file.
