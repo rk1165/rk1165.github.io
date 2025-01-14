@@ -143,4 +143,6 @@ select {
   - a full channel (for send) is skipped over
   - a *done* channel is *just another channel*
   - **available channels are selected at random**
-- 
+- The `RuneCountInString(s string) (n int)` function of the utf8 package can be used to find the length of the string. This method takes a string as an argument and returns the number of runes in it.
+- `len(s string)` returns number of bytes instead of string length. For instance, `Señor` has 6 bytes. 2 for `ñ` and 4 for others.
+- For mutating strings we should use `s []rune` 
