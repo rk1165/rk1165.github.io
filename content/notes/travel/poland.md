@@ -4,8 +4,6 @@ date = 2024-06-27
 
 +++
 
-## Itinerary
-
 ### Gdansk
 
 - Aug 04 (Sun)

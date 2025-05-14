@@ -4,8 +4,6 @@ date = 2025-05-17
 
 +++
 
-## Itinerary
-
 ### Tokyo
 
 - May 16th (Fri) :
