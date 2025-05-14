@@ -4,6 +4,10 @@ date = 2025-05-17
 
 +++
 
+## Itinerary
+
+### Tokyo
+
 - May 16th (Fri) :
 
   - 2135 : Land in HND
@@ -134,7 +138,9 @@ date = 2025-05-17
   - 1530-1605 : Eizan Main Line, Kurama -> Demachiyanagi **0¥**
   - 1611-1617 : Keihan Main Line, Demachiyanagi -> Sanjo **230¥**
   - 1620-1900 : [Route](https://maps.app.goo.gl/6sjN4BEEycT9hXQh7) Pontocho Alley, Kiyamachi Street, Nishiki market, Yasaka Shrine, Gion district
-  - Bar Rocking Chair 
+  - Bar Rocking Chair
+
+### Kyoto
 
 - May 25th (Sun) - Kyoto
 
@@ -180,6 +186,8 @@ date = 2025-05-17
   - 1730-1830 : Meriken Park - a harbourside park that often has food stalls and markets
   - 1830-2100 : [Route](https://maps.app.goo.gl/ahr2WXUzTCCwCceL6) Explore Nankinmachi - (Chinatown) and Sannomiya at night. This is the entertainment district and has some awesome izakaya serving great seafood
 
+### Himeji/Kobe
+
 - May 28th (Wed) - Himeji / Kobe
 
   - 0716-0755 : JR Tokaido Sanyo Main Line New Rapid, **0¥** _KH_
@@ -191,6 +199,8 @@ date = 2025-05-17
   - 1605-1630 : [Moegi to Port tower](https://maps.app.goo.gl/Cg9qkvbk1Ki5Lw7a6)
   - 1915-2027 : Sanyo Shinkansen, Shin-Kobe -> Hiroshima **0¥** _KH_
   - 2117-2150 : [Hiroden Streetcar](https://www.hiroden.co.jp/en/sightseeing.html) Route 1, Hiroshima station -> Fukuromachi **240¥**
+
+### Hiroshima
 
 - May 29th (Thu) - Hiroshima
 
@@ -215,6 +225,8 @@ date = 2025-05-17
   - 1230-1500 : Shinkansen to Shin-Osaka **0¥**
   - 1521-1547 : Midosuji Line, Shin-Osaka -> Namba |> Sennichimae Line, Namba -> Tanimachi 9-chome **290¥**
   - 1600-2200 : [Osaka Walk](https://maps.app.goo.gl/4KtvG5RmkELNvPoKA) (Shinsekai, Nipponbashi Den Den Town, Kuromon Ichiba Market, Cookware shopping, Shinsaibashisuji, America-Mura)
+
+### Osaka
 
 - May 31st (Sat) - Osaka
 
