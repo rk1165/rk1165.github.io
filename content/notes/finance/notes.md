@@ -114,3 +114,21 @@ date = 2024-02-11
 - Budget airlines like Ryanair have long since decoupled flying from the services and amenities that usually accompanied it. Passengers have to pay separately for the extras, like seat selection and the carrying of baggage
 - *Experience good* whose quality can be judged only once consumed.
 - *Credence good* that buyers find hard to judge immediately.
+
+
+a lower forward P/E ratio may indicate a stock is undervalued relative to its future earnings potential.
+
+A PEG lower than 1.0 is best, suggesting that a company is relatively undervalued.
+
+VOO + VXUS + AVUV = Best Risk-Adjusted Returns and taking compensated risk.
+
+
+Don't do VOO and QQQ / QQQM if you want some extra tech exposure get VGT or FTEC. Way less overlap. Over 83% of QQQ is in VOO you will just be adding concentration to mag 7 stocks and paying more fees
+FTEC or VGT gets you new 230 to 256 tech stocks not in VOO
+I would just buy SCHX and VGT or FTEC call it good.
+VOO is fine but SCHX has more stocks and has performed a bit better.
+
+### IPOs
+
+Andruil
+Databricks

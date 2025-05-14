@@ -489,3 +489,6 @@ end
 
 - `Repo.one(from x in MyApp.Model, order_by: [desc: x.id], limit: 1)` : get the last record with Ecto
 -
+
+The amazing thing about Erlang and the BEAM is it's depth of features. To the OP the Behaviour/Interface of Erlang is their biggest take away. For me I believe it is how you require far far less development resources to build complex systems than you would require in any other language (provided comparable experience in both stacks). And for many the lightweight processes and programming model.
+OTP itself has so much in it. We've been working on compiling Elixir to run on iOS devices. Not only can we do that through the release process but through using the ei library provided in Erlang we can compile a Node in C that will interface with any other Erlang node over a typical distributed network as you would for Erlang, Elixir, Gleam, etc... furthermore there is a rpc library in Erlang where from C we can make function calls and interface with our Elixir application. Yes, the encoding/decoding has an overhead and FFI would be faster but we're still way within our latency budget and we got this stood up in a few days without even have heard of it before.

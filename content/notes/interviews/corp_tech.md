@@ -169,3 +169,4 @@ date = 2024-02-11
 - [The Developer's Guide to SSO](https://workos.com/blog/the-developers-guide-to-sso)
 - [How we built the Tinder API Gateway](https://medium.com/tinder/how-we-built-the-tinder-api-gateway-831c6ca5ceca)
 - [The Reddit Metadata Store](https://www.reddit.com/r/RedditEng/comments/1avlywv/the_reddit_media_metadata_store/)
+- [Our not-so-magic journey scaling low latency, multi-region services on AWS](https://www.atlassian.com/blog/technology/aws-scaling-multi-region-low-latency-service)

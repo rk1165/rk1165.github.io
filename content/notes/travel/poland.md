@@ -137,13 +137,6 @@ date = 2024-06-27
 | Aug 13 | Wieliczka | Salt Mine       | 1015-1215 | Tourist's Route + GT          |
 | Aug 14 | Katowice  | Guido Coal Mine | 1230-1530 |                               |
 
-### Trains
-
-| Date   | Route             | Timing (Train) |
-| ------ | ----------------- | -------------- |
-| Aug 06 | Gdansk - Malbork  | 0805-0833      |
-| Aug 14 | Krakow - Katowice | 0801-0928      |
-
 ### Phrases
 
 - Dzien Dobry
@@ -188,3 +181,33 @@ date = 2024-06-27
 - Korytarz = Aisle
 - Odjazdy = Departures
 - Przyjazdy = Arrivals
+- Do you speak English? (asked of a man)
+  - Czy Pan mówi po angielsku?    chih pahn moo-vee poh ahn-gyehl-skoo
+- Do you speak English? (asked of a woman)
+  - Czy Pani mówi po angielsku?    chih pah-nee
+- I (don’t) understand.
+  - (Nie) rozumiem.    (nyeh) roh-zoo-myehm
+- Thank you (very much) : Dziękuję (bardzo).    jehn-koo-yeh (bard-zoh)
+- No problem : Żaden problem.    zhah-dehn proh-blehm
+- one / two / three : jeden / dwa / trzy    yeh-dehn / dvah / tzhih
+- hundred / thousand : sto / tysiąc    stoh / tih-shants
+- How much? : Ile?    ee-leh
+- Is it free? : Czy to jest za darmo?    chih toh yehst zah dar-moh
+- Is it included? : Czy jest to wliczone?    chih yehst toh vlee-choh-neh
+- I’d like... (said by a man) : Chciałbym...    khchaw-beem
+- I’d like... (said by a woman) : Chciałabym...    khchah-wah-beem
+- ...a room : ...pokój.    poh-kooey
+- ...a ticket to ____. :  ...bilet do ____.    bee-leht doh ____
+- Where is...? : Gdzie jest...?    guh-dyeh yehst
+- ...the train station : ...dworzec kolejowy    dvoh-zhehts koh-leh-yoh-vih
+- ...the bus station : ...dworzec autobusowy    dvoh-zhehts ow-toh-boos-oh-vih
+- ...the tourist information office : ...informacja turystyczna    een-for-maht-syah too-ris-titch-nah
+- ...the toilet : ...toaleta    toh-ah-leh-tah
+- men / women : męska / damska    mehn-skah / dahm-skah
+- left / right / straight : lewo / prawo / prosto    leh-voh / prah-voh / proh-stoh
+- Old Town : Stare Miasto, STAH-reh mee-AH-stoh
+- Vistula River (Wisła, VEES-wah).
+- Main Market Square : Rynek Główny, REE-nehk GWOHV-neh
+- Wawel - Wah-vehl
+- Kazimierz (kah-ZHEE-mehzh)
+

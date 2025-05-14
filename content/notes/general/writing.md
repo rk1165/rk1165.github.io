@@ -226,13 +226,10 @@ date = 2024-02-11
 | refuse to accept a defeatist attitude ...              |
 | reasons that defy logical explanation ...              |
 | looked the other way ...                               |
-| operates behind a veil of secrecy ...                  |
-| with each passing day ...                              |
 | brushed the question aside ...                         |
 | prostituting your mind ...                             |
 | foregone conclusion ...                                |
 | spick-and-span ...                                     |
-| checkered past ...                                     |
 | take him up on his offer ...                           |
 | identifying with him ...                               |
 | neglecting to profit by your advice ...                |
@@ -241,7 +238,6 @@ date = 2024-02-11
 | bring down the curtain ...                             | bring something to an end                                                                        |
 | chip away ...                                          | to gradually make something weaker, smaller, or less effective.                                  |
 | his unbending quietness ...                            |
-| emotionally bulletproof                                |
 | cemetery of bad ideas ...                              |
 | swing a dead cat without hitting                       | Used to emphasize that a particular type of person or thing is so numerous as to be unavoidable. |
 | color outside the lines ...                            | to think or act in a way that doesn't conform to set rules.                                      |
