@@ -1,0 +1,138 @@
++++
+title = 'Quotes'
+date = 2024-02-11
+
++++
+
+- We can't change the direction of the wind, but we can adjust the sails.
+- Life is much more manageable when thought of as a scavenger hunt as opposed to a surprise party.
+- Civilization advances by extending the number of operations which we can perform without thinking about them.
+- Train yourself to let go of everything you fear to lose.
+- Don't worry if it doesn't work right. If everything did, you'd be out of a job.
+- While it's tempting to play it safe, the more we're willing to risk, the more alive we are.
+- In the end, what we regret most are the chances we never took.
+- Argue like you're right and listen like you're wrong.
+- The reasonable man adapts himself to the world, the unreasonable one persists in trying to adapt the world to himself.
+- Don't equate your troubles with other. All experiences are individual.
+- Everyone you'll ever meet will know something you don't.
+- The trouble with the world is that the stupid are cocksure and the intelligent are full of doubt. **Russell**
+- Most people would sooner die than think; in fact, they do so. **Russell**
+- Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric. **Russell**
+- I would never die for my beliefs because I might be wrong. **Russell**
+- One of the penalties for refusing to participate in politics is that you end up being governed by your inferiors. **Plato**
+- Whatever you can do or dream you can, begin it. Boldness has genius, power, and magic in it. **Goethe**
+- I love those who yearn for the impossible.
+- It is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested. But when it is wasted in heedless luxury and spent on no good activity, we are forced at last by death’s final constraint to realize that it has passed away before we knew it was passing. So it is: we are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. Life is long if you know how to use it. **Seneca**
+- Two things define you... your patience when you have nothing and your attitude when you have everything.
+- If she's amazing, she won't be easy. If she's easy, she won't be amazing. If she's worth it, you won't give up. If you give up, you're not worthy. Truth is, everybody is going to hurt you; you just gotta find the ones worth suffering for. **Bob Marley**
+- Some of the world's greatest feats were accomplished by people not 'smart' enough to know they were impossible.
+- All the problems of the world could be settled if people were only willing to think. The trouble is that people very often resort to all sorts of devices in order not to think, because thinking is such hard work. **Thomas J. Watson**
+- Technology is dominated by two types of people: those who understand what they do not manage, and those who manage what they do not understand. **Putt's Law**
+- How a person masters his fate is more important than what his fate is. **Wilhelm von Humboldt**
+- The leader has to be practical and a realist, yet must talk the language of the visionary and the idealist. **Eric Hoffer**
+- Words without actions are the assassins of idealism. **Herbert Hoover**
+- Everyone thinks of changing the world, but no one thinks of changing himself. **Tolstoy**
+- Real knowledge is to know the extent of one's ignorance. **Confucius**
+- Life may not be the party we hoped for, but while we're here we should dance. **Unknown**
+- It is better to fail in originality than to succeed in imitation. **Herman Melville**
+- If you wish to succeed in life, make perseverance your bosom friend, experience your wise counselor, caution your elder brother, and hope your guardian genius. **Joseph Addison**
+- People ask for criticism, but they only want praise. **Somerset Maugham**
+- Life is like a piano... what you get out of it depends on how you play it. **Unknown**
+- Whenever you find yourself on the side of the majority, it is time to pause and reflect. **Mark Twain**
+- The test of our progress is not whether we add to the abundance of those who have much. It is whether we provide enough to those who have little. **FDR**
+- It has been my experience that folks who have no vices have very few virtues. **Lincoln**
+- What one has not experienced one will never understand in print. **Isadora Duncan**
+- In dwelling, live close to the ground. In thinking, keep to the simple. In conflict, be fair and generous. In governing, don't try to control. In work, do what you enjoy. In family life, be completely present. **Lao Tzu**
+- A man should hear a little music, read a little poetry, and see a fine picture every day of his life, in order that worldly cares may not obliterate the sense of the beautiful which God has implanted in the human soul. **Goethe**
+- There are three things which the superior man guards against. In youth...lust. When he is strong...quarrelsomeness. When he is old...covetousness. **Confucius**
+- When money talks, nobody notices what grammar it uses. **Unknown**
+- He has achieved success who has lived well, laughed often, and loved much. **Bessie Stanley**
+- The essence of intelligence is skill in extracting meaning from everyday experience. **Unknown**
+- Well-timed silence hath more eloquence than speech. **Martin Fraquhar Tupper**
+- Don't let life discourage you; everyone who got where he is had to begin where he was. **Richard L. Evans**
+- He who asks is a fool for five minutes, but he who does not ask remains a fool forever. **Chinese proverb**
+- A clever person solves a problem. A wise person avoids it. **Einstein**
+- The ultimate test of a relationship is to disagree but hold hands. **Alexander Penney**
+- A diplomat is a man who always remembers a woman's birthday but never remembers her age. **Robert Frost**
+- If you are patient in one moment of anger, you will escape a hundred days of sorrow. **Chinese Proverb**
+- There is a certain majesty in simplicity which is far above all the quaintness of wit. **Alexander Pope**
+- Talent develops in tranquillity, character in the full current of human life. **Goethe**
+- Without ambition one starts nothing. Without work one finishes nothing. The prize will not be sent to you. You have to win it. The man who knows how will always have a job. The man who also knows why will always be his boss. As to methods there may be a million and then some, but principles are few. The man who grasps principles can successfully select his own methods. The man who tries methods, ignoring principles, is sure to have trouble. **Emerson**
+- Trust yourself. You know more than you think you do. **Benjamin Spock**
+- One of the hardest things in this world is to admit you are wrong. And nothing is more helpful in resolving a situation than its frank admission. **Benjamin Disreali**
+- Be nice to people on your way up because you'll need them on your way down. **W. Migner**
+- It is the mark of an educated mind to be able to entertain a thought without accepting it. **Aristotle**
+- The test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function. **F. Scott Fitzgerald**
+- It is better to be hated for what you are than to be loved for what you are not. **André Gide**
+- A woman is like a tea bag; you never know how strong it is until it's in hot water. **Eleanor Roosevelt**
+- You may not be her first, her last, or her only. She loved before she may love again. But if she loves you now, what else matters? She's not perfect - you aren't either, and the two of you may never be perfect together but if she can make you laugh, cause you to think twice, and admit to being human and making mistakes, hold onto her and give her the most you can. She may not be thinking about you every second of the day, but she will give you a part of her that she knows you can break - her heart. So don't hurt her, don't change her, don't analyze and don't expect more than she can give. Smile when she makes you happy, let her know when she makes you mad, and miss her when she's not there. **Bob Marley**
+- It is not a lack of love, but a lack of friendship that makes unhappy marriages. **Friedrich Nietzsche**
+- Good friends, good books, and a sleepy conscience: this is the ideal life. **Twain**
+- Life is what happens to us while we are making other plans. **Allen Saunders**
+- I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close. **Pablo Neruda**
+- If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales. **Einstein**
+- Logic will get you from A to Z; imagination will get you everywhere. **Einstein**
+- The more that you read, the more things you will know. The more that you learn, the more places you'll go. **Dr. Seuss**
+- Any fool can know. The point is to understand. **Einstein**
+- It is never too late to be what you might have been. **George Eliot**
+- A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one. **George R.R. Martin**
+- The real lover is the man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space. **Marilyn Monroe**
+- A wise girl kisses but doesn't love, listens but doesn't believe, and leaves before she is left. **Marilyn Monroe**
+- If you only read the books that everyone else is reading, you can only think what everyone else is thinking. **Haruki Murakami**
+- When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us. **Helen Keller**
+- A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment. **Jane Austen**
+- There are few people whom I really love, and still fewer of whom I think well. The more I see of the world, the more am I dissatisfied with it; and every day confirms my belief of the inconsistency of all human characters, and of the little dependence that can be placed on the appearance of merit or sense. **Jane Austen**
+- The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time. **Twain**
+- The most important personal attribute for success. It's not intelligence. It’s not being educated. It’s not even experience. It’s simply a determination to never ever give up. That is the most important element of success: dogged determination.
+- Life is about making an impact, not making an income.
+- Worldly wisdom teaches that it is better for reputation to fail conventionally than to succeed unconventionally. **Keynes**
+- Try to learn something about everything and everything about something. **Thomas Huxley**
+- A gem cannot be polished without friction, nor a man perfected without trials. **Seneca**
+- Creativity is broadly distributed, opportunity is not.
+- A man who dares to waste an hour of time has not discovered the value of life. **Darwin**
+- Instead of thinking, spend your life living. Make yourself useful, solve problems, add value, and most importantly: Enjoy it. Don’t rush life. Before you know, it will all be over.
+- The world breaks every one and afterward many are strong at the broken places. **Hemingway**
+- I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. **Maya Angelou**
+- Whether you think you can or you think you can’t, you’re right. **Henry Ford**
+- If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough. **Oprah Winfrey**
+- Remember no one can make you feel inferior without your consent. **Eleanor Roosevelt**
+- To handle yourself, use your head; to handle others, use your heart. **Eleanor Roosevelt**
+- Too many of us are not living our dreams because we are living our fears. **Les Brown**
+- The most difficult thing is the decision to act, the rest is merely tenacity. **Amelia Earhart**
+- Build your own dreams, or someone else will hire you to build theirs. **Farrah Gray**
+- Remember that not getting what you want is sometimes a wonderful stroke of luck. **Dalai Lama**
+- Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. **Calvin Coolidge**
+- Progress isn't made by early risers. It's made by lazy men trying to find easier ways to do something. **Heinlein**
+- Religion is what the individual does with his own solitariness. **A. N. Whitehead**
+- Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway. **Earl Nightingale**
+- Intelligent individuals learn from everything and everyone; average people, from their experiences. The stupid already have all the answers. **Socrates**
+- A smooth sea never made a skilled sailor - **FDR**
+
+### Oscar Wilde
+
+- Be yourself; everyone else is already taken.
+- To live is the rarest thing in the world. Most people exist, that is all.
+- We are all in the gutter, but some of us are looking at the stars.
+- If one cannot enjoy reading a book over and over again, there is no use in reading it at all.
+- The truth is rarely pure and never simple.
+- You can never be overdressed or overeducated.
+- Never love anyone who treats you like you’re ordinary.
+- Every saint has a past, and every sinner has a future.
+- Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth.
+- Some cause happiness wherever they go; other whenever they go.
+- A cynic is a man who knows the price of everything and the value of nothing.
+- All women become like their mothers. That is their tragedy. No man does, and that is his.
+- Disobedience, in the eyes of anyone who has read history, is a man’s original virtue. It is through disobedience that progress has been made, through disobedience and through rebellion
+- Wickedness is a myth invented by good people to account for the curious attractiveness of others.
+- Experience is one thing you can’t get for nothing.
+- It is easy in the world to live after the world’s opinion; it is easy in solitude to live after our own; but the great man is he who in the midst of the crowd keeps with perfect sweetness the independence of solitude.
+
+### Emerson
+
+- The only person you are destined to become is the person you decide to be.
+- There are many things of which a wise man might wish to be ignorant.
+- To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+- It is easy in the world to live after the world’s opinion; it is easy in solitude to live after our own; but the great man is he who in the midst of the crowd keeps with perfect sweetness the independence of solitude.
+- Always do what you are afraid to do.
+- Do not go where the path may lead, go instead where there is no path and leave a trail.
+- The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.

@@ -1,0 +1,315 @@
++++
+title = 'German Verbs'
+date = 2024-02-11
+
++++
+
+- feiern : to celebrate
+- fehlen : to be missing
+- funktionieren : to work; to function
+- etwas verlieren : to lose something
+- (etwas) bestellen : to order something
+- etwas besichtigen : to visit something
+- (etwas) gewinnen : to win (something)
+- etwas mögen : to like something
+- jemanden an|rufen : to call
+- (etwas) singen
+- (etwas) unterrichten : to teach; to instruct
+- (etwas) üben : to practice (something)
+- etwas wiederholen : to repeat/ revise / review something.
+- etwas hoffen : to hope something
+- sich etwas teilen : to share
+- stehen : to stand; to be
+- (sich) duschen : to shower, to take a shower
+- (etwas) buchstabieren : to spell
+- etwas suchen : to search for something
+- (etwas) putzen : to clean (something)
+- etwas vor|bereiten : to prepare something.
+- an|fangen : to start.
+- auf | räumen
+- an | rufen
+- ein | kaufen :
+- etwas mit|schreiben : to take notes
+- auf | hören : to finish; to stop
+- etwas korrigieren : to correct something
+- glauben : to believe; to think
+- raus|gehen : to go out
+- aus | schlafen : to sleep in
+- jemanden/etwas besuchen : to visit someone/something
+- jemandem etwas vor|lesen : to read someting to somebody
+- um|ziehen : to move (house, cities, etc)
+- jemanden begrüßen : to greet someone
+- jemanden beraten : to advise someone
+- etwas/jemanden hassen : to hate something/somebody
+- etwas werden : to become something.
+- etwas behalten : to keep; to maintain
+- jemandem etwas schenken : to give someone something
+- etwas zurück|geben : to give something back; to return something.
+- vorbei|gehen : to pass (by)
+- an|kommen : to arrive
+- frühstücken : to have breakfast | frühstückt, frühstückte, hat gefrühstückt
+- dauern : to last
+- um|steigen : to change (trains, buses, etc)
+- liegen : to lie; to be in a horizontal position
+- (jemandem) schmecken : to taste
+- etwas ab|sagen : to cancel something | sagt ab, sagte ab, hat abgesagt
+- glauben : to believe; to think | glaubt, glaubte, hat geglaubt
+- können : to be able to; can | kann, konnte
+- geöffnet haben : to be open (as in: a store, business, etc.) | hat, hatte, hat gehabt
+- geschlossen haben : to be closed | hat, hatte, hat gehabt
+- etwas beenden: to end something; to finish something | beendet, beendete, hat beendet
+- jemandem gefallen: to appeal to someone | gefällt, gefiel, hat gefallen
+- etwas ändern : to change something | ändert, änderte, hat geändert
+- ein|atmen : inhale; breathe in | atmet ein, atmete ein, hat eingeatmet
+- aus|atmen : to exhale; to breath out | atmet aus, atmete aus, hat ausgeatmet
+- Blut ab|nehmen : to draw blood; to take blood | nimmt ab, nahm ab, hat abgenommen
+- jemanden operieren : to operate on someone | operiert, operierte, hat operiert
+- etwas verschreiben : to prescribe something | verschreibt, verschrieb, hat verschrieben
+- jemanden krank|schreiben : to get a doctor's note; to take sick leave | schreibt krank, schrieb krank, hat krankgeschrieben
+- etwas/jemanden röntgen : to x-ray something/someone | röntgt, röntgte, hat geröntgt
+- sich etwas an|schauen : to look at something | schaut an, schaute an, hat angeschaut
+- vorbei|kommen : to come by | kommt vorbei, kam vorbei, ist vorbeigekommen
+- ab|nehmen : to lose weight | nimmt ab, nahm ab, hat abgenommen
+- zu|nehmen : to gain weight | nimmt zu, nahm zu, hat zugenommen
+- springen : to jump | springt, sprang, ist gesprungen
+- sich aus|ruhen : to relax | ruht aus, ruhte aus, hat ausgeruht
+- sich bewegen : to move; to exercise | bewegt, bewegte, hat bewegt
+- etwas/jemanden füttern : to feed somebody/something
+- weiter|suchen : to keep/continue searching | sucht weiter, suchte weiter, hat weitergesucht
+- (etwas) rachen : to smoke | raucht, rauchte, hat geraucht
+- etwas kaufen : to buy | kauft, kaufte, hat gekauft
+- etwas/jemanden röntgen : to x-ray | röntgt, röntgte, hat geröntgt
+
+### Sentences
+
+- Gute Besserung! : Hope you feel better!
+- Bis gleich! : See you in a little while!
+- Du nervst mich! : You're annoying me
+- Du spinnst! : You're crazy!
+- Du langweilst mich! : You're boring!
+- Du verstehst mich! : You understand me.
+- Ich möchte Asyl beantragen. : I would like to apply for asylum.
+- Freut mich : Pleased to meet you
+- Wie geht es dir? Varianten: Wie geht’s? / Wie geht’s dir?: How are you? (informal)
+- Wie geht es Ihnen? : How are you? (formal)
+- Es geht mir gut : I'm doing well
+- Gute Reise : Have a good trip!
+- Mach's gut! : so long!; Take care!
+- Einen schönen Tag noch! – a polite goodbye, especially used in shops
+- Auf Wiederhören! – a formal goodbye on the telephone
+- Viel Glück : Good luck
+- Was gibt es denn? : What do you have?
+- Du bist eingeladen! : It's my treat. It's on me.
+- Das stimmt so : Keep the change.
+- Komm rein! : Come in
+- Kommt drauf an. : That depends
+- Möchtest du etwas trinken? : Would you like something to drink? (informal)
+- Das geht nicht. : That won't/doesn't work
+- Das weiß ich leider nicht : Unforunately I don't know.
+- Wie spät ist es? : How late is it? / What time is it?
+- Wie viel Uhr ist es? : What time is it?
+- Mir ist schlecht : I don't feel well.
+- Schönen Tag noch! : Have a good rest of the day!
+- Gerne : with pleasure
+- Gern geschehen : Anytime!
+- Das macht nichts! : It doesn't matter!
+- Herzlichen Glückwunsch! : Congratulations!
+- Ich freue mich! : I'm glad
+- Das ist toll! : That's great!
+- Auf keinen Fall! : No way!
+- Das geht leider nicht. : Unfortunately, it's not possible.
+- Mir geht es gut, danke. : I'm fine, thank you.
+- Mir geht es nicht so gut. : I’m not so well.
+- Mir geht es schlecht. : I'm not doing well.
+- Ich bin glücklich. : I'm happy.
+- Ich bin müde. : I'm tired.
+- Ich bin krank. : I'm sick.
+- Ich bin erkältet. : I have a cold.
+- Ich bin gestresst. : I'm stressed out.
+- Ich bin sauer. : I'm angry!
+- Ich bin traurig. : I’m sad.
+- Ich brauche Hilfe. : I need help.
+- Das passt gut : That works/That's fine
+- Viele Grüße : best regards
+- Auf Wiederhören! : Goodbye! (on the telephone)
+- Ich habe mich verlaufen : I have got myself lost.
+- Is es weit : Is it far away?
+- Konnen Sie mir das bitte auf die Karte zeigen. :Can you show that to me on the map
+- Ich bin ledig : I'm single
+- Ich habe eine Aufenthaltserlaubnis. : I have a residence permit
+- Meine Aufenthaltserlaubnis ist abgelaufen. : My residence permit is expired
+- Ich möchte sie verlängern. : I would like to extend it
+- Entschuldigung, kannst du mir helfen? : Excuse me, can you help me?
+- Entschuldigung, können Sie mir helfen? : Excuse me, can you help me?
+- Wissen Sie, wo das ist? : Do you know where that is?
+- Leider nicht : Unfortunately not.
+- Was bedeutet das? : What does that mean?
+- Wie bitte? : I beg your pardon?
+- Können Sie das wiederholen bitte? : Could you please repeat that?
+- Können Sie bitte langsamer sprechen? : Could you please speak more slowly?
+- Ich möchte mich für einen Kurs anmelden. : I would like to sign up for a course
+- Ich möchte Deutsch lernen. : I would like to learn German
+- Ich spreche ein bisschen Deutsch. : I can speak some German
+- Ich spreche kein Deutsch. : I don't speak German.
+- Was machst du beruflich? : What's your job?
+- Was machnen Sie beruflich? : What do you do for a living?
+- Was bist du von beruf? : What do you do?
+- Was sind Sie von beruf? : What's your profession?
+- Ich bin Bauarbeiter : I'm a construction worker
+- Ich bin Arbeitslos : I'm unemployed
+- Ich mache eine Ausbildung : I do vocational training
+- Ich suche Arbeit : I'm looking for a job
+- Ich möchte Lehrer werden. : I want to be a teacher.
+- Wie ist deine Telefonnummer? : What's your phone number? (informal)
+- Wie ist Ihre Telefonnummer? : What's your phone number? (formal)
+- Kannst du mir deine E-Mail-Adresse geben? : Can you give me your email address? (informal)
+- Wie ist Ihre E-Mail-Adresse? : What's your email address? (formal)
+- Kann ich dich anrufen? : Can I call you? (informal)
+- Kann ich Sie anrufen? : Can I call you? (formal)
+- Ich habe kein Handy. : I don't have a cell phone
+- Ich habe keine E-Mail-Adresse. : I don't have an email-address
+- Bist du auf Facebook? : Are you on Facebook?
+- Hast du WhatsApp? : Are you on WhatsApp?
+- Wir treffen uns um 15 Uhr. : We're meeting at 3:00 p.m
+- Das dauert eine halbe Stunde. : It takes half an hour
+- Das geht von zwei bis drei Uhr. : It runs from 2:00 p.m. to 3:00 p.m.
+- Ich stehe um acht Uhr auf. : I get up at 8:00 a.m.
+- Ich putze mir die Zähne. : I brush my teeth.
+- Ich dusche täglich. : I shower every day.
+- Ich wasche mir die Haare. : I wash my hair.
+- Ich ziehe mich an. : I get dressed.
+- Um neun Uhr fahre ich zur Arbeit. : I go to work at nine o'clock.
+- Ich hatte einen Termin : I had an appointment
+- Ich muss den Termin leider absagen : I unfortunately have to cancel the appointment
+- Ich kann leider nicht kommen. : Unfortunately, I can't come.
+- Ich schaffe es leider nicht : Unfortunately, I can't make it.
+- Mir ist etwas dazwischengekommen : Something came up.
+- Ich bin krank : I'm sick
+- Ich habe einen wichtigen Termin : I have an important appointment
+- Ich habe den Bus verpasst : I missed the bus
+- Ich komme etwas später : I'm coming a bit later
+- Können wir das verschieben? : Can we change our plans?
+- Das ist schade : That's too bad.
+- Das macht nichts : It doesn't matter.
+- Wir machen einen neuen Termin : We'll arrange a new appointment.
+- Um eins esse ich zu Mittag. : I have lunch at one p.m.
+- Ich mache um 18:30 Uhr Feierabend. : I finish work at 6:30 p.m.
+- Ich gehe nach Hause. : I go home
+- Ich gehe um 22 Uhr ins Bett. : I go to sleep at 10:00 p.m.
+- Ich fahre mit dem Bus : I take the bus
+- Ich nehme die U-Bahn : I take the subway
+- Die Straßenbahn fährt zum Hauptbahnhof : The tram goes to the main train station.
+- Sie müssen hier einsteigen : You have to get in here (formal)
+- Sie müssen hier aussteigen : You have to get out here (formal)
+- Sie müssen hier umsteigen : You have to switch here (formal)
+- Ich fahre mit dem Fahrrad : I ride a bike
+- Ich fahre mit dem Auto : I drive a car
+- Ich möchte verreisen : I want to travel
+- Wohin fährst du? : Where are you travelling to?
+- Ich möchte nach Berlin fahren : I want to go to Berlin
+- Ich möchte Freunde besuchen : I want to visit friends.
+- Entschuldigung, fährt der Zug nach Berlin? : Excuse me, does the train go to Berlin?
+- Entschuldigung, wann fährt der Zug? : Excuse me, when does the train leave?
+- Der Zug fährt um 12:30 Uhr : The train leaves at 12:30 p.m.
+- Der Zug hat Verspätung : The train is delayed.
+- Die Bahn fährt nach Potsdam : The train goes to Potsdam.
+- Der ICE fährt nach München. : The ICE goes to Munich
+- Ich fliege nach Ägypten : I'm flying to Egypt
+- Entschuldigung, wo kann ich eine Fahrkarte kaufen? : Excuse me, where can I buy a ticket?
+- Entschuldigung, ich brauche ein Ticket nach Berlin. : Excuse me, I need a ticket to Berlin.
+- Entschuldigung, wie viel kostet eine Fahrkarte nach München? : Excuse me, how much is a ticket to Munich?
+- Ich möchte einen Sitzplatz reservieren bitte. : I'd like to reserve a seat
+- Der Supermarkt ist in der Nähe. : The supermarket is nearby
+- Entschuldigung, gibt es hier eine Bank? : Excuse me, is there are bank around here?
+- Entschuldigung, wie komme ich zum Hauptbahnhof ? Excuse me, how do I get to the main train station?
+- Entschuldigung, kennen Sie diese Adresse? : Excuse me, do you know where this address is?
+- Gehen sie geradeaus : walk straight ahead
+- Biegen Sie rechts ab : turn right
+- Nehmen Sie die nächste Straße links. : Turn left at the next stree
+- Das essen ist fertig : Dinner is ready
+- Guten Appetit! : Enjoy your meal
+- Ich habe Hunger : I'm hungry
+- Ich bin satt : I'm full
+- Wir frühstücken um acht Uhr : We have breakfast at 8.00 a.m
+- Um zwölf gibt es Mittagessen : Lunch is at 12 o'clock
+- Wir essen um 20 Uhr zu Abend : We eat dinner at 8:00 p.m
+- Was gibt’s zum Nachtisch? : What's for dessert?
+- Entschuldigung, wo finde ich Waschmittel? : Excuse me, where is the laundry detergent?
+- Entschuldigung, was kostet das? : Excuse me, how much does that cost?
+- Das kostet 99 Cent : It costs 99 cents
+- Das macht 10 Euro : That'll be ten euros
+- Wo ist die Kasse bitte? : Where's the checkout, please?
+- Zahlen Sie bar? : Are you paying cash?
+- Ich möchte mit Karte zahlen : I would like to pay with my credit card.
+- Wir akzeptieren keine Kreditkarten : We do not accept credit cards.
+- Das ist ein Sonderangebot : That's a special offer
+- Ich kaufe Seife : I'm buying soap
+- Das ist zu teuer : That is too expensive
+- Möchten Sie eine Tüte? : Would you like a bag?
+- Bitte Sehr : Here you go
+- Danke schön : Thank you very much.
+- Ich hätte gerne ein Brot : I would like a loaf of bread
+- Ich möchte Käse kaufen : I would like to buy some cheese.
+- Haben Sie Reis? : Do you have rice?
+- Wo finde ich Nudeln? : Where do I find pasta?
+- Ich möchte sechs Eier bitte : I would like six eggs, please.
+- Ich hätte gerne 100 Gramm Wurst : I would like 100 grams of cold meat.
+- Ich möchte ein halbes Kilo Fleisch : I would like half a kilo of meat.
+- Ich möchte Obst kaufen : I would like to buy some fruit
+- Ich möchte ein Kilo Äpfel bitte : I would like a kilo of apples, please.
+- Ein Kilo Bananen bitte : A kilo of bananas, please
+- Fünf Orangen bitte : Five oranges, please
+- Ich möchte zwei Gurken kaufen : I would like to buy two cucumbers.
+- Ein Kilo Zwiebeln bitte : One kilo of onions, please
+- Ich hätte gerne einen Bund Radieschen bitte : I would like a bunch of radishes, please.
+- Was möchtest du trinken? : What would you like to drink? (informal)
+- Was möchten Sie trinken? : What would you like to drink? (formal)
+- Trinkst/Trinken du Tee? : Do you drink tea?
+- Ich trinke gerne Tee : I like tea.
+- Einen Kaffee bitte! : A coffee, please!
+- Eine Cola bitte! : A coke, please!
+- Was isst du gerne? : What do you like to eat?
+- Ich esse gerne Reis : I like to eat Rice
+- Mein Lieblingsessen ist Pizza : My favorite food is pizza.
+- Ich bin Vegetarier : I'm a vegetarian.
+- Isst du Fleisch? : Do you eat meat? (informal)
+- Ich esse kein Schweinefleisch : I don't eat pork.
+- Trinkst du Alkohol? : Do you drink alcohol?
+- Nein, ich trinke keinen Alkohol : No, I don't drink alcohol
+- Das ist süß : It's sweet
+- Das ist salzig : It's salty
+- Das ist sauer : It's sour
+- Schmeckt es dir? : Does it taste good?
+- Ja, sehr gut! : Yes, very good!
+- Das ist lecker : It's delicious
+- Nein, das schmeckt mir nicht! : No, that doesn't taste good.
+- Das schmeckt bitter : It tastes bitter.
+- Eine Nummer größer bitte : A larger size, please.
+- Eine Nummer kleiner bitte : A smaller size, please.
+- Das passt mir nicht : It doesn't fit
+- Das ist zu klein : That is too small
+- Das ist zu groß : That is too large
+- Das ist zu lang : That is too long
+- Das ist zu kurz : That is too short
+- Das steht dir gut : It suits you. (informal)
+- Ich möchte einen Termin bitte : I would like an appointment
+- Ich habe Fieber : I have fever
+- Mir ist schwindelig : I'm dizzy
+- Ich habe Schmerzen : I'm in pain
+- Wo haben Sie Schmerzen? : Where does it hurt? (formal)
+- Welche Tabletten nehmen Sie? : What kind of medication are you on? (formal)
+- Ich habe Durchfall : I have diarrhea
+- Ich habe Verstopfung : I'm constipated.
+- Ich habe eine Allergie : I have an allergy
+- Ich habe Diabetes : I have diabetes
+- Tut das weh? : Does that hurt?
+- Das tut weh : It hurts
+- Der Hals ist entzündet : The throat is infected
+- Gute Besserung! : Get well soon!
+- Rufen Sie einen Krankenwagen bitte! : Call an ambulance, please!
+- Das ist ein Notfall! : It's an emergency
+- Was ist passiert? : What happened?
+- Das ist gebrochen : It's broken
+- Sie bekommen eine Spritze : You'll get an injection. (formal)
+- Wir müssen Blut abnehmen : We have to take a blood sample
+- Das muss operiert werden : It requires surgery
