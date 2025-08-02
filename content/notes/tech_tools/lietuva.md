@@ -1,5 +1,5 @@
 +++
-title = 'Lietuva'
+title = 'Lithuania'
 date = 2025-07-24
 
 +++

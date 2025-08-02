@@ -1,5 +1,5 @@
 +++
-title = 'Eesti'
+title = 'Estonia'
 date = 2025-07-24
 
 +++
