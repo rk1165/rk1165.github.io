@@ -6,6 +6,33 @@ date = 2024-02-11
 
 ### Eli's Blog
 
+#### 2024
+
+- [Implementing Raft: Part 5 - Exactly-once delivery](https://eli.thegreenplace.net/2024/implementing-raft-part-5-exactly-once-delivery/)
+- [GoMLX: ML in Go without Python](https://eli.thegreenplace.net/2024/gomlx-ml-in-go-without-python/)
+- [ML in Go with a Python sidecar](https://eli.thegreenplace.net/2024/ml-in-go-with-a-python-sidecar/)
+- [Ranging over functions in Go 1.23](https://eli.thegreenplace.net/2024/ranging-over-functions-in-go-123/)
+- [Bloch sphere](https://eli.thegreenplace.net/2024/bloch-sphere/)
+- [Calculating the norm of a complex number](https://eli.thegreenplace.net/2024/calculating-the-norm-of-a-complex-number/)
+- [Implementing Raft: Part 4 - Key/Value Database](https://eli.thegreenplace.net/2024/implementing-raft-part-4-keyvalue-database/)
+- [Linearizability in distributed systems](https://eli.thegreenplace.net/2024/linearizability-in-distributed-systems/)
+- [Notes on running Go in the browser with WebAssembly](https://eli.thegreenplace.net/2024/notes-on-running-go-in-the-browser-with-webassembly/)
+- [Notes on the Euler formula](https://eli.thegreenplace.net/2024/notes-on-the-euler-formula/)
+- [SentencePiece BPE Tokenizer in Go](https://eli.thegreenplace.net/2024/sentencepiece-bpe-tokenizer-in-go/)
+- [Building static binaries with Go on Linux](https://eli.thegreenplace.net/2024/building-static-binaries-with-go-on-linux/)
+- [Notes on Taylor and Maclaurin series](https://eli.thegreenplace.net/2024/notes-on-taylor-and-maclaurin-series/)
+- [Asking an LLM to build a simple web tool](https://eli.thegreenplace.net/2024/asking-an-llm-to-build-a-simple-web-tool/)
+- [Locally patching dependencies in Go](https://eli.thegreenplace.net/2024/locally-patching-dependencies-in-go/)
+- [Projections and Projection Matrices](https://eli.thegreenplace.net/2024/projections-and-projection-matrices/)
+- [Reading Google Sheets from a Go program](https://eli.thegreenplace.net/2024/reading-google-sheets-from-a-go-program/)
+- [Tokens for LLMs: Byte Pair Encoding in Go](https://eli.thegreenplace.net/2024/tokens-for-llms-byte-pair-encoding-in-go/)
+- [Method of differences and Newton polynomials](https://eli.thegreenplace.net/2024/method-of-differences-and-newton-polynomials/)
+- [The life of an Ollama prompt](https://eli.thegreenplace.net/2024/the-life-of-an-ollama-prompt/)
+- [Gemma, Ollama and LangChainGo](https://eli.thegreenplace.net/2024/gemma-ollama-and-langchaingo/)
+- [gemini-cli: Access Gemini models from the command-line](https://eli.thegreenplace.net/2024/gemini-cli-access-gemini-models-from-the-command-line/)
+- [Using Gemini models in Go with LangChainGo](https://eli.thegreenplace.net/2024/using-gemini-models-in-go-with-langchaingo/)
+- [Sign in with Google in Go](https://eli.thegreenplace.net/2024/sign-in-with-google-in-go/)
+
 #### 2023
 
 - [Using Gemini models from Go](https://eli.thegreenplace.net/2023/using-gemini-models-from-go/)
@@ -124,11 +151,9 @@ date = 2024-02-11
 - [Implementing reader-writer locks](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/)
 - [SQL inner and outer joins](https://eli.thegreenplace.net/2019/sql-inner-and-outer-joins/)
 - [Design patterns in Go's database/sql package](https://eli.thegreenplace.net/2019/design-patterns-in-gos-databasesql-package/)
-- [Does a concrete type implement an interface in Go?](https://eli.thegreenplace.net/2019/does-a-concrete-type-implement-an-interface-in-go/)
 - [GitHub webhook payload as a cloud function](https://eli.thegreenplace.net/2019/github-webhook-payload-as-a-cloud-function/)
 - [Unix domain sockets in Go](https://eli.thegreenplace.net/2019/unix-domain-sockets-in-go/)
 - [Go JSON Cookbook](https://eli.thegreenplace.net/2019/go-json-cookbook/)
-- [On concurrency in Go HTTP servers](https://eli.thegreenplace.net/2019/on-concurrency-in-go-http-servers/)
 
 #### 2018
 

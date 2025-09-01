@@ -1,3 +1,9 @@
++++
+title = 'Project Ideas'
+date = 2025-10-21
+
++++
+
 ### Project ideas to work on
 
 - Write a load balancer. Then add different strategies to it. Then add health checking of upstream
@@ -22,6 +28,23 @@
 - Sync between cross browsers - Apple notes and Google keep
 - Travel plan together with friends
 - Summarise job listing using gpt and try to find startup opportunities
+- To get a better understanding of the kernel, students could:
+  - print "hello world" during the boot process;
+  - design their own scheduler;
+  - modify the page-handling policy; and
+  - create their own filesystem.
+- Should implement the following:
+  - an HTTP client and daemon
+  - a DNS resolver and Server
+  - a command-line SMTP mailer
+- RSA is easy enough to implement that everyone should do it
+
+### Portfolio vs Resume
+
+- Every CS major should build a _portfolio_
+  - A portfolio could be as simple as a personal blog, with a post for each project or accomplishment. A better portfolio would include per-project pages, and publicly browsable code.
+  - Contributions to open source should be linked and documented.
+- [Github is my resume](http://pydanny.blogspot.com/2011/08/github-is-my-resume.html)
 
 ### Chat APP
 

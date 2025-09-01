@@ -6,7 +6,6 @@ date = 2024-03-17
 
 |  Problem                                                                        | Remark                                                                      | Status | Level |
 | --------------------------------------------------------------------------------| ----------------------------------------------------------------------------| ------ | ----- |
-| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)   | Sort array and compare first and last                                       |   C    | E
 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/)             | 1, prevRow values from col 1 to row, 1 to currRow                           |   C    | E
 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) |                                                                             |   C    | E
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)         | map chars to numbers and check they are same for both strings  a->1 g->2    |   C    | E

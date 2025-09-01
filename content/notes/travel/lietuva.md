@@ -129,22 +129,3 @@ date = 2025-07-24
 | ------------ | ---- | ---------------- | 
 | Vilnius Pass | 56   | 72h Vilnius Pass |
 | Travel Card  | 1.5  | Vilnius          |
-| 5-day Ticket | 12   | Vilnius          |
-
-### Travels
-
-| Date     | From     | To       | Medium | Cost (€) |
-| -------- | -------- | -------- | ------ | -------- |
-| 23/08/25 | Klaipeda | Palanga  | Bus    | 3        |
-| 23/08/25 | Palanga  | Klaipeda | Bus    | 3.2      |
-| 24/08/25 | Klaipeda | Smiltyne | Ferry  | 1.5      |
-| 24/08/25 | Smiltyne | Nida     | Bus    | 5.7      |
-| 24/08/25 | Nida     | Smiltyne | Cycle  | 15       |
-| 24/08/25 | Smiltyne | Klaipeda | Ferry  | 1.5      |
-| 24/08/25 | Klaipeda | Vilnius  | Bus    | 25       |
-| 25/08/25 | Vilnius  | Trakai   | Bus    | 2.6      |
-| 25/08/25 | Trakai   | Vilnius  | Bus    | 2.6      |
-| 26/08/25 | Vilnius  | Kaunas   | Train  | 5.2      |
-| 26/08/25 | Kaunas   | Vilnius  | Train  | 5.2      |
-| 27/08/25 | Vilnius  | Kaunas   | Train  | 5.2      |
-| 27/08/25 | Kaunas   | Vilnius  | Train  | 5.2      |

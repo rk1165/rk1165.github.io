@@ -3,6 +3,7 @@
 1. [The many flavors of hashing](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
 2. [Optimizing Open Addressing](https://thenumb.at/Hashtables/)
 3. [How does Shazam work?](https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition)
+4. [Bloom Filters](https://samwho.dev/bloom-filters/)
 
 ### Learning Resources
 

@@ -1,0 +1,184 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Ravi Kumar",
+    "email": "kumarravi1165@gmail.com",
+    "phone": "8979525713",
+    "location": {
+      "address": "Bengaluru, KA"
+    }
+  },
+  "education": [
+    {
+      "area": "Electrical Engineering",
+      "studyType": "Integrated Dual Degree (B.Tech + M.Tech)",
+      "startDate": "Jul 2012",
+      "endDate": "May 2017",
+      "institution": "Indian Institute of Technology",
+      "location": "Roorkee"
+    },
+    {}
+  ],
+  "work": [
+    {
+      "company": "Nike",
+      "location": "Bengaluru, KA",
+      "position": "Software Engineer III",
+      "website": "",
+      "startDate": "Oct 2021",
+      "endDate": "Present",
+      "highlights": [
+        "Developed microservices in Java with Apache Camel to integrate and transform data between WMS and SAP ERP.",
+        "Developed a Slack bot in Python to automate workflows and handle user support queries.",
+        "Built a Golang web application to provide visibility into order fulfillment status.",
+        "Developed an automation testing framework with Cucumber, improving integration testing coverage across services.",
+        "Developed REST API in Java for handling Givex Gift Card requests",
+        "Built a Golang application for migrating data from ElasticSearch to DynamoDB with real time visibility.",
+        "Built a load testing service using Gatling with support for parallel execution on EC2 instances.",
+        "Identified and executed multiple cloud cost-optimization strategies, achieving significant savings.",
+        "Automated production triage and resolution with Python scripts, reducing issue resolution time by 70%.",
+        "Deployed lambdas in AWS for monitoring queue depths during holiday season and alertion on Slack"
+      ]
+    },
+    {
+      "highlights": [
+        "Developed Python scripts for synchronizing data between tables along with report generation for monitoring.",
+        "Implemented Java APIs for enabling seamless operations across a multi-tenant DB2 database.",
+        "Refactored a legacy web application to efficiently work with multiple databases, improving maintainability."
+      ],
+      "company": "Wissen Technology",
+      "position": "Software Engineer",
+      "location": "Bengaluru, KA",
+      "startDate": "Apr 2020",
+      "endDate": "Oct 2021"
+    },
+    {
+      "highlights": [
+        "Implemented REST APIs for a custom store to onboard U.S. educational institutions for device procurement workflows.",
+        "Developed REST APIs for a content management system backed by Cassandra."
+      ],
+      "company": "Infosys",
+      "position": "Specialist Programmer",
+      "location": "Bengaluru, KA",
+      "startDate": "Aug 2017",
+      "endDate": "Mar 2020"
+    },
+    {
+      "highlights": [
+        null
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "Golang",
+        "JavaScript"
+      ]
+    },
+    {
+      "keywords": [
+        "SQLite",
+        "ElasticSearch",
+        "MySQL",
+        "Cassandra",
+        "Redis"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "SpringBoot",
+        "Flask"
+      ],
+      "name": "Web Frameworks"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Gradle",
+        "Maven",
+        "Copilot",
+        "CLI"
+      ],
+      "name": "Tools"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Kafka",
+        "Jenkins",
+        "Terraform",
+        "GitHub Actions",
+        "Splunk"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "GCP (Basic)",
+        "DigitalOcean"
+      ],
+      "name": "Cloud"
+    },
+    {
+      "keywords": [
+        "Apache Camel",
+        "Boto3",
+        "AWS SDK",
+        "htmx"
+      ],
+      "name": "Libraries"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python, Flask, Sqlite, DigitalOcean"
+      ],
+      "name": "Feeder",
+      "description": "A Python + Flask application to convert any website into an RSS feed",
+      "url": "https://github.com/rk1165/feeder"
+    },
+    {
+      "keywords": [
+        "Golang, Sqlite, Docker, Github Actions"
+      ],
+      "name": "pse",
+      "description": "A personal search engine which indexes websites in SQLite with full-text search support",
+      "url": "https://github.com/rk1165/pse"
+    },
+    {
+      "keywords": [
+        "Golang, Sqlite, Docker, Github Actions"
+      ],
+      "name": "Feedcreator",
+      "url": "https://github.com/rk1165/feedcreator",
+      "description": "Golang application to convert any website into an RSS feed"
+    }
+  ],
+  "awards": [
+    {},
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

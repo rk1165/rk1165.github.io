@@ -13,7 +13,7 @@
 10. [Distributed Systems](./dist_sys/)
 11. [Finance](./finance/)
 12. [General](./general/)
-13. [Interviews](./interviews/)
+13. [Job](./job/)
 14. [Languages](./languages/)
 15. [Linux](./linux/)
 16. [Maths](./maths/)

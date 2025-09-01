@@ -122,13 +122,3 @@ date = 2025-07-24
 | ------------ | ---- | ------ | ------ |
 | 5-day Ticket | 10   | Riga   |        |
 | e-tallon     | 2    | Riga   |        |
-
-### Travels
-
-| Date     | From    | To      | Medium | Cost (€) |
-| -------- | ------- | ------- | ------ | -------- |
-| 18/08/25 | Riga    | Sigulda | Train  | 2.45     |
-| 18/08/25 | Sigulda | Riga    | Train  | 2.45     |
-| 19/08/25 | Riga    | Cesis   | Train  | 4.32     |
-| 20/08/25 | Riga    | Kuldiga | Bus    | 8        |
-| 20/08/25 | Kuldiga | Riga    | Bus    | 8        |

@@ -24,9 +24,8 @@ date = 2024-06-27
 1. [Writing Bug-Free C Code](https://www.duckware.com/bugfreec/index.html)
 2. [C Puzzles](http://programmedlessons.org/CPuzzlesNew/CPuzzlesMain.html)
 3. [comp.lang.c Frequently Asked Questions](http://www.c-faq.com/)
-4. [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
-5. [Dive into Systems](https://diveintosystems.org/singlepage/)
-6. [Notes on DS and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html)
+4. [Dive into Systems](https://diveintosystems.org/singlepage/)
+5. [Notes on DS and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html)
 
 ### Haskell
 

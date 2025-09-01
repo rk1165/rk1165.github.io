@@ -173,72 +173,72 @@ date = 2024-02-11
 
 | phrases                                                | uses                                                                                             |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| burden of proof falls on                               |
-| cut their teeth on                                     |
-| Analysis paralysis                                     |
-| in tangible/intangible realms                          |
-| to own up the situation                                |
-| something gone awry                                    |
-| throw the baby out with the bath water                 |
-| rhetorical skill                                       |
-| .... cough up the cash                                 |
-| purpose and meaning have become conflated with glamour |
-| .... wake of life                                      |
-| my flirtation with tennis ...                          |
-| ... what I signed up for in life                       |
-| ... I am a close second.                               |
-| ... steering money away from the problems at hand      |
-| few situations merit ...                               |
-| multitude of people                                    |
-| tailed off                                             |
-| flexing their muscles                                  |
-| reminder of the pitfalls                               |
-| .... not lost on me                                    |
-| ... jumped at the chance..                             |
-| troubles stemmed from...                               |
-| ... challenging stretches of life                      |
-| budge a dime                                           |
-| not survive the light of day                           |
-| a state of arrested development                        |
-| pull a rabbit out of the hat                           |
-| incandescent century                                   |
+| burden of proof falls on                               |                                                                                                  |
+| cut their teeth on                                     |                                                                                                  |
+| Analysis paralysis                                     |                                                                                                  |
+| in tangible/intangible realms                          |                                                                                                  |
+| to own up the situation                                |                                                                                                  |
+| something gone awry                                    |                                                                                                  |
+| throw the baby out with the bath water                 |                                                                                                  |
+| rhetorical skill                                       |                                                                                                  |
+| .... cough up the cash                                 |                                                                                                  |
+| purpose and meaning have become conflated with glamour |                                                                                                  |
+| .... wake of life                                      |                                                                                                  |
+| my flirtation with tennis ...                          |                                                                                                  |
+| ... what I signed up for in life                       |                                                                                                  |
+| ... I am a close second.                               |                                                                                                  |
+| ... steering money away from the problems at hand      |                                                                                                  |
+| few situations merit ...                               |                                                                                                  |
+| multitude of people                                    |                                                                                                  |
+| tailed off                                             |                                                                                                  |
+| flexing their muscles                                  |                                                                                                  |
+| reminder of the pitfalls                               |                                                                                                  |
+| .... not lost on me                                    |                                                                                                  |
+| ... jumped at the chance..                             |                                                                                                  |
+| troubles stemmed from...                               |                                                                                                  |
+| ... challenging stretches of life                      |                                                                                                  |
+| budge a dime                                           |                                                                                                  |
+| not survive the light of day                           |                                                                                                  |
+| a state of arrested development                        |                                                                                                  |
+| pull a rabbit out of the hat                           |                                                                                                  |
+| incandescent century                                   |                                                                                                  |
 | dusting himself off                                    | when someone overcomes his problems                                                              |
-| critics were slowly turning into converts              |
+| critics were slowly turning into converts              |                                                                                                  |
 | qualities often ascribed to ...                        | to say qualities that some profession or person displays                                         |
-| remains a mystery in its own right                     |
-| unadvertised limitations of                            |
-| aching detail                                          |
+| remains a mystery in its own right                     |                                                                                                  |
+| unadvertised limitations of                            |                                                                                                  |
+| aching detail                                          |                                                                                                  |
 | to be on the ground floor of something                 | that thing is just starting                                                                      |
-| this problem is endemic in ..                          |
-| wave of calm washed over me ..                         |
-| completely devoid of substance ...                     |
-| broaden your horizon ..                                |
-| shrouded in mystery ...                                |
-| if it's all the same to you ...                        |
-| all the imaginable walks of life ...                   |
-| unforseen reality ..                                   |
-| something has languished ...                           |
-| slightest of infraction ...                            |
-| faces wore expressions ...                             |
-| to have a rendezvous with destiny ...                  |
-| without much further ado ...                           |
-| subject within the purview of ...                      |
-| refuse to accept a defeatist attitude ...              |
-| reasons that defy logical explanation ...              |
-| looked the other way ...                               |
-| brushed the question aside ...                         |
-| prostituting your mind ...                             |
-| foregone conclusion ...                                |
-| spick-and-span ...                                     |
-| take him up on his offer ...                           |
-| identifying with him ...                               |
-| neglecting to profit by your advice ...                |
-| invasion of moral privacy ...                          |
-| suffering from intellectual solitude ...               |
+| this problem is endemic in ..                          |                                                                                                  |
+| wave of calm washed over me ..                         |                                                                                                  |
+| completely devoid of substance ...                     |                                                                                                  |
+| broaden your horizon ..                                |                                                                                                  |
+| shrouded in mystery ...                                |                                                                                                  |
+| if it's all the same to you ...                        |                                                                                                  |
+| all the imaginable walks of life ...                   |                                                                                                  |
+| unforseen reality ..                                   |                                                                                                  |
+| something has languished ...                           |                                                                                                  |
+| slightest of infraction ...                            |                                                                                                  |
+| faces wore expressions ...                             |                                                                                                  |
+| to have a rendezvous with destiny ...                  |                                                                                                  |
+| without much further ado ...                           |                                                                                                  |
+| subject within the purview of ...                      |                                                                                                  |
+| refuse to accept a defeatist attitude ...              |                                                                                                  |
+| reasons that defy logical explanation ...              |                                                                                                  |
+| looked the other way ...                               |                                                                                                  |
+| brushed the question aside ...                         |                                                                                                  |
+| prostituting your mind ...                             |                                                                                                  |
+| foregone conclusion ...                                |                                                                                                  |
+| spick-and-span ...                                     |                                                                                                  |
+| take him up on his offer ...                           |                                                                                                  |
+| identifying with him ...                               |                                                                                                  |
+| neglecting to profit by your advice ...                |                                                                                                  |
+| invasion of moral privacy ...                          |                                                                                                  |
+| suffering from intellectual solitude ...               |                                                                                                  |
 | bring down the curtain ...                             | bring something to an end                                                                        |
 | chip away ...                                          | to gradually make something weaker, smaller, or less effective.                                  |
-| his unbending quietness ...                            |
-| cemetery of bad ideas ...                              |
+| his unbending quietness ...                            |                                                                                                  |
+| cemetery of bad ideas ...                              |                                                                                                  |
 | swing a dead cat without hitting                       | Used to emphasize that a particular type of person or thing is so numerous as to be unavoidable. |
 | color outside the lines ...                            | to think or act in a way that doesn't conform to set rules.                                      |
 | bend someone's ear                                     | talk to someone, especially at length or to ask a favour                                         |

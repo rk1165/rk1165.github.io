@@ -1,6 +1,6 @@
 baseURL = "https://rk1165.github.io/"
 languageCode = "en-us"
-title = "Ravi Kumar's website"
+title = "Ravi's website"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -36,9 +36,15 @@ enableEmoji = true
   url = "https://www.linkedin.com/in/ravi-kumar-713057249/"
 
 [[params.social]]
+  name = "Goodreads"
+  icon = "fa-brands fa-goodreads fa-2x"
+  weight = 3
+  url = "https://www.goodreads.com/user/show/68652414-ravi-kumar"
+
+[[params.social]]
   name = "RSS"
   icon = "fa-solid fa-rss fa-2x"
-  weight = 3
+  weight = 4
   url = "https://rk1165.github.io/index.xml"
   rel = "alternate"
   type = "application/rss+xml"

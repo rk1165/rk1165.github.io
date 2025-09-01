@@ -1,11 +1,12 @@
-Hello, and welcome to my teeny-tiny corner of the web!\
-I have created this website to write about things I find interesting and as a note to my future self. \
-I love Computers but I also like reading books, watching movies, traveling places among many other things.\
+Hello there - and welcome to my little corner of the internet!\
+I built this website as a space to jot down thoughts, write about projects I am working on, places I travelled to and leave notes for my future self. \
+Outside the digital world, I enjoy reading books, watching movies, and traveling whenever I get the chance. \
 \
-Over the years I have collected notes on various Computer Science related fields and other topics which can be browsed [here](../notes/). \
-It's a never ending list. Hopefully, someday I would be able to read most if not all of it.
+Over the years, I’ve gathered a collection of notes and snippets across various Computer Science topics (and a few others) — you can browse through them [here](../notes/). 
+It’s a never-ending list, sort of like my anti-library. Maybe one day I’ll manage to read most of it!
 
 
-### Contact
+### 📬 Get in touch
 
-For questions and comments, please shoot me an email [at](mailto:kumarravi1165@gmail.com)
+If you have any questions, thoughts, or just want to say hi, feel free to drop me an email at [kumarravi1165@gmail.com](mailto:kumarravi1165@gmail.com). \
+You’ll also find my social links on the home page.
