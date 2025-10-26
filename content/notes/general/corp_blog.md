@@ -143,9 +143,9 @@ date = 2024-02-11
 - [Streamlining Grab's Segmentation Platform with faster creation and lower latency](https://engineering.grab.com/streamlining-grabs-segmentation-platform)
 - [Roblox Return to Service](https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/)
 - [LinkedIn Real-Time Architecture: How Does LinkedIn Identify Its Users](https://www.scaleyourapp.com/linkedin-real-time-architecture-how-does-linkedin-identify-its-users-online/)
-- [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)
-- [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
-- [A bit about content ratings](https://medium.com/vimeo-engineering-blog/a-bit-about-content-ratings-9959810359d2)
+- ~~[What Powers Instagram](https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)~~
+- ~~[Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)~~
+- ~~[A bit about content ratings](https://medium.com/vimeo-engineering-blog/a-bit-about-content-ratings-9959810359d2)~~
 - [An alternative approach to rate limiting](https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/)
 - [Better Rate Limiting With Redis Sorted Sets](https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/)
 - [From Postgres to Amazon DynamoDB](https://www.instacart.com/company/how-its-made/from-postgres-to-amazon-dynamodb-%EF%BF%BC/)
@@ -160,13 +160,13 @@ date = 2024-02-11
 - [Behind the scenes: McDonald’s event-driven architecture](https://medium.com/mcdonalds-technical-blog/behind-the-scenes-mcdonalds-event-driven-architecture-51a6542c0d86)
 - [McDonald’s event-driven architecture: The data journey and how it works](https://medium.com/mcdonalds-technical-blog/mcdonalds-event-driven-architecture-the-data-journey-and-how-it-works-4591d108821f)
 - [From Monolith to Multicloud Micro-Services: Inside Snap’s Service Mesh](https://eng.snap.com/en-US/monolith-to-multicloud-microservices-snap-service-mesh)
-- [Solving the three stooges problem](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)
+- ~~[Solving the three stooges problem](https://www.reddit.com/r/RedditEng/comments/obqtfm/solving_the_three_stooges_problem/)~~
 - [Why Observability Requires a Distributed Column Store](https://www.honeycomb.io/blog/why-observability-requires-distributed-column-store/)
 - [How we protect our most sensitive secrets from the most determined attackers](https://monzo.com/blog/2021/11/18/protecting-our-most-sensitive-secrets)
 - [How we built Text-to-SQL at Pinterest](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)
 - [Horizontally scaling the Rails backend of Shop app with Vitess](https://shopify.engineering/horizontally-scaling-the-rails-backend-of-shop-app-with-vitess)
 - [10 Tips for Building Resilient Payment Systems](https://shopify.engineering/building-resilient-payment-systems)
 - [The Developer's Guide to SSO](https://workos.com/blog/the-developers-guide-to-sso)
-- [How we built the Tinder API Gateway](https://medium.com/tinder/how-we-built-the-tinder-api-gateway-831c6ca5ceca)
-- [The Reddit Metadata Store](https://www.reddit.com/r/RedditEng/comments/1avlywv/the_reddit_media_metadata_store/)
-- [Our not-so-magic journey scaling low latency, multi-region services on AWS](https://www.atlassian.com/blog/technology/aws-scaling-multi-region-low-latency-service)
+- ~~[How we built the Tinder API Gateway](https://medium.com/tinder/how-we-built-the-tinder-api-gateway-831c6ca5ceca)~~
+- ~~[The Reddit Metadata Store](https://www.reddit.com/r/RedditEng/comments/1avlywv/the_reddit_media_metadata_store/)~~
+- ~~[Our not-so-magic journey scaling low latency, multi-region services on AWS](https://www.atlassian.com/blog/technology/aws-scaling-multi-region-low-latency-service)~~
