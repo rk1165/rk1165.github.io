@@ -7,12 +7,12 @@ date = 2024-02-11
 ### Uber
 
 - [How Uber migrated Financial Data from DynamoDB to DocStore](https://www.uber.com/en-IN/blog/dynamodb-to-docstore-migration/)
-- [The Architecture of Uber's API gateway](https://eng.uber.com/architecture-api-gateway/)
-- [Revolutionizing Money Movements at Scale with Strong Data Consistency](https://eng.uber.com/money-scale-strong-data/)
-- [Disaster Recovery for Multi-Region Kafka at Uber](https://eng.uber.com/kafka/)
-- [Why Uber Engineering Switched from Postgres to MySQL](https://eng.uber.com/postgres-to-mysql-migration/)
-- [Uber’s Big Data Platform: 100+ Petabytes with Minute Latency](https://eng.uber.com/uber-big-data-platform/)
-- [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/)
+- [The Architecture of Uber's API gateway](https://www.uber.com/en-IN/blog/architecture-api-gateway/)
+- [Revolutionizing Money Movements at Scale with Strong Data Consistency](https://www.uber.com/en-IN/blog/money-scale-strong-data/)
+- [Disaster Recovery for Multi-Region Kafka at Uber](https://www.uber.com/en-IN/blog/kafka/)
+- [Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-IN/blog/postgres-to-mysql-migration/)
+- [Uber’s Big Data Platform: 100+ Petabytes with Minute Latency](https://www.uber.com/en-IN/blog/uber-big-data-platform/)
+- [Introducing Domain-Oriented Microservice Architecture](https://www.uber.com/en-IN/blog/microservice-architecture/)
 - [How Uber Optimizes the Timing of Push Notifications using ML and Linear Programming](https://www.uber.com/en-IN/blog/how-uber-optimizes-push-notifications-using-ml/)
 - [How Uber Optimized Cassandra Operations at Scale](https://www.uber.com/en-IN/blog/how-uber-optimized-cassandra-operations-at-scale/)
 - [How Uber Serves Over 40 Million Reads Per Second from Online Storage Using an Integrated Cache](https://www.uber.com/en-IN/blog/how-uber-serves-over-40-million-reads-per-second-using-an-integrated-cache/)
