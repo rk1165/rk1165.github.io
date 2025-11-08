@@ -6,7 +6,6 @@ date = 2024-02-11
 
 ### Uber
 
-- [How Uber migrated Financial Data from DynamoDB to DocStore](https://www.uber.com/en-IN/blog/dynamodb-to-docstore-migration/)
 - [The Architecture of Uber's API gateway](https://www.uber.com/en-IN/blog/architecture-api-gateway/)
 - [Revolutionizing Money Movements at Scale with Strong Data Consistency](https://www.uber.com/en-IN/blog/money-scale-strong-data/)
 - [Disaster Recovery for Multi-Region Kafka at Uber](https://www.uber.com/en-IN/blog/kafka/)
@@ -87,7 +86,6 @@ date = 2024-02-11
 - [How we designed Dropbox ATF: an async task framework](https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox)
 - [Rewriting the heart of our sync engine](https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine)
 - [How image search works at Dropbox](https://dropbox.tech/machine-learning/how-image-search-works-at-dropbox)
-- [What’s new with Robinhood, our in-house load balancing service](https://dropbox.tech/infrastructure/robinhood-in-house-load-balancing-service)
 
 ### AirBnb
 

@@ -40,6 +40,7 @@ date = 2024-02-11
 - [System Design in A Hurry](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
 - [Hello Interview - SWE Interview Preparation](https://www.youtube.com/@hello_interview/videos)
 - [Awesome System Design](https://github.com/madd86/awesome-system-design?tab=readme-ov-file)
+- [Awesome Low Level Design](https://github.com/ashishps1/awesome-low-level-design)
 
 ### Algorithms
 

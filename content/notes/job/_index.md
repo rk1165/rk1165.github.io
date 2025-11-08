@@ -1,6 +1,5 @@
 ### Resources
 
-01. [Progression.fyi](https://progression.fyi/)
 02. [Staff eng](https://staffeng.com/)
 03. [How to approach a System Design Interview](https://interviewing.io/guides/system-design-interview)
 04. [System Design Interview Guide](https://www.tryexponent.com/blog/system-design-interview-guide)

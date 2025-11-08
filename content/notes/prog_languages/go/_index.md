@@ -56,6 +56,7 @@
 09. [Go Cookbook](https://go-cookbook.com/)
 10. [Go Concurrency Explorer](https://www.concurrency.rocks/)
 11. [Go Perf Dev](https://goperf.dev/01-common-patterns/)
+12. [Go database and SQL](http://go-database-sql.org/index.html)
 
 ### Video Courses
 

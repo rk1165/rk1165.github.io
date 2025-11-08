@@ -8,10 +8,10 @@
 06. [DB Sharding](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
 07. [What is a query planner?](https://planetscale.com/blog/what-is-a-query-planner)
 08. [Noria](https://www.micahlerner.com/2021/03/28/noria-dynamic.html)
-09. [MemTable, WAL, SSTable, Log Structure Merge(LSM) Trees](https://ninegene.com/2022/02/21/memtable-wal-sstable-log-structured-mergelsm-trees/)
+09. [MemTable, WAL, SSTable, Log Structure Merge(LSM) Trees](https://web.archive.org/web/20231128090508/https://ninegene.com/2022/02/21/memtable-wal-sstable-log-structured-mergelsm-trees/)
 10. [A humble guide to database schema design](https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design)
 11. [Handling time with supersecond resolution](https://minimalmodeling.substack.com/p/handling-time-with-supersecond-resolution)
-12. [Relational Databases Aren’t Dinosaurs, They’re Sharks](https://www.simplethread.com/relational-databases-arent-dinosaurs-theyre-sharks/)
+12. ~~[Relational Databases Aren’t Dinosaurs, They’re Sharks](https://www.simplethread.com/relational-databases-arent-dinosaurs-theyre-sharks/)~~
 13. [SQLite vs MySQL vs PostgreSQL](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 14. [A Comparison of NoSQL Database Management Systems and Models](https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models)
 15. [Techniques for Scaling Applications with a database](https://thenewstack.io/techniques-for-scaling-applications-with-a-database/)
@@ -45,7 +45,6 @@
 ### Sqlite
 
 1. [Sqlite](./sqlite.pdf)
-2. [Distributed SQLite: Paradigm shift or hype?](https://kerkour.com/distributed-sqlite)
 
 ### ElasticSearch
 
