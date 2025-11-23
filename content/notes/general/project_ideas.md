@@ -6,22 +6,12 @@ date = 2025-10-21
 
 ### Project ideas to work on
 
-- Write a load balancer. Then add different strategies to it. Then add health checking of upstream
 - Make a REST API for generating random social media usernames, add a database, user authentication, Stripe payments, and analytics.
-- Design a websocket chat server that can handle 1000 users
 - Build your own api gateway.
 - password manager which will interact with bitwarden for creating/updating/deleting/reading from terminal?
-- Replicate redis server.
-  - It must use the same RESP protocol as the original implementation. To make it even harder, implement durable storage and cluster mode. Then optimize the hell out of it and compare to the real redis
-  - What you will learn:
-    - how redis work (duh)
-    - data structure
-    - some networking
-    - distributed system
 - Make a bitcask-style DB.
 - Make a git clone.
 - Make a load balancer that handles OAuth2/jwt auth for the services it proxies.
-- Make a picture generator that uses the "wavefunction collapse" algorithm to make a large texture from a smaller one.
 - Make a Docker clone.
 - Parallel torrent / file downloader should be fun. With progress bars and shit
 - Booking.com scrape
