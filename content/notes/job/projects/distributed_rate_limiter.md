@@ -134,5 +134,3 @@ What happens if Redis goes down?
 ### A Next Step for You
 
 The specific implementation of the **Lua Script** is powerful because it works for rate limiting, inventory management, and distributed locking.
-
-Would you like me to provide the actual **Redis Lua script** for a Token Bucket implementation that you can run directly in a local Redis instance to test this out?

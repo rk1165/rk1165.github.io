@@ -34,16 +34,16 @@
       "startDate": "Oct 2021",
       "endDate": "Present",
       "highlights": [
-        "Developed microservices in Java with Apache Camel to integrate and transform data between WMS and SAP ERP.",
-        "Developed a Slack bot in Python to automate workflows and handle user support queries.",
-        "Built a Golang web application to provide visibility into order fulfillment status.",
-        "Developed an automation testing framework with Cucumber, improving integration testing coverage across services.",
-        "Developed REST API in Java for handling Givex Gift Card requests",
-        "Built a Golang application for migrating data from ElasticSearch to DynamoDB with real time visibility.",
-        "Built a load testing service using Gatling with support for parallel execution on EC2 instances.",
-        "Identified and executed multiple cloud cost-optimization strategies, achieving significant savings.",
-        "Automated production triage and resolution with Python scripts, reducing issue resolution time by 70%.",
-        "Deployed lambdas in AWS for monitoring queue depths during holiday season and alertion on Slack"
+        "Developed microservices in Java for processing shipment confirmations and fulfilment statuses.",
+        "Built multiple RESTful APIs to support fetching order and shipment details retrieval and gift card processing workflows.",
+        "Designed and developed an automation testing framework with Cucumber, improving integration testing coverage across services.",
+        "Led upgrade of Java, Gradle, Camel and AWS libraries and wrote unit tests to improve code coverage.",
+        "Developed a configurable load testing platform to simulate workloads across REST APIs, Amazon SQS, S3 object uploads, and Kafka using Gatling and Scala.",
+        "Developed a Slack bot in Python using AWS Lambda and API Gateway to handle slash commands for common operational workflows.",
+        "Designed and implemented a Lambda function enabling multiple teams to monitor queues on Slack and reprocess DLQs, reducing compute and saving costs.",
+        "Designed and implemented a Golang web application with dashboard for tracking order fulfillment status.",
+        "Implemented a Go application for large-scale data migration from Elasticsearch to DynamoDB, including a dashboard for real-time tracking and progress.",
+        "Identified and executed multiple cloud cost-optimization strategies, achieving significant savings."
       ]
     },
     {
@@ -77,7 +77,7 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "Java",
@@ -92,22 +92,16 @@
         "ElasticSearch",
         "MySQL",
         "Cassandra",
-        "Redis"
+        "Redis",
+        "DynamoDB"
       ],
       "name": "Databases"
     },
     {
       "keywords": [
-        "SpringBoot",
-        "Flask"
-      ],
-      "name": "Web Frameworks"
-    },
-    {
-      "keywords": [
         "Git",
         "Gradle",
-        "Maven",
+        "Cursor",
         "Copilot",
         "CLI"
       ],
@@ -120,26 +114,39 @@
         "Jenkins",
         "Terraform",
         "GitHub Actions",
-        "Splunk"
+        "Kubernetes (Basics)"
       ],
       "name": "Technologies"
     },
     {
       "keywords": [
         "AWS",
-        "GCP (Basic)",
+        "GCP (Basics)",
         "DigitalOcean"
       ],
       "name": "Cloud"
     },
     {
       "keywords": [
+        "Spring Boot",
         "Apache Camel",
         "Boto3",
         "AWS SDK",
-        "htmx"
+        "JUnit5",
+        "Mockito",
+        "Cucumber",
+        "Gatling"
       ],
-      "name": "Libraries"
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "OpenTelemetry",
+        "Splunk",
+        "SignalFx",
+        "CloudWatch"
+      ],
+      "name": "Observability"
     }
   ],
   "projects": [
@@ -147,7 +154,7 @@
       "keywords": [
         "Python, Flask, Sqlite, DigitalOcean"
       ],
-      "name": "Feeder",
+      "name": "feeder",
       "description": "A Python + Flask application to convert any website into an RSS feed",
       "url": "https://github.com/rk1165/feeder"
     },
@@ -161,11 +168,11 @@
     },
     {
       "keywords": [
-        "Golang, Sqlite, Docker, Github Actions"
+        "Java, MySQL, Redis, Micrometer, Gradle"
       ],
-      "name": "Feedcreator",
-      "url": "https://github.com/rk1165/feedcreator",
-      "description": "Golang application to convert any website into an RSS feed"
+      "name": "tinyurl",
+      "url": "https://github.com/rk1165/tinyurl",
+      "description": "Java application for creating tinyurls and retrieving them"
     }
   ],
   "awards": [

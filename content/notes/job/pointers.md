@@ -97,3 +97,19 @@ date = 2024-02-11
 - If you do put a "skills cloud" on it, be ready to talk about them all. If someone had a skills cloud I would immediately look for the most esoteric skills and dive deep on it in the interview (after Googling it myself) to see if you were BSing or not. If you really know that skill, you should know more than what I learned in five minutes of searching.
 - All this applies to your LinkedIn as well, which you should keep up to date, so that if there is a job you want but don't want to spend the time applying, you can just send them your LinkedIn.
 - Forgot to mention, as pointed out below, that your resume also drives the interview, so while some of what you write won't be read to get the interview, you still want it there as a place to jump off during an interview. Always better if you can drive the conversation towards your most positive qualities, which is easier if they are in your resume and the interviewer asks about them.
+
+### SQL Params, their purpose and value
+
+| Parameter               | Purpose                          | Recommended Value                     |
+|-------------------------|----------------------------------|---------------------------------------|
+| useSSL                  | Enable SSL encryption            | true in production                    |
+| requireSSL              | Fail if SSL not available        | true in production                    |
+| serverTimezone          | Set server timezone              | UTC                                   |
+| allowPublicKeyRetrieval | Allow RSA key retrieval for auth | true (if using caching_sha2_password) |
+| useUnicode              | Enable Unicode support           | true                                  |
+| characterEncoding       | Character set                    | UTF-8                                 |
+| connectionTimeZone      | Force connection timezone        | UTC                                   |
+| autoReconnect           | Auto-reconnect on failure        | false (let pool handle it)            |
+| failOverReadOnly        | Read-only mode on failover       | false                                 |
+| connectTimeout          | Connection timeout (ms)          | 10000                                 |
+| socketTimeout           | Socket read timeout (ms)         | 60000                                 |
