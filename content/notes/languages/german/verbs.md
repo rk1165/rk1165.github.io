@@ -1,0 +1,81 @@
++++
+title = 'German Verbs'
+date = 2024-02-11
+
++++
+
+- feiern : to celebrate
+- fehlen : to be missing
+- funktionieren : to work; to function
+- etwas verlieren : to lose something
+- (etwas) bestellen : to order something
+- etwas besichtigen : to visit something
+- (etwas) gewinnen : to win (something)
+- etwas mögen : to like something
+- jemanden an|rufen : to call
+- (etwas) singen
+- (etwas) unterrichten : to teach; to instruct
+- (etwas) üben : to practice (something)
+- etwas wiederholen : to repeat/ revise / review something.
+- etwas hoffen : to hope something
+- sich etwas teilen : to share
+- stehen : to stand; to be
+- (sich) duschen : to shower, to take a shower
+- (etwas) buchstabieren : to spell
+- etwas suchen : to search for something
+- (etwas) putzen : to clean (something)
+- etwas vor|bereiten : to prepare something.
+- an|fangen : to start.
+- auf | räumen
+- an | rufen
+- ein | kaufen :
+- etwas mit|schreiben : to take notes
+- auf | hören : to finish; to stop
+- etwas korrigieren : to correct something
+- glauben : to believe; to think
+- raus|gehen : to go out
+- aus | schlafen : to sleep in
+- jemanden/etwas besuchen : to visit someone/something
+- jemandem etwas vor|lesen : to read someting to somebody
+- um|ziehen : to move (house, cities, etc)
+- jemanden begrüßen : to greet someone
+- jemanden beraten : to advise someone
+- etwas/jemanden hassen : to hate something/somebody
+- etwas werden : to become something.
+- etwas behalten : to keep; to maintain
+- jemandem etwas schenken : to give someone something
+- etwas zurück|geben : to give something back; to return something.
+- vorbei|gehen : to pass (by)
+- an|kommen : to arrive
+- frühstücken : to have breakfast | frühstückt, frühstückte, hat gefrühstückt
+- dauern : to last
+- um|steigen : to change (trains, buses, etc)
+- liegen : to lie; to be in a horizontal position
+- (jemandem) schmecken : to taste
+- etwas ab|sagen : to cancel something | sagt ab, sagte ab, hat abgesagt
+- glauben : to believe; to think | glaubt, glaubte, hat geglaubt
+- können : to be able to; can | kann, konnte
+- geöffnet haben : to be open (as in: a store, business, etc.) | hat, hatte, hat gehabt
+- geschlossen haben : to be closed | hat, hatte, hat gehabt
+- etwas beenden: to end something; to finish something | beendet, beendete, hat beendet
+- jemandem gefallen: to appeal to someone | gefällt, gefiel, hat gefallen
+- etwas ändern : to change something | ändert, änderte, hat geändert
+- ein|atmen : inhale; breathe in | atmet ein, atmete ein, hat eingeatmet
+- aus|atmen : to exhale; to breath out | atmet aus, atmete aus, hat ausgeatmet
+- Blut ab|nehmen : to draw blood; to take blood | nimmt ab, nahm ab, hat abgenommen
+- jemanden operieren : to operate on someone | operiert, operierte, hat operiert
+- etwas verschreiben : to prescribe something | verschreibt, verschrieb, hat verschrieben
+- jemanden krank|schreiben : to get a doctor's note; to take sick leave | schreibt krank, schrieb krank, hat krankgeschrieben
+- etwas/jemanden röntgen : to x-ray something/someone | röntgt, röntgte, hat geröntgt
+- sich etwas an|schauen : to look at something | schaut an, schaute an, hat angeschaut
+- vorbei|kommen : to come by | kommt vorbei, kam vorbei, ist vorbeigekommen
+- ab|nehmen : to lose weight | nimmt ab, nahm ab, hat abgenommen
+- zu|nehmen : to gain weight | nimmt zu, nahm zu, hat zugenommen
+- springen : to jump | springt, sprang, ist gesprungen
+- sich aus|ruhen : to relax | ruht aus, ruhte aus, hat ausgeruht
+- sich bewegen : to move; to exercise | bewegt, bewegte, hat bewegt
+- etwas/jemanden füttern : to feed somebody/something
+- weiter|suchen : to keep/continue searching | sucht weiter, suchte weiter, hat weitergesucht
+- (etwas) rachen : to smoke | raucht, rauchte, hat geraucht
+- etwas kaufen : to buy | kauft, kaufte, hat gekauft
+- etwas/jemanden röntgen : to x-ray | röntgt, röntgte, hat geröntgt

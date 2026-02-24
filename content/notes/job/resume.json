@@ -1,0 +1,181 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Ravi Kumar",
+    "email": "kumarravi1165@gmail.com",
+    "phone": "8979525713",
+    "location": {
+      "address": "Bengaluru, KA"
+    }
+  },
+  "education": [
+    {
+      "area": "Electrical Engineering",
+      "studyType": "Integrated Dual Degree (B.Tech + M.Tech)",
+      "startDate": "Jul 2012",
+      "endDate": "May 2017",
+      "institution": "Indian Institute of Technology",
+      "location": "Roorkee"
+    },
+    {}
+  ],
+  "work": [
+    {
+      "company": "Nike",
+      "location": "Bengaluru, KA",
+      "position": "Software Engineer III",
+      "website": "",
+      "startDate": "Oct 2021",
+      "endDate": "Present",
+      "highlights": [
+        "Developed event-driven Java/Apache Camel microservices handling 1k+ fulfilment statuses per minute.",
+        "Reduced monthly AWS cloud costs by ~80% by re-architecting queue processors to Lambda and right-sizing ECS tasks found via performing custom Gatling load tests.",
+        "Built a high-concurrency Golang tool to migrate multi-TB order datasets from Elasticsearch to DynamoDB.",
+        "Modernized 4 core microservices (Java 21, SpringBoot 3, AWS SDK v2), eliminating security vulnerabilities and boosting performance.",
+        "Developed a core event-publishing library (SNS/API orchestration), adopted across multiple microservices to process 100k+ messages daily.",
+        "Built high-performance RESTful APIs for processing gift card workflows and fetching order and shipment details.",
+        "Designed and developed an automation testing framework with Cucumber, improving integration testing coverage across services.",
+        "Developed a Slack bot in Python using AWS Lambda and API Gateway to handle slash commands for daily operational workflows."
+      ]
+    },
+    {
+      "highlights": [
+        "Developed Python scripts for synchronizing data between tables along with report generation for monitoring.",
+        "Implemented REST APIs for enabling seamless operations across a multi-tenant DB2 database.",
+        "Migrated a legacy web application from Perl to Python reducing technical debt and improving maintainability."
+      ],
+      "company": "Wissen Technology",
+      "position": "Software Engineer",
+      "location": "Bengaluru, KA",
+      "startDate": "Apr 2020",
+      "endDate": "Oct 2021"
+    },
+    {
+      "highlights": [
+        "Implemented REST APIs for a custom store to onboard U.S. educational institutions for device procurement workflows.",
+        "Implemented REST APIs for a content management system backed by Cassandra."
+      ],
+      "company": "Infosys",
+      "position": "Specialist Programmer",
+      "location": "Bengaluru, KA",
+      "startDate": "Aug 2017",
+      "endDate": "Mar 2020"
+    },
+    {
+      "highlights": [
+        null
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "Golang",
+        "JavaScript"
+      ]
+    },
+    {
+      "keywords": [
+        "SQLite",
+        "Elasticsearch",
+        "MySQL",
+        "Cassandra",
+        "Redis",
+        "DynamoDB"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Gradle",
+        "Maven",
+        "Cursor",
+        "Copilot",
+        "CLI",
+        "JIRA"
+      ],
+      "name": "Tools"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Kafka",
+        "Jenkins",
+        "Terraform",
+        "GitHub Actions"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "DigitalOcean"
+      ],
+      "name": "Cloud"
+    },
+    {
+      "keywords": [
+        "SpringBoot",
+        "Apache Camel",
+        "Boto3",
+        "AWS SDK",
+        "JUnit5",
+        "Mockito",
+        "Cucumber",
+        "Gatling"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "OpenTelemetry",
+        "Splunk",
+        "SignalFx",
+        "CloudWatch"
+      ],
+      "name": "Observability"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python, Flask, Sqlite, DigitalOcean"
+      ],
+      "name": "feeder",
+      "description": "A self-hosted application written in Python and Flask to convert any website into an RSS feed",
+      "url": "https://github.com/rk1165/feeder"
+    },
+    {
+      "keywords": [
+        "Golang, Sqlite, Docker, Github Actions"
+      ],
+      "name": "pse",
+      "description": "A self-hosted custom full-text search engine using Golang and SQLite FTS5 extension",
+      "url": "https://github.com/rk1165/pse"
+    }
+  ],
+  "awards": [
+    {},
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
