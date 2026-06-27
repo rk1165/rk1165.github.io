@@ -9,6 +9,10 @@
 
 1. [Books with translation and audio](https://books.readini.com/)
 2. [Language Transfer](https://www.languagetransfer.org/)
+3. [Hello Talk](hellotalk.com)
+4. [Language Exchange](https://www.reddit.com/r/language_exchange/)
+5. [Tandem](https://tandem.net/)
+6. [Conversation Exchange](https://www.conversationexchange.com/index.php)
 
 ### Notes
 

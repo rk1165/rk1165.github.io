@@ -67,3 +67,57 @@ date = 2024-02-11
 ### Rootkit
 
 - Rootkit is a kernel module that once put in a kernel, any unprivileged user who knows the right incantation can become root.
+
+### Linux kernel as program
+
+- On most Linux distributions we will find the kernel under the `/boot` directory.
+- We will use QEMU, a virtual machine emulator, because a kernel needs something that works like a computer
+- `qemu-system-x86_64 -m 256M -kernel vmlinux-6.12 -append "console=ttyS0" -nographic` to start the kernel
+- once a kernel initializes itself, it tries to mount the root filesystem, and hand over control to a program called `init`.
+- When the kernel starts it doesn't have all of the parts loaded that are needed to access the disks in the computer, so it needs a filesystem loaded into the memory called `initramfs`
+- To create one we can follow the following commands:
+  - `mkdir -p rootfs/{proc,sys,dev}`
+  - `cp ./init/init rootfs/init` where init is a go program which prints the PID of itself and tick every 2 seconds
+  - `sudo mknod rootfs/dev/console c 5 1`
+  - `sudo mknod rootfs/dev/null c 1 3`
+- `mknod` command creates special files that programs use to communicate with hardware devices.
+- To package the files into an archive file we run `( cd rootfs && find . | cpio -H newc -o ) > initramfs.img`
+- We can then restart our VM, with the kernel and initramfs using
+  - `qemu-system-x86_64 -m 256M -kernel vmlinux-6.12 -initrd initramfs.img -append "console=ttyS0 rdinit=/init" -nographic`
+- `strace -f -e trace=execve,getpid,write ./init`
+  - The `-f` flag instructs strace to follow any other process that our program might start.
+  - The `-e trace=execve,getpid,write` part filters the output to only show these three system calls.
+- With `execve` we ask the kernel to execute a program
+
+### How sys calls actually work
+
+- Modern CPUs have different **execution modes**
+- **User mode (restricted)** : Where our programs run. They have limited access to memory and some CPU instructions. It is sandboxed mode
+- **Kernel mode (privileged)** : Where the kernel runs. It has total access to all memory and all hardware instructions.
+
+```
+Your Program (User Mode)                      Linux Kernel (Kernel Mode)
+------------------------                      --------------------------
+  |
+  |- Put syscall number in register
+  |- Put arguments in registers
+  |
+  |_ Execute: SYSCALL -----------------------------------
+                                                        |
+                                                  [CPU MODE SWITCH]
+                                                        |
+                                                  Kernel receives request
+                                                        |
+                                                        |- Check permissions
+                                                        |- Perform operation
+                                                        |
+                                                        |_ Put result in register
+                                                        |
+                                                  [CPU MODE SWITCH]
+                                                        |
+  result <----------------------------------------------|
+    |
+  continue program
+```
+
+- Common system calls : `execve`, `open`, `read`, `write` and `close`

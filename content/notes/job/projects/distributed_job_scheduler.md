@@ -10,7 +10,7 @@ Here is the step-by-step design, moving from the data model to the specific conc
 
 ---
 
-### 1\. High-Level Architecture
+### 1. High-Level Architecture
 
 The system needs to separate the "planning" (When should this run?) from the "execution" (Run this code now).
 
@@ -24,7 +24,7 @@ The system needs to separate the "planning" (When should this run?) from the "ex
 
 ---
 
-### 2\. Data Storage & The "Job" Model
+### 2. Data Storage & The "Job" Model
 
 You need a relational database here (Postgres/MySQL). Consistency is more important than raw speed; you cannot afford "eventual consistency" where a job disappears or runs twice.
 
@@ -38,7 +38,7 @@ You need a relational database here (Postgres/MySQL). Consistency is more import
 
 ---
 
-### 3\. The Scheduling Loop (The Concurrency Trap)
+### 3. The Scheduling Loop (The Concurrency Trap)
 
 This is the hardest part. You likely have multiple Scheduler nodes for high availability. If two schedulers query the DB at the same time, they both see the same job is due. They both push it to the queue. The job runs twice.
 
@@ -65,7 +65,7 @@ If you aren't using a DB with row locking, you use Redis `SETNX` (Set if Not Exi
 
 ---
 
-### 4\. Dispatching to the Queue
+### 4. Dispatching to the Queue
 
 Once the Scheduler has successfully locked the job and set status to `QUEUED`, it pushes a message to the Message Queue.
 
@@ -84,7 +84,7 @@ Once the Scheduler has successfully locked the job and set status to `QUEUED`, i
 
 ---
 
-### 5\. Worker Execution & Reliability
+### 5. Worker Execution & Reliability
 
 The Worker pulls the message. It does **not** mark the job as "Completed" yet.
 
@@ -96,7 +96,7 @@ If a Worker picks up a job and then the server catches fire, the job is lost in 
 
 ---
 
-### 6\. Handling "Cron" Logic (The Timing Wheel)
+### 6. Handling "Cron" Logic (The Timing Wheel)
 
 Querying a database every second (`SELECT * WHERE time < now`) is inefficient at massive scale.
 
@@ -113,7 +113,7 @@ Instead of polling the DB, the Scheduler loads upcoming jobs into a specialized 
 
 ---
 
-### 7\. Step-by-Step Workflow Summary
+### 7. Step-by-Step Workflow Summary
 
 1.  **User** submits a job via API. It is saved to **DB** with `status: PENDING`.
 2.  **Scheduler (Master)** runs a loop. It finds jobs where `next_run_at <= NOW`.
@@ -130,3 +130,15 @@ Instead of polling the DB, the Scheduler loads upcoming jobs into a specialized 
 Understanding **Idempotency** is the final piece of this puzzle. Even with this design, network errors can cause a job to run twice (e.g., Worker finishes, but the "Complete" network packet is lost, so the system retries it).
 
 Would you like me to explain **how to write Idempotent code** so that even if your scheduler triggers the "Charge Credit Card" job twice, the user is only charged once?
+
+### Java
+
+- **The Goal:** Build a system where users can submit a task (e.g., "Send Email at 9:00 AM"), and a cluster of worker nodes executes it. The catch: Even if 3 out of 5 nodes crash, the job must run **exactly once**.
+- **System Design Concepts You Will Learn:**
+  - **Leader Election:** Who assigns the jobs? You can't have all nodes scanning the database at once. You need one leader.
+  - **Fault Tolerance:** If a worker node picks up a job and crashes halfway through, how does the system know to re-assign it to someone else? (Dead Letter Queues / Timeouts).
+  - **Horizontal Scaling:** Adding more worker nodes should linearly increase the system's capacity.
+- **The "Hard" Implementation Details:**
+  - **Consensus:** Implement a basic Leader Election algorithm using **Zookeeper** or implement the **Raft Consensus Algorithm** yourself (very hard, very educational).
+  - **Locking:** Use a database row-lock (optimistic locking) or a distributed Redis lock to ensure two workers don't pick the same job.
+- **Java Stack:** Spring Boot (for API), Quartz (for inspiration), Zookeeper (Curator library), JDBC.

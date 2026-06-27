@@ -1,5 +1,5 @@
 +++
-title = 'On Writing'
+title = 'English'
 date = 2024-02-11
 
 +++
@@ -57,6 +57,7 @@ date = 2024-02-11
    - to combine (together)
    - to ask (a question)
    - a consensus (of opinion)
+
 2. Watch out for wordy phrases.
 
 | Wordy                     | Concise     |
@@ -243,3 +244,9 @@ date = 2024-02-11
 | color outside the lines ...                            | to think or act in a way that doesn't conform to set rules.                                      |
 | bend someone's ear                                     | talk to someone, especially at length or to ask a favour                                         |
 | off-the-cuff                                           | without preparation                                                                              |
+
+### Notes
+
+- `I'm not going to the gym today; I'm too tired.`
+  - Those are two complete sentences but also one complete thought. A typical conjunction - and/or/but - would make no sense.
+  - Semicolon joins two complete sentences that form one thought without a conjunction.

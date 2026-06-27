@@ -19,7 +19,12 @@
 07. [Cassandra as a service](https://astra.datastax.com/)
 08. [LMAX Disruptor - high throughput low latency](https://lmax-exchange.github.io/disruptor/)
 
-#### Kafka
+#### Books
 
-1. [Optimizing Kafka Producers](https://strimzi.io/blog/2020/10/15/producer-tuning/)
-2. [Optimizing Kafka Consumers](https://strimzi.io/blog/2021/01/07/consumer-tuning/)
+1. [Zero MQ Guide](https://zguide.zeromq.org/)
+2. [Build your own Redis](https://build-your-own.org/blog/20230127_byor/)
+3. [Web RTC for the Curious](https://webrtcforthecurious.com/)
+4. [Git Book](https://git-scm.com/book/en/v2)
+5. [Game Programming Patterns](http://gameprogrammingpatterns.com/contents.html)
+6. [Web Browser Engineering](https://browser.engineering/)
+7. [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)

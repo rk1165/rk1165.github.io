@@ -1,9 +1,121 @@
 +++
-title = 'System Design Videos'
+title = 'System Design'
 date = 2024-02-11
 
 +++
 
+System design interviews for backend engineers typically fall into specific "archetypes." Each archetype tests a different set of engineering muscles—some focus on data consistency, others on low latency or massive concurrency.
+
+### System Design Resources
+
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [System Design Interview](https://www.youtube.com/c/SystemDesignInterview)
+- [System Design Fight Club](https://systemdesignfightclub.com/)
+- [Jordan has no life](https://www.youtube.com/@jordanhasnolife5163/videos)
+- [System Design in A Hurry](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
+- [Hello Interview - SWE Interview Preparation](https://www.youtube.com/@hello_interview/videos)
+- [Awesome System Design](https://github.com/madd86/awesome-system-design?tab=readme-ov-file)
+- [Awesome Low Level Design](https://github.com/ashishps1/awesome-low-level-design)
+- [Systemdesign](https://systemdesign.io/)
+
+### System Design Problem Patterns
+
+- E-commerce Platforms: Scalability and transaction management for online shopping
+- Online Banking and Financial Services: Ensuring security, privacy, and transaction consistency
+- Collaborative Editing Tools: Concurrency and conflict resolution in real-time document editing
+- Cloud Storage Services: Efficient and scalable file storage and sharing solutions
+- Online Competition Platforms: Real-time interaction, leaderboard management, and competition handling
+
+Here are the most common system design questions categorized by the primary challenge they present.
+
+### 1. The "Heavy Read" Systems (Social & Content)
+
+These questions test your ability to handle massive fan-out (one user's action affecting millions of followers) and caching strategies.
+
+- **Design a News Feed (Twitter / Facebook / Instagram):**
+  - _The Core Challenge:_ "Fan-out on write" vs. "Fan-out on read." How do you efficiently build a timeline for a user who follows 5,000 people?
+  - _Key Concepts:_ Push vs. Pull models, Hybrid approaches for celebrities, Pagination, Caching (Redis).
+  - Social Networks: Handling data scalability, real-time updates, and network effects
+- **Design a Video Streaming Service (Netflix / YouTube):**
+  - _The Core Challenge:_ Storing and delivering massive blobs of data (video) with low latency globally.
+  - _Key Concepts:_ CDNs (Content Delivery Networks), Adaptive Bitrate Streaming, Data partitioning (Sharding), Transcoding workers.
+  - Streaming Services: Design challenges related to real-time data streaming and content delivery
+- **Design a Chat Application (WhatsApp / Slack):**
+  - _The Core Challenge:_ Real-time bidirectional communication and message ordering.
+  - _Key Concepts:_ WebSockets vs. Long Polling, Pub/Sub patterns, "Seen" status propagation, Persistent storage (Cassandra/HBase) for chat history.
+  - Messaging Platforms: Real-time messaging, notifications, and chat systems
+
+---
+
+### 2. The "Heavy Write" & Transactional Systems
+
+These systems require strict data consistency. Losing a ride request or a payment is unacceptable.
+
+- **Design a Ride-Sharing Service (Uber / Lyft):**
+  - _The Core Challenge:_ Real-time geospatial matching. Matching a moving rider with a moving driver instantly.
+  - _Key Concepts:_ QuadTrees / Geohashing (e.g., Google S2), High write throughput for location updates, ACID transactions for billing.
+  - Location-Based Services: Designing for location tracking and geo-based recommendations
+- **Design a Flash Sale System (Ticketmaster / Amazon Prime Day):**
+  - _The Core Challenge:_ Massive concurrency on a single inventory item (e.g., 10,000 users trying to buy the last 5 tickets).
+  - _Key Concepts:_ Distributed Locking, Optimistic Concurrency Control, Queues (Kafka) for load leveling, Rate Limiting.
+  - Online Ticketing Systems: Addressing consistency and concurrency in high-demand ticket sales
+- **Design a URL Shortener (TinyURL / Bitly):**
+  - _The Core Challenge:_ Generating unique IDs at scale without collisions.
+  - _Key Concepts:_ Base62 encoding, Key Generation Service (KGS), Bloom Filters for quick lookups.
+
+---
+
+### 3. The "Utility & Infrastructure" Systems
+
+These questions test your understanding of backend tools. Sometimes you are asked to design the tool _itself_ rather than a consumer app.
+
+- Design a foundational component: Like a rate limiter, message queue, cache, etc.
+- **Design a Web Crawler (Google Search Bot):**
+  - _The Core Challenge:_ Politeness, handling cycles (infinite loops), and parsing massive scale.
+  - _Key Concepts:_ Frontier management (URL queues), DNS resolution caching, Bloom Filters to avoid re-crawling.
+- **Design a Rate Limiter:**
+  - _The Core Challenge:_ accurately counting requests in a distributed environment without slowing down the actual requests.
+  - _Key Concepts:_ Token Bucket / Leaky Bucket algorithms, Sliding Window logs, Redis (Lua scripts).
+- **Design a Distributed Key-Value Store (DynamoDB / Cassandra):**
+  - _The Core Challenge:_ Consistency vs. Availability (CAP Theorem).
+  - _Key Concepts:_ Consistent Hashing, Gossip Protocols, Quorum reads/writes, Hinted Handoff.
+
+---
+
+### 4. The "Observability" Systems
+
+- **Design a Metric/Logging System (Datadog / Prometheus):**
+  - _The Core Challenge:_ Write-heavy ingestion where losing a few metrics is okay, but the system must never go down.
+  - _Key Concepts:_ Time-series databases (TSDB), Data aggregation/rollups (downsampling), Pull vs. Push models.
+
+---
+
+### Summary of Key Concepts to Master
+
+To ace these questions, you don't just need to know the _steps_; you need to know the _tools_.
+
+| Category               | Standard Tool / Pattern                                       |
+| :--------------------- | :------------------------------------------------------------ |
+| **Load Balancing**     | Nginx, HAProxy, Round Robin, Consistent Hashing               |
+| **Caching**            | Redis, Memcached, CDNs (Cloudflare/Cloudfront)                |
+| **Queues / Streaming** | Kafka (high throughput), RabbitMQ (complex routing), SQS      |
+| **Databases (SQL)**    | PostgreSQL (Sharding), MySQL (Replication)                    |
+| **Databases (NoSQL)**  | Cassandra (Write heavy), MongoDB (Flexible schema), DynamoDB  |
+| **Communication**      | gRPC (Internal services), REST/GraphQL (External), WebSockets |
+
+### A Simple Mental Framework for the Interview
+
+When you get asked any of the above, use this checklist:
+
+1.  **Scope it:** "Do we need to handle text only, or images too? Real-time or delayed?"
+2.  **Scale it:** "How many DAU (Daily Active Users)? What is the Read:Write ratio?"
+3.  **High-Level Design:** Draw the big boxes (LB $\to$ Web Server $\to$ DB).
+4.  **Bottlenecks:** "The DB will die with this write load. Let's add a Cache or Queue."
+5.  **Deep Dive:** Focus on the component that is hardest to build (e.g., the "Matching Service" in Uber).
+
+### System Design Videos
+
+- [FAANG system design interview: Design YouTube (with FAANG Senior SWE)](https://www.youtube.com/watch?v=hqa2sfoGRlI)
 - [PostgreSQL Scaling - Citus | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=Fcb9bJnA9_c)
 - [WarpStream - Kafka on a Budget! | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=51nrFPsNi3M)
 - [Flink Demystified | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=JDtf4drFTNo)
@@ -27,7 +139,7 @@ date = 2024-02-11
 - [Facebook TAO - Graphs at Scale | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=O3gv5eYfaWU)
 - [Databricks Photon - Fun With Vectors | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=q0iYD2eyHEA)
 - [Borg - Get The Most Out Of Your Resources | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=49rLFlcm6U8)
-- [Flink - *Exactly* Once Processing? | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=DZwnP_qwAlA)
+- [Flink - _Exactly_ Once Processing? | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=DZwnP_qwAlA)
 - [Debezium - Change Data Capture Made Easy | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=6VbRlQ0rL3I)
 - [Apache Iceberg - More Than A Table Format | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=cB-vGKZu-eE)
 - [Apache Arrow - A Game Changer? | Distributed Systems Deep Dives With Ex-Google SWE](https://www.youtube.com/watch?v=Hyh6QamL-Zo)
@@ -102,7 +214,7 @@ date = 2024-02-11
 - [Kafka vs. RabbitMQ - who wins and why? | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=_5mu7lZz5X4)
 - [What&#39;s Stream Processing + When Do We Use It?  | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=7PjPhgCoT9c)
 - [You Should Be Using Spark, Not MapReduce | Systems Design Interview 0 to 1 With Ex-Google SWE](https://www.youtube.com/watch?v=ZYTZ4JwRZqE)
-- [The *Right* Way to do Batch Job Data Joins | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=gqxbQTVgdkI)
+- [The _Right_ Way to do Batch Job Data Joins | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=gqxbQTVgdkI)
 - [WTF is MapReduce?? [Batch Processing] | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=lHp7M078nHo)
 - [What&#39;s HBase and how does it compare to Cassandra? | Systems Design 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=ouxCE6ViVpw)
 - [WTF is Hadoop? | Systems Design Interview 0 to 1 with Ex-Google SWE](https://www.youtube.com/watch?v=ix88Zj0asjs)

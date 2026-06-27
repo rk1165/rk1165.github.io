@@ -24,3 +24,9 @@
 10. [Educational DP Contest](https://atcoder.jp/contests/dp)
 11. [CodeStepByStep](https://www.codestepbystep.com/problem/list)
 12. [Coding Challenges](https://codingchallenges.fyi/)
+
+### Books
+
+1. [Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/)
+2. [Algorithms Illuminated](http://www.algorithmsilluminated.org/)
+3. [Algorithmica](https://en.algorithmica.org/)

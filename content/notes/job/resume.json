@@ -9,7 +9,7 @@
   "basics": {
     "name": "Ravi Kumar",
     "email": "kumarravi1165@gmail.com",
-    "phone": "8979525713",
+    "phone": "+91 8979525713",
     "location": {
       "address": "Bengaluru, KA"
     }
@@ -34,19 +34,21 @@
       "startDate": "Oct 2021",
       "endDate": "Present",
       "highlights": [
-        "Developed event-driven Java/Apache Camel microservices handling 1k+ fulfilment statuses per minute.",
-        "Reduced monthly AWS cloud costs by ~80% by re-architecting queue processors to Lambda and right-sizing ECS tasks found via performing custom Gatling load tests.",
-        "Built a high-concurrency Golang tool to migrate multi-TB order datasets from Elasticsearch to DynamoDB.",
-        "Modernized 4 core microservices (Java 21, SpringBoot 3, AWS SDK v2), eliminating security vulnerabilities and boosting performance.",
-        "Developed a core event-publishing library (SNS/API orchestration), adopted across multiple microservices to process 100k+ messages daily.",
-        "Built high-performance RESTful APIs for processing gift card workflows and fetching order and shipment details.",
-        "Designed and developed an automation testing framework with Cucumber, improving integration testing coverage across services.",
-        "Developed a Slack bot in Python using AWS Lambda and API Gateway to handle slash commands for daily operational workflows."
+        "Developed event-driven Java/Apache Camel Microservices handling 1k+ events per minute.",
+        "Built a Golang application to migrate multi-TB order datasets from Elasticsearch to DynamoDB.",
+        "Developed an MCP server in Python and integrated it with Slack to handle support queries.",
+        "Built high-performance RESTful APIs for fetching fulfillment details and processing gift card workflows.",
+        "Built a library for  API orchestration and masking PII data using Apache Camel, adopted across multiple Microservices processing 100k+ messages daily.",
+        "Designed and implemented a Cucumber-based automation testing service integrated with Jenkins, enabling continuous regression testing.",
+        "Reduced monthly AWS cloud costs for dlq processing by ~80% after re-architecting to Lambda and integrated with Slack for monitoring and reprocessing.",
+        "Designed and developed a full-stack Golang application for viewing order fulfillment status.",
+        "Orchestrated and led the modernization of multiple core Microservices from Java 17 to 21, SpringBoot 2 to 3, AWS SDK v1 to v2 and Apache Camel 2.x to 4.x.",
+        null
       ]
     },
     {
       "highlights": [
-        "Developed Python scripts for synchronizing data between tables along with report generation for monitoring.",
+        "Wrote Python scripts for synchronizing data between tables along with report generation for monitoring.",
         "Implemented REST APIs for enabling seamless operations across a multi-tenant DB2 database.",
         "Migrated a legacy web application from Perl to Python reducing technical debt and improving maintainability."
       ],
@@ -111,6 +113,7 @@
       "keywords": [
         "Docker",
         "Kafka",
+        "MCP Servers",
         "Jenkins",
         "Terraform",
         "GitHub Actions"
@@ -153,7 +156,7 @@
         "Python, Flask, Sqlite, DigitalOcean"
       ],
       "name": "feeder",
-      "description": "A self-hosted application written in Python and Flask to convert any website into an RSS feed",
+      "description": "An application written in Python and Flask to convert any website into an RSS feed.",
       "url": "https://github.com/rk1165/feeder"
     },
     {
@@ -161,8 +164,21 @@
         "Golang, Sqlite, Docker, Github Actions"
       ],
       "name": "pse",
-      "description": "A self-hosted custom full-text search engine using Golang and SQLite FTS5 extension",
+      "description": "A custom full-text search engine written in Golang and using SQLite FTS5 extension for search.",
       "url": "https://github.com/rk1165/pse"
+    },
+    {
+      "keywords": [
+        "Golang, Sqlite, gocolly, chromedp"
+      ],
+      "name": "feedcreator",
+      "description": "An application similar to feeder but written in Golang.",
+      "url": "https://github.com/rk1165/feedcreator"
+    },
+    {
+      "keywords": [
+        ""
+      ]
     }
   ],
   "awards": [

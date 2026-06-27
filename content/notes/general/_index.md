@@ -18,8 +18,8 @@
 4. [The Mayron Cole Piano Method](https://www.freepianomethod.com/)
 5. [Muscle Wiki](https://musclewiki.com/)
 6. [Atlas Obscura](https://www.atlasobscura.com/)
-8. [Go Inside the Great Pyramids](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
-9. [World Heritage List](https://whc.unesco.org/en/list/)
+7. [Go Inside the Great Pyramids](https://giza.mused.org/en/guided/266/inside-the-great-pyramid)
+8. [World Heritage List](https://whc.unesco.org/en/list/)
 
 ### Cooking Channels
 

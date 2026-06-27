@@ -116,3 +116,77 @@ $ sudo dpkg -i Conduktor-2.7.0.deb
 - To act like a pub/sub, put each consumer in a unique group.
 - Append only commit log.
 - It is event driven.
+
+### Optimizing Producers
+
+- *Data durability* to minimize data loss when passing messages
+  - Specify `acks=all` to force a partition leader to replicate messages to a certain no. of followers before acknowledging that the message request was successfully received.
+  - Use the `acks=all` in conjunction with the `min.insync.replicas` property for topics.
+  - `min.insync.replicas` sets the number of **brokers** that need to have logged a message before an ack. is sent to the producer.
+  - Because of additional checks, `acks=all` increases the latency between producer sending a message and receiving ack.
+
+- *Ordered delivery*
+  - There are two approaches to guaranteeing the order of message delivery from producers. And they depend, to a large degree, on whether or not you are using `acks=all`
+  - If using `acks=all`, you can (and should) enable idempotence using `enable.idempotence` for the producer to ensure that messages are delivered only once.
+  - To speed the process along, increase the number of in-flight requests at one time using `max.in.flight.requests.per.connection`
+  - `delivery.timeout.ms` sets a limit on the time to wait for an ack. of the success or failure to deliver a message.
+  - `retries` property sets the number of retries when resending a failed message request.
+  - If not using `acks=all` and idempotency, another option is to set the number of in-flight requests to 1 (default is 5) to preserve ordering.
+
+- *Reliability guaranatees* on message transactions involving batches of related messages
+  - How do we guarantee the reliability of message delivery for exactly once writes for a set of messages across multiple partitions? We use idempotence again but combine it with a unique transactional ID defined for the producer.
+  - Specify a unique transaction ID in the producer configuration - `transactional.id=_UNIQUE-ID_`, and also set the maximum allowed time for transactions in ms - `transaction.timeout.ms`. The default is `15min`
+
+- *Throughput* measured in the number of messages processed over a specific period
+- *Latency* measured in the time it takes for messages to reach the broker
+- It's quite likely you'll want to balance throughput and latency targets whilst also minimizing data loss and guaranteeing ordering.
+- Message batching delays sending messages so that more messages destined for the same broker are batched into a single request.
+- You can use two properties to set batch thresholds:
+  - `batch.size` specifies a maximum batch size in bytes (default 16384/16kb)
+  - `linger.ms` specifies a maximum duration to fill the batch in milliseconds (Default 0 or no delay)
+- Use `buffer.memory` to configure a buffer memory size that must be at least as big as the batch size, and also capable of accommodating buffering, compression and in-flight requests.
+- What is gained in higher throughput is conceded with the buffering that adds higher latency to the message delivery.
+- Use the `compression.type` property to specify a valid compression codec. You can choose `gzip`, `snappy`, `lz4`, or `zstd` with each having varying compression speeds.
+
+### Optimizing Consumers
+
+- *Consumer scalability* to accommodate increased throughput
+- *Throughput* measured in the number of messages processed over a specific period
+  - `fetch.max.wait.ms` sets a maximum threshold for time-based batching 
+  - `fetch.min.bytes` sets a minimum threshold for size-based batching
+  - Adjust the properties higher so that there are fewer requests, and messages are delivered in bigger batches.
+
+- *Latency* measured in the time it takes for messages to be fetched from the broker
+  - `fetch.max.bytes` sets a maximum limit in bytes on the amount of data fetched from the broker at one time.
+  - `max.partition.fetch.bytes` sets a max. limit in bytes on how much data is returned for each partition, which must always be larger than the number of bytes set in the broker/topic config for `max.message.bytes`.
+  - By increasing the values of these two properties, and allowing more data in each request, latency might be improved as there are fewer fetch requests.
+
+- *Data loss or duplication* when committing offsets or recovering from failure
+  - When auto-commit is enabled, consumers commit the offsets of messages automatically every `auto.commit.interval.ms` ms. But with this comes risk of :
+  - **Data Loss** : if app commits an offset, and the crashes before all the messages up to that offset have actually been processed, those messages won't get processed when the app restarts.
+  - **Data duplication** : if the app has processed all the messages, and then crashes before the offset is committed, the last offset is used when the app restarts and it processes the same messages again.
+  - We can do manual commits by calls to `commitSync` and `commitAsync` APIs
+  - `commitSync` API commits the offsets of all messages returned from polling.
+  - `commitAsync` API doesn't wait for the broker to respond to a commit request. It has lower latency than `commitSync` API, but risks creating dups when rebalancing.
+  - Manual commits cannot completely eliminate data duplication because you cannot guarantee that the offset commit message will always be processed by the broker; even with synchronous commit.
+
+- *Handling of transactional messages* from the producer and consumer side
+  - If producers are configured to use idempotence and transactional ids, we can make the pipeline more secure from the consumer side by introducing the `isolation.level` property.
+  - `isolation.level` property controls how transactional messages are read by the consumer, and has two valid values:
+    - `read_committed` - only transactional messages that have been committed are read by the consumer. It leads to an increase in latency.
+    - `read_uncommitted` (default)
+
+- *Minimizing the impact of rebalances* to reduce downtime
+  - `session.timeout.ms` specifies the max. amount of time in ms. a consumer within a consumer group can be out of contact with a broker before being considered inactive and a _rebalancing_ is triggered b/w the active consumers in the group.
+  - `heartbeat.interval.ms` specifies the interval in ms. b/w _heartbeat_ checks to the consumer group coordinator to indicate that a consumer is active and connected. It must be lower, usually by a third, than the session timeout interval.
+  - If the broker configuration specifies a `group.min.session.timeout.ms` and `group.max.session.timeout.ms`, then `session.timeout.ms` value must be within that range.
+
+- We want to achieve a balance b/w throughput and latency and ensure that the configuration helps reduce delays caused by unnecessary rebalances of consumer groups.
+- Kafka _only_ provides ordering guarantees for messages in a single partition.
+- Consumer groups are way of sharing the work of consuming messages from a set of partitions b/w a number of consumers by dividing the partitions b/w them.
+- Consumers within a group do not read data from the same partition, but can receive data exclusively from zero or more partitions.
+- Adding more consumers than partitions will not increase throughput. Not entirely pointless, as an idle consumer is effectively on standby in the event of failure of one of the consumers that does have partitions assigned.
+- `auto.offset.reset` set as `latest`, which is the default, a new consumer will start processing only new messages and if set to `earliest`, it will processes messages starting from the beginning of the log.
+- `group.instance.id` property is used to specify a unique group instance id for a consumer. The consumer group coordinator can then use the id when identifying a new consumer instance following a restart.
+- `max.poll.interval.ms` sets the interval to check the consumer is continuing to process messages. If the consumer app doesn't make a call to poll at least every `max.poll.interval.ms` ms., the consumer is considered to be failed, causing a rebalance.
+- `max.poll.records` set the number of processed records returned from the consumer. Use this property to set a max. limit on the number of records returned from the consumer buffer, allowing the app to process fewer records within `max.poll.interval.ms` limit.

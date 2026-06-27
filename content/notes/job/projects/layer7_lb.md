@@ -143,3 +143,17 @@ Decryption is CPU intensive.
   /config
     config.yaml     # Port, Backend IPs, SSL cert paths
 ```
+
+### Java
+
+
+- **Difficulty:** Intermediate/Hard
+- **The Goal:** Build a reverse proxy (like Nginx or HAProxy) in Java that sits in front of 3 different web servers and distributes traffic between them.
+- **System Design Concepts You Will Learn:**
+  - **Routing Algorithms:** Implement Round-Robin, Weighted Round-Robin, and Least-Connections strategies.
+  - **Health Checking:** The load balancer must "ping" the backend servers. If a server returns 500 or times out, remove it from the rotation automatically.
+  - **Throughput:** Handling high concurrency without blocking threads.
+- **The "Hard" Implementation Details:**
+  - **Non-Blocking I/O:** You cannot use standard `ServerSocket`. You must use **Java NIO** or **Netty**. If you use standard blocking IO, your load balancer will choke under load.
+  - **Consistent Hashing:** Implement a consistent hashing ring so that requests from the same IP address always go to the same backend server (Session Stickiness).
+- **Java Stack:** Netty (Essential skill for high-performance Java), Java NIO.

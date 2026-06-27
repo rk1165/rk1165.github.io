@@ -132,3 +132,12 @@ We have covered how data moves _between_ nodes. But how the data is stored _on t
 Standard B-Trees (used in SQL) are often too slow for the massive write throughput of distributed KV stores. Most use **LSM Trees (Log-Structured Merge-Trees)**.
 
 Would you like me to explain how an **LSM Tree** works and why it makes writes incredibly fast compared to traditional databases?
+
+### Go : Distributed KV Store with Raft (The Etcd Clone)
+
+- Build a distributed Key-Value store (like Redis or Etcd) that remains consistent even if nodes in the cluster crash. To do this, you must implement the **Raft Consensus Algorithm**
+- _Consensus_ : How do multiple machines agreen on the value of `x`?
+- _Leader Election_ : A cluster needs a leader to handle writes. If the leader dies, the followers must elect a new one automatically.
+- _Log Replication_ : The leader must replicate every "write" command to the followers' logs before confirming success to the user.
+- Using **Channels** to handle the complex state machine of Raft (Follower $\to$ Candidate $\to$ Leader).
+- Using `time.Ticker` for heartbeats (to detect node failures)

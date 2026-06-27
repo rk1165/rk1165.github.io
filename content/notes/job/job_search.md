@@ -119,3 +119,8 @@ date = 2025-10-21
 - I currently do not have work permission and would require visa sponsorship. I understand this process and am open to working with the employer to complete the necessary formalities. I applied because the position appeared open to international candidates.
 
 https://www.linkedin.com/in/ravi-kumar-713057249/
+
+
+BODY='{"title":"Deadpool","year":2016,"runtime":"108 mins","genres":["action","comedy"]}'
+BODY='{"title":"Black Panther","year":2018,"runtime":"134 mins","genres":["sci-fi", "action","adventure"]}'
+BODY='{"title":"The Breakfast Club","year":1986,"runtime":"96 mins","genres":["drama"]}'

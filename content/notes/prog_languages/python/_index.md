@@ -35,3 +35,12 @@
 5. [Python Courses](http://www.python-course.eu/index.php)
 6. [Python Programming Tutorials](http://pythonprogramming.net)
 7. [Python CheatSheet](https://gto76.github.io/python-cheatsheet/)
+
+### Lectures
+
+1. [Design of Computer Programs](https://classroom.udacity.com/courses/cs212)
+
+### Books
+
+1. [High Performance Django](https://lincolnloop.com/high-performance-django/index.html)
+2. [The Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)

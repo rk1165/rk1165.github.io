@@ -10,7 +10,7 @@ Here is a step-by-step breakdown of how to design a production-grade distributed
 
 ---
 
-### 1\. High-Level Placement
+### 1. High-Level Placement
 
 Where does the limiter live?
 If you place it inside the application code, you couple your business logic with infrastructure logic.
@@ -20,7 +20,7 @@ If you place it inside the application code, you couple your business logic with
 
 ---
 
-### 2\. The Algorithm Selection
+### 2. The Algorithm Selection
 
 Before designing the infrastructure, you must choose how you count.
 
@@ -48,7 +48,7 @@ This combines the memory efficiency of Fixed Windows with the accuracy of Slidin
 
 ---
 
-### 3\. Data Storage (The "Distributed" Challenge)
+### 3. Data Storage (The "Distributed" Challenge)
 
 Since this is distributed, multiple API Gateways need to share the counter.
 
@@ -61,7 +61,7 @@ Since this is distributed, multiple API Gateways need to share the counter.
 
 ---
 
-### 4\. Handling Race Conditions (The Critical Step)
+### 4. Handling Race Conditions (The Critical Step)
 
 This is the most common interview failure point.
 
@@ -95,7 +95,7 @@ end
 
 ---
 
-### 5\. Optimization: The "Thundering Herd" & Latency
+### 5. Optimization: The "Thundering Herd" & Latency
 
 Even with Redis, calling a remote cache for _every_ request adds network latency (e.g., 5ms). If you have millions of requests, this burns network bandwidth.
 
@@ -111,7 +111,7 @@ Instead of talking to Redis for every request, use a hybrid approach:
 
 ---
 
-### 6\. Step-by-Step Workflow Summary
+### 6. Step-by-Step Workflow Summary
 
 1.  **Client** sends a request (`GET /api/resource`).
 2.  **API Gateway** intercepts the request.
@@ -123,7 +123,7 @@ Instead of talking to Redis for every request, use a hybrid approach:
     - _If Allowed:_ Forward request to Backend Service.
     - _If Blocked:_ Immediately return **HTTP 429 Too Many Requests** with a header `Retry-After: 30`.
 
-### 7\. Fault Tolerance (Fail-Open vs. Fail-Closed)
+### 7. Fault Tolerance (Fail-Open vs. Fail-Closed)
 
 What happens if Redis goes down?
 
@@ -131,6 +131,16 @@ What happens if Redis goes down?
 - **Fail-Open:** Allow all traffic. (Good for user experience, risky for backend load).
 - **Recommendation:** **Fail-Open.** If your rate limiter breaks, you shouldn't take down your entire website. Alert the team, but let the traffic flow.
 
-### A Next Step for You
 
-The specific implementation of the **Lua Script** is powerful because it works for rate limiting, inventory management, and distributed locking.
+### Java
+
+
+- **The Goal:** Create a library or service that protects an API. It should allow a user to make exactly 10 requests per minute. If they exceed it, block them across _all_ servers in the cluster.
+- **System Design Concepts You Will Learn:**
+  - **Distributed State:** If Request 1 hits Server A and Request 2 hits Server B, how do they share the counter? (You cannot use a Java `HashMap`; it's local memory).
+  - **Race Conditions:** What happens if two requests come in at the exact same millisecond?
+  - **Latency:** The check must be incredibly fast (< 5ms), or you will slow down every API call.
+- **The "Hard" Implementation Details:**
+  - **Algorithms:** Implement the **Token Bucket** or **Sliding Window Log** algorithm.
+  - **Lua Scripting/Atomicity:** Use Redis with Lua scripts to ensure that "Read Counter -> Increment Counter -> Write Counter" happens atomically.
+- **Java Stack:** Redis (Jedis/Lettuce client), Spring Boot AOP (Aspect Oriented Programming) to intercept annotations like `@RateLimit(10)`.

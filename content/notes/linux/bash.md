@@ -257,3 +257,21 @@ END {
   - **EXPR || EXPR** : doesn't evaluate the second expression if the first already turns out to be true
 - Using `;&` instead of `;;` will grant you the ability to fall-through the case matching in bash, zsh and ksh
 
+### Port Open
+
+```bash
+# Check if SSH is up
+echo > /dev/tcp/192.168.1.100/22 && echo "SSH up" || echo "SSH down"
+
+# Check if your web server is listening
+echo > /dev/tcp/localhost/80 && echo "nginx up" || echo "nginx down"
+
+# Check SSL port before running a cert check
+echo > /dev/tcp/example.com/443 && echo "open" || echo "closed"
+
+# Loop until a service comes up (great for scripts)
+until echo > /dev/tcp/localhost/5432; do
+    echo "waiting for postgres..."
+    sleep 2
+done
+```

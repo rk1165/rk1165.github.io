@@ -104,6 +104,10 @@ In a distributed system, workers _will_ crash.
 7.  **Deduplication Service** filters out seen URLs and passes unique ones back to the **Frontier**.
 8.  **Frontier** calculates priority and assigns the URL to the correct Politeness Queue.
 
-### A Next Step for You
+### Distributed Web Crawler
 
-The **Bloom Filter** is often the most confusing but powerful concept for developers new to this scale. Would you like me to show you how to implement a basic Bloom Filter in Python or Go to see how the bit-array logic actually works?
+- **Work Distribution** : A "Master" node assigns URLs to "Worker" nodes.
+- **Deduplication** : How to ensure workers don't scrape the same page twice? (Bloom Filters or Shared Set).
+- **Politeness** : Enforce rate limiting per domain (don't DDOS the target site)
+- **Worker Pattern** : Create a pool of workers using Goroutines that pull jobs off a shared channel.
+- **Select statement** : User `select` to handle timeouts (e.g. if a website takes too long to respond, drop it).

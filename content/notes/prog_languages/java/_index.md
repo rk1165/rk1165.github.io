@@ -20,3 +20,9 @@
 4. [Know your Java](https://www.youtube.com/watch?v=q2T9NlROLqw&ab_channel=Devoxx)
 5. [Modern Java in Action](https://www.youtube.com/watch?v=4UDwrfTNmo4)
 6. [Pushing Java to the limits](https://www.youtube.com/watch?v=_w4-BqeeC0k)
+
+### Lectures
+
+1. [6.031: Software Construction](http://web.mit.edu/6.031/www/fa20/)
+2. [Concurrent Object-Oriented Programming in Java and Android](http://www.dre.vanderbilt.edu/~schmidt/cs891s/)
+3. [Parallel Functional Programming with Java and Android](http://www.dre.vanderbilt.edu/~schmidt/cs253/)
